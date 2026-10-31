@@ -1,0 +1,10 @@
+*.obj
+*.lib
+*.exp
+*.log
+*.tmp
+*.png
+.vs/
+.vscode/
+bin/
+build/
