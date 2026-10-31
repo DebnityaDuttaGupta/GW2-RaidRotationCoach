@@ -23,11 +23,11 @@ public:
 
     bool HasBindingForSlot(const std::string& skillSlotName, const std::string& keyName) const;
 
-    bool MatchesSlotKeybind(const std::string& skillSlotName, const std::string& pressedKeyName, const std::string& defaultFallbackKeybind);
+    bool MatchesSlotKeybind(const std::string& skillSlotName, const std::string& pressedKeyName, const std::string& defaultKeybindName);
 
-    std::string LookupKeybindForSkillSlot(const std::string& skillSlotName, const std::string& defaultFallbackKeybind);
+    std::string LookupKeybindForSkillSlot(const std::string& skillSlotName, const std::string& defaultKeybindName);
 
-    std::string GetFormattedKeybindText(const std::string& skillSlotName, const std::string& defaultFallbackKeybind);
+    std::string GetFormattedKeybindText(const std::string& skillSlotName, const std::string& defaultKeybindName);
 
     const std::unordered_map<std::string, std::vector<std::string>>& GetAllSlotKeybinds() const;
 

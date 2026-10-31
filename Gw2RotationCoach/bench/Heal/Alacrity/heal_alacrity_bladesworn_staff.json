@@ -1,0 +1,142 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Bladesworn [Staff / Mace & Warhorn]",
+    "profession": "Warrior",
+    "elite_spec": "Bladesworn",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/warrior/heal-alacrity-bladesworn",
+    "chat_code": "[&DQIaLhM5RCemAAAALgEAAC4BAAAQAQAArAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Staff / Mace & Warhorn (Gunsaber F2)"
+  },
+  "skills": {
+    "s62770": {
+      "name": "Dragon Trigger (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62770.png"
+    },
+    "s14418": {
+      "name": "To the Limit! (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/14418.png"
+    },
+    "s14407": {
+      "name": "Banner of Tactics (7)",
+      "icon": "https://render.guildwars2.com/file/placeholder/14407.png"
+    },
+    "s14405": {
+      "name": "Banner of Defense (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/14405.png"
+    },
+    "s14502": {
+      "name": "Charge (Warhorn 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/14502.png"
+    },
+    "s14503": {
+      "name": "Call to Arms (Warhorn 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/14503.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Staff)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s62680": {
+      "name": "Valiant Leap (Staff 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62680.png"
+    },
+    "s62681": {
+      "name": "Line Breaker (Staff 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62681.png"
+    },
+    "s62682": {
+      "name": "Path to Victory (Staff 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62682.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 14418,
+    "slot_7": 14407,
+    "slot_8": 14405,
+    "slot_9": 14502,
+    "slot_0": 62770
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        62770,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.3,
+        14418,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.6,
+        14407,
+        250.0,
+        1,
+        1.0
+      ],
+      [
+        0.95,
+        14405,
+        250.0,
+        1,
+        1.0
+      ],
+      [
+        1.3,
+        14502,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        1.7,
+        14503,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.1,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        2.3,
+        62680,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.9,
+        62681,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        62682,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        4.2,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

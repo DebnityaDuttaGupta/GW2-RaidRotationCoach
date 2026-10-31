@@ -1,0 +1,128 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Mechanist [Shortbow]",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-shortbow",
+    "chat_code": "[&DQMGNyY5Rh8qDwAALgEAADMbAAA1GwAAEQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Shortbow (No in-combat swap)"
+  },
+  "skills": {
+    "s63101": {
+      "name": "Crisis Zone (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63101.png"
+    },
+    "s63102": {
+      "name": "Barrier Signet (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63102.png"
+    },
+    "s63103": {
+      "name": "Roiling Skies (F3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63103.png"
+    },
+    "s62690": {
+      "name": "Arcing Spark (Shortbow 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62690.png"
+    },
+    "s62691": {
+      "name": "Essence of Living Shadow (Shortbow 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62691.png"
+    },
+    "s62692": {
+      "name": "Static Shot (Shortbow 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62692.png"
+    },
+    "s5824": {
+      "name": "Equip Med Kit (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5824.png"
+    },
+    "s5826": {
+      "name": "Med Blaster (Kit 1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5826.png"
+    },
+    "s5827": {
+      "name": "Cleansing Field (Kit 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5827.png"
+    },
+    "s9999": {
+      "name": "Drop Med Kit (`)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 5824,
+    "slot_7": 63101,
+    "slot_8": 63102,
+    "slot_9": 62690,
+    "slot_0": 63103
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        63101,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.3,
+        63102,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.6,
+        62690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.2,
+        62691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.8,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.4,
+        5824,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        2.65,
+        5826,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        3.2,
+        5827,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        3.9,
+        9999,
+        150.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

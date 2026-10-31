@@ -31,10 +31,19 @@ Provides real-time rotation assistance, visual HUD ribbon with custom keybind ba
 
 ## Installation
 
-1. Download `Gw2RotationCoach.dll` from the repository releases or the `main` branch.
-2. Place `Gw2RotationCoach.dll` into your `<Guild Wars 2>\addons\` directory.
-3. Start Guild Wars 2 with Raidcore Nexus installed.
-4. Press `Alt + Shift + T` to open the Master Control Panel, or open it through the Nexus Addon Manager.
+1. Download `Gw2RotationCoach.dll` and the `Gw2RotationCoach` assets folder from the `main` branch or Releases.
+2. Place `Gw2RotationCoach.dll` directly into your `<Guild Wars 2>\addons\` directory.
+3. Place the `Gw2RotationCoach\` folder (containing `bench`, `img`, and `skills`) into your `<Guild Wars 2>\addons\` directory:
+   ```
+   <Guild Wars 2>\addons\
+       ├── Gw2RotationCoach.dll
+       └── Gw2RotationCoach\
+           ├── bench\
+           ├── img\
+           └── skills\
+   ```
+4. Start Guild Wars 2 with Raidcore Nexus installed.
+5. Press `Alt + Shift + T` to open the Master Control Panel, or open it through the Nexus Addon Manager.
 
 ---
 

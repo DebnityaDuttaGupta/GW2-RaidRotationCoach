@@ -1,0 +1,120 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Chronomancer [Rifle / Sword & Shield]",
+    "profession": "Mesmer",
+    "elite_spec": "Chronomancer",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/mesmer/heal-boon-chronomancer",
+    "chat_code": "[&DQcKGQE2KD4jDw8BgwGDAbEBggE1AYEBsAE1AQAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Rifle / Sword & Shield"
+  },
+  "skills": {
+    "s62670": {
+      "name": "Friendly Fire (Rifle 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62670.png"
+    },
+    "s62671": {
+      "name": "Effervescence (Rifle 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62671.png"
+    },
+    "s62672": {
+      "name": "Singularity (Rifle 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62672.png"
+    },
+    "s30872": {
+      "name": "Well of Eternity (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30872.png"
+    },
+    "s30873": {
+      "name": "Well of Recall (7)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30873.png"
+    },
+    "s10232": {
+      "name": "Tides of Time (Shield 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10232.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Sword / Shield)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s10173": {
+      "name": "Blurred Frenzy (Sword 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10173.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 30872,
+    "slot_7": 30873,
+    "slot_8": 10232,
+    "slot_9": 10173,
+    "slot_0": 62672
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        62670,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        0.55,
+        62671,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.15,
+        62672,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        1.85,
+        30872,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.25,
+        30873,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.65,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        2.85,
+        10232,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.45,
+        10173,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.05,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

@@ -513,7 +513,7 @@ bool KeybindDetector::HasBindingForSlot(const std::string& skillSlotName, const 
     return false;
 }
 
-bool KeybindDetector::MatchesSlotKeybind(const std::string& skillSlotName, const std::string& pressedKeyName, const std::string& defaultFallbackKeybind)
+bool KeybindDetector::MatchesSlotKeybind(const std::string& skillSlotName, const std::string& pressedKeyName, const std::string& defaultKeybindName)
 {
     auto iterator = slotToBoundKeysCollection.find(skillSlotName);
 
@@ -528,12 +528,12 @@ bool KeybindDetector::MatchesSlotKeybind(const std::string& skillSlotName, const
         }
     }
 
-    return (pressedKeyName == defaultFallbackKeybind);
+    return (pressedKeyName == defaultKeybindName);
 }
 
-std::string KeybindDetector::LookupKeybindForSkillSlot(const std::string& skillSlotName, const std::string& defaultFallbackKeybind)
+std::string KeybindDetector::LookupKeybindForSkillSlot(const std::string& skillSlotName, const std::string& defaultKeybindName)
 {
-    return GetFormattedKeybindText(skillSlotName, defaultFallbackKeybind);
+    return GetFormattedKeybindText(skillSlotName, defaultKeybindName);
 }
 
 std::string KeybindDetector::FormatKeyDisplayName(const std::string& rawKeyName) const
@@ -556,7 +556,7 @@ std::string KeybindDetector::FormatKeyDisplayName(const std::string& rawKeyName)
     return rawKeyName;
 }
 
-std::string KeybindDetector::GetFormattedKeybindText(const std::string& skillSlotName, const std::string& defaultFallbackKeybind)
+std::string KeybindDetector::GetFormattedKeybindText(const std::string& skillSlotName, const std::string& defaultKeybindName)
 {
     auto iterator = slotToBoundKeysCollection.find(skillSlotName);
 
@@ -565,7 +565,7 @@ std::string KeybindDetector::GetFormattedKeybindText(const std::string& skillSlo
         return FormatKeyDisplayName(iterator->second.front());
     }
 
-    return FormatKeyDisplayName(defaultFallbackKeybind);
+    return FormatKeyDisplayName(defaultKeybindName);
 }
 
 const std::unordered_map<std::string, std::vector<std::string>>& KeybindDetector::GetAllSlotKeybinds() const

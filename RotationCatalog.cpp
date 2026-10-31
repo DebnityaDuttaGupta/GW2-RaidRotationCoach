@@ -14,25 +14,11 @@ RotationCatalog::RotationCatalog()
     {
         LoadMasterSkillDatabase(skillsFilePath);
     }
-    else
-    {
-        LoadMasterSkillDatabase("E:\\SteamLibrary\\steamapps\\common\\Guild Wars 2\\addons\\GW2RotaHelper\\skills\\gw2_skills_en.json");
-    }
 
     std::string standaloneBenchPath = standaloneAddonDirectoryPath + "\\bench";
     if (std::filesystem::exists(standaloneBenchPath))
     {
         LoadBenchmarkDirectory(standaloneBenchPath);
-    }
-
-    if (availableBuildProfiles.empty())
-    {
-        LoadBenchmarkDirectory("E:\\SteamLibrary\\steamapps\\common\\Guild Wars 2\\addons\\GW2RotaHelper\\bench");
-    }
-
-    if (availableBuildProfiles.empty())
-    {
-        PopulateBuiltInProfiles();
     }
 }
 

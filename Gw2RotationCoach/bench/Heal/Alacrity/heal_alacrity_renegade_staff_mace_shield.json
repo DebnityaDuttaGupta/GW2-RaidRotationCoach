@@ -1,0 +1,116 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Renegade [Staff / Mace & Shield]",
+    "profession": "Revenant",
+    "elite_spec": "Renegade",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-renegade",
+    "chat_code": "[&DQkOHQMmNCbcEdwRBhIGEwYS1BHUEQwRCRIGEgMCAwPUEQYS1BEGEgMCEgA=]",
+    "weapons": "Staff / Mace & Shield"
+  },
+  "skills": {
+    "s45026": {
+      "name": "Orders from Above (F4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/45026.png"
+    },
+    "s27356": {
+      "name": "Holy Strike (Staff 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/27356.png"
+    },
+    "s27358": {
+      "name": "Sublime Conversion (Staff 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/27358.png"
+    },
+    "s27359": {
+      "name": "Surge of the Mists (Staff 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/27359.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Mace / Shield)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s26850": {
+      "name": "Searing Fissure (Mace 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/26850.png"
+    },
+    "s28414": {
+      "name": "Envoy of Peace (Shield 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/28414.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 27358,
+    "slot_7": 27356,
+    "slot_8": 26850,
+    "slot_9": 28414,
+    "slot_0": 45026
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        45026,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.3,
+        27356,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        0.85,
+        27358,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.35,
+        27359,
+        700.0,
+        1,
+        1.0
+      ],
+      [
+        2.15,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        2.35,
+        26850,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        2.85,
+        28414,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        3.35,
+        45026,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        3.65,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

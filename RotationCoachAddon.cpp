@@ -207,8 +207,7 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
         return nullptr;
     }
 
-    std::string standaloneImageDirectory = std::string(gameDirectory) + "\\addons\\Gw2RotationCoach\\img\\";
-    std::string fallbackImageDirectory = std::string(gameDirectory) + "\\addons\\GW2RotaHelper\\img\\";
+    std::string imageDirectory = std::string(gameDirectory) + "\\addons\\Gw2RotationCoach\\img\\";
 
     if (skillIdentifier == 9999 || slotCategory == SkillSlotCategory::WeaponSwap)
     {
@@ -219,15 +218,8 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
             return existingSwapTexture;
         }
 
-        std::string standaloneSwapPath = standaloneImageDirectory + "9999.png";
-        Texture_t* loadedSwapTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(swapIdentifier.c_str(), standaloneSwapPath.c_str());
-        if (loadedSwapTexture != nullptr)
-        {
-            return loadedSwapTexture;
-        }
-
-        std::string fallbackSwapPath = fallbackImageDirectory + "9999.png";
-        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(swapIdentifier.c_str(), fallbackSwapPath.c_str());
+        std::string swapPath = imageDirectory + "9999.png";
+        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(swapIdentifier.c_str(), swapPath.c_str());
     }
 
     if (skillIdentifier == 60975 || skillName.find("Stow Tome") != std::string::npos)
@@ -239,15 +231,8 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
             return existingStowTexture;
         }
 
-        std::string standaloneStowPath = standaloneImageDirectory + "60975.png";
-        Texture_t* loadedStowTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(stowIdentifier.c_str(), standaloneStowPath.c_str());
-        if (loadedStowTexture != nullptr)
-        {
-            return loadedStowTexture;
-        }
-
-        std::string fallbackStowPath = fallbackImageDirectory + "60975.png";
-        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(stowIdentifier.c_str(), fallbackStowPath.c_str());
+        std::string stowPath = imageDirectory + "60975.png";
+        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(stowIdentifier.c_str(), stowPath.c_str());
     }
 
     if (skillIdentifier > 0)
@@ -263,31 +248,16 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
         std::string mappedIconFileName = globalRotationEngine.GetCatalogReference().GetSkillIconFileName(skillIdentifier);
         if (!mappedIconFileName.empty())
         {
-            std::string standaloneFilePath = standaloneImageDirectory + mappedIconFileName;
-            Texture_t* mappedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), standaloneFilePath.c_str());
-            if (mappedTexture != nullptr)
-            {
-                return mappedTexture;
-            }
-
-            std::string fallbackFilePath = fallbackImageDirectory + mappedIconFileName;
-            mappedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), fallbackFilePath.c_str());
+            std::string filePath = imageDirectory + mappedIconFileName;
+            Texture_t* mappedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), filePath.c_str());
             if (mappedTexture != nullptr)
             {
                 return mappedTexture;
             }
         }
 
-        std::string standaloneImageFilePath = standaloneImageDirectory + std::to_string(skillIdentifier) + ".png";
-        Texture_t* loadedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), standaloneImageFilePath.c_str());
-
-        if (loadedTexture != nullptr)
-        {
-            return loadedTexture;
-        }
-
-        std::string fallbackImageFilePath = fallbackImageDirectory + std::to_string(skillIdentifier) + ".png";
-        loadedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), fallbackImageFilePath.c_str());
+        std::string imageFilePath = imageDirectory + std::to_string(skillIdentifier) + ".png";
+        Texture_t* loadedTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(textureIdentifier.c_str(), imageFilePath.c_str());
 
         if (loadedTexture != nullptr)
         {
@@ -308,15 +278,8 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
         std::string mappedByName = globalRotationEngine.GetCatalogReference().FindSkillIconByName(skillName);
         if (!mappedByName.empty())
         {
-            std::string standaloneNameFilePath = standaloneImageDirectory + mappedByName;
-            Texture_t* nameTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(nameTextureIdentifier.c_str(), standaloneNameFilePath.c_str());
-            if (nameTexture != nullptr)
-            {
-                return nameTexture;
-            }
-
-            std::string fallbackNameFilePath = fallbackImageDirectory + mappedByName;
-            nameTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(nameTextureIdentifier.c_str(), fallbackNameFilePath.c_str());
+            std::string nameFilePath = imageDirectory + mappedByName;
+            Texture_t* nameTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(nameTextureIdentifier.c_str(), nameFilePath.c_str());
             if (nameTexture != nullptr)
             {
                 return nameTexture;
@@ -324,60 +287,60 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
         }
     }
 
-    std::string fallbackSlotFileName = "";
+    std::string slotFileName = "";
 
     if (slotCategory == SkillSlotCategory::WeaponSkillOne)
     {
-        fallbackSlotFileName = "1.png";
+        slotFileName = "1.png";
     }
     else if (slotCategory == SkillSlotCategory::WeaponSkillTwo)
     {
-        fallbackSlotFileName = "2.png";
+        slotFileName = "2.png";
     }
     else if (slotCategory == SkillSlotCategory::WeaponSkillThree)
     {
-        fallbackSlotFileName = "3.png";
+        slotFileName = "3.png";
     }
     else if (slotCategory == SkillSlotCategory::WeaponSkillFour)
     {
-        fallbackSlotFileName = "4.png";
+        slotFileName = "4.png";
     }
     else if (slotCategory == SkillSlotCategory::WeaponSkillFive)
     {
-        fallbackSlotFileName = "5.png";
+        slotFileName = "5.png";
     }
     else if (slotCategory == SkillSlotCategory::HealingSkill)
     {
-        fallbackSlotFileName = "6.png";
+        slotFileName = "6.png";
     }
     else if (slotCategory == SkillSlotCategory::UtilitySkillOne)
     {
-        fallbackSlotFileName = "7.png";
+        slotFileName = "7.png";
     }
     else if (slotCategory == SkillSlotCategory::UtilitySkillTwo)
     {
-        fallbackSlotFileName = "8.png";
+        slotFileName = "8.png";
     }
     else if (slotCategory == SkillSlotCategory::UtilitySkillThree)
     {
-        fallbackSlotFileName = "9.png";
+        slotFileName = "9.png";
     }
     else if (slotCategory == SkillSlotCategory::EliteSkill)
     {
-        fallbackSlotFileName = "0.png";
+        slotFileName = "0.png";
     }
     else if (slotCategory == SkillSlotCategory::WeaponSwap)
     {
-        fallbackSlotFileName = "9999.png";
+        slotFileName = "9999.png";
     }
     else if (slotCategory == SkillSlotCategory::DodgeAction)
     {
-        fallbackSlotFileName = "Dodge.png";
+        slotFileName = "Dodge.png";
     }
 
-    if (!fallbackSlotFileName.empty())
+    if (!slotFileName.empty())
     {
-        std::string slotTextureIdentifier = "GW2_SLOT_ICON_" + fallbackSlotFileName;
+        std::string slotTextureIdentifier = "GW2_SLOT_ICON_" + slotFileName;
         Texture_t* slotTexture = globalNexusAddonInterface->Textures_Get(slotTextureIdentifier.c_str());
 
         if (slotTexture != nullptr)
@@ -385,15 +348,8 @@ static Texture_t* RetrieveSkillTexture(uint32_t skillIdentifier, SkillSlotCatego
             return slotTexture;
         }
 
-        std::string standaloneSlotPath = standaloneImageDirectory + fallbackSlotFileName;
-        slotTexture = globalNexusAddonInterface->Textures_GetOrCreateFromFile(slotTextureIdentifier.c_str(), standaloneSlotPath.c_str());
-        if (slotTexture != nullptr)
-        {
-            return slotTexture;
-        }
-
-        std::string fallbackSlotPath = fallbackImageDirectory + fallbackSlotFileName;
-        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(slotTextureIdentifier.c_str(), fallbackSlotPath.c_str());
+        std::string slotPath = imageDirectory + slotFileName;
+        return globalNexusAddonInterface->Textures_GetOrCreateFromFile(slotTextureIdentifier.c_str(), slotPath.c_str());
     }
 
     return nullptr;
@@ -1460,23 +1416,6 @@ static void RenderMasterControlPanel()
                     globalShowPacingMetricsWindow = !globalShowPacingMetricsWindow;
                 }
 
-                ImGui::Spacing();
-                ImGui::Separator();
-
-                ImGui::TextColored(ImVec4(0.4f, 1.0f, 0.6f, 1.0f), "Standalone Repository & Sync:");
-                ImGui::TextDisabled("Rotations and images are self-hosted in: addons/Gw2RotationCoach/");
-
-                if (ImGui::Button("Sync & Update Rotations from Helper / Bench"))
-                {
-                    const char* gameDirectory = globalNexusAddonInterface ? globalNexusAddonInterface->Paths_GetGameDirectory() : nullptr;
-                    if (gameDirectory != nullptr)
-                    {
-                        std::string sourceBenchmarkPath = std::string(gameDirectory) + "\\addons\\GW2RotaHelper\\bench";
-                        std::string targetBenchmarkPath = std::string(gameDirectory) + "\\addons\\Gw2RotationCoach\\bench";
-                        globalRotationEngine.GetMutableCatalogReference().SyncRotationsFromExternalSource(sourceBenchmarkPath, targetBenchmarkPath);
-                    }
-                }
-
                 ImGui::EndTabItem();
             }
 
@@ -2210,9 +2149,6 @@ static void AddonLoad(AddonAPI_t* addonApplicationInterface)
                 std::string standaloneBenchPath = std::string(addonDirectory) + "\\bench";
                 globalRotationEngine.LoadBenchmarks(standaloneBenchPath);
             }
-
-            std::string fallbackBenchPath = std::string(gameDirectory) + "\\addons\\GW2RotaHelper\\bench";
-            globalRotationEngine.LoadBenchmarks(fallbackBenchPath);
         }
 
         if (globalNexusAddonInterface->ImguiContext != nullptr)

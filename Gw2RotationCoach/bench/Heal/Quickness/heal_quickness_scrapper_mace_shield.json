@@ -1,0 +1,128 @@
+{
+  "buildMetadata": {
+    "name": "Heal Quickness Scrapper [Mace & Shield]",
+    "profession": "Engineer",
+    "elite_spec": "Scrapper",
+    "build_type": "heal",
+    "benchmark_type": "quick",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-quickness-scrapper",
+    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Mace & Shield (No in-combat swap)"
+  },
+  "skills": {
+    "s31044": {
+      "name": "Function Gyro (F1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31044.png"
+    },
+    "s30814": {
+      "name": "Bulwark Gyro (7)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30814.png"
+    },
+    "s31248": {
+      "name": "Purge Gyro (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31248.png"
+    },
+    "s30587": {
+      "name": "Blast Gyro (9)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30587.png"
+    },
+    "s58459": {
+      "name": "Energizing Slam (Mace 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/58459.png"
+    },
+    "s58460": {
+      "name": "Shield Protocol (Shield 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/58460.png"
+    },
+    "s5824": {
+      "name": "Equip Med Kit (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5824.png"
+    },
+    "s5826": {
+      "name": "Med Blaster (Kit 1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5826.png"
+    },
+    "s5827": {
+      "name": "Cleansing Field (Kit 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5827.png"
+    },
+    "s9999": {
+      "name": "Drop Med Kit (`)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 5824,
+    "slot_7": 30814,
+    "slot_8": 31248,
+    "slot_9": 30587,
+    "slot_0": 31044
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        31044,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        0.25,
+        30814,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.55,
+        31248,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.85,
+        58459,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.45,
+        58460,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.05,
+        5824,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        2.3,
+        5826,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        2.8,
+        5827,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        150.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

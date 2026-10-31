@@ -1,0 +1,98 @@
+{
+  "buildMetadata": {
+    "name": "Celestial Alacrity Specter [Scepter & Dagger]",
+    "profession": "Thief",
+    "elite_spec": "Specter",
+    "build_type": "celestial",
+    "benchmark_type": "hybrid",
+    "url": "https://snowcrows.com/builds/raids/thief/heal-alacrity-specter",
+    "chat_code": "[&DQUcGywfRz4MAQAAWgEAAKsBAAAvAQAAEAEDAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Scepter & Dagger"
+  },
+  "skills": {
+    "s63319": {
+      "name": "Shadow Shroud (F1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63319.png"
+    },
+    "s63320": {
+      "name": "Grasp of Shadows (Shroud 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63320.png"
+    },
+    "s63321": {
+      "name": "Dawn's Repose (Shroud 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63321.png"
+    },
+    "s63322": {
+      "name": "Mind Shock (Shroud 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63322.png"
+    },
+    "s63325": {
+      "name": "Twilight Combo (Scepter 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63325.png"
+    },
+    "s63318": {
+      "name": "Exit Shadow Shroud (F1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63318.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 63325,
+    "slot_7": 63320,
+    "slot_8": 63321,
+    "slot_9": 63322,
+    "slot_0": 63319
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        63319,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        0.25,
+        63320,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        0.75,
+        63321,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.25,
+        63322,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        1.95,
+        63318,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        2.2,
+        63325,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.8,
+        63325,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}
