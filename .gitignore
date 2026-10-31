@@ -3,8 +3,12 @@
 *.exp
 *.log
 *.tmp
-*.png
 .vs/
 .vscode/
 bin/
 build/
+img*.png
+*crop*.png
+*exact*.png
+*slice*.png
+ribbon_box_*.png
