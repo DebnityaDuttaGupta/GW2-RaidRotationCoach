@@ -1,0 +1,142 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Scourge [Staff / Dagger & Torch]",
+    "profession": "Necromancer",
+    "elite_spec": "Scourge",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge",
+    "chat_code": "[&DQg1KTIlPDV+FgAAfQEAAHEBAAB1AQAAiQAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Staff / Dagger & Torch"
+  },
+  "skills": {
+    "s44682": {
+      "name": "Desert Shroud (F5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/44682.png"
+    },
+    "s42907": {
+      "name": "Nefarious Favor (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/42907.png"
+    },
+    "s44455": {
+      "name": "Sand Cascade (F3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/44455.png"
+    },
+    "s10584": {
+      "name": "Mark of Blood (Staff 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10584.png"
+    },
+    "s10585": {
+      "name": "Chillblains (Staff 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10585.png"
+    },
+    "s10586": {
+      "name": "Putrid Mark (Staff 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10586.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Dagger / Torch)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s10543": {
+      "name": "Life Siphon (Dagger 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10543.png"
+    },
+    "s10609": {
+      "name": "Harrowing Wave (Torch 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10609.png"
+    },
+    "s10610": {
+      "name": "Oppressive Collapse (Torch 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10610.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 10584,
+    "slot_7": 10585,
+    "slot_8": 10586,
+    "slot_9": 10609,
+    "slot_0": 44682
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        44682,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.2,
+        42907,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.4,
+        44455,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.6,
+        10584,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.1,
+        10585,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.6,
+        10586,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        2.1,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        2.3,
+        10543,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.9,
+        10609,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        10610,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        4.2,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

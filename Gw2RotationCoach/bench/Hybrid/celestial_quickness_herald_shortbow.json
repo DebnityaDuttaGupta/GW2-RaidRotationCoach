@@ -1,0 +1,131 @@
+{
+  "buildMetadata": {
+    "name": "Celestial Quickness Herald [Shortbow / Mace & Axe]",
+    "profession": "Revenant",
+    "elite_spec": "Herald",
+    "build_type": "celestial",
+    "benchmark_type": "hybrid",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-quickness-herald",
+    "chat_code": "[&DQkOHQMmNCbcEdwRBhIGEwYS1BHUEQwRCRIGEgMCAwPUEQYS1BEGEgMCEgA=]",
+    "weapons": "Shortbow / Mace & Axe"
+  },
+  "skills": {
+    "s28287": {
+      "name": "Facet of Nature (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/28287.png"
+    },
+    "s28288": {
+      "name": "Facet of Darkness (7)",
+      "icon": "https://render.guildwars2.com/file/placeholder/28288.png"
+    },
+    "s28289": {
+      "name": "Facet of Strength (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/28289.png"
+    },
+    "s26850": {
+      "name": "Searing Fissure (Mace 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/26850.png"
+    },
+    "s26851": {
+      "name": "Echoing Eruption (Mace 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/26851.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Shortbow)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s45050": {
+      "name": "Bloodbane Path (Shortbow 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/45050.png"
+    },
+    "s45051": {
+      "name": "Sevenshot (Shortbow 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/45051.png"
+    },
+    "s45052": {
+      "name": "Scorchrazor (Shortbow 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/45052.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 28288,
+    "slot_7": 28288,
+    "slot_8": 28289,
+    "slot_9": 26850,
+    "slot_0": 28287
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        28287,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.2,
+        28288,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.4,
+        28289,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.6,
+        26850,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.1,
+        26851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.7,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        1.9,
+        45050,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        2.45,
+        45051,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.05,
+        45052,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        3.75,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

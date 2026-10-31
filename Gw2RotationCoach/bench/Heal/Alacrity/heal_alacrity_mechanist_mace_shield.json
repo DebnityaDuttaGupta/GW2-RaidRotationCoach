@@ -1,0 +1,135 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Mechanist [Mace & Shield]",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-mace-shield",
+    "chat_code": "[&DQMGNyY5Rh8qDwAALgEAADMbAAA1GwAAEQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Mace & Shield (No in-combat swap)"
+  },
+  "skills": {
+    "s63101": {
+      "name": "Crisis Zone (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63101.png"
+    },
+    "s63102": {
+      "name": "Barrier Signet (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63102.png"
+    },
+    "s63103": {
+      "name": "Roiling Skies (F3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63103.png"
+    },
+    "s58459": {
+      "name": "Energizing Slam (Mace 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/58459.png"
+    },
+    "s58460": {
+      "name": "Shield Protocol (Shield 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/58460.png"
+    },
+    "s63104": {
+      "name": "Overclock Signet (0)",
+      "icon": "https://render.guildwars2.com/file/placeholder/63104.png"
+    },
+    "s5824": {
+      "name": "Equip Med Kit (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5824.png"
+    },
+    "s5826": {
+      "name": "Med Blaster (Kit 1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5826.png"
+    },
+    "s5827": {
+      "name": "Cleansing Field (Kit 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5827.png"
+    },
+    "s9999": {
+      "name": "Drop Med Kit (`)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 5824,
+    "slot_7": 63101,
+    "slot_8": 63102,
+    "slot_9": 58459,
+    "slot_0": 63104
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        63101,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.3,
+        63102,
+        200.0,
+        1,
+        1.0
+      ],
+      [
+        0.6,
+        63103,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.1,
+        58459,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.7,
+        58460,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.3,
+        63104,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.7,
+        5824,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        2.95,
+        5826,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5827,
+        600.0,
+        1,
+        1.0
+      ],
+      [
+        4.2,
+        9999,
+        150.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "buildMetadata": {
+    "name": "Heal Alacrity Druid [Staff / Shortbow]",
+    "profession": "Ranger",
+    "elite_spec": "Druid",
+    "build_type": "heal",
+    "benchmark_type": "alac",
+    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid",
+    "chat_code": "[&DQQePRkbBRd5AHkAtgC2AEsBSwFLAcAAiQGJAQAAAAAAAAAAAAAAAAAAAAA=]",
+    "weapons": "Staff / Shortbow"
+  },
+  "skills": {
+    "s31443": {
+      "name": "Celestial Avatar (F5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31443.png"
+    },
+    "s31734": {
+      "name": "Lunar Impact (Avatar 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31734.png"
+    },
+    "s31872": {
+      "name": "Rejuvenating Tides (Avatar 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31872.png"
+    },
+    "s31318": {
+      "name": "Natural Convergence (Avatar 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31318.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Staff)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s12535": {
+      "name": "Astral Wisp (Staff 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12535.png"
+    },
+    "s12536": {
+      "name": "Ancestral Grace (Staff 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12536.png"
+    },
+    "s12470": {
+      "name": "Poison Volley (Shortbow 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12470.png"
+    },
+    "s12472": {
+      "name": "Crippling Shot (Shortbow 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12472.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 12535,
+    "slot_7": 12470,
+    "slot_8": 12472,
+    "slot_9": 12536,
+    "slot_0": 31443
+  },
+  "rotation": [
+    [
+      [
+        0.0,
+        31443,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        0.25,
+        31734,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        0.8,
+        31872,
+        800.0,
+        1,
+        1.0
+      ],
+      [
+        1.7,
+        31318,
+        900.0,
+        1,
+        1.0
+      ],
+      [
+        2.7,
+        31443,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        2.95,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        3.15,
+        12536,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.75,
+        12535,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        4.3,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12470,
+        400.0,
+        1,
+        1.0
+      ]
+    ]
+  ]
+}
