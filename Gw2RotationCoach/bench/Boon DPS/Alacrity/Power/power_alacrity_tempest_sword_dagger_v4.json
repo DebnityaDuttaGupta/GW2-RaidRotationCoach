@@ -1663,6 +1663,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest-sword-dagger",
     "dps_report_url": "https://dps.report/G5ap-20250211-205455_golem",
-    "overall_dps": 33823.0
+    "overall_dps": 33823.0,
+    "weapons": "Sword / Dagger",
+    "chat_code": "[&DQYpHx8dQz4nDycP+Br4Gr4B7hrLAMsAJgD3GgAAAAAAAAAAAAAAAAAAAAADVgAvAFkAAA==]"
   }
 }

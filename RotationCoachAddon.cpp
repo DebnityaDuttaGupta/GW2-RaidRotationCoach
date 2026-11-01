@@ -1649,101 +1649,211 @@ static void RenderCompactRibbonHud()
     ImGui::PopStyleColor(2);
 }
 
-static void RenderBuildInspectorWindow()
-{
-    ImGui::SetNextWindowSize(ImVec2(600, 520), ImGuiCond_FirstUseEver);
-
-    if (ImGui::Begin("Build & Gear Showcase", &globalShowBuildInspectorWindow))
-    {
-        const RotationCatalog& catalog = globalRotationEngine.GetCatalogReference();
-        const auto& allProfiles = catalog.GetAllProfiles();
-        uint32_t activeIndex = globalRotationEngine.GetActiveProfileIndex();
-
-        ImGui::Text("Search Benchmark Build:");
-        ImGui::InputText("##BuildSearchFilter", globalBuildSearchBuffer, sizeof(globalBuildSearchBuffer));
-
-        std::string searchFilterString = globalBuildSearchBuffer;
-        std::transform(searchFilterString.begin(), searchFilterString.end(), searchFilterString.begin(), ::tolower);
-
-        ImGui::Spacing();
-        ImGui::Text("Select Build by Profession & Specialization:");
-        ImGui::Separator();
-
-        std::map<std::string, std::map<std::string, std::vector<uint32_t>>> professionHierarchy;
-
-        for (uint32_t profileIndex = 0; profileIndex < allProfiles.size(); profileIndex = profileIndex + 1)
-        {
-            const auto& profile = allProfiles[profileIndex];
-
-            if (!searchFilterString.empty())
-            {
-                std::string lowercaseDisplayName = profile.buildDisplayName;
-                std::transform(lowercaseDisplayName.begin(), lowercaseDisplayName.end(), lowercaseDisplayName.begin(), ::tolower);
-
-                std::string lowercaseSpecName = profile.specializationName;
-                std::transform(lowercaseSpecName.begin(), lowercaseSpecName.end(), lowercaseSpecName.begin(), ::tolower);
-
-                std::string lowercaseProfName = profile.professionName;
-                std::transform(lowercaseProfName.begin(), lowercaseProfName.end(), lowercaseProfName.begin(), ::tolower);
-
-                if (lowercaseDisplayName.find(searchFilterString) == std::string::npos &&
-                    lowercaseSpecName.find(searchFilterString) == std::string::npos &&
-                    lowercaseProfName.find(searchFilterString) == std::string::npos)
-                {
-                    continue;
-                }
-            }
-
-            professionHierarchy[profile.professionName][profile.specializationName].push_back(profileIndex);
-        }
-
-        if (ImGui::BeginChild("BuildScrollingList", ImVec2(0, 240), true))
-        {
-            for (const auto& professionEntry : professionHierarchy)
-            {
-                const std::string& currentProfession = professionEntry.first;
-                ProfessionColorRgba classColor = catalog.GetProfessionThemeColor(currentProfession);
-                ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(classColor.red, classColor.green, classColor.blue, 1.0f));
-
-                bool professionExpanded = ImGui::TreeNodeEx(currentProfession.c_str(), ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed);
-                ImGui::PopStyleColor();
-
-                if (professionExpanded)
-                {
-                    for (const auto& specializationEntry : professionEntry.second)
-                    {
-                        const std::string& currentSpecialization = specializationEntry.first;
-
-                        if (ImGui::TreeNodeEx(currentSpecialization.c_str(), ImGuiTreeNodeFlags_DefaultOpen))
-                        {
-                            for (uint32_t profileIndex : specializationEntry.second)
-                            {
-                                const auto& profile = allProfiles[profileIndex];
-                                bool isSelected = (profileIndex == activeIndex);
-                                std::string roleName = catalog.FormatBuildRoleName(profile.roleCategory);
-                                std::string damageName = catalog.FormatDamageTypeName(profile.damageCategory);
-
-                                std::string itemLabel = profile.buildDisplayName + " [" + roleName + " - " + damageName + "]";
-
-                                if (ImGui::Selectable(itemLabel.c_str(), isSelected))
-                                {
-                                    globalRotationEngine.LoadBuildProfileByIndex(profileIndex);
-                                }
-                            }
-                            ImGui::TreePop();
-                        }
-                    }
-                    ImGui::TreePop();
-                }
-            }
-        }
-        ImGui::EndChild();
-
-        ImGui::Spacing();
-        ImGui::Separator();
-
-        const BuildProfile* activeProfile = globalRotationEngine.GetActiveProfilePointer();
-
+static uint32_t CalculateBuildRoleSortPriority(BuildRoleCategory roleCategory, DamageTypeCategory damageCategory, const std::string& buildDisplayName, const std::string& profileIdentifier)
+{
+    std::string combinedLowerText = buildDisplayName + " " + profileIdentifier;
+    for (char& character : combinedLowerText)
+    {
+        character = static_cast<char>(tolower(character));
+    }
+
+    if (roleCategory == BuildRoleCategory::HealSupport || combinedLowerText.find("heal") != std::string::npos)
+    {
+        if (combinedLowerText.find("quick") != std::string::npos)
+        {
+            return 10;
+        }
+
+        return 9;
+    }
+
+    if (roleCategory == BuildRoleCategory::HybridSupportDamage || combinedLowerText.find("celestial") != std::string::npos || combinedLowerText.find("hybrid") != std::string::npos)
+    {
+        if (combinedLowerText.find("quick") != std::string::npos)
+        {
+            return 8;
+        }
+
+        return 7;
+    }
+
+    if (roleCategory == BuildRoleCategory::BoonAlacrity || combinedLowerText.find("alac") != std::string::npos)
+    {
+        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+        {
+            return 3;
+        }
+
+        return 5;
+    }
+
+    if (roleCategory == BuildRoleCategory::BoonQuickness || combinedLowerText.find("quick") != std::string::npos)
+    {
+        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+        {
+            return 4;
+        }
+
+        return 6;
+    }
+
+    if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+    {
+        return 1;
+    }
+
+    return 2;
+}
+
+static const char* GetRoleCategorySectionTitle(uint32_t priorityTier)
+{
+    switch (priorityTier)
+    {
+    case 1:
+        return "Power DPS";
+    case 2:
+        return "Condition DPS";
+    case 3:
+        return "Power Alacrity";
+    case 4:
+        return "Power Quickness";
+    case 5:
+        return "Condition Alacrity";
+    case 6:
+        return "Condition Quickness";
+    case 7:
+        return "Hybrid Alacrity";
+    case 8:
+        return "Hybrid Quickness";
+    case 9:
+        return "Heal Alacrity";
+    case 10:
+        return "Heal Quickness";
+    default:
+        return "Other Builds";
+    }
+}
+
+static void RenderBuildInspectorWindow()
+{
+    ImGui::SetNextWindowSize(ImVec2(680, 580), ImGuiCond_FirstUseEver);
+
+    if (ImGui::Begin("Build & Gear Showcase", &globalShowBuildInspectorWindow))
+    {
+        const RotationCatalog& catalog = globalRotationEngine.GetCatalogReference();
+        const auto& allProfiles = catalog.GetAllProfiles();
+        uint32_t activeIndex = globalRotationEngine.GetActiveProfileIndex();
+
+        const BuildProfile* activeProfile = globalRotationEngine.GetActiveProfilePointer();
+        std::string activeProfession = activeProfile != nullptr ? activeProfile->professionName : "";
+        std::string activeSpecialization = activeProfile != nullptr ? activeProfile->specializationName : "";
+
+        ImGui::Text("Search Benchmark Build:");
+        ImGui::InputText("##BuildSearchFilter", globalBuildSearchBuffer, sizeof(globalBuildSearchBuffer));
+
+        std::string searchFilterString = globalBuildSearchBuffer;
+        std::transform(searchFilterString.begin(), searchFilterString.end(), searchFilterString.begin(), ::tolower);
+
+        ImGui::Spacing();
+        ImGui::Text("Select Build by Profession & Specialization:");
+        ImGui::Separator();
+
+        std::map<std::string, std::map<std::string, std::map<uint32_t, std::vector<uint32_t>>>> professionHierarchy;
+
+        for (uint32_t profileIndex = 0; profileIndex < allProfiles.size(); profileIndex = profileIndex + 1)
+        {
+            const auto& profile = allProfiles[profileIndex];
+
+            if (!searchFilterString.empty())
+            {
+                std::string lowercaseDisplayName = profile.buildDisplayName;
+                std::transform(lowercaseDisplayName.begin(), lowercaseDisplayName.end(), lowercaseDisplayName.begin(), ::tolower);
+
+                std::string lowercaseSpecName = profile.specializationName;
+                std::transform(lowercaseSpecName.begin(), lowercaseSpecName.end(), lowercaseSpecName.begin(), ::tolower);
+
+                std::string lowercaseProfName = profile.professionName;
+                std::transform(lowercaseProfName.begin(), lowercaseProfName.end(), lowercaseProfName.begin(), ::tolower);
+
+                if (lowercaseDisplayName.find(searchFilterString) == std::string::npos &&
+                    lowercaseSpecName.find(searchFilterString) == std::string::npos &&
+                    lowercaseProfName.find(searchFilterString) == std::string::npos)
+                {
+                    continue;
+                }
+            }
+
+            uint32_t rolePriority = CalculateBuildRoleSortPriority(profile.roleCategory, profile.damageCategory, profile.buildDisplayName, profile.profileIdentifier);
+
+            professionHierarchy[profile.professionName][profile.specializationName][rolePriority].push_back(profileIndex);
+        }
+
+        if (ImGui::BeginChild("BuildScrollingList", ImVec2(0, 320), true))
+        {
+            for (const auto& professionEntry : professionHierarchy)
+            {
+                const std::string& currentProfession = professionEntry.first;
+                ProfessionColorRgba classColor = catalog.GetProfessionThemeColor(currentProfession);
+                ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(classColor.red, classColor.green, classColor.blue, 1.0f));
+
+                bool openProfessionByDefault = (!searchFilterString.empty()) || (currentProfession == activeProfession);
+                ImGuiTreeNodeFlags professionFlags = openProfessionByDefault ? (ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed) : ImGuiTreeNodeFlags_Framed;
+
+                bool professionExpanded = ImGui::TreeNodeEx(currentProfession.c_str(), professionFlags);
+                ImGui::PopStyleColor();
+
+                if (professionExpanded)
+                {
+                    for (const auto& specializationEntry : professionEntry.second)
+                    {
+                        const std::string& currentSpecialization = specializationEntry.first;
+
+                        bool openSpecializationByDefault = (!searchFilterString.empty()) || (currentSpecialization == activeSpecialization);
+                        ImGuiTreeNodeFlags specializationFlags = openSpecializationByDefault ? ImGuiTreeNodeFlags_DefaultOpen : 0;
+
+                        if (ImGui::TreeNodeEx(currentSpecialization.c_str(), specializationFlags))
+                        {
+                            for (const auto& roleGroupEntry : specializationEntry.second)
+                            {
+                                uint32_t rolePriority = roleGroupEntry.first;
+                                const char* roleSectionTitle = GetRoleCategorySectionTitle(rolePriority);
+
+                                if (ImGui::TreeNodeEx(roleSectionTitle, ImGuiTreeNodeFlags_DefaultOpen))
+                                {
+                                    for (uint32_t profileIndex : roleGroupEntry.second)
+                                    {
+                                        const auto& profile = allProfiles[profileIndex];
+                                        bool isSelected = (profileIndex == activeIndex);
+
+                                        std::string itemLabel = profile.buildDisplayName;
+                                        if (!profile.equipment.primaryWeaponSetName.empty() && profile.equipment.primaryWeaponSetName != "First Weapon Set")
+                                        {
+                                            itemLabel = itemLabel + " (" + profile.equipment.primaryWeaponSetName + ")";
+                                        }
+
+                                        if (ImGui::Selectable(itemLabel.c_str(), isSelected))
+                                        {
+                                            globalRotationEngine.LoadBuildProfileByIndex(profileIndex);
+                                        }
+                                    }
+
+                                    ImGui::TreePop();
+                                }
+                            }
+
+                            ImGui::TreePop();
+                        }
+                    }
+
+                    ImGui::TreePop();
+                }
+            }
+        }
+        ImGui::EndChild();
+
+        ImGui::Spacing();
+        ImGui::Separator();
+
         if (activeProfile != nullptr)
         {
             ImGui::TextColored(ImVec4(0.2f, 0.9f, 1.0f, 1.0f), "Active Build: %s", activeProfile->buildDisplayName.c_str());

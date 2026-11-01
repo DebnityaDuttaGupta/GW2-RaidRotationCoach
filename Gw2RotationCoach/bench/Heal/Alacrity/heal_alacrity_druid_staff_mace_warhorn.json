@@ -1,11 +1,11 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Druid [Staff / Mace & Warhorn]",
+    "name": "Heal Alacrity Druid",
     "profession": "Ranger",
     "elite_spec": "Druid",
     "build_type": "heal",
     "benchmark_type": "alac",
-    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid",
+    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid-staff-mace-warhorn",
     "chat_code": "[&DQQePRkbBRd5AHkAtgC2AEsBSwFLAcAAiQGJAQAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Staff / Mace & Warhorn"
   },

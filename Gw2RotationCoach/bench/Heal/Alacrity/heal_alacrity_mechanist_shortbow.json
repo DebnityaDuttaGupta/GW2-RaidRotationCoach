@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Mechanist [Shortbow]",
+    "name": "Heal Alacrity Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "heal",
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-shortbow",
     "chat_code": "[&DQMGNyY5Rh8qDwAALgEAADMbAAA1GwAAEQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Shortbow (No in-combat swap)"
+    "weapons": "Shortbow"
   },
   "skills": {
     "s63101": {

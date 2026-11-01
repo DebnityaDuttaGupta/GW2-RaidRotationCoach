@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Mechanist [Mace & Shield]",
+    "name": "Heal Alacrity Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "heal",
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-mace-shield",
     "chat_code": "[&DQMGNyY5Rh8qDwAALgEAADMbAAA1GwAAEQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Mace & Shield (No in-combat swap)"
+    "weapons": "Mace & Shield"
   },
   "skills": {
     "s63101": {

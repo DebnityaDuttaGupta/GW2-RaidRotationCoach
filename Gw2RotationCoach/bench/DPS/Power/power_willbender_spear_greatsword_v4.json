@@ -1150,6 +1150,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/power-willbender-spear-greatsword",
     "dps_report_url": "https://dps.report/U0Wz-20260116-150715_golem",
-    "overall_dps": 48658.0
+    "overall_dps": 48658.0,
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

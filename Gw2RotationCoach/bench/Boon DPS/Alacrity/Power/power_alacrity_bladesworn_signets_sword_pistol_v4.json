@@ -1727,7 +1727,7 @@
   ],
   "skillMap": {
     "s5": {
-      "name": "Dragon Slash—Force",
+      "name": "Dragon Slash\u2014Force",
       "icon": "https://render.guildwars2.com/file/b_b5_Dragon_Slash_E2_80/94Force.png",
       "traitProc": false,
       "gearProc": false
@@ -1850,6 +1850,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/warrior/power-alacrity-bladesworn-signets-sword-pistol",
     "dps_report_url": "https://b.dps.report/Tm53-20250629-002028_golem",
-    "overall_dps": 37801.0
+    "overall_dps": 37801.0,
+    "weapons": "Sword / Pistol",
+    "chat_code": "[&DQIaLhM5RCemAAAALgEAAC4BAAAQAQAArAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

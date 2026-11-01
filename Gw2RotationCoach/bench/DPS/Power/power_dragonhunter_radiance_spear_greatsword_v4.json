@@ -1311,6 +1311,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/power-dragonhunter-radiance-spear-greatsword",
     "dps_report_url": "https://dps.report/M9tp-20250627-000730_golem",
-    "overall_dps": 43589.0
+    "overall_dps": 43589.0,
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQEqOi4VGzkmDyYPSAH+AIoSLQH+AEgBtRKJEgAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]"
   }
 }

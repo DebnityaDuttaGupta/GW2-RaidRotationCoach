@@ -1429,8 +1429,10 @@
     "elite_spec": "Deadeye",
     "build_type": "power",
     "benchmark_type": "quick",
-    "url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-rifle",
+    "url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-rifle-only",
     "dps_report_url": "https://dps.report/EooP-20250904-002822_golem",
-    "overall_dps": 37218.0
+    "overall_dps": 37218.0,
+    "weapons": "Rifle",
+    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

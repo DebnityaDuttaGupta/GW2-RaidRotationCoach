@@ -1355,6 +1355,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso-spear-greatsword",
     "dps_report_url": "https://dps.report/EekI-20250429-021335_golem",
-    "overall_dps": 46390.0
+    "overall_dps": 46390.0,
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQcKGgEdQiojDwAAjwEAAN0aAABpAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

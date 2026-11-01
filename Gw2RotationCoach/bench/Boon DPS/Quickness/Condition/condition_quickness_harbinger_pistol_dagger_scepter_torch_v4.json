@@ -1607,6 +1607,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-quickness-harbinger-pistol-dagger-scepter-torch",
     "dps_report_url": "https://dps.report/9GSF-20231002-152522_golem",
-    "overall_dps": 34936.0
+    "overall_dps": 34936.0,
+    "weapons": "Pistol & Dagger / Scepter & Torch",
+    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -1505,6 +1505,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-willbender-greatsword-sword-focus",
     "dps_report_url": "https://dps.report/Jcfa-20260114-085045_golem",
-    "overall_dps": 37674.0
+    "overall_dps": 37674.0,
+    "weapons": "Greatsword / Sword & Focus",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

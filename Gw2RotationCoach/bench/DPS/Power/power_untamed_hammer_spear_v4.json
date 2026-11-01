@@ -1479,6 +1479,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-untamed-hammer-spear",
     "dps_report_url": "https://gw2wingman.nevermindcreations.de/log/ab717-20250530-152646_StdGolem_kill",
-    "overall_dps": null
+    "overall_dps": null,
+    "weapons": "Hammer / Spear",
+    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
   }
 }

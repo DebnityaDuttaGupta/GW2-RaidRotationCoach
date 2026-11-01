@@ -1752,6 +1752,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-reaper-spear-dagger-sword",
     "dps_report_url": "https://dps.report/smdb-20260123-221507_golem",
-    "overall_dps": 41927.0
+    "overall_dps": 41927.0,
+    "weapons": "Spear / Dagger & Sword",
+    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

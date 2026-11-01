@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Celestial Alacrity Tempest [Scepter & Warhorn]",
+    "name": "Celestial Alacrity Tempest",
     "profession": "Elementalist",
     "elite_spec": "Tempest",
     "build_type": "celestial",
     "benchmark_type": "hybrid",
-    "url": "https://snowcrows.com/builds/raids/elementalist/celestial-alacrity-tempest",
+    "url": "https://snowcrows.com/builds/raids/elementalist/celestial-alacrity-tempest-scepter-warhorn",
     "chat_code": "[&DQYfFRomMBV0AAAAcwEAAHMBAABzAQAAgwEAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Scepter & Warhorn (Attunements F1-F4)"
+    "weapons": "Scepter & Warhorn"
   },
   "skills": {
     "s5492": {

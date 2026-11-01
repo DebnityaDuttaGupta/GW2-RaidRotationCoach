@@ -1904,6 +1904,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-one-kit-spear",
     "dps_report_url": "https://dps.report/yKQA-20250423-002229_golem",
-    "overall_dps": 43486.0
+    "overall_dps": 43486.0,
+    "weapons": "Spear",
+    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
   }
 }

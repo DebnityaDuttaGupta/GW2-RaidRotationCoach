@@ -1311,7 +1311,7 @@
       "gearProc": false
     },
     "s2503721": {
-      "name": "Wilde Stoßwelle entfesselt",
+      "name": "Wilde Sto\u00dfwelle entfesselt",
       "icon": "https://render.guildwars2.com/file/2939557FFA0BDF9C4D0B7FD1A19AA57DE9C49FDD/2503721.png",
       "traitProc": false,
       "gearProc": false
@@ -1401,7 +1401,7 @@
       "gearProc": false
     },
     "s2503719": {
-      "name": "Übermächtigen Schmetterschlag entfesselt",
+      "name": "\u00dcberm\u00e4chtigen Schmetterschlag entfesselt",
       "icon": "https://render.guildwars2.com/file/7BA2A9B41EEEB1E1BF61FD7BF108BE0C05932080/2503719.png",
       "traitProc": false,
       "gearProc": false
@@ -1440,6 +1440,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-hammer-axe-axe",
     "dps_report_url": "https://dps.report/AQKD-20240813-195034_golem",
-    "overall_dps": 43256.0
+    "overall_dps": 43256.0,
+    "weapons": "Hammer / Axe & Axe",
+    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
   }
 }

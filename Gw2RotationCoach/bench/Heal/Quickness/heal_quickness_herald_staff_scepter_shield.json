@@ -1,11 +1,11 @@
 {
   "buildMetadata": {
-    "name": "Heal Quickness Herald [Staff / Scepter & Shield]",
+    "name": "Heal Quickness Herald",
     "profession": "Revenant",
     "elite_spec": "Herald",
     "build_type": "heal",
     "benchmark_type": "quick",
-    "url": "https://snowcrows.com/builds/raids/revenant/heal-quickness-herald",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-quickness-herald-staff-scepter-shield",
     "chat_code": "[&DQkOHQMmNCbcEdwRBhIGEwYS1BHUEQwRCRIGEgMCAwPUEQYS1BEGEgMCEgA=]",
     "weapons": "Staff / Scepter & Shield"
   },

@@ -2047,6 +2047,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-scrapper-hammer",
     "dps_report_url": "https://dps.report/lz0h-20260117-181506_golem",
-    "overall_dps": 43186.0
+    "overall_dps": 43186.0,
+    "weapons": "Hammer",
+    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

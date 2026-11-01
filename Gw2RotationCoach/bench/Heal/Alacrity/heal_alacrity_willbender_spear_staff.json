@@ -1,12 +1,12 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Willbender [Spear / Staff]",
+    "name": "Heal Alacrity Willbender",
     "profession": "Guardian",
     "elite_spec": "Willbender",
     "build_type": "heal",
     "benchmark_type": "alac",
-    "url": "https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender",
-    "chat_code": "[&DQEqOSA6TB5/HhQA/hIAABcXAABTAQAAiRIAAAAAAAAAAAAAAAAAAAAAAA==]",
+    "url": "https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender-spear-staff",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Spear / Staff"
   },
   "skills": {

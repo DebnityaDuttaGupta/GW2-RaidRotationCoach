@@ -2015,6 +2015,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-dune-cloak-staff-axe-torch",
     "dps_report_url": "https://dps.report/mndS-20250822-003804_golem",
-    "overall_dps": 46181.0
+    "overall_dps": 46181.0,
+    "weapons": "Staff / Axe & Torch",
+    "chat_code": "[&DQcBJRg/Ox0jDyMPgQGBAYMBgwHgFQcWRhftEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
   }
 }

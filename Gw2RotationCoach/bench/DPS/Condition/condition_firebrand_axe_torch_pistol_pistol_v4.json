@@ -1863,6 +1863,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/condition-firebrand-axe-torch-pistol-pistol",
     "dps_report_url": "https://dps.report/wW2e-20260122-182212_golem",
-    "overall_dps": 43340.0
+    "overall_dps": 43340.0,
+    "weapons": "Axe & Torch / Pistol & Pistol",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

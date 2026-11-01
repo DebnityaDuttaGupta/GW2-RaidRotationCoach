@@ -1,11 +1,11 @@
 {
   "buildMetadata": {
-    "name": "Celestial Alacrity Druid [Shortbow / Staff]",
+    "name": "Celestial Alacrity Druid",
     "profession": "Ranger",
     "elite_spec": "Druid",
     "build_type": "celestial",
     "benchmark_type": "hybrid",
-    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid",
+    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid-staff-mace-warhorn",
     "chat_code": "[&DQQePRkbBRd5AHkAtgC2AEsBSwFLAcAAiQGJAQAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Shortbow / Staff"
   },

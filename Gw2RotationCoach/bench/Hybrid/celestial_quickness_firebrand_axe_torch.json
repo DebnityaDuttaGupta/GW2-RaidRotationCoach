@@ -1,12 +1,12 @@
 {
   "buildMetadata": {
-    "name": "Celestial Quickness Firebrand [Axe & Torch / Staff]",
+    "name": "Celestial Quickness Firebrand",
     "profession": "Guardian",
     "elite_spec": "Firebrand",
     "build_type": "celestial",
     "benchmark_type": "hybrid",
-    "url": "https://snowcrows.com/builds/raids/guardian/heal-quickness-firebrand",
-    "chat_code": "[&DQEqOSA6TB5/HhQA/hIAABcXAABTAQAAiRIAAAAAAAAAAAAAAAAAAAAAAA==]",
+    "url": "https://snowcrows.com/builds/raids/guardian/heal-quickness-firebrand-staff-axe-shield",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Axe & Torch / Staff"
   },
   "skills": {

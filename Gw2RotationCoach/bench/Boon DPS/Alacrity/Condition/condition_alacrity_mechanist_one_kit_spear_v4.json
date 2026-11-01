@@ -2355,6 +2355,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-alacrity-mechanist-one-kit-spear",
     "dps_report_url": "https://dps.report/n4qX-20250423-160558_golem",
-    "overall_dps": 34003.0
+    "overall_dps": 34003.0,
+    "weapons": "Spear",
+    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
   }
 }

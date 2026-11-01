@@ -1381,6 +1381,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/power-harbinger-greatsword-spear",
     "dps_report_url": "https://dps.report/2o0P-20260113-122443_golem",
-    "overall_dps": 44875.0
+    "overall_dps": 44875.0,
+    "weapons": "Greatsword / Spear",
+    "chat_code": "[&DQg1KTIlQBXnGigPQAGBAIEAQAF1AXUB6BqVAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

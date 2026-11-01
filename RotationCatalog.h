@@ -52,7 +52,6 @@ private:
     std::unordered_map<uint32_t, SkillDefinitionMetadata> masterSkillDatabase;
 
     void PopulateDefaultSkillMappings();
-    void PopulateBuiltInProfiles();
 
     bool ParseBenchmarkJsonFile(const std::string& filePath, const std::string& relativeCategory);
 };
