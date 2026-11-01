@@ -1518,6 +1518,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/condition-daredevil-dagger-only",
     "dps_report_url": "https://dps.report/x9oZ-20250629-021609_golem",
-    "overall_dps": 41472.0
+    "overall_dps": 41472.0,
+    "weapons": "Dagger",
+    "chat_code": "[&DQUcGyw2Oh/xFQAALwEAAFUBAAAgFwAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -1610,6 +1610,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/condition-druid-dagger-torch-axe-dagger",
     "dps_report_url": "https://dps.report/704v-20250625-144721_golem",
-    "overall_dps": 48550.0
+    "overall_dps": 48550.0,
+    "weapons": "Dagger & Torch / Axe & Dagger",
+    "chat_code": "[&DQQeHSE3SB95AAAAvwC/AL0ApQG6AAAAwAAAAAYwFQkAAAAAAAAAAAAAAAADBQAvAGYAAA==]"
   }
 }

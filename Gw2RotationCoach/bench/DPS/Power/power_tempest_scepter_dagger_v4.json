@@ -1191,6 +1191,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/elementalist/power-tempest-scepter-dagger",
     "dps_report_url": "https://dps.report/QqEZ-20250212-064300_golem",
-    "overall_dps": 43063.0
+    "overall_dps": 43063.0,
+    "weapons": "Scepter / Dagger",
+    "chat_code": "[&DQYpHx8dQz4nDycP+Br4Gr4B7hrLAMsAJgD3GgAAAAAAAAAAAAAAAAAAAAADVgAvAFkAAA==]"
   }
 }

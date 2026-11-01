@@ -1,11 +1,11 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Renegade [Staff / Mace & Shield]",
+    "name": "Heal Alacrity Renegade",
     "profession": "Revenant",
     "elite_spec": "Renegade",
     "build_type": "heal",
     "benchmark_type": "alac",
-    "url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-renegade",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-renegade-staff-scepter-shield",
     "chat_code": "[&DQkOHQMmNCbcEdwRBhIGEwYS1BHUEQwRCRIGEgMCAwPUEQYS1BEGEgMCEgA=]",
     "weapons": "Staff / Mace & Shield"
   },

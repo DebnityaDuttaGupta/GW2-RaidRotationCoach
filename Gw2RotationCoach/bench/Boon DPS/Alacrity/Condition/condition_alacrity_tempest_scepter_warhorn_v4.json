@@ -1481,6 +1481,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest-scepter-warhorn",
     "dps_report_url": "https://dps.report/Pl75-20250221-180332_golem",
-    "overall_dps": 34625.0
+    "overall_dps": 34625.0,
+    "weapons": "Scepter / Warhorn",
+    "chat_code": "[&DQYfFRomMBV0AAAAcwEAAHMBAABzAQAAgwEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

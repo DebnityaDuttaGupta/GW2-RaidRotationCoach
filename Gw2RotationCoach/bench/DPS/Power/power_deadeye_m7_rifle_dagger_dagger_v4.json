@@ -1244,6 +1244,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/power-deadeye-m7-rifle-dagger-dagger",
     "dps_report_url": "https://dps.report/FyD0-20240322-133853_golem",
-    "overall_dps": 45055.0
+    "overall_dps": 45055.0,
+    "weapons": "Rifle / Dagger & Dagger",
+    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -2243,7 +2243,7 @@
       "gearProc": false
     },
     "s1013003": {
-      "name": "Kühlende Isolation",
+      "name": "K\u00fchlende Isolation",
       "icon": "https://render.guildwars2.com/file/5201D39E6CC216A5A64E17F6E6ECB15708F103EE/1013003.png",
       "traitProc": false,
       "gearProc": false
@@ -2336,6 +2336,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/revenant/power-alacrity-renegade-greatsword-sword-sword",
     "dps_report_url": "https://dps.report/FA52-20260110-001840_golem",
-    "overall_dps": 33349.0
+    "overall_dps": 33349.0,
+    "weapons": "Greatsword / Sword & Sword",
+    "chat_code": "[&DQkDJg8qPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]"
   }
 }

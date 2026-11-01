@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Heal Quickness Scrapper [Mace & Shield]",
+    "name": "Heal Quickness Scrapper",
     "profession": "Engineer",
     "elite_spec": "Scrapper",
     "build_type": "heal",
     "benchmark_type": "quick",
-    "url": "https://snowcrows.com/builds/raids/engineer/heal-quickness-scrapper",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-quickness-scrapper-mace-shield",
     "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Mace & Shield (No in-combat swap)"
+    "weapons": "Mace & Shield"
   },
   "skills": {
     "s31044": {

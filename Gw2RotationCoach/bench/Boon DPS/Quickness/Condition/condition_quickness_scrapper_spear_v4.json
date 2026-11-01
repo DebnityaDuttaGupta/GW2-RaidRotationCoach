@@ -2783,6 +2783,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-quickness-scrapper-spear",
     "dps_report_url": "https://dps.report/sFjF-20251014-124731_golem",
-    "overall_dps": 43057.0
+    "overall_dps": 43057.0,
+    "weapons": "Spear",
+    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

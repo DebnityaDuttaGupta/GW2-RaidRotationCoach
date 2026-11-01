@@ -2260,6 +2260,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-warrior-mace-axe-dagger-mace",
     "dps_report_url": "https://dps.report/KNal-20260115-144659_golem",
-    "overall_dps": 39215.0
+    "overall_dps": 39215.0,
+    "weapons": "Mace & Axe / Dagger & Mace",
+    "chat_code": "[&DQIEHzMaEhXyEgAAqQCtANcSqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
   }
 }

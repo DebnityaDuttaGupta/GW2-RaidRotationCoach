@@ -1,11 +1,11 @@
 {
   "buildMetadata": {
-    "name": "Heal Quickness Berserker [Staff / Mace & Warhorn]",
+    "name": "Heal Quickness Berserker",
     "profession": "Warrior",
     "elite_spec": "Berserker",
     "build_type": "heal",
     "benchmark_type": "quick",
-    "url": "https://snowcrows.com/builds/raids/warrior/heal-quickness-berserker",
+    "url": "https://snowcrows.com/builds/raids/warrior/heal-quickness-berserker-staff-mace-warhorn",
     "chat_code": "[&DQIaLhM5EimEAAAALgEAAC4BAAAQAQAArAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Staff / Mace & Warhorn"
   },

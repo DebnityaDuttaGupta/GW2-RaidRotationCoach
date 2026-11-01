@@ -1411,6 +1411,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/mesmer/condition-boon-chronomancer-staff-scepter-torch",
     "dps_report_url": "https://dps.report/Qv1n-20250510-031308_golem",
-    "overall_dps": 35080.0
+    "overall_dps": 35080.0,
+    "weapons": "Staff / Scepter & Torch",
+    "chat_code": "[&DQcBHQoaKBUjDyMPBBNrAWkBaQHPEo8BsxLtEgAAAAAAAAAAAAAAAAAAAAADLwBaAAkBAA==]"
   }
 }

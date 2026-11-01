@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Celestial Alacrity Mechanist [Pistol & Pistol]",
+    "name": "Celestial Alacrity Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "celestial",
     "benchmark_type": "hybrid",
-    "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-shortbow",
     "chat_code": "[&DQMGNyY5Rh8qDwAALgEAADMbAAA1GwAAEQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Pistol & Pistol (No in-combat swap)"
+    "weapons": "Pistol & Pistol"
   },
   "skills": {
     "s63101": {

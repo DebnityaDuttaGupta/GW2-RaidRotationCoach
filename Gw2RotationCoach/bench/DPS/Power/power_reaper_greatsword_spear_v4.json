@@ -1508,6 +1508,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/power-reaper-greatsword-spear",
     "dps_report_url": "https://dps.report/k2es-20260113-124841_golem",
-    "overall_dps": 42460.0
+    "overall_dps": 42460.0,
+    "weapons": "Greatsword / Spear",
+    "chat_code": "[&DQg1KTIlIjbBEigPQAGBAIEAQAHxEnUBlQCVAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

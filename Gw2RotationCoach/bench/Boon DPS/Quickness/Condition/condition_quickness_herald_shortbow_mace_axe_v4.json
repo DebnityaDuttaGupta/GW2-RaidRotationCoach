@@ -2399,6 +2399,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-shortbow-mace-axe",
     "dps_report_url": "https://dps.report/e0xk-20250216-203504_golem",
-    "overall_dps": 33341.0
+    "overall_dps": 33341.0,
+    "weapons": "Shortbow / Mace & Axe",
+    "chat_code": "[&DQkOHQMWNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQEEAQQrEtQRBhLUESsSBhI=]"
   }
 }

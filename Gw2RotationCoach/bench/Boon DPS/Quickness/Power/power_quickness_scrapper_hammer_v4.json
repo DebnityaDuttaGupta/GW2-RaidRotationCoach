@@ -2340,6 +2340,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/engineer/power-quickness-scrapper-hammer",
     "dps_report_url": "https://dps.report/x1NW-20260114-104405_golem",
-    "overall_dps": 34566.0
+    "overall_dps": 34566.0,
+    "weapons": "Hammer",
+    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -2060,6 +2060,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-alacrity-renegade-spear-mace-axe",
     "dps_report_url": "https://dps.report/aZsY-20241029-155240_golem",
-    "overall_dps": 37143.0
+    "overall_dps": 37143.0,
+    "weapons": "Spear / Mace & Axe",
+    "chat_code": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]"
   }
 }

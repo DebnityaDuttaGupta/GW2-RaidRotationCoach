@@ -2572,6 +2572,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear-mace-axe",
     "dps_report_url": "https://dps.report/ErCv-20250216-134453_golem",
-    "overall_dps": 33948.0
+    "overall_dps": 33948.0,
+    "weapons": "Spear / Mace & Axe",
+    "chat_code": "[&DQkOHQMWNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQEEAQQrEtQRBhLUESsSBhI=]"
   }
 }

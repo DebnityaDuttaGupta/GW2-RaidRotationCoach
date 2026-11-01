@@ -1659,6 +1659,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-spellbreaker-hammer-dagger-mace",
     "dps_report_url": "https://dps.report/6dF5-20260123-212043_golem",
-    "overall_dps": 45016.0
+    "overall_dps": 45016.0,
+    "weapons": "Hammer / Dagger & Mace",
+    "chat_code": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

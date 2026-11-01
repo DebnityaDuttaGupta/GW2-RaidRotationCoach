@@ -1961,6 +1961,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-alacrity-scourge-scepter-torch-pistol",
     "dps_report_url": "https://dps.report/2bvf-20231014-100953_golem",
-    "overall_dps": 32382.0
+    "overall_dps": 32382.0,
+    "weapons": "Scepter / Torch & Pistol",
+    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

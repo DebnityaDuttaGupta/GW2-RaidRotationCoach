@@ -1440,6 +1440,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-hammer-sword-axe",
     "dps_report_url": "https://dps.report/S4Si-20260117-001516_golem",
-    "overall_dps": 43944.0
+    "overall_dps": 43944.0,
+    "weapons": "Hammer / Sword & Axe",
+    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
   }
 }

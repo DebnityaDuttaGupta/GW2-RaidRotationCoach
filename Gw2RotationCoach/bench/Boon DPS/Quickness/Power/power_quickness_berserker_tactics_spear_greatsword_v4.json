@@ -1374,6 +1374,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/warrior/power-quickness-berserker-tactics-spear-greatsword",
     "dps_report_url": "https://dps.report/2EX6-20260121-133519_golem",
-    "overall_dps": 41698.0
+    "overall_dps": 41698.0,
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQIEHwsVEhnyEqcA1xKtAK0AqQCpAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAACWgA2AAA=]"
   }
 }

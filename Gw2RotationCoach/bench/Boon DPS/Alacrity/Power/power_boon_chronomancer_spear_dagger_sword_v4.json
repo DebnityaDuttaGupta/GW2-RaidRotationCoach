@@ -1872,6 +1872,8 @@
     "benchmark_type": "alac",
     "url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer-spear-dagger-sword",
     "dps_report_url": "https://dps.report/EW7J-20260115-160135_golem",
-    "overall_dps": 38495.0
+    "overall_dps": 38495.0,
+    "weapons": "Spear / Dagger & Sword",
+    "chat_code": "[&DQcBHQoaKBUjDyMPBBNrAWkBaQHPEo8BsxLtEgAAAAAAAAAAAAAAAAAAAAADLwBaAAkBAA==]"
   }
 }

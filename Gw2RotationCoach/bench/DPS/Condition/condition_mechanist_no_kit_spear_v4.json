@@ -1505,6 +1505,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-no-kit-spear",
     "dps_report_url": "https://dps.report/Ceo5-20250423-211218_golem",
-    "overall_dps": 39433.0
+    "overall_dps": 39433.0,
+    "weapons": "Spear",
+    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
   }
 }

@@ -1799,6 +1799,8 @@
     "benchmark_type": "quick",
     "url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-hammer-sword-axe",
     "dps_report_url": "https://dps.report/kIwI-20250519-113617_golem",
-    "overall_dps": 35126.0
+    "overall_dps": 35126.0,
+    "weapons": "Hammer / Sword & Axe",
+    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
   }
 }

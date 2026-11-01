@@ -1217,6 +1217,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/power-daredevil-staff",
     "dps_report_url": "https://www.dps.report/7Qij-20250624-165156_golem",
-    "overall_dps": 42714.0
+    "overall_dps": 42714.0,
+    "weapons": "Staff",
+    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

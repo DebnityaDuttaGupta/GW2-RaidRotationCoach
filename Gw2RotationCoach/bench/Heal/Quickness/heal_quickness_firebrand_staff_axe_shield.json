@@ -1,12 +1,12 @@
 {
   "buildMetadata": {
-    "name": "Heal Quickness Firebrand [Staff / Axe & Shield]",
+    "name": "Heal Quickness Firebrand",
     "profession": "Guardian",
     "elite_spec": "Firebrand",
     "build_type": "heal",
     "benchmark_type": "quick",
-    "url": "https://snowcrows.com/builds/raids/guardian/heal-quickness-firebrand",
-    "chat_code": "[&DQEqOSA6TB5/HhQA/hIAABcXAABTAQAAiRIAAAAAAAAAAAAAAAAAAAAAAA==]",
+    "url": "https://snowcrows.com/builds/raids/guardian/heal-quickness-firebrand-staff-axe-shield",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
     "weapons": "Staff / Axe & Shield"
   },
   "skills": {

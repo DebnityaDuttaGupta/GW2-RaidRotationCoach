@@ -1,13 +1,13 @@
 {
   "buildMetadata": {
-    "name": "Heal Alacrity Tempest [Dagger & Warhorn]",
+    "name": "Heal Alacrity Tempest",
     "profession": "Elementalist",
     "elite_spec": "Tempest",
     "build_type": "heal",
     "benchmark_type": "alac",
-    "url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest",
+    "url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest-dagger-warhorn",
     "chat_code": "[&DQYfFRomMBV0AAAAcwEAAHMBAABzAQAAgwEAAAAAAAAAAAAAAAAAAAAAAAA=]",
-    "weapons": "Dagger & Warhorn (Attunements F1-F4)"
+    "weapons": "Dagger & Warhorn"
   },
   "skills": {
     "s5494": {

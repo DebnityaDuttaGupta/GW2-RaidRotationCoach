@@ -2199,6 +2199,8 @@
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits-spear",
     "dps_report_url": "https://dps.report/Btgt-20260114-234130_golem",
-    "overall_dps": 46549.0
+    "overall_dps": 46549.0,
+    "weapons": "Spear",
+    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
   }
 }
