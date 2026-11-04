@@ -1,0 +1,254 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        55027,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62635,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62650,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        9097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62525,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9146,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9081,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62668,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        62608,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        9147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        9168,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        62668,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9168,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62603,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62648,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s55027": {
+      "name": "Sword of Justice",
+      "icon": "https://render.guildwars2.com/file/98B40D09401B44949604E073F5F793C660B7ED22/103669.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62635": {
+      "name": "Flowing Resolve",
+      "icon": "https://render.guildwars2.com/file/E7DB54CE0FA25D3476405E083DBA25033C18FDA3/2479368.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62650": {
+      "name": "Advancing Strike",
+      "icon": "https://render.guildwars2.com/file/C6C4F63B3BE6D7CB0163F25E5A51029023F7B492/2479372.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9097": {
+      "name": "Symbol of Blades",
+      "icon": "https://render.guildwars2.com/file/E7F5FFA84F0AE4EA0EC5AE54FA365C09925551A0/103641.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62525": {
+      "name": "Executioner's Calling",
+      "icon": "https://render.guildwars2.com/file/ECB53EFD2308DAB756D8CC6EA852B9C4E4BFE16A/2479371.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9107": {
+      "name": "Zealot's Defense",
+      "icon": "https://render.guildwars2.com/file/C0ED0D01EA4116136DCBE4925B1C2B92A209B221/103648.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9146": {
+      "name": "Symbol of Resolution",
+      "icon": "https://render.guildwars2.com/file/B9FC18E67D7FEE5B64F60AB7700E5706CCB51DA6/103660.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9081": {
+      "name": "Whirling Wrath",
+      "icon": "https://render.guildwars2.com/file/374A9BB028E19F0B5D04622A33B36FA67E0EC938/103574.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62668": {
+      "name": "Rushing Justice",
+      "icon": "https://render.guildwars2.com/file/2F3E006427F17D3EF747BF0F0B0E0A941964572F/2479367.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62608": {
+      "name": "Flash Combo",
+      "icon": "https://render.guildwars2.com/file/4B51750AC83E9E433F10A70FCFD2EDB5536566C2/2479373.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9147": {
+      "name": "Binding Blade",
+      "icon": "https://render.guildwars2.com/file/B975D6E5B32392524C034114E2A2201097BFDA35/103274.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9080": {
+      "name": "Leap of Faith",
+      "icon": "https://render.guildwars2.com/file/C6C1B00FD5191CB2AA311E2205A3D90D9907BB9E/103587.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9168": {
+      "name": "Sword of Justice",
+      "icon": "https://render.guildwars2.com/file/98B40D09401B44949604E073F5F793C660B7ED22/103669.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62603": {
+      "name": "Flowing Resolve",
+      "icon": "https://render.guildwars2.com/file/E7DB54CE0FA25D3476405E083DBA25033C18FDA3/2479368.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62648": {
+      "name": "Crashing Courage",
+      "icon": "https://render.guildwars2.com/file/3AD50BA43AA00EA97C6152D5EC6092FE0F0979D0/2479369.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 55027,
+    "slot_8": 62608,
+    "slot_9": 9168
+  },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Pack",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of the Warrior",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Alacrity Willbender",
+    "profession": "Guardian",
+    "elite_spec": "Willbender",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-willbender-greatsword-sword-sword",
+    "weapons": "Greatsword & Sword / Sword",
+    "chat_code": "[&DQEqOi4lQRomDwAASAEAAN4aAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]",
+    "build_template": "[&DQEqOi4lQRomDwAASAEAAN4aAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]"
+  }
+}

@@ -76,6 +76,9 @@ struct SkillDefinitionMetadata
     std::string iconFileName;
     SkillSlotCategory slotCategory;
     uint32_t rechargeSeconds;
+    uint32_t cooldownSeconds;
+    uint32_t castTimeMilliseconds;
+    uint32_t energyCost;
     bool isAutoAttack;
 };
 

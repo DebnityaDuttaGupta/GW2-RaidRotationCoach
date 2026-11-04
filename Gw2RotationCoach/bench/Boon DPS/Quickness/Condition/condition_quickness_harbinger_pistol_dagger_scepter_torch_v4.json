@@ -1452,7 +1452,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2479406": {
       "name": "Voracious Arc",
       "icon": "https://render.guildwars2.com/file/E338A042D7F5EDB705F5A5E033F330D3C25774C5/2479406.png",
@@ -1599,16 +1599,23 @@
     "slot_9": 58459,
     "slot_0": 2479394
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of Tormenting",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Bursting",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Quickness Harbinger",
     "profession": "Necromancer",
     "elite_spec": "Harbinger",
     "build_type": "condition",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-quickness-harbinger-pistol-dagger-scepter-torch",
-    "dps_report_url": "https://dps.report/9GSF-20231002-152522_golem",
-    "overall_dps": 34936.0,
-    "weapons": "Pistol & Dagger / Scepter & Torch",
-    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Pistol & Dagger / Scepter",
+    "chat_code": "[&DQgnNTI1QCvnGgAAgAAAANQaAADsGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgnNTI1QCvnGgAAgAAAANQaAADsGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

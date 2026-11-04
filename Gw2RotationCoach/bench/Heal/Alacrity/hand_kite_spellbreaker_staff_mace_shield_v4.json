@@ -1,0 +1,156 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        14507,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        44165,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        44165,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        71860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        72002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        44165,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        44165,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        14362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        14392,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        21815,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        37613,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s14507": {
+      "name": "Counterblow",
+      "icon": "https://render.guildwars2.com/file/92C19D3798F16AC716CAC7A5C044E4CFC251E4A2/102986.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44165": {
+      "name": "Full Counter",
+      "icon": "https://render.guildwars2.com/file/3C0BDF7FC49ACA29E1ECD66DE880250AA673FD28/1770662.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71860": {
+      "name": "Line Breaker",
+      "icon": "https://render.guildwars2.com/file/D2FDE2964747965873CAAC000DADBFCADA94EFD3/3256402.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72002": {
+      "name": "Valiant Leap",
+      "icon": "https://render.guildwars2.com/file/0CA82FBE1CD6160EB9C86A4CCA0F9EAD0F640AD5/3256401.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14362": {
+      "name": "Shield Stance",
+      "icon": "https://render.guildwars2.com/file/10E4931AC6BB5824CACE5A09E07E512869904DB9/102859.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14392": {
+      "name": "Endure Pain",
+      "icon": "https://render.guildwars2.com/file/9D66F0BCCEC7A7C344170659D4CF7C7E3ECF0C60/102867.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s21815": {
+      "name": "Defiant Stance",
+      "icon": "https://render.guildwars2.com/file/29C39009CD5230764480DC2404E740A49898AFA0/699533.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s37613": {
+      "name": "Mind Crush",
+      "icon": "https://render.guildwars2.com/file/1521713AFAFC0BA9C5642F65393751B124AA7602/1635207.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 14392,
+    "slot_6": 21815
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's",
+    "runes": "Superior Rune of the Water",
+    "sigils": "Superior Sigil of Renewal & Superior Sigil of Energy & Major Sigil of Renewal",
+    "relic": "Relic of Doyen",
+    "food": "Bowl of Spiced Fruit Salad",
+    "utility": "Holographic Super Drumstick"
+  },
+  "buildMetadata": {
+    "name": "Kite Spellbreaker",
+    "profession": "Warrior",
+    "elite_spec": "Spellbreaker",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/warrior/hand-kite-spellbreaker-staff-mace-shield",
+    "weapons": "Staff & Mace / Shield",
+    "chat_code": "[&DQIWJTM3PSopD6cAcQAAAAoAAACtAQAA7gAAAAAAAAAAAAAAAAAAAAAAAAADWQA1AFcAAA==]",
+    "build_template": "[&DQIWJTM3PSopD6cAcQAAAAoAAACtAQAA7gAAAAAAAAAAAAAAAAAAAAAAAAADWQA1AFcAAA==]"
+  }
+}

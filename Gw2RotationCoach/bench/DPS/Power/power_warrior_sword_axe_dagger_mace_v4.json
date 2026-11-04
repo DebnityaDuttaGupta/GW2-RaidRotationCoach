@@ -2299,7 +2299,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103287": {
       "name": "Tremor",
       "icon": "https://render.guildwars2.com/file/60B9CD0D66AAA817ACF9F250B33391A0157D1BFE/103287.png",
@@ -2422,16 +2422,23 @@
     "slot_9": 104119,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Warrior Sword Axe Dagger Mace",
+    "name": "Power Warrior",
     "profession": "Warrior",
     "elite_spec": "Warrior",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-warrior-sword-axe-dagger-mace",
-    "dps_report_url": "https://dps.report/32sv-20250218-155359_golem",
-    "overall_dps": 38906.0,
-    "weapons": "Sword & Axe / Dagger & Mace",
-    "chat_code": "[&DQIEHzMaEhXyEgAAqQCtANcSqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
+    "weapons": "Sword & Axe / Dagger",
+    "chat_code": "[&DQIEHwsVJDZwAAAArQAAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]",
+    "build_template": "[&DQIEHwsVJDZwAAAArQAAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
   }
 }

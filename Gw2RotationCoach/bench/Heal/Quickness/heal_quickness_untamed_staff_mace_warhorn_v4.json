@@ -1,0 +1,496 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        69175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        72079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12658,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        12621,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        71963,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        1016,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        1055,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        12489,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        71999,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        31496,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        71963,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        71999,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        31710,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        31889,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        71999,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        31496,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        12489,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        31535,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        71963,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        12621,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        12497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        12495,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        986,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        63258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        12489,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        12497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        1038,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        12569,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        12666,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        63209,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        63258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        63094,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s2268": {
+      "name": "Skill 2268",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63147": {
+      "name": "Unleash Ranger",
+      "icon": "https://render.guildwars2.com/file/EFC812F33C2A9ECA91F0C1F966E1715FF35E2BDF/2503729.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63344": {
+      "name": "Unleash Pet",
+      "icon": "https://render.guildwars2.com/file/A5E324616977BF624698CA610628B7C3D73ADB1C/2503728.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69175": {
+      "name": "Solar Brilliance",
+      "icon": "https://render.guildwars2.com/file/47D72665624F25469A11D86943F9037591F444AF/3098875.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72079": {
+      "name": "Rampant Growth",
+      "icon": "https://render.guildwars2.com/file/AA6DF43F39613B3BFF36EA5E5DE8E479B54C3D13/3256376.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12658": {
+      "name": "Mighty Roar",
+      "icon": "https://render.guildwars2.com/file/FC1F050E63ACD1504A2E71FD01C279ED26CFE423/103240.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12621": {
+      "name": "Call of the Wild",
+      "icon": "https://render.guildwars2.com/file/2BBB18C54A01FF1D5FF9473EB1059AE491AA98FF/103310.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71963": {
+      "name": "Oaken Cudgel",
+      "icon": "https://render.guildwars2.com/file/AF04C49117A8634CDDAA1AB3B35B25111B394FEC/3256385.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1016": {
+      "name": "Skill 1016",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1055": {
+      "name": "Skill 1055",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s978": {
+      "name": "Skill 978",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12489": {
+      "name": "Healing Spring",
+      "icon": "https://render.guildwars2.com/file/F6C2FD7E78EE0D9178AEAEF8B1666477D1E92C99/103544.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71999": {
+      "name": "Flourish",
+      "icon": "https://render.guildwars2.com/file/A3CAFE3F4F60F5BA30DBF3511AEF2EB03D75673E/3256384.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31496": {
+      "name": "Sublime Conversion",
+      "icon": "https://render.guildwars2.com/file/CB54A104F1B64FD26D24F3F55C05DDD2631619D5/1128627.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31710": {
+      "name": "Solar Beam",
+      "icon": "https://render.guildwars2.com/file/945C70A3D52FE991935FECF0219BF814526F0C03/1128621.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31889": {
+      "name": "Astral Wisp",
+      "icon": "https://render.guildwars2.com/file/A0E6130606B5D4F690355F9455E00F4BF89D550E/1128622.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31535": {
+      "name": "Ancestral Grace",
+      "icon": "https://render.guildwars2.com/file/DF1223B769A504A6CC381A4A281C0130C9BF67A0/1128624.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12497": {
+      "name": "Frost Spirit",
+      "icon": "https://render.guildwars2.com/file/527D04E6562149B046DE7D41F312FE0100BF446E/103995.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12495": {
+      "name": "Stone Spirit",
+      "icon": "https://render.guildwars2.com/file/65802D0CA90F904046542B78A79B48EB3745C244/103994.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s986": {
+      "name": "Skill 986",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63258": {
+      "name": "Rending Vines",
+      "icon": "https://render.guildwars2.com/file/68D3A9D218CE4F19F0D1E1A2F20F953D103FE99A/2503726.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1038": {
+      "name": "Skill 1038",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12569": {
+      "name": "Spirit of Nature",
+      "icon": "https://render.guildwars2.com/file/E23D450D539B92FE0D36DEDF1B2D6010A961E612/104011.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12666": {
+      "name": "Shake It Off",
+      "icon": "https://render.guildwars2.com/file/4D234DA072DE77DEFC0605ED401CB93EDC2AC84B/103009.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63209": {
+      "name": "Venomous Outburst",
+      "icon": "https://render.guildwars2.com/file/DE977DE6D693A71B24AFCC01E6EBF8F30DD4669E/2503725.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63094": {
+      "name": "Enveloping Haze",
+      "icon": "https://render.guildwars2.com/file/39EFE795AEE7A670EAC0CC34C8526A2EB899ED4C/2503727.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 12489,
+    "slot_7": 12497,
+    "slot_8": 12495,
+    "slot_0": 12569
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Paralyzation & Superior Sigil of Transference",
+    "relic": "Relic of Karakosa",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Quickness Untamed",
+    "profession": "Ranger",
+    "elite_spec": "Untamed",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/ranger/heal-quickness-untamed-staff-mace-warhorn",
+    "weapons": "Staff & Mace / Warhorn",
+    "chat_code": "[&DQQIHxkaSB+hAAAAvAAAALkAAAC9AAAAlwEAAAEwAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQQIHxkaSB+hAAAAvAAAALkAAAC9AAAAlwEAAAEwAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

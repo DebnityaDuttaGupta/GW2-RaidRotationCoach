@@ -1,0 +1,347 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40601,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        40601,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        45252,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        45252,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        44937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        45252,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        14415,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        14386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        40601,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        14482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        14359,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        14386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        14511,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        14386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        40601,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        14482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        42745,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        14516,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        45252,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        44937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        45333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        14516,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        45252,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        14415,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        44937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40601": {
+      "name": "Earthshaker",
+      "icon": "https://render.guildwars2.com/file/B8D91A691871E4EA40645E2DE8F0452643263E9E/103181.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45252": {
+      "name": "Breaching Strike",
+      "icon": "https://render.guildwars2.com/file/48B836AE01C6EC0D0A0A0680D23834960D556A7E/1770661.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44937": {
+      "name": "Disrupting Stab",
+      "icon": "https://render.guildwars2.com/file/BD4E59A7AD2031F0090FF30C0307A0A8FA942FF3/1770656.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14518": {
+      "name": "Crushing Blow",
+      "icon": "https://render.guildwars2.com/file/53DD40AE0BFA70045A054E30516CC054ECA73E15/103149.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14415": {
+      "name": "Tremor",
+      "icon": "https://render.guildwars2.com/file/60B9CD0D66AAA817ACF9F250B33391A0157D1BFE/103287.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14386": {
+      "name": "Fierce Blow",
+      "icon": "https://render.guildwars2.com/file/02B0015D214FCAA0241650DFC46D933CEEEE6018/104115.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14482": {
+      "name": "Hammer Shock",
+      "icon": "https://render.guildwars2.com/file/D378332B719ED07509EABBCDA3D96C5ABFC116D6/103256.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14359": {
+      "name": "Staggering Blow",
+      "icon": "https://render.guildwars2.com/file/1E4BD7F1F66B0F2406252467804878E3365F292D/103085.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14511": {
+      "name": "Backbreaker",
+      "icon": "https://render.guildwars2.com/file/3FB1611D020DAE0C082558D346BBF91148E2E223/103086.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42745": {
+      "name": "Precise Cut",
+      "icon": "https://render.guildwars2.com/file/F6A025001C9107083B0671ECD05CB675B14C55CA/1770652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14516": {
+      "name": "Bull's Charge",
+      "icon": "https://render.guildwars2.com/file/EE6EF3D05F08D37DF97BA5C657CE191D4C904904/104140.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45333": {
+      "name": "Winds of Disenchantment",
+      "icon": "https://render.guildwars2.com/file/0C185490CB6D7215360704CA345150D807444968/1770659.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 14516,
+    "slot_0": 45333
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Spellbreaker",
+    "profession": "Warrior",
+    "elite_spec": "Spellbreaker",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/beginner-power-spellbreaker-hammer-dagger-mace",
+    "weapons": "Hammer & Dagger / Mace",
+    "chat_code": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

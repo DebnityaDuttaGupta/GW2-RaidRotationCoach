@@ -1067,7 +1067,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1058637": {
       "name": "Head Butt",
       "icon": "https://render.guildwars2.com/file/046F1B0E64AC140CB7C0DE26A8D61CE13E02466A/1058637.png",
@@ -1190,16 +1190,23 @@
     "slot_9": 1058652,
     "slot_0": 1058637
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact & Superior Sigil of Air",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Berserker Hammer Axe Mace",
+    "name": "Power Berserker",
     "profession": "Warrior",
     "elite_spec": "Berserker",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-berserker-hammer-axe-mace",
-    "dps_report_url": "https://gw2wingman.nevermindcreations.de/log/b9f53-20250901-211613_StdGolem_kill",
-    "overall_dps": null,
-    "weapons": "Hammer / Axe & Mace",
-    "chat_code": "[&DQIEHzMaEhXyEgAAqQCtANcSqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
+    "weapons": "Hammer & Axe / Mace",
+    "chat_code": "[&DQIEHxY/EhXyEvIS1xLXEsQSrQCpAKkAwhKcAAAAAAAAAAAAAAAAAAAAAAADBQA1ADMAAA==]",
+    "build_template": "[&DQIEHxY/EhXyEvIS1xLXEsQSrQCpAKkAwhKcAAAAAAAAAAAAAAAAAAAAAAADBQA1ADMAAA==]"
   }
 }

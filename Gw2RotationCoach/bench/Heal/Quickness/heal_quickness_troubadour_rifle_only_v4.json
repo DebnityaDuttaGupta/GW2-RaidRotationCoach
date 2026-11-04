@@ -1,0 +1,283 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        72005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76850,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        71897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        76746,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        72007,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        10213,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        10214,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        76850,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        76746,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        76960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        2441,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        77079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        76960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        72005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        72076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        72008,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s72005": {
+      "name": "Inspiring Imagery",
+      "icon": "https://render.guildwars2.com/file/9BC790BC5D1C4E667599C6090F6EFAADED6AD9A3/3256360.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77306": {
+      "name": "Lively Lute",
+      "icon": "https://render.guildwars2.com/file/4CAA3750145A55B7E73D5EB9917590EC45657BE7/3680159.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76931": {
+      "name": "Crescendo",
+      "icon": "https://render.guildwars2.com/file/935C32505D1F4DB7D9739C2C4B4137D4346709A4/3680163.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76850": {
+      "name": "Tale of the Soulkeeper",
+      "icon": "https://render.guildwars2.com/file/AC9DC59D1CEF42DFD47CED6CE429041C7FADBBE7/3680164.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71897": {
+      "name": "Journey",
+      "icon": "https://render.guildwars2.com/file/3E615FE1679F39B3E22C0706F83ABEFF80092B21/3256359.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76746": {
+      "name": "Flustering Flute",
+      "icon": "https://render.guildwars2.com/file/CFE30B5052A2AA67D9A8AE5FC1FBA0A56C64584C/3680160.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72007": {
+      "name": "Phantasmal Sharpshooter",
+      "icon": "https://render.guildwars2.com/file/3499040CA6182B68293313C1000C470828CE1532/3256362.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10213": {
+      "name": "Mantra of Recovery",
+      "icon": "https://render.guildwars2.com/file/73CCCC9F09D026A016C5D760EA952B59C8AAF8F0/103744.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10214": {
+      "name": "Power Return",
+      "icon": "https://render.guildwars2.com/file/A999116605543595AEF225D26026127828AED66B/103745.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76960": {
+      "name": "Harmonious Harp",
+      "icon": "https://render.guildwars2.com/file/C1BCF465DE1DAB00E00B0F1494ABDB2D7F57BECA/3680162.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2441": {
+      "name": "Skill 2441",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77079": {
+      "name": "Deafening Drum",
+      "icon": "https://render.guildwars2.com/file/E061ECE20A34DC281C0E3EB8FB90094549E87941/3680161.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72076": {
+      "name": "Abstraction",
+      "icon": "https://render.guildwars2.com/file/72E5ACDEAE7571B67F96F9BDA8A271CCCF08957B/3256361.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72008": {
+      "name": "Singularity Shot",
+      "icon": "https://render.guildwars2.com/file/3895647E911D09067115A75D5F5C2035B069D2DA/3256363.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 76850,
+    "slot_6": 10214
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Paralyzation",
+    "relic": "Relic of Febe",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Quickness Troubadour",
+    "profession": "Mesmer",
+    "elite_spec": "Troubadour",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/mesmer/heal-quickness-troubadour-rifle-only",
+    "weapons": "Rifle",
+    "chat_code": "[&DQcXKi06SRptAW0BUx2AAQAAagEAAIIBAADtEgAAAAAAAAAAAAAAAAAAAAADWQBWAGYAAA==]",
+    "build_template": "[&DQcXKi06SRptAW0BUx2AAQAAagEAAIIBAADtEgAAAAAAAAAAAAAAAAAAAAADWQBWAGYAAA==]"
+  }
+}

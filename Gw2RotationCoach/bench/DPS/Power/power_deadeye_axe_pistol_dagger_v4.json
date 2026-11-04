@@ -1,0 +1,450 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        45672,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        45508,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        45508,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        45088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        45088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        71835,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        13097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        13097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        45088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        45088,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s43390": {
+      "name": "Deadeye's Mark",
+      "icon": "https://render.guildwars2.com/file/3ECEA70D0DCDAF65E0069263D005507ADBF95A62/1770609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41158": {
+      "name": "Shadow Flare",
+      "icon": "https://render.guildwars2.com/file/007CF2CAA795DC259DD538C0CB7D9C36FE3AE423/1770636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71965": {
+      "name": "Orchestrated Assault",
+      "icon": "https://render.guildwars2.com/file/EDAA6A645279109A6FD7064A4439ECE3DDBE05F4/3256390.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71852": {
+      "name": "Venomous Volley",
+      "icon": "https://render.guildwars2.com/file/9F1A55D17C0CDD42675FC758B797BBCFE610D4A7/3256394.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45672": {
+      "name": "Shadow Swap",
+      "icon": "https://render.guildwars2.com/file/399C0ED664165E4E53C6F909CB150BE35A5B6C2D/1770634.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71835": {
+      "name": "Malicious Cunning Salvo",
+      "icon": "https://render.guildwars2.com/file/C811399D9A589160C42B720830BE0D05326A0352/3256392.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41372": {
+      "name": "Mercy",
+      "icon": "https://render.guildwars2.com/file/120BA65D429AC57ECAED3BEAAFCF7C9E3D356DDD/1770635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45508": {
+      "name": "Shadow Meld",
+      "icon": "https://render.guildwars2.com/file/380609B742C9C59C9EC5B4A428070039787A61C9/1770610.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45088": {
+      "name": "Malicious Restoration",
+      "icon": "https://render.guildwars2.com/file/C1E7E96F22330A9AF3DBDAF5245430CBA17FB0A3/1770611.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13097": {
+      "name": "Heartseeker",
+      "icon": "https://render.guildwars2.com/file/7F30CC1709A64346280859937A281DF863E7CD0E/103169.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s50481": {
+      "name": "Malicious Backstab",
+      "icon": "https://render.guildwars2.com/file/FF0A2DF63F383E7C9B3D090FFDF070BC472520F9/2010288.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 41158,
+    "slot_8": 45672,
+    "slot_9": 41372,
+    "slot_0": 45508,
+    "slot_6": 45088
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Deadeye",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Deadeye",
+    "profession": "Thief",
+    "elite_spec": "Deadeye",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/power-deadeye-axe-pistol-dagger",
+    "weapons": "Axe & Pistol / Dagger",
+    "chat_code": "[&DQUcPSMbOj/xFQAAMwEAACAXAACsFgAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbOj/xFQAAMwEAACAXAACsFgAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

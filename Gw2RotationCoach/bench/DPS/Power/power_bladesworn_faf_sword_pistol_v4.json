@@ -1,0 +1,291 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        68085,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62967,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62901,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        62967,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        14401,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        68085,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62800,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        62967,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        62960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        14401,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        68085,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        62861,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62861,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        62800,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        68085,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        62901,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        62901,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        62960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        62803,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s68085": {
+      "name": "Overcharged Cartridges",
+      "icon": "https://render.guildwars2.com/file/EF1D6D09A1B403972F721F1A073154E2F01CD0A5/2491652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62967": {
+      "name": "Flow Stabilizer",
+      "icon": "https://render.guildwars2.com/file/A0CBE13DC629FAD69645FBB9CFDEFC5AC82061E3/2491651.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62901": {
+      "name": "Tactical Reload",
+      "icon": "https://render.guildwars2.com/file/B106D2281F245403F23CD2C2E766D39A05400916/2491632.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14401": {
+      "name": "Mending",
+      "icon": "https://render.guildwars2.com/file/04EB1106C95B7579EA29FA2F08BAFDA649C60715/103295.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62800": {
+      "name": "Dragon's Roar",
+      "icon": "https://render.guildwars2.com/file/06F0D4DB943A7967574D02708093700A97540F24/2491642.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62803": {
+      "name": "Dragon Trigger",
+      "icon": "https://render.guildwars2.com/file/A2B14ED1954FBE0B31E0C57DCB0107BBE0543764/2491645.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62960": {
+      "name": "Dragonspike Mine",
+      "icon": "https://render.guildwars2.com/file/7C079E38F9ABFFA4533E064965B8A1B3EE3FB743/2491654.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62861": {
+      "name": "Sheathe Gunsaber",
+      "icon": "https://render.guildwars2.com/file/21C87D14E3A3C298C909A003614102F0FA48979A/2491644.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s80247": {
+      "name": "Skill 80247",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 68085,
+    "slot_8": 62967,
+    "slot_0": 62901,
+    "slot_6": 14401,
+    "slot_9": 62960
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of Infiltration",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Peitha",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Furious Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Bladesworn",
+    "profession": "Warrior",
+    "elite_spec": "Bladesworn",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/power-bladesworn-faf-sword-pistol",
+    "weapons": "Sword / Pistol",
+    "chat_code": "[&DQIEHwsVRCmnAAAA8hoAAP0aAADwGgAA/BoAAAAAAAAAAAAAAAAAAAAAAAADWgA2AAUAAA==]",
+    "build_template": "[&DQIEHwsVRCmnAAAA8hoAAP0aAADwGgAA/BoAAAAAAAAAAAAAAAAAAAAAAAADWgA2AAUAAA==]"
+  }
+}

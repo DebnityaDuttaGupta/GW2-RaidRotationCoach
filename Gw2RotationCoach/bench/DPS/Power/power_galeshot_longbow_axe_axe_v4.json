@@ -1,0 +1,449 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        12469,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        76787,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77334,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        76979,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        76757,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76664,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        77213,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        12509,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        77264,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        76787,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        77012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        77334,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76664,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        77213,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        12511,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        12509,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        12469,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        76787,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        77174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        77334,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        76757,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        77264,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        77319,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        76664,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        77213,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        12509,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        76787,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s12469": {
+      "name": "Barrage",
+      "icon": "https://render.guildwars2.com/file/0A4C91B8E60CC4F23BE64DA0AA6C56BF3E330C3B/103042.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76787": {
+      "name": "Summon Cyclone Bow",
+      "icon": "https://render.guildwars2.com/file/C7793DFF786C7FE2EC4BF593C0094E07FBE7A943/3680193.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77319": {
+      "name": "Bluster",
+      "icon": "https://render.guildwars2.com/file/9A44645021DDF0C10F0D15D0F3900D0FE6E57E69/3680187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77334": {
+      "name": "Quarry's Peril",
+      "icon": "https://render.guildwars2.com/file/59A95C37FEB95E03A4C1F853902F553E801DBAA0/3680189.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77174": {
+      "name": "Supersonic Arrow",
+      "icon": "https://render.guildwars2.com/file/FAAE665D2923D696F00F4AB5160D23DADAD0047A/3680190.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76979": {
+      "name": "Perfect Storm",
+      "icon": "https://render.guildwars2.com/file/77FF6D547ED0B09DACB8F5CDDA9424980D4045AD/3680184.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76757": {
+      "name": "Mistral",
+      "icon": "https://render.guildwars2.com/file/10E31F10E7D84CABF0963FEA12B77EE0BD950E42/3680194.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76664": {
+      "name": "Hawkeye",
+      "icon": "https://render.guildwars2.com/file/7501721702A2453ED62665041490A4069E6FBBC2/3680191.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77213": {
+      "name": "Dismiss Cyclone Bow",
+      "icon": "https://render.guildwars2.com/file/7414F29508925773FF14E5C67CE9D41C1A13F162/3680192.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12509": {
+      "name": "Rapid Fire",
+      "icon": "https://render.guildwars2.com/file/F74408EC9F2354940976E1E80D46E29C7C693C62/102828.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77264": {
+      "name": "Piercing Gales",
+      "icon": "https://render.guildwars2.com/file/33EE3CB700132B5F39FFAD3AF8DF71F7DAFAFD58/3680195.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12480": {
+      "name": "Splitblade",
+      "icon": "https://render.guildwars2.com/file/9D661C490109C13717F95520EF6ED7BB16BE99E3/103986.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12490": {
+      "name": "Winter's Bite",
+      "icon": "https://render.guildwars2.com/file/1D6462C04F2B4EB601C8EAF8B80C23046E544AEB/103992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12638": {
+      "name": "Path of Scars",
+      "icon": "https://render.guildwars2.com/file/B5B27723701C39327D2145DEE76579FB007F9344/103903.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77012": {
+      "name": "Fleeting Zephyr",
+      "icon": "https://render.guildwars2.com/file/0E637BE86BAC51085AF40241E9AA9BCFBC2CD3B6/3680188.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12511": {
+      "name": "Point-Blank Shot",
+      "icon": "https://render.guildwars2.com/file/0C976CDCD10C3A7F4E54CABDC09ABEB6C1CB230D/103251.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 76979,
+    "slot_7": 76757,
+    "slot_8": 77264
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Galeshot",
+    "profession": "Ranger",
+    "elite_spec": "Galeshot",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/ranger/power-galeshot-longbow-axe-axe",
+    "weapons": "Longbow & Axe / Axe",
+    "chat_code": "[&DQQIFh45Ti9UHQAAgx0AAKwBAABcHQAAWx0AAAY7BQAAAAAAAAAAAAAAAAACIwAFAAA=]",
+    "build_template": "[&DQQIFh45Ti9UHQAAgx0AAKwBAABcHQAAWx0AAAY7BQAAAAAAAAAAAAAAAAACIwAFAAA=]"
+  }
+}

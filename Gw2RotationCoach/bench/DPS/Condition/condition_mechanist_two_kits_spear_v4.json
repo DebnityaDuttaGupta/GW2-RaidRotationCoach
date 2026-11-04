@@ -2026,7 +2026,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s3379115": {
       "name": "Lightning Rod",
       "icon": "https://render.guildwars2.com/file/F3B4056D042BC2573D054F49ACF40FFA16014CB8/3379115.png",
@@ -2191,6 +2191,14 @@
     "slot_9": 103435,
     "slot_0": 2503668
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Geomancy",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Mechanist",
     "profession": "Engineer",
@@ -2198,9 +2206,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits-spear",
-    "dps_report_url": "https://dps.report/Btgt-20260114-234130_golem",
-    "overall_dps": 46549.0,
     "weapons": "Spear",
-    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
+    "chat_code": "[&DQMGJyY5RhUqDwAAhgAAABAbAACTAQAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGJyY5RhUqDwAAhgAAABAbAACTAQAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -1,0 +1,448 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5492,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5495,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29533,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        29533,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        30336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        1839,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        29533,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        29533,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        5696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        30336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        30336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        29453,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        2033,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        1839,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5492": {
+      "name": "Fire Attunement",
+      "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29706": {
+      "name": "Overload Fire",
+      "icon": "https://render.guildwars2.com/file/3A04F5D420A86664A3044B950E145E022A49D8AA/1029985.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5495": {
+      "name": "Earth Attunement",
+      "icon": "https://render.guildwars2.com/file/4B8056D9BD080DC8E74AE6A57B2B383A2D4265C9/102870.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29618": {
+      "name": "Overload Earth",
+      "icon": "https://render.guildwars2.com/file/975A1DE89BA70721BD0E0F6D601C259066F8D468/1029988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5675": {
+      "name": "Phoenix",
+      "icon": "https://render.guildwars2.com/file/000E1F53624D2F9B222E17D02A5A5ED40417CAB7/103039.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5695": {
+      "name": "Rock Barrier",
+      "icon": "https://render.guildwars2.com/file/C5CB69247473AE2DEB35DB5F952A0C3832CC14F2/102858.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5780": {
+      "name": "Hurl",
+      "icon": "https://render.guildwars2.com/file/BB59A576C805054EB94C66D8190490F273C7BBED/102974.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5692": {
+      "name": "Dragon's Tooth",
+      "icon": "https://render.guildwars2.com/file/139899C1026E93EE0EDC44030B11E310E27D9807/103105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29533": {
+      "name": "Wildfire",
+      "icon": "https://render.guildwars2.com/file/9E33D36DB142E4F9C7C21CA9CD06D76B000FE506/1029999.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5696": {
+      "name": "Dust Devil",
+      "icon": "https://render.guildwars2.com/file/EA6A082902800CC552393F24E03240A7A7D9C511/103080.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30336": {
+      "name": "Dust Storm",
+      "icon": "https://render.guildwars2.com/file/210E23C1C2BE30F21C1C98C6FF4B053DFFC9BA1C/1029997.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1839": {
+      "name": "Skill 1839",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29453": {
+      "name": "Sand Squall",
+      "icon": "https://render.guildwars2.com/file/7B047DE80C026DCF420E43DD16D80409E8C679A4/1029996.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2033": {
+      "name": "Skill 2033",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {},
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Malice",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Tempest",
+    "profession": "Elementalist",
+    "elite_spec": "Tempest",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/beginner-condition-tempest-scepter-warhorn",
+    "weapons": "Scepter / Warhorn",
+    "chat_code": "[&DQYfFRomMBfHEgAAcwAAAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADVgBnAC8AAA==]",
+    "build_template": "[&DQYfFRomMBfHEgAAcwAAAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADVgBnAC8AAA==]"
+  }
+}

@@ -1060,7 +1060,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1012863": {
       "name": "Spear of Justice",
       "icon": "https://render.guildwars2.com/file/05BF0016EC3AF1EE01F6C405C3BB01EE6CAAE095/1012863.png",
@@ -1177,16 +1177,23 @@
     "slot_9": -1,
     "slot_0": 1024103
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Dragonhunter",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Dragonhunter Radiance Longbow Greatsword",
+    "name": "Power Dragonhunter (Radiance)",
     "profession": "Guardian",
     "elite_spec": "Dragonhunter",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/power-dragonhunter-radiance-longbow-greatsword",
-    "dps_report_url": "https://dps.report/ODYQ-20250625-032914_golem",
-    "overall_dps": 44311.0,
     "weapons": "Longbow / Greatsword",
-    "chat_code": "[&DQEqOi4VGzkmDyYPSAH+AIoSLQH+AEgBtRKJEgAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]"
+    "chat_code": "[&DQEqOhA/Gzm8EgAAihIAAEgBAAD+AAAAtRIAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEqOhA/Gzm8EgAAihIAAEgBAAD+AAAAtRIAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

@@ -1,0 +1,129 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        10168,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        10169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.1,
+        10232,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.7,
+        30871,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.1,
+        30873,
+        300.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        2.7,
+        62670,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        3.25,
+        62671,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.85,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s10168": {
+      "name": "Illusionary Counter (Scepter 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10168.png"
+    },
+    "s10169": {
+      "name": "Confusing Images (Scepter 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10169.png"
+    },
+    "s10232": {
+      "name": "Tides of Time (Shield 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/10232.png"
+    },
+    "s30871": {
+      "name": "Well of Action (7)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30871.png"
+    },
+    "s30873": {
+      "name": "Well of Recall (8)",
+      "icon": "https://render.guildwars2.com/file/placeholder/30873.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Rifle)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s62670": {
+      "name": "Friendly Fire (Rifle 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62670.png"
+    },
+    "s62671": {
+      "name": "Effervescence (Rifle 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/62671.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 30871,
+    "slot_7": 30873,
+    "slot_8": 10168,
+    "slot_9": 10169,
+    "slot_0": 10232
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Paralyzation",
+    "relic": "Relic of Febe",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Chronomancer",
+    "profession": "Mesmer",
+    "elite_spec": "Chronomancer",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/mesmer/heal-boon-chronomancer-rifle-only",
+    "weapons": "Rifle",
+    "chat_code": "[&DQctOhcqKCttAQAAzxIAAJMSAACHEgAA7RIAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQctOhcqKCttAQAAzxIAAJMSAACHEgAA7RIAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

@@ -143,6 +143,38 @@ void RotationEngine::SetSkillCooldown(const std::string& skillName, float cooldo
     }
 
     skillCooldownTimers[skillName] = cooldownSeconds;
+
+    ApplySpecialSkillCooldownEffects(skillName);
+}
+
+void RotationEngine::ApplySpecialSkillCooldownEffects(const std::string& skillName)
+{
+    if (skillName.find("Signet of the Ether") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Phantasmal") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Signet of Illusions") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Bladesong") != std::string::npos ||
+                timerPair.first.find("Bladeturn") != std::string::npos ||
+                timerPair.first.find("Mind Wrack") != std::string::npos ||
+                timerPair.first.find("Cry of Frustration") != std::string::npos ||
+                timerPair.first.find("Diversion") != std::string::npos ||
+                timerPair.first.find("Distortion") != std::string::npos ||
+                timerPair.first.find("Continuum Split") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
 }
 
 void RotationEngine::ResetAllCooldowns()
@@ -283,6 +315,23 @@ std::string RotationEngine::GetRequiredWeaponNameForStep(const RotationStep& rot
 
 float RotationEngine::CalculateDefaultSkillCooldownSeconds(const std::string& skillName, SkillSlotCategory slotCategory) const
 {
+    const SkillDefinitionMetadata* nameMetadata = rotationCatalog.FindSkillMetadataByName(skillName);
+    if (nameMetadata != nullptr && nameMetadata->cooldownSeconds > 0)
+    {
+        return static_cast<float>(nameMetadata->cooldownSeconds);
+    }
+
+    for (const auto& step : rotationSteps)
+    {
+        if (step.skillName == skillName && step.skillIdentifier > 0)
+        {
+            const SkillDefinitionMetadata* metadata = rotationCatalog.FindSkillMetadata(step.skillIdentifier);
+            if (metadata != nullptr && metadata->cooldownSeconds > 0)
+            {
+                return static_cast<float>(metadata->cooldownSeconds);
+            }
+        }
+    }
     if (skillName.find("Feel My Wrath") != std::string::npos)
     {
         return 35.0f;
@@ -626,7 +675,13 @@ void RotationEngine::ProcessDetectedInput(const std::string& detectedInputName, 
         SetSkillCooldown(activeStepToProcess.skillName, rechargeDuration);
 
         float expectedCastSeconds = static_cast<float>(activeStepToProcess.expectedDurationMilliseconds) / 1000.0f;
-        if (expectedCastSeconds > 0.25f)
+        if (expectedCastSeconds <= 0.0f)
+        {
+            uint32_t databaseCastMs = rotationCatalog.GetSkillCastTimeMilliseconds(activeStepToProcess.skillIdentifier, activeStepToProcess.skillName);
+            expectedCastSeconds = static_cast<float>(databaseCastMs) / 1000.0f;
+        }
+
+        if (expectedCastSeconds > 0.15f)
         {
             activeCastTotalSeconds = expectedCastSeconds;
             activeCastRemainingSeconds = expectedCastSeconds;
@@ -704,7 +759,13 @@ void RotationEngine::ProcessSkillActivation(uint32_t skillIdentifier, uint32_t d
         SetSkillCooldown(expectedStep.skillName, rechargeDuration);
 
         float expectedCastSeconds = static_cast<float>(expectedStep.expectedDurationMilliseconds) / 1000.0f;
-        if (expectedCastSeconds > 0.25f)
+        if (expectedCastSeconds <= 0.0f)
+        {
+            uint32_t databaseCastMs = rotationCatalog.GetSkillCastTimeMilliseconds(expectedStep.skillIdentifier, expectedStep.skillName);
+            expectedCastSeconds = static_cast<float>(databaseCastMs) / 1000.0f;
+        }
+
+        if (expectedCastSeconds > 0.15f)
         {
             activeCastTotalSeconds = expectedCastSeconds;
             activeCastRemainingSeconds = expectedCastSeconds;

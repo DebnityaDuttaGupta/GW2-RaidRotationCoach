@@ -1,0 +1,219 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        2136,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s43390": {
+      "name": "Deadeye's Mark",
+      "icon": "https://render.guildwars2.com/file/3ECEA70D0DCDAF65E0069263D005507ADBF95A62/1770609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29911": {
+      "name": "Weakening Whirl",
+      "icon": "https://render.guildwars2.com/file/EDBECD6ACE170F25312C15C3056006FA1170F654/1058625.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41372": {
+      "name": "Mercy",
+      "icon": "https://render.guildwars2.com/file/120BA65D429AC57ECAED3BEAAFCF7C9E3D356DDD/1770635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2136": {
+      "name": "Whirlwind Attack",
+      "icon": "https://render.guildwars2.com/file/3D0C289E02A7FD57D40F0A0A2AE352A49E4724C2/103093.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s50481": {
+      "name": "Malicious Backstab",
+      "icon": "https://render.guildwars2.com/file/FF0A2DF63F383E7C9B3D090FFDF070BC472520F9/2010288.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s16432": {
+      "name": "Cloak and Dagger",
+      "icon": "https://render.guildwars2.com/file/7293472129D2636CC9F0DEE8D9AA7954E504F557/103617.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 41372
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Deadeye",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Deadeye",
+    "profession": "Thief",
+    "elite_spec": "Deadeye",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/beginner-power-deadeye-bqobk-staff-dagger-dagger",
+    "weapons": "Staff & Dagger / Dagger",
+    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

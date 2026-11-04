@@ -1,0 +1,159 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        31443,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        0.25,
+        31734,
+        450.0,
+        1,
+        1.0
+      ],
+      [
+        0.8,
+        31658,
+        250.0,
+        1,
+        1.0
+      ],
+      [
+        1.15,
+        31872,
+        800.0,
+        1,
+        1.0
+      ],
+      [
+        2.05,
+        31318,
+        900.0,
+        1,
+        1.0
+      ],
+      [
+        3.05,
+        31443,
+        150.0,
+        1,
+        1.0
+      ],
+      [
+        3.3,
+        12489,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        3.8,
+        9999,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        12536,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.6,
+        12538,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.2,
+        9999,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s31443": {
+      "name": "Celestial Avatar (F5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31443.png"
+    },
+    "s31746": {
+      "name": "Cosmic Ray (Avatar 1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31746.png"
+    },
+    "s31658": {
+      "name": "Seed of Life (Avatar 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31658.png"
+    },
+    "s31734": {
+      "name": "Lunar Impact (Avatar 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31734.png"
+    },
+    "s31872": {
+      "name": "Rejuvenating Tides (Avatar 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31872.png"
+    },
+    "s31318": {
+      "name": "Natural Convergence (Avatar 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/31318.png"
+    },
+    "s12489": {
+      "name": "Call of the Wild (Warhorn 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12489.png"
+    },
+    "s9999": {
+      "name": "Weapon Swap (Staff)",
+      "icon": "https://render.guildwars2.com/file/placeholder/9999.png"
+    },
+    "s12534": {
+      "name": "Solar Beam (Staff 1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12534.png"
+    },
+    "s12535": {
+      "name": "Astral Wisp (Staff 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12535.png"
+    },
+    "s12536": {
+      "name": "Ancestral Grace (Staff 3)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12536.png"
+    },
+    "s12538": {
+      "name": "Sublime Vapor (Staff 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/12538.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 12489,
+    "slot_7": 31746,
+    "slot_8": 31658,
+    "slot_9": 31734,
+    "slot_0": 31443
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Paralyzation & Superior Sigil of Transference",
+    "relic": "Relic of Karakosa",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Druid",
+    "profession": "Ranger",
+    "elite_spec": "Druid",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/ranger/heal-alacrity-druid-staff-mace-warhorn",
+    "weapons": "Staff & Mace / Warhorn",
+    "chat_code": "[&DQQIHxk6BRoJEwAAvQAAALkAAADmEgAAtBIAAD0wAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQQIHxk6BRoJEwAAvQAAALkAAADmEgAAtBIAAD0wAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

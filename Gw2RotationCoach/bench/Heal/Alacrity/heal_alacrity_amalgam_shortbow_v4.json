@@ -1,0 +1,345 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        50444,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        6109,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76798,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        71870,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        72052,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71888,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5936,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        30521,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        29547,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        49082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30032,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        71882,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        1916,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        29772,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        76642,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        1834,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        101268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        72052,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        49045,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        5965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        5937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        71882,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s50444": {
+      "name": "Infusion Bomb",
+      "icon": "https://render.guildwars2.com/file/A9E8073549D17E37C46FD25D1D02F85DFCE9747A/1983630.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s6109": {
+      "name": "Stow Med Kit",
+      "icon": "https://render.guildwars2.com/file/7342BF326738A4C5132F42CE0915D3A2184E52FB/60975.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76798": {
+      "name": "Defensive Protocol: Cleanse",
+      "icon": "https://render.guildwars2.com/file/71A2EA9B60E691E61521C2B621E665146BF1D1DD/3680127.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77163": {
+      "name": "Defensive Protocol: Thorns",
+      "icon": "https://render.guildwars2.com/file/5B565BA46C111902EE65AB4592590442A5A6E754/3680135.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71870": {
+      "name": "Essence of Liquid Wrath",
+      "icon": "https://render.guildwars2.com/file/BE259B21EBBEBD0EFACE6D6A67D72E680A0EEC0C/3256347.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72052": {
+      "name": "Essence of Animated Sand",
+      "icon": "https://render.guildwars2.com/file/CC492703C0E32598AA216BBFBB0F13D1F914A11B/3256345.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71888": {
+      "name": "Essence of Borrowed Time",
+      "icon": "https://render.guildwars2.com/file/66F1785E4BC81BA137BC1478C6063D0B35D547AE/3256348.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5933": {
+      "name": "Elixir Gun",
+      "icon": "https://render.guildwars2.com/file/5D6E07C3D17AD7C701B199684C641F0E024961C8/103437.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5937": {
+      "name": "Super Elixir",
+      "icon": "https://render.guildwars2.com/file/ACF8D7350B7D37FFE4E73D150B7F5B73243A72B1/103441.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5936": {
+      "name": "Acid Bomb",
+      "icon": "https://render.guildwars2.com/file/D17CEA181773C2B17F9F05212D352BCACE55BCC3/103440.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30521": {
+      "name": "Med Blaster",
+      "icon": "https://render.guildwars2.com/file/94A7A5711A4922DFF3BCB701D770D3BB06EE0A59/1012852.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29547": {
+      "name": "Bandage Blast",
+      "icon": "https://render.guildwars2.com/file/F473E7A5D7D301A3B813443812C73338C073ABB2/102898.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s49082": {
+      "name": "Vital Burst",
+      "icon": "https://render.guildwars2.com/file/3FF9282CD06FDF087F31A1F334C56F032A2FD207/1983631.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30032": {
+      "name": "Elixir Shell",
+      "icon": "https://render.guildwars2.com/file/93910A51076B0B43AC4CCF741EF57678CBB2FD51/103479.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71882": {
+      "name": "Essence of Living Shadows",
+      "icon": "https://render.guildwars2.com/file/0C703A07EA6CEBDFB1C215D7031D6A0847C90B9B/3256346.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1916": {
+      "name": "Skill 1916",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29772": {
+      "name": "Bandage Self",
+      "icon": "https://render.guildwars2.com/file/0C982310320AC3E2584E20727CB645D1C53C1906/102826.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76642": {
+      "name": "Evolve",
+      "icon": "https://render.guildwars2.com/file/0513CCBF102BF696E9027F6363A9705B724CC630/3680129.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1834": {
+      "name": "Skill 1834",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s101268": {
+      "name": "Skill 101268",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s49045": {
+      "name": "Cleansing Field",
+      "icon": "https://render.guildwars2.com/file/4A5B72C612F4EEFE57E20E020EA82ED0219952E9/1983629.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5965": {
+      "name": "Fumigate",
+      "icon": "https://render.guildwars2.com/file/FEC6520A677BD915091E0911023DD8B7EFBFEFA5/103451.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 6109,
+    "slot_7": 5933
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Paralyzation",
+    "relic": "Relic of Karakosa",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Amalgam",
+    "profession": "Engineer",
+    "elite_spec": "Amalgam",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-amalgam-shortbow",
+    "weapons": "Shortbow",
+    "chat_code": "[&DQMvOR0XSy6EAAAAlQEAAAAAAAAAAAAA+RIAAAAAAAAAAAAAAAAAAAAAAAABawAA]",
+    "build_template": "[&DQMvOR0XSy6EAAAAlQEAAAAAAAAAAAAA+RIAAAAAAAAAAAAAAAAAAAAAAAABawAA]"
+  }
+}

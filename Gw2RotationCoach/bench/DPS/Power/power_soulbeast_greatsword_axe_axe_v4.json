@@ -1,0 +1,434 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        12492,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        45717,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        41406,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        46629,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        12521,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        12475,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        12474,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        12487,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        12488,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        46629,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        12474,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        12487,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        12488,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        46629,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        12521,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        12466,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        46432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        12466,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        41406,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        46629,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        12521,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        12475,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s12492": {
+      "name": "Frost Trap",
+      "icon": "https://render.guildwars2.com/file/016A1099CAC468ADEE056A30551C33C74101E5D3/103074.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45717": {
+      "name": "One Wolf Pack",
+      "icon": "https://render.guildwars2.com/file/4E137B09B5CC545211977BFDCEC76119195AC7C9/1770558.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12638": {
+      "name": "Path of Scars",
+      "icon": "https://render.guildwars2.com/file/B5B27723701C39327D2145DEE76579FB007F9344/103903.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12480": {
+      "name": "Splitblade",
+      "icon": "https://render.guildwars2.com/file/9D661C490109C13717F95520EF6ED7BB16BE99E3/103986.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40729": {
+      "name": "Worldly Impact",
+      "icon": "https://render.guildwars2.com/file/CFC8BF0C0DFEE030C12FDF0ABDD4E22F9C002924/1770572.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12633": {
+      "name": "\"Sic 'Em!\"",
+      "icon": "https://render.guildwars2.com/file/0D6B235E679346723414607E61DE052576097545/104025.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41406": {
+      "name": "Maul",
+      "icon": "https://render.guildwars2.com/file/24073F5A0566ABE32DFB74204E9FA01025D85D71/104055.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12490": {
+      "name": "Winter's Bite",
+      "icon": "https://render.guildwars2.com/file/1D6462C04F2B4EB601C8EAF8B80C23046E544AEB/103992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12639": {
+      "name": "Whirling Defense",
+      "icon": "https://render.guildwars2.com/file/3D24774AAFBEFF40016ED8B451A245D95A2D08E3/103147.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46629": {
+      "name": "Maul",
+      "icon": "https://render.guildwars2.com/file/630D39D16942680EC6EA66DE6D13317B6B9F3C30/103877.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12521": {
+      "name": "Swoop",
+      "icon": "https://render.guildwars2.com/file/329E3C6524785BB37A3040AC4F362BEC23F8D625/103311.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12475": {
+      "name": "Hilt Bash",
+      "icon": "https://render.guildwars2.com/file/C5A7760DF1E93EFDCC5761C005CF34526801129B/103985.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12474": {
+      "name": "Slash",
+      "icon": "https://render.guildwars2.com/file/47E2C8FA10D594E892C65D7B3370C603987D95A9/103984.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12487": {
+      "name": "Slice",
+      "icon": "https://render.guildwars2.com/file/6F01147F253C13B96A336232B5C808BA1C02EB4A/103990.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12488": {
+      "name": "Enduring Swing",
+      "icon": "https://render.guildwars2.com/file/6528ADEC67E00D9DB7FA70F7200F5EC3D83AB99C/103991.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12466": {
+      "name": "Ricochet",
+      "icon": "https://render.guildwars2.com/file/C3C004026BC93EEF532665099638063E541995A4/103288.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46432": {
+      "name": "Brutal Charge",
+      "icon": "https://render.guildwars2.com/file/D89C043113B1B24AE538C6F5DC297924459E3EBA/104054.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 12492,
+    "slot_0": 45717,
+    "slot_8": 12633
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Soulbeast",
+    "profession": "Ranger",
+    "elite_spec": "Soulbeast",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-greatsword-axe-axe",
+    "weapons": "Greatsword & Axe / Axe",
+    "chat_code": "[&DQQeOSA/Nzp5AHkAtQC1AKwBrAGlAaUBLhYuFicRLxcAAAAAAAAAAAAAAAACMgAFAAA=]",
+    "build_template": "[&DQQeOSA/Nzp5AHkAtQC1AKwBrAGlAaUBLhYuFicRLxcAAAAAAAAAAAAAAAACMgAFAAA=]"
+  }
+}

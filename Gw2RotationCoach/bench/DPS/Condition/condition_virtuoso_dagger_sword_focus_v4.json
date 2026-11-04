@@ -1557,7 +1557,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103723": {
       "name": "Phantasmal Swordsman",
       "icon": "https://render.guildwars2.com/file/755CAC115104F0AA0630DCEB472D0678B62A916E/103723.png",
@@ -1650,6 +1650,14 @@
     "slot_9": -1,
     "slot_0": 2479389
   },
+  "equipment": {
+    "armor_attributes": "Rampager's & Sinister",
+    "runes": "Superior Rune of the Krait",
+    "sigils": "Superior Sigil of Agony & Superior Sigil of Earth",
+    "relic": "Relic of the Aristocracy",
+    "food": "Spherified Cilantro Oyster Soup",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Virtuoso",
     "profession": "Mesmer",
@@ -1657,9 +1665,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/condition-virtuoso-dagger-sword-focus",
-    "dps_report_url": "https://dps.report/Jnxp-20250211-205106_golem",
-    "overall_dps": 40119.0,
-    "weapons": "Dagger / Sword & Focus",
-    "chat_code": "[&DQcKGgEdQiojDwAAjwEAAN0aAABpAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Dagger & Sword / Focus",
+    "chat_code": "[&DQcBHRgdQjsjDwAAgwEAAIIBAACBAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQcBHRgdQjsjDwAAgwEAAIIBAACBAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

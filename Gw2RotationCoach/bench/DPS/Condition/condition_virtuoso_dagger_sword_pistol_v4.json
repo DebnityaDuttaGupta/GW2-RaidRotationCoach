@@ -1,0 +1,328 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        62607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62597,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        24755,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        10175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62617,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        21750,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        62617,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        10175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        10247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        62616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        62617,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        62597,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        10175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        21750,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        10175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        62597,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        24755,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        62586,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s62607": {
+      "name": "Unstable Bladestorm",
+      "icon": "https://render.guildwars2.com/file/449039B4B74B133D226BEED819B7C408AF2B61BB/2479391.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10174": {
+      "name": "Phantasmal Swordsman",
+      "icon": "https://render.guildwars2.com/file/755CAC115104F0AA0630DCEB472D0678B62A916E/103723.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62597": {
+      "name": "Bladeturn Requiem",
+      "icon": "https://render.guildwars2.com/file/040192EDDE9D2492D2428027E50DFC12B9044D39/2479384.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24755": {
+      "name": "Thousand Cuts",
+      "icon": "https://render.guildwars2.com/file/1AF971BFF051CE34DE34437D1A0E0991A92155F4/2479389.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62560": {
+      "name": "Bladecall",
+      "icon": "https://render.guildwars2.com/file/45B04E5D30ADD8D1B3086A98D40BE506E313B646/2479379.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10175": {
+      "name": "Phantasmal Duelist",
+      "icon": "https://render.guildwars2.com/file/B19B18E1D8314AA63BF9A7C7E0C561624BB2D97E/103724.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62617": {
+      "name": "Bladesong Harmony",
+      "icon": "https://render.guildwars2.com/file/656A0C59523A4D9D935316EA93F1EA6247C32106/2479382.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s21750": {
+      "name": "Signet of the Ether",
+      "icon": "https://render.guildwars2.com/file/EE5271572B2B10FBCE95097ECD54775832E8B9EF/699528.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62616": {
+      "name": "Bladesong Sorrow",
+      "icon": "https://render.guildwars2.com/file/EF9223543A66B8B5A8FD1C4BC4E7A218277C15C4/2479383.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10247": {
+      "name": "Signet of Illusions",
+      "icon": "https://render.guildwars2.com/file/24B9A56E45B7AB5AA96FF3E85505DF60EA6EBD11/103756.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62586": {
+      "name": "Bladesong Harmony",
+      "icon": "https://render.guildwars2.com/file/656A0C59523A4D9D935316EA93F1EA6247C32106/2479382.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 24755,
+    "slot_6": 21750,
+    "slot_7": 10247
+  },
+  "equipment": {
+    "armor_attributes": "Rampager's & Sinister",
+    "runes": "Superior Rune of the Krait",
+    "sigils": "Superior Sigil of Agony & Superior Sigil of Earth",
+    "relic": "Relic of the Aristocracy",
+    "food": "Spherified Cilantro Oyster Soup",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Virtuoso",
+    "profession": "Mesmer",
+    "elite_spec": "Virtuoso",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/condition-virtuoso-dagger-sword-pistol",
+    "weapons": "Dagger & Sword / Pistol",
+    "chat_code": "[&DQcBHRgdQjsjDwAAgwEAAIIBAACBAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQcBHRgdQjsjDwAAgwEAAIIBAACBAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

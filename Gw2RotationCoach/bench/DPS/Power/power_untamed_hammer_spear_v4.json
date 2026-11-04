@@ -1312,7 +1312,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2503722": {
       "name": "Thump",
       "icon": "https://render.guildwars2.com/file/B50D7DA590A8593098B1326FE951D9156CA0C25C/2503722.png",
@@ -1471,6 +1471,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Dragonhunter",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Untamed",
     "profession": "Ranger",
@@ -1478,9 +1486,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-untamed-hammer-spear",
-    "dps_report_url": "https://gw2wingman.nevermindcreations.de/log/ab717-20250530-152646_StdGolem_kill",
-    "overall_dps": null,
     "weapons": "Hammer / Spear",
-    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
+    "chat_code": "[&DQQIGx45SDd5AAAAtQAAAL4AAACsAQAADxsAAAYLLz8AAAAAAAAAAAAAAAACCQEzAAA=]",
+    "build_template": "[&DQQIGx45SDd5AAAAtQAAAL4AAACsAQAADxsAAAYLLz8AAAAAAAAAAAAAAAACCQEzAAA=]"
   }
 }

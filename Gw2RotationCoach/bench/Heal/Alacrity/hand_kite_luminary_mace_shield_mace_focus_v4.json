@@ -1,0 +1,320 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        9086,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        9087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        78837,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        9111,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        78514,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        78358,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        77136,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        9102,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        37613,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        37613,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9246,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        9082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        9086,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        9102,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        37716,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        76924,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        37881,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s9086": {
+      "name": "Protector's Strike",
+      "icon": "https://render.guildwars2.com/file/7C42A81ACFBFFE32A528DFCA8014E7C4476358C8/103202.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9087": {
+      "name": "Shield of Judgment",
+      "icon": "https://render.guildwars2.com/file/5B2FE8C77DC2B00E75415AF578E5C550DE9B0CB5/103232.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78837": {
+      "name": "Radiant Justice",
+      "icon": "https://render.guildwars2.com/file/4AA777300AE7D0681907353CA69FBAFD7E649253/3713157.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9111": {
+      "name": "Symbol of Faith",
+      "icon": "https://render.guildwars2.com/file/27E2E665047EE1BBABD57E65660EF6037FFE38D4/103195.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77333": {
+      "name": "Luminary's Blessing",
+      "icon": "https://render.guildwars2.com/file/6C920751304B14ADFFB6A70CACEA1B80D2ABFC59/3679965.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78514": {
+      "name": "Radiant Resolve",
+      "icon": "https://render.guildwars2.com/file/FA9E0C3E1024084F9E0F5505DAD826E242580C58/3713158.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78358": {
+      "name": "Radiant Courage",
+      "icon": "https://render.guildwars2.com/file/61FA2B39C018F8930B38D1FC0FE5CE9C49BA681A/3713156.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77339": {
+      "name": "Dazzling Hammer",
+      "icon": "https://render.guildwars2.com/file/4ECA0C916F5D54C3C12AC135AB5A1E2D4BC792E5/3680142.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76708": {
+      "name": "Luminous Staff",
+      "icon": "https://render.guildwars2.com/file/06BD9362B2F9FAE403181D0F9BE96A12664C22CA/3680148.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77136": {
+      "name": "Restorative Glow",
+      "icon": "https://render.guildwars2.com/file/9B72587791FE50B415B94BE92AA9050F43F6A848/3680149.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77197": {
+      "name": "Radiant Bulwark",
+      "icon": "https://render.guildwars2.com/file/06735858B4DE086359A7DB1D4B2B650F97D7DD03/3680144.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76978": {
+      "name": "Brilliant Slam",
+      "icon": "https://render.guildwars2.com/file/BAD4D149039913DCF7FA724D4BFE9C9EB17E68D5/3680145.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9102": {
+      "name": "Shelter",
+      "icon": "https://render.guildwars2.com/file/D979B406E04C80687055B7C40A3837A4AB36B3D8/103645.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s37613": {
+      "name": "Mind Crush",
+      "icon": "https://render.guildwars2.com/file/1521713AFAFC0BA9C5642F65393751B124AA7602/1635207.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9082": {
+      "name": "Shield of Wrath",
+      "icon": "https://render.guildwars2.com/file/C2065BFF78BB134197076A2C7450013EE390E409/103634.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9246": {
+      "name": "Merciful Intervention",
+      "icon": "https://render.guildwars2.com/file/4B93D8CA0663ABD94BAF9FCE80D6280A56C01099/103706.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s37716": {
+      "name": "Rapid Decay",
+      "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76924": {
+      "name": "Gleaming Blade",
+      "icon": "https://render.guildwars2.com/file/79B0DCC5E4A0A8BBE04AC0024D01A0F36D0B0C79/3680151.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s37881": {
+      "name": "Demonic Projection",
+      "icon": "https://render.guildwars2.com/file/1D55D34FB4EE20B1962E315245E40CA5E1042D0E/62248.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 9102,
+    "slot_7": 9246
+  },
+  "equipment": {
+    "armor_attributes": "Magi's & Giver's",
+    "runes": "Superior Rune of Sanctuary",
+    "sigils": "Superior Sigil of Concentration & Superior Sigil of Renewal",
+    "relic": "Relic of the Defender",
+    "food": "Bowl of Spiced Fruit Salad",
+    "utility": "Peppermint Oil"
+  },
+  "buildMetadata": {
+    "name": "Kite Luminary",
+    "profession": "Guardian",
+    "elite_spec": "Luminary",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/guardian/hand-kite-luminary-mace-shield-mace-focus",
+    "weapons": "Mace & Shield / Mace",
+    "chat_code": "[&DQENJjEpURcDAQAAVx0AALkBAABGAQAAcRIAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQENJjEpURcDAQAAVx0AALkBAABGAQAAcRIAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

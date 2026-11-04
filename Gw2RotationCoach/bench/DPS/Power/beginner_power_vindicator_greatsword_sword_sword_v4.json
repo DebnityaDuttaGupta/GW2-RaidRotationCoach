@@ -1,0 +1,483 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62913,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        62688,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62752,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        27107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        29057,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        29256,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        28964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        29057,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        29256,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        28964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62749,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        62942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        28472,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        27107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        27074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        62749,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        62942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        62942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        62942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        62757,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        62757,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        62942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s62929": {
+      "name": "Eternity's Requiem",
+      "icon": "https://render.guildwars2.com/file/A2BDB3281AA72F05D80A3855032C1807D059167E/2491611.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62692": {
+      "name": "Mist Unleashed",
+      "icon": "https://render.guildwars2.com/file/CB669AA4946F5402D592EF7EE4C7D66069FE0108/2491615.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62913": {
+      "name": "Mist Swing",
+      "icon": "https://render.guildwars2.com/file/026F28C66841AB712101E7CF5F455AA763FDA59D/2491614.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62688": {
+      "name": "Mist Slash",
+      "icon": "https://render.guildwars2.com/file/B804E1B5A7DBE19128CFE837143DDD49EC76532E/2491613.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62752": {
+      "name": "Arcing Mists",
+      "icon": "https://render.guildwars2.com/file/97D0026DECBA06EB2C9E7042C30D613DBAA71E9E/2491606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29233": {
+      "name": "Chilling Isolation",
+      "icon": "https://render.guildwars2.com/file/5201D39E6CC216A5A64E17F6E6ECB15708F103EE/1013003.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27107": {
+      "name": "Impossible Odds",
+      "icon": "https://render.guildwars2.com/file/D5479F5A43B3A1550EC0F457AA4ED79F93EF9A22/1013014.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29057": {
+      "name": "Preparation Thrust",
+      "icon": "https://render.guildwars2.com/file/09B709249BD429435E53DEA0E2E701560F68DD1B/1013000.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29256": {
+      "name": "Brutal Blade",
+      "icon": "https://render.guildwars2.com/file/A3E65AA00621DE0915C6607BB6E9084D0B480CCC/1013001.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28964": {
+      "name": "Rift Slash",
+      "icon": "https://render.guildwars2.com/file/91913B6196F06B95EBC71FC3EE9B41004B1EDF09/1013002.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62749": {
+      "name": "Legendary Alliance",
+      "icon": "https://render.guildwars2.com/file/E1910F4C5C74E0B00AB262D2D3DBA3FB51BE90CA/2491626.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62942": {
+      "name": "Spear of Archemorus",
+      "icon": "https://render.guildwars2.com/file/75E2F0423C74594E045AF6A10A55065E3CE61037/2491622.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28134": {
+      "name": "Legendary Assassin Stance",
+      "icon": "https://render.guildwars2.com/file/67CDD35F6BC3072E0837715A5E0A90646529BAA2/1030005.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28472": {
+      "name": "Shackling Wave",
+      "icon": "https://render.guildwars2.com/file/C9AA7D9B9BDE6652194A5963F5C2694C3AE0CEF6/1030006.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27074": {
+      "name": "Deathstrike",
+      "icon": "https://render.guildwars2.com/file/030BA607CA9D6A0D0E29F53C201421019263F353/1876877.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62757": {
+      "name": "Energy Meld",
+      "icon": "https://render.guildwars2.com/file/CABAB825B746117F51E4F35844622D3A3862D3E4/2491610.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 27107,
+    "slot_0": 62942
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Vindicator",
+    "profession": "Revenant",
+    "elite_spec": "Vindicator",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/beginner-power-vindicator-greatsword-sword-sword",
+    "weapons": "Greatsword & Sword / Sword",
+    "chat_code": "[&DQkPKgM2RR3cEdwRBhIGEisSKxLUEdQRyhHKEQcCAgAGEisS1BEAAAAAAAA=]",
+    "build_template": "[&DQkPKgM2RR3cEdwRBhIGEisSKxLUEdQRyhHKEQcCAgAGEisS1BEAAAAAAAA=]"
+  }
+}

@@ -1382,7 +1382,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1029988": {
       "name": "Overload Earth",
       "icon": "https://render.guildwars2.com/file/975A1DE89BA70721BD0E0F6D601C259066F8D468/1029988.png",
@@ -1547,16 +1547,23 @@
     "slot_9": 103340,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Ritualist's & Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Malice",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Alacrity Tempest",
     "profession": "Elementalist",
     "elite_spec": "Tempest",
     "build_type": "condition",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest-pistol-warhorn",
-    "dps_report_url": "https://dps.report/ToYQ-20240320-030855_golem",
-    "overall_dps": 34899.0,
     "weapons": "Pistol / Warhorn",
-    "chat_code": "[&DQYfFRomMBV0AAAAcwEAAHMBAABzAQAAgwEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQYfFRomMCd0AAAAcgAAAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQYfFRomMCd0AAAAcgAAAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

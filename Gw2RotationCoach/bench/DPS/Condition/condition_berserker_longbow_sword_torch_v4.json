@@ -1368,7 +1368,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1058648": {
       "name": "Blaze Breaker",
       "icon": "https://render.guildwars2.com/file/2697E50F35B6DE6874F80BDBE31D3CEE8029349F/1058648.png",
@@ -1515,6 +1515,14 @@
     "slot_9": 1058651,
     "slot_0": 1058637
   },
+  "equipment": {
+    "armor_attributes": "Grieving & Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Doom & Superior Sigil of Earth & Superior Sigil of Geomancy & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Berserker",
     "profession": "Warrior",
@@ -1522,9 +1530,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/condition-berserker-longbow-sword-torch",
-    "dps_report_url": "https://dps.report/gFp8-20260114-194458_golem",
-    "overall_dps": 44525.0,
-    "weapons": "Longbow / Sword & Torch",
-    "chat_code": "[&DQIEHzMaEhXyEgAAqQCtANcSqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
+    "weapons": "Longbow & Sword / Torch",
+    "chat_code": "[&DQIkJQQfEibyEgAA3BIAAKESrQDXEqgAwhKcAAAAAAAAAAAAAAAAAAAAAAABWgAA]",
+    "build_template": "[&DQIkJQQfEibyEgAA3BIAAKESrQDXEqgAwhKcAAAAAAAAAAAAAAAAAAAAAAABWgAA]"
   }
 }

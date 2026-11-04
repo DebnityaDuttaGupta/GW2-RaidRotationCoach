@@ -1,0 +1,229 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        30961,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        30792,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        29740,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        29855,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        10607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        10546,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        30792,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        30860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        30792,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        30504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        30557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        30961,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        10529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        69302,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        10529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        69302,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s30961": {
+      "name": "Exit Reaper's Shroud",
+      "icon": "https://render.guildwars2.com/file/7D70A5084CD7BE0F90A016E159AAF1A2F8BD0AB4/1024104.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30792": {
+      "name": "Reaper's Shroud",
+      "icon": "https://render.guildwars2.com/file/795CD8A855B81908E6D37DFE039DE25762DAAAE9/1012930.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29740": {
+      "name": "Grasping Darkness",
+      "icon": "https://render.guildwars2.com/file/5B26FDF0B9ACD9B004543B9F3C01AFDEDA540F2A/1012927.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29855": {
+      "name": "Nightfall",
+      "icon": "https://render.guildwars2.com/file/586F0469807BB7CB7942F098CC24331D0FF3CA4E/1012926.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10607": {
+      "name": "Well of Darkness",
+      "icon": "https://render.guildwars2.com/file/73CD1C36D50DD05FA009A5119166AF9BF665B5F1/103566.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10546": {
+      "name": "Well of Suffering",
+      "icon": "https://render.guildwars2.com/file/44002EEFB097C4D23F5B0DF3004F90171D022EA8/103570.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30860": {
+      "name": "Death Spiral",
+      "icon": "https://render.guildwars2.com/file/5CE4CE5573EEF5054F016F13D3E1F850F2A1DB0C/1012925.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30163": {
+      "name": "Gravedigger",
+      "icon": "https://render.guildwars2.com/file/A818623898AEE40827F139A945EFAB385913559F/1012924.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30504": {
+      "name": "Soul Spiral",
+      "icon": "https://render.guildwars2.com/file/4BFAEBD27404BDCB3A0255F1441560D3772F0CF5/1012937.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30557": {
+      "name": "Executioner's Scythe",
+      "icon": "https://render.guildwars2.com/file/3C3D986465B49F38A6DCB560E0E855A75D075EB6/1012938.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10529": {
+      "name": "Dark Pact",
+      "icon": "https://render.guildwars2.com/file/A99518F9D00A760DE474B803522824415141493B/103800.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69302": {
+      "name": "Life Siphon",
+      "icon": "https://render.guildwars2.com/file/DC2F5B32DF6D77CF2B7C3B9AAF30381FE11A97FE/103037.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 10607,
+    "slot_8": 10546
+  },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Reaper",
+    "profession": "Necromancer",
+    "elite_spec": "Reaper",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/necromancer/beginner-power-reaper-greatsword-dagger-sword",
+    "weapons": "Greatsword & Dagger / Sword",
+    "chat_code": "",
+    "build_template": ""
+  }
+}

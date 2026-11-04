@@ -1543,7 +1543,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103795": {
       "name": "Blood Is Power",
       "icon": "https://render.guildwars2.com/file/F26312E5CBFE5CA12261B66E194F21A5D205F314/103795.png",
@@ -1744,6 +1744,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Grieving & Viper's",
+    "runes": "Superior Rune of the Krait",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Earth & Superior Sigil of Geomancy & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Fractal",
+    "food": "Plate of Kimchi Pancakes",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Reaper",
     "profession": "Necromancer",
@@ -1751,9 +1759,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-reaper-spear-dagger-sword",
-    "dps_report_url": "https://dps.report/smdb-20260123-221507_golem",
-    "overall_dps": 41927.0,
-    "weapons": "Spear / Dagger & Sword",
-    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Spear & Dagger / Sword",
+    "chat_code": "[&DQgnNzInIibBEgAAgAAAAEABAACmEgAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgnNzInIibBEgAAgAAAAEABAACmEgAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

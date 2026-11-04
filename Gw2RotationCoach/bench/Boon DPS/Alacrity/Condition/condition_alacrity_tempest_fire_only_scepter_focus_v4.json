@@ -1,0 +1,236 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        29618,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        30662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5555,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5736,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5542,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        51711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5678,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        29706,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5678,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        30662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        25499,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s29618": {
+      "name": "Overload Earth",
+      "icon": "https://render.guildwars2.com/file/975A1DE89BA70721BD0E0F6D601C259066F8D468/1029988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5696": {
+      "name": "Dust Devil",
+      "icon": "https://render.guildwars2.com/file/EA6A082902800CC552393F24E03240A7A7D9C511/103080.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30662": {
+      "name": "\"Feel the Burn!\"",
+      "icon": "https://render.guildwars2.com/file/2963BBB55948D8C0C96CCB96B5100D2999C7DF09/1029992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5780": {
+      "name": "Hurl",
+      "icon": "https://render.guildwars2.com/file/BB59A576C805054EB94C66D8190490F273C7BBED/102974.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5555": {
+      "name": "Magnetic Wave",
+      "icon": "https://render.guildwars2.com/file/BBF16D6BF9CDA755420759F7D5F8D3FF6B2065DA/103343.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5692": {
+      "name": "Dragon's Tooth",
+      "icon": "https://render.guildwars2.com/file/139899C1026E93EE0EDC44030B11E310E27D9807/103105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5497": {
+      "name": "Flamewall",
+      "icon": "https://render.guildwars2.com/file/B84B697E69B44D5EC3A0306AA2FB3128BBF30F78/103271.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5675": {
+      "name": "Phoenix",
+      "icon": "https://render.guildwars2.com/file/000E1F53624D2F9B222E17D02A5A5ED40417CAB7/103039.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5736": {
+      "name": "Firestorm",
+      "icon": "https://render.guildwars2.com/file/72030C6DDD3A36ACEC0A39FF03299271CB2FE433/1424240.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5542": {
+      "name": "Signet of Fire",
+      "icon": "https://render.guildwars2.com/file/78F000A3121FCFF9B56EA62625186F0E06D8A458/103340.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s51711": {
+      "name": "Transmute Fire",
+      "icon": "https://render.guildwars2.com/file/7AD6E1794841A50751E02F0C367E920CF5066F65/2029300.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5678": {
+      "name": "Fire Shield",
+      "icon": "https://render.guildwars2.com/file/2AE8672D7A08BB4129B6F0F40C2BC10642D55C28/102884.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29706": {
+      "name": "Overload Fire",
+      "icon": "https://render.guildwars2.com/file/3A04F5D420A86664A3044B950E145E022A49D8AA/1029985.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s25499": {
+      "name": "Flame Barrage",
+      "icon": "https://render.guildwars2.com/file/64A5054179704B60614F90964DE1FB3D39AEC972/867446.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 30662,
+    "slot_8": 5736,
+    "slot_9": 5542,
+    "slot_0": 25499
+  },
+  "equipment": {
+    "armor_attributes": "Ritualist's & Viper's & Sinister",
+    "runes": "Superior Rune of Balthazar",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Earth",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Tempest (Fire)",
+    "profession": "Elementalist",
+    "elite_spec": "Tempest",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest-fire-only-scepter-focus",
+    "weapons": "Scepter / Focus",
+    "chat_code": "[&DQYfFREuMDfHEnQAwxIAAL4BAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADCQFWAC8AAA==]",
+    "build_template": "[&DQYfFREuMDfHEnQAwxIAAL4BAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADCQFWAC8AAA==]"
+  }
+}

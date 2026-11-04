@@ -1,0 +1,221 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        76530,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5822,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        40160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        44110,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5831,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        5822,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76530,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        63345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        63121,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        63188,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        63095,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5813": {
+      "name": "Big Ol' Bomb",
+      "icon": "https://render.guildwars2.com/file/9ADBE10F0E4F7D75DC0BF54EBD5B360BE1AB9D09/103400.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76530": {
+      "name": "Magnetic Bomb",
+      "icon": "https://render.guildwars2.com/file/B70B5426F0B2F4924E08198069789121426F9517/103176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5823": {
+      "name": "Fire Bomb",
+      "icon": "https://render.guildwars2.com/file/95DF02395BB2C2EFD4D7BA5BE3ECC512E875EFEE/103404.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5822": {
+      "name": "Galvanic Bomb",
+      "icon": "https://render.guildwars2.com/file/E406DB5F73E8AE312E0E04650FDAF0CCFCFC28FF/103403.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5830": {
+      "name": "Glue Shot",
+      "icon": "https://render.guildwars2.com/file/AA05DE91B26C2926046495CE0293966A3C1EA492/103187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40160": {
+      "name": "Radiant Arc",
+      "icon": "https://render.guildwars2.com/file/A57A38790F3B7AE905B60AB2E172DC0C437125EA/1770409.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44110": {
+      "name": "Refraction Cutter",
+      "icon": "https://render.guildwars2.com/file/C571A742D055DCA81F6FD70D38C0409DDC9ABEE5/1770408.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5831": {
+      "name": "Blowtorch",
+      "icon": "https://render.guildwars2.com/file/061D48DCAC954D91D8F8BD7F6B193201A695F92F/103407.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63345": {
+      "name": "Core Reactor Shot",
+      "icon": "https://render.guildwars2.com/file/7D28F26BB09378C256BAAE2F90DA1F3D6B5CCB71/2503683.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63121": {
+      "name": "Jade Mortar",
+      "icon": "https://render.guildwars2.com/file/BB3491B513007BC7109250054CC003B408E46D01/2503684.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63188": {
+      "name": "Spark Revolver",
+      "icon": "https://render.guildwars2.com/file/5F4E2699CF2750EA912E4D1303EB1EDF6AE30C3F/2503680.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63095": {
+      "name": "Overclock Signet",
+      "icon": "https://render.guildwars2.com/file/A82F0980D5ED24F305FA57F3A929C1E90D26327F/2503668.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 63095
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact & Superior Sigil of Paralyzation",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Mechanist",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/engineer/power-mechanist-sword-pistol",
+    "weapons": "Sword / Pistol",
+    "chat_code": "[&DQMGNyYfRh8NG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGNyYfRh8NG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

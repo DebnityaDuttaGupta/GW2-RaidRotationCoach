@@ -1,0 +1,368 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        78661,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77371,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        28195,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        78501,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        26821,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        27628,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        71952,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        29386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        28262,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        29145,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        29321,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        77043,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        27025,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        27356,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        1815,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        1816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        29321,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        27715,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        71942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        71816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        71952,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        71827,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        78661,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s78661": {
+      "name": "Release Potential: Dervish",
+      "icon": "https://render.guildwars2.com/file/127861C8CAA5C05A05D191480D54D40C022EF205/3713170.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77371": {
+      "name": "Cosmic Wisdom",
+      "icon": "https://render.guildwars2.com/file/5DA12A719EBDBFA95C7F416BAC7101D035DEBC22/3680202.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76968": {
+      "name": "Twin Moon Sweep",
+      "icon": "https://render.guildwars2.com/file/7092333DE604FB98B3DEF024E01ABDCFFD967DDA/3680198.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28195": {
+      "name": "Legendary Centaur Stance",
+      "icon": "https://render.guildwars2.com/file/6CFF31B50AA00CAF3D35A02562964802B55AD292/1024105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78501": {
+      "name": "Release Potential: Monk",
+      "icon": "https://render.guildwars2.com/file/2A674993E0E107A16E17FB5AC4AA757362EC434C/3713171.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s26821": {
+      "name": "Protective Solace",
+      "icon": "https://render.guildwars2.com/file/D5B16367CFE84826CCC80E92EE785F202AE9F200/1013017.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27628": {
+      "name": "Diminish Solace",
+      "icon": "https://render.guildwars2.com/file/4A6976DDEC36B5067F6D3CB2615605459E0A94EE/1013007.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71952": {
+      "name": "Otherworldly Bond",
+      "icon": "https://render.guildwars2.com/file/93C430490FB3141864AF2C0F992380EECB6B06A4/3240366.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29386": {
+      "name": "Envoy of Exuberance",
+      "icon": "https://render.guildwars2.com/file/AD3900CE2DF8609598F81364D805220DDE47BA10/1058608.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28262": {
+      "name": "Crystal Hibernation",
+      "icon": "https://render.guildwars2.com/file/59C2A1CA66701D30FD15CBD9790E4131013B2B72/1058609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29002": {
+      "name": "Rejuvenating Assault",
+      "icon": "https://render.guildwars2.com/file/5CEC75C6494329457DC36C972204952ECF80E5C3/1012995.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29145": {
+      "name": "Mender's Rebuke",
+      "icon": "https://render.guildwars2.com/file/0F7CB313454F1B2A3568E54F439D7ED36F2A7075/1012996.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29321": {
+      "name": "Renewing Wave",
+      "icon": "https://render.guildwars2.com/file/08B93F4A0EA8B764F9F6F80721F7AD3DC02565A0/1012998.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77043": {
+      "name": "Shielding Hands",
+      "icon": "https://render.guildwars2.com/file/274EEBFD624D0DA55A0C7F7566D41A060E48B4BA/3680199.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29148": {
+      "name": "Project Tranquility",
+      "icon": "https://render.guildwars2.com/file/01BC005B3C1F590D7075523EEA27361D31D69803/1012988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27025": {
+      "name": "Natural Harmony",
+      "icon": "https://render.guildwars2.com/file/BBF2026B38E6EC7108B44FFA6BB66F0BFF0A7E01/1013015.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27356": {
+      "name": "Energy Expulsion",
+      "icon": "https://render.guildwars2.com/file/47F60D20E87C7A6D5B9E4E5D062F01F2793A1414/1012984.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1815": {
+      "name": "Skill 1815",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1816": {
+      "name": "Skill 1816",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27715": {
+      "name": "Purifying Essence",
+      "icon": "https://render.guildwars2.com/file/02DEFA14E7A5E925F22C7EB85E7B51364316DE77/1013018.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71942": {
+      "name": "Motivating Whirl",
+      "icon": "https://render.guildwars2.com/file/80E5E7E4473D321EC639B9360DCD1266AEAA68A4/3240362.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71816": {
+      "name": "Blossoming Aura",
+      "icon": "https://render.guildwars2.com/file/0B604428F84A0A3DB0402FD6CBFB6AA859F33856/3240363.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71827": {
+      "name": "Otherworldly Attraction",
+      "icon": "https://render.guildwars2.com/file/92D79821711B450380AC5CBDE532153814A0B7BD/3240364.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 27356,
+    "slot_7": 26821,
+    "slot_8": 27628,
+    "slot_6": 29148,
+    "slot_9": 27025
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's & Magi's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Concentration & Superior Sigil of Transference",
+    "relic": "Relic of the Flock",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Quickness Conduit",
+    "profession": "Revenant",
+    "elite_spec": "Conduit",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-quickness-conduit-staff-scepter-shield",
+    "weapons": "Staff & Scepter / Shield",
+    "chat_code": "[&DQkMGQMWTzrcEQAA1BEAAAYSAAArEgAAyhEAAAgGAAArEtQRBhIAAAAAAAADVgBXAFkAAA==]",
+    "build_template": "[&DQkMGQMWTzrcEQAA1BEAAAYSAAArEgAAyhEAAAgGAAArEtQRBhIAAAAAAAADVgBXAFkAAA==]"
+  }
+}

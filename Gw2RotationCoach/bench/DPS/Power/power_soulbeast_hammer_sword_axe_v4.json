@@ -1291,7 +1291,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2503718": {
       "name": "Overbearing Smash",
       "icon": "https://render.guildwars2.com/file/452819BCB027F1273491DF1706CFF15BEEE49466/2503718.png",
@@ -1432,6 +1432,14 @@
     "slot_9": -1,
     "slot_0": 1770558
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Soulbeast",
     "profession": "Ranger",
@@ -1439,9 +1447,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-hammer-sword-axe",
-    "dps_report_url": "https://dps.report/S4Si-20260117-001516_golem",
-    "overall_dps": 43944.0,
-    "weapons": "Hammer / Sword & Axe",
-    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
+    "weapons": "Hammer & Sword / Axe",
+    "chat_code": "[&DQQeOSA/Nzp5AHkAtQC1AKwBrAGlAaUBLhYuFicRLxcAAAAAAAAAAAAAAAADMwBaAAUAA2f3AACb9gAA6PYAAA==]",
+    "build_template": "[&DQQeOSA/Nzp5AHkAtQC1AKwBrAGlAaUBLhYuFicRLxcAAAAAAAAAAAAAAAADMwBaAAUAA2f3AACb9gAA6PYAAA==]"
   }
 }

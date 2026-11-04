@@ -1550,7 +1550,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s961470": {
       "name": "Echoing Eruption",
       "icon": "https://render.guildwars2.com/file/EBC404DE4ACFF17BDB0FF7BC9BF592641BA64046/961470.png",
@@ -1697,6 +1697,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Doom & Superior Sigil of Earth & Superior Sigil of Geomancy & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Renegade",
     "profession": "Revenant",
@@ -1704,9 +1712,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-renegade-spear-mace-axe",
-    "dps_report_url": "https://dps.report/EvIJ-20251008-174449_golem",
-    "overall_dps": 44605.0,
-    "weapons": "Spear / Mace & Axe",
-    "chat_code": "[&DQkOHQMmPyrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]"
+    "weapons": "Spear & Mace / Axe",
+    "chat_code": "[&DQkOHQMmPyrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkOHQMmPyrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]"
   }
 }

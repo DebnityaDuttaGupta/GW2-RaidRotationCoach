@@ -37,6 +37,14 @@ public:
 
     const SkillDefinitionMetadata* FindSkillMetadata(uint32_t skillIdentifier) const;
 
+    const SkillDefinitionMetadata* FindSkillMetadataByName(const std::string& skillName) const;
+
+    uint32_t GetSkillCooldownSeconds(uint32_t skillIdentifier, const std::string& skillName) const;
+
+    uint32_t GetSkillCastTimeMilliseconds(uint32_t skillIdentifier, const std::string& skillName) const;
+
+    uint32_t GetSkillEnergyCost(uint32_t skillIdentifier, const std::string& skillName) const;
+
     void SetStandaloneAddonDirectory(const std::string& directoryPath);
 
     const std::string& GetStandaloneAddonDirectory() const;
@@ -50,6 +58,7 @@ private:
     std::unordered_map<std::string, std::string> skillNameToIconFileNameMap;
     std::unordered_map<std::string, SkillSlotCategory> skillNameToSlotCategoryMap;
     std::unordered_map<uint32_t, SkillDefinitionMetadata> masterSkillDatabase;
+    std::unordered_map<std::string, uint32_t> skillNameToIdentifierMap;
 
     void PopulateDefaultSkillMappings();
 

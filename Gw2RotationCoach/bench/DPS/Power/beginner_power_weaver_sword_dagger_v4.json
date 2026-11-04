@@ -1,0 +1,659 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        40183,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        5736,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        5734,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        43638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        46447,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        42271,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        42867,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        43638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.0,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.0,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.5,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.0,
+        46447,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.0,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.5,
+        43074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.5,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        34.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        34.5,
+        42271,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        35.0,
+        42867,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        35.5,
+        80231,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        36.0,
+        80231,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        36.5,
+        80231,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s43803": {
+      "name": "Quantum Strike",
+      "icon": "https://render.guildwars2.com/file/0D4D42EF67E9EB0B4A0304CF39901661ED087BE5/1770371.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43074": {
+      "name": "Pyro Vortex",
+      "icon": "https://render.guildwars2.com/file/04720B7D45462D026116FBE03B931730AE45F319/1770376.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44451": {
+      "name": "Cauterizing Strike",
+      "icon": "https://render.guildwars2.com/file/5CF5932ACF2EB9D17BE4DC634BB01EB3CC37070F/1770375.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5529": {
+      "name": "Ride the Lightning",
+      "icon": "https://render.guildwars2.com/file/23066340DF3C6E4F06A1B105479809E1647FF5D6/103332.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45313": {
+      "name": "Flame Uprising",
+      "icon": "https://render.guildwars2.com/file/C4EF2F0EB22C2D0AEB40F6ADDD80F2A3D4BB0B7B/1770369.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5557": {
+      "name": "Fire Grab",
+      "icon": "https://render.guildwars2.com/file/ED2422E6051855A76214FA9F292525C1359F0B59/103296.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5691": {
+      "name": "Ring of Fire",
+      "icon": "https://render.guildwars2.com/file/CD08FDC23B56EBB19C90B909C65D9EE4D9FFF8C8/103183.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40183": {
+      "name": "Primordial Stance",
+      "icon": "https://render.guildwars2.com/file/9A03F9CFBBE6154A41B1B5CAC4060092C11FABDA/1770332.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5737": {
+      "name": "Lightning Storm",
+      "icon": "https://render.guildwars2.com/file/D0D5D40C079304DB0FFF10051C79A5629EE60501/1424238.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5736": {
+      "name": "Firestorm",
+      "icon": "https://render.guildwars2.com/file/72030C6DDD3A36ACEC0A39FF03299271CB2FE433/1424240.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5734": {
+      "name": "Glyph of Storms",
+      "icon": "https://render.guildwars2.com/file/53207A9159611359DD9E4001F530F63CA7627FAD/103393.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43638": {
+      "name": "Weave Self",
+      "icon": "https://render.guildwars2.com/file/E656D3A8B1339603A70BBB7237F2BA004258ED55/1770326.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46447": {
+      "name": "Lava Skin",
+      "icon": "https://render.guildwars2.com/file/C328476928DFDE7FF3C2F65143FC7852C3F69CF9/1770377.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42271": {
+      "name": "Twin Strike",
+      "icon": "https://render.guildwars2.com/file/A9AF29CA2FF6925E30299CFC9B41317128132CF1/1770378.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42867": {
+      "name": "Shearing Edge",
+      "icon": "https://render.guildwars2.com/file/0902076456CC210BBFA6EF1D07AEDD17F694CF0F/1770380.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5690": {
+      "name": "Earthquake",
+      "icon": "https://render.guildwars2.com/file/01F24427AF4C18476A657647C39CB2F2374BDA57/102975.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5522": {
+      "name": "Churning Earth",
+      "icon": "https://render.guildwars2.com/file/4B3D497E0F070BEE66642AF6293A77B891CEA95C/102976.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s80231": {
+      "name": "Skill 80231",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 40183,
+    "slot_8": 5737,
+    "slot_9": 5736,
+    "slot_0": 43638
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Weaver",
+    "profession": "Elementalist",
+    "elite_spec": "Weaver",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/beginner-power-weaver-sword-dagger",
+    "weapons": "Sword / Dagger",
+    "chat_code": "[&DQYfHSkfOBl0AHQAUAEAAL4BAAA1FwAAEhcAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQYfHSkfOBl0AHQAUAEAAL4BAAA1FwAAEhcAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        13113,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        13082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        72034,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        30369,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        13114,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        13114,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        30369,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        13114,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        13046,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        13114,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s13113": {
+      "name": "Black Powder",
+      "icon": "https://render.guildwars2.com/file/0CE1DF4033D2FA0406E4B8430B270BC99A28D0C2/103236.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13082": {
+      "name": "Thieves Guild",
+      "icon": "https://render.guildwars2.com/file/C314B19D687453E02BC5B5BB4137903A12267AF1/104093.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72034": {
+      "name": "Cunning Salvo",
+      "icon": "https://render.guildwars2.com/file/74E8A2686C3BBBC6E572C42A7824EC070C98F25E/3256393.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30868": {
+      "name": "Fist Flurry",
+      "icon": "https://render.guildwars2.com/file/3B267195CECDF50705092272D0190CA9A391B507/1058631.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30693": {
+      "name": "Palm Strike",
+      "icon": "https://render.guildwars2.com/file/96580AB413D9791D53D45093063F54CD9F56C513/1058634.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30369": {
+      "name": "Impairing Daggers",
+      "icon": "https://render.guildwars2.com/file/265D095168000FA9A20BC11E43A3BB63B90C349B/1058635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71965": {
+      "name": "Orchestrated Assault",
+      "icon": "https://render.guildwars2.com/file/EDAA6A645279109A6FD7064A4439ECE3DDBE05F4/3256390.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s16432": {
+      "name": "Cloak and Dagger",
+      "icon": "https://render.guildwars2.com/file/7293472129D2636CC9F0DEE8D9AA7954E504F557/103617.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13114": {
+      "name": "Tactical Strike",
+      "icon": "https://render.guildwars2.com/file/D97FB1177ACAC526CF1DE15E0B07F911EBBADD6E/104101.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13046": {
+      "name": "Assassin's Signet",
+      "icon": "https://render.guildwars2.com/file/16BAE223E268B19ABFE66040F11706B7BC00EF79/104076.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 13082,
+    "slot_7": 30868,
+    "slot_8": 30693,
+    "slot_9": 30369
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Daredevil",
+    "profession": "Thief",
+    "elite_spec": "Daredevil",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/power-daredevil-sword-dagger-axe-pistol",
+    "weapons": "Sword & Dagger / Axe",
+    "chat_code": "[&DQUcPSMbBzuUEgwBsBIAADMBNAEpE1YBKAAAAAAAAAAAAAAAAAAAAAAAAAADLwA2AFkAAA==]",
+    "build_template": "[&DQUcPSMbBzuUEgwBsBIAADMBNAEpE1YBKAAAAAAAAAAAAAAAAAAAAAAAAAADLwA2AFkAAA==]"
+  }
+}

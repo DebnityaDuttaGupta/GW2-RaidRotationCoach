@@ -1886,7 +1886,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s102982": {
       "name": "Net Shot",
       "icon": "https://render.guildwars2.com/file/A47830A4152F5F5DEC5D22975DE0449A57F2D570/102982.png",
@@ -1991,16 +1991,23 @@
     "slot_9": -1,
     "slot_0": 2503668
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Mechanist Rifle",
+    "name": "Power Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-mechanist-rifle",
-    "dps_report_url": "https://dps.report/rDWx-20250422-165726_golem",
-    "overall_dps": 40668.0,
     "weapons": "Rifle",
-    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
+    "chat_code": "[&DQMGNyYfRh8NG4QAhgCVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGNyYfRh8NG4QAhgCVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

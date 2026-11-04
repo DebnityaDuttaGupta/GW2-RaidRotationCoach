@@ -1,0 +1,417 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        63276,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        63323,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        63067,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        63160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        63220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        63160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        63251,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        63267,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        63128,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        63276,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        63323,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        63292,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        63267,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        63128,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        63220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        63351,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        63128,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        63323,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        63128,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        63067,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        63251,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        63066,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s63276": {
+      "name": "Well of Sorrow",
+      "icon": "https://render.guildwars2.com/file/494191F4140194C74A1AC0CCF137710290364CA7/2503755.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13037": {
+      "name": "Spider Venom",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63323": {
+      "name": "Well of Bounty",
+      "icon": "https://render.guildwars2.com/file/CF17E53430D9055B599FD751994370106143077D/2503752.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63351": {
+      "name": "Shadow Sap",
+      "icon": "https://render.guildwars2.com/file/C7F90ED7C6D2944A3258CFF1B75CC2D4EE36384A/2503746.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63067": {
+      "name": "Siphon",
+      "icon": "https://render.guildwars2.com/file/C6D7F7A40A041D52D15E595D3DA59F24B8B1A6E9/2503748.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63155": {
+      "name": "Enter Shadow Shroud",
+      "icon": "https://render.guildwars2.com/file/0A93EB27CFAE0291F0D009E15B4545DD7D054A28/2503737.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63362": {
+      "name": "Haunt Shot",
+      "icon": "https://render.guildwars2.com/file/409264A2535956BCFDD9CA608008A79FB027F06E/2503741.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63167": {
+      "name": "Grasping Shadows",
+      "icon": "https://render.guildwars2.com/file/069BBE2DDF56A0C0565D475E1715157A514FABD3/2503740.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63160": {
+      "name": "Eternal Night",
+      "icon": "https://render.guildwars2.com/file/D6CB992E12F0BCB2984C3FEA066FA1B7A077752A/2503738.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63220": {
+      "name": "Dawn's Repose",
+      "icon": "https://render.guildwars2.com/file/060A9A76FC69FB2B25A462C84F475A2580501E0C/2503734.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63251": {
+      "name": "Exit Shadow Shroud",
+      "icon": "https://render.guildwars2.com/file/44F8D2065727B25C7DA9D5E52065D1A86CC6330F/2503739.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63267": {
+      "name": "Measured Shot",
+      "icon": "https://render.guildwars2.com/file/F70A335A50480D68FCCDCE447EED16A25C3CAD01/2503742.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63128": {
+      "name": "Endless Night",
+      "icon": "https://render.guildwars2.com/file/15BE9504ACEED3C462F7173D63E44836BFA2F934/2503736.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63292": {
+      "name": "Well of Gloom",
+      "icon": "https://render.guildwars2.com/file/BE0101D159F09B45F1CA58F5E4E7562E05B40E37/2503753.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63066": {
+      "name": "Shadow Bolt",
+      "icon": "https://render.guildwars2.com/file/D6D1A6997E0E07ECC3A2CF61C0AC054B2102A369/2503744.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 63276,
+    "slot_8": 13037,
+    "slot_9": 63323,
+    "slot_6": 63292
+  },
+  "equipment": {
+    "armor_attributes": "Celestial",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Earth",
+    "relic": "Relic of Karakosa",
+    "food": "Spherified Oyster Soup with Mint Garnish",
+    "utility": "Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Celestial Alacrity Specter",
+    "profession": "Thief",
+    "elite_spec": "Specter",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/celestial-alacrity-specter-scepter-pistol-dagger",
+    "weapons": "Scepter & Pistol / Dagger",
+    "chat_code": "[&DQUcGyw3Rz0VG4UACBszAQYbVwEvAS8BDgEOAQAAAAAAAAAAAAAAAAAAAAADVgA2AAkBAA==]",
+    "build_template": "[&DQUcGyw3Rz0VG4UACBszAQYbVwEvAS8BDgEOAQAAAAAAAAAAAAAAAAAAAAADVgA2AAkBAA==]"
+  }
+}

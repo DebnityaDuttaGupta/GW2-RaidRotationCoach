@@ -1319,7 +1319,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103723": {
       "name": "Phantasmal Swordsman",
       "icon": "https://render.guildwars2.com/file/755CAC115104F0AA0630DCEB472D0678B62A916E/103723.png",
@@ -1448,16 +1448,23 @@
     "slot_9": -1,
     "slot_0": 2479389
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Virtuoso Greatsword Dagger Sword",
+    "name": "Power Virtuoso",
     "profession": "Mesmer",
     "elite_spec": "Virtuoso",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso-greatsword-dagger-sword",
-    "dps_report_url": "https://dps.report/B3J7-20250903-042627_golem",
-    "overall_dps": 44070.0,
-    "weapons": "Greatsword / Dagger & Sword",
-    "chat_code": "[&DQcKGgEdQiojDwAAjwEAAN0aAABpAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Greatsword & Dagger / Sword",
+    "chat_code": "[&DQcBHQoZQiojDwAA3RoAAI8BAABpAWkB5RoAAAAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]",
+    "build_template": "[&DQcBHQoZQiojDwAA3RoAAI8BAABpAWkB5RoAAAAAAAAAAAAAAAAAAAAAAAACCQEyAAA=]"
   }
 }

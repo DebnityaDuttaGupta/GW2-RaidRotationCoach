@@ -178,6 +178,8 @@ private:
     uint64_t GetCurrentTimestampMilliseconds() const;
 
     float CalculateDefaultSkillCooldownSeconds(const std::string& skillName, SkillSlotCategory slotCategory) const;
+
+    void ApplySpecialSkillCooldownEffects(const std::string& skillName);
 };
 
 #endif

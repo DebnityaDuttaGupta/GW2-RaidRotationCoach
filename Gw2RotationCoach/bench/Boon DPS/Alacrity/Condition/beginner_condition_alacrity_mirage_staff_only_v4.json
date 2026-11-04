@@ -1,0 +1,366 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40184,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        24607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        41065,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        44677,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        40184,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        2150,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        44677,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        44677,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        41065,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        40184,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        705,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        2082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        10216,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        10190,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        10310,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        10216,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        10310,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        40200,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        41065,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        44677,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        40184,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        10216,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        10190,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        10310,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        45449,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        40200,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        40184,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        10191,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        10331,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        10169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        40200,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40184": {
+      "name": "Chaos Vortex",
+      "icon": "https://render.guildwars2.com/file/0E2D7DB6FB4C0A9F681759099DE5D794A04914BF/1770510.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24607": {
+      "name": "Skill 24607",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41065": {
+      "name": "Crystal Sands",
+      "icon": "https://render.guildwars2.com/file/0EDDF8213428A8302871089E560443AEEBA0246D/1770514.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44677": {
+      "name": "Mirage Mirror",
+      "icon": "https://render.guildwars2.com/file/7F3FA1CD20D930E7EEC75459E7206979DD0AD016/1770518.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2150": {
+      "name": "Skill 2150",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s705": {
+      "name": "Skill 705",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2082": {
+      "name": "Skill 2082",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10216": {
+      "name": "Phantasmal Warlock",
+      "icon": "https://render.guildwars2.com/file/095CB8FCE947F9D538CAD84839B475F2EEAC4A0C/103746.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10190": {
+      "name": "Cry of Frustration",
+      "icon": "https://render.guildwars2.com/file/B8E57C1F08727AF8C39066160B93D175B6A3B9BA/103731.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10310": {
+      "name": "Phase Retreat",
+      "icon": "https://render.guildwars2.com/file/56B7F719F90C04523796611A75BF960E539EB79A/103775.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40200": {
+      "name": "False Oasis",
+      "icon": "https://render.guildwars2.com/file/CAF16BD2E1C1D1E263B46E702FD3AF9821C59FED/1770506.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45449": {
+      "name": "Jaunt",
+      "icon": "https://render.guildwars2.com/file/D2B615F6B574667BF4CA9C4703CB52ECFFFE2192/1770505.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10191": {
+      "name": "Mind Wrack",
+      "icon": "https://render.guildwars2.com/file/52619C5D4F9A61C8F37A0705AE36602F19E164C2/103732.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10331": {
+      "name": "Chaos Armor",
+      "icon": "https://render.guildwars2.com/file/043B48A4DAF74DF16D48BA5F36E298D16CF471B6/103765.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10169": {
+      "name": "Chaos Storm",
+      "icon": "https://render.guildwars2.com/file/B741282BD5EE93C9FC43AE417878953D50BB3974/103156.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 41065,
+    "slot_6": 40200,
+    "slot_0": 45449
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Energy",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Potent Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Alacrity Mirage",
+    "profession": "Mesmer",
+    "elite_spec": "Mirage",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/beginner-condition-alacrity-mirage-staff-only",
+    "weapons": "Staff",
+    "chat_code": "",
+    "build_template": ""
+  }
+}

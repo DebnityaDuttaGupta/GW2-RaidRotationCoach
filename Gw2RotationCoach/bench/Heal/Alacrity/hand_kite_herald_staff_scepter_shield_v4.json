@@ -1,0 +1,96 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        29371,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        51696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        29148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        28427,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        27025,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s29371": {
+      "name": "Facet of Nature",
+      "icon": "https://render.guildwars2.com/file/590F7657AB11171A35304E5DDA6FDA5B2EC70350/1058606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s51696": {
+      "name": "True Nature",
+      "icon": "https://render.guildwars2.com/file/B8D4BCE521B2ADED5E2F7CBC0A676C4262E9C714/1058607.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29148": {
+      "name": "Project Tranquility",
+      "icon": "https://render.guildwars2.com/file/01BC005B3C1F590D7075523EEA27361D31D69803/1012988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28427": {
+      "name": "Ventari's Will",
+      "icon": "https://render.guildwars2.com/file/9709A709A80DBD075BDCE5E069C02E720348A740/1012992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27025": {
+      "name": "Natural Harmony",
+      "icon": "https://render.guildwars2.com/file/BBF2026B38E6EC7108B44FFA6BB66F0BFF0A7E01/1013015.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 28427,
+    "slot_7": 27025
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Magi's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Renewal & Superior Sigil of Transference & Superior Sigil of Water",
+    "relic": "Relic of the Flock",
+    "food": "Bowl of Spiced Fruit Salad",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Kite Herald",
+    "profession": "Revenant",
+    "elite_spec": "Herald",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/revenant/hand-kite-herald-staff-scepter-shield",
+    "weapons": "Staff & Scepter / Shield",
+    "chat_code": "[&DQkOKgwpNBncEdwRKxIrEtQR1BEGEgYSyhHKEQEGAgDUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkOKgwpNBncEdwRKxIrEtQR1BEGEgYSyhHKEQEGAgDUESsSBhIAAAAAAAA=]"
+  }
+}

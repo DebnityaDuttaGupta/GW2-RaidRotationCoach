@@ -1620,7 +1620,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2503722": {
       "name": "Thump",
       "icon": "https://render.guildwars2.com/file/B50D7DA590A8593098B1326FE951D9156CA0C25C/2503722.png",
@@ -1791,16 +1791,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Diviner's & Berserker's",
+    "runes": "Superior Rune of Fireworks",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Concentration",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Quickness Untamed Hammer Sword Axe",
+    "name": "Power Quickness Untamed",
     "profession": "Ranger",
     "elite_spec": "Untamed",
     "build_type": "power",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-hammer-sword-axe",
-    "dps_report_url": "https://dps.report/kIwI-20250519-113617_golem",
-    "overall_dps": 35126.0,
-    "weapons": "Hammer / Sword & Axe",
-    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
+    "weapons": "Hammer & Sword / Axe",
+    "chat_code": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]",
+    "build_template": "[&DQQgHx45SB95ABQbtgC2AKUBvACsAawB7QAPG0ACFS8AAAAAAAAAAAAAAAADMwBaAAUAAmf3AACb9gAA]"
   }
 }

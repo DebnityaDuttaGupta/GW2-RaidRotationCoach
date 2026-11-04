@@ -1,0 +1,81 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        10282,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        10174,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s10174": {
+      "name": "Phantasmal Swordsman",
+      "icon": "https://render.guildwars2.com/file/755CAC115104F0AA0630DCEB472D0678B62A916E/103723.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10282": {
+      "name": "Phantasmal Warden",
+      "icon": "https://render.guildwars2.com/file/4E08BB09C3E6BE013AE255D763A3EB7C99AE2644/103768.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {},
+  "equipment": {
+    "armor_attributes": "Rampager's & Sinister",
+    "runes": "Superior Rune of the Krait",
+    "sigils": "Superior Sigil of Agony & Superior Sigil of Earth",
+    "relic": "Relic of the Aristocracy",
+    "food": "Spherified Cilantro Oyster Soup",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Virtuoso",
+    "profession": "Mesmer",
+    "elite_spec": "Virtuoso",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/beginner-condition-virtuoso-dagger-sword-focus",
+    "weapons": "Dagger & Sword / Focus",
+    "chat_code": "[&DQcBHRgdQjsjDwAAggEAAIEBAACDAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQcBHRgdQjsjDwAAggEAAIEBAACDAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

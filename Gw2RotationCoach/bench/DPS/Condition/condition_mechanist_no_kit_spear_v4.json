@@ -1410,7 +1410,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s3379114": {
       "name": "Conduit Surge",
       "icon": "https://render.guildwars2.com/file/09D83A621D282D7E78C6E3502D9E91AC4AC6A2E9/3379114.png",
@@ -1497,16 +1497,23 @@
     "slot_9": -1,
     "slot_0": 2503668
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
-    "name": "Condition Mechanist No Kit Spear",
+    "name": "Condition Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-no-kit-spear",
-    "dps_report_url": "https://dps.report/Ceo5-20250423-211218_golem",
-    "overall_dps": 39433.0,
     "weapons": "Spear",
-    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
+    "chat_code": "[&DQMVHSY5RhUNGyoPGhsHARAbAAAOG4YACRuJAQAAAAAAAAAAAAAAAAAAAAACNgAJAQA=]",
+    "build_template": "[&DQMVHSY5RhUNGyoPGhsHARAbAAAOG4YACRuJAQAAAAAAAAAAAAAAAAAAAAACNgAJAQA=]"
   }
 }

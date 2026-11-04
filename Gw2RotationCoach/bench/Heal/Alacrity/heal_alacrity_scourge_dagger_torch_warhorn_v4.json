@@ -1,0 +1,138 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        42935,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        44296,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        10557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        42935,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        44296,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        42935,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        44296,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        10557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s42935": {
+      "name": "Desiccate",
+      "icon": "https://render.guildwars2.com/file/7FAE663D18010ECB183436E00B4532900A941292/1770542.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44296": {
+      "name": "Oppressive Collapse",
+      "icon": "https://render.guildwars2.com/file/BE78672ACBDE107931DAAE08B6F001E010FF3F2B/1770541.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10557": {
+      "name": "Locust Swarm",
+      "icon": "https://render.guildwars2.com/file/1E2D4A00340B96CAE9A1E19F2B07B35A01741B14/103809.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 42935
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Magi's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Concentration & Superior Sigil of Transference",
+    "relic": "Relic of the Flock",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Scourge",
+    "profession": "Necromancer",
+    "elite_spec": "Scourge",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge-dagger-torch-warhorn",
+    "weapons": "Dagger & Torch / Warhorn",
+    "chat_code": "[&DQgTNjIePD0SAAAAJBcAAAAAAAAAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgTNjIePD0SAAAAJBcAAAAAAAAAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

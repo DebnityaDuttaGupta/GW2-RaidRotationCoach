@@ -1,0 +1,377 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        40710,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        1276,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        91805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        45088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        40600,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        45508,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        41372,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        44591,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        44087,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        43390,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        13097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        41158,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        13097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        50481,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        13097,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        41372,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s43390": {
+      "name": "Deadeye's Mark",
+      "icon": "https://render.guildwars2.com/file/3ECEA70D0DCDAF65E0069263D005507ADBF95A62/1770609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40710": {
+      "name": "Deadly Aim",
+      "icon": "https://render.guildwars2.com/file/4E3F0B6E685229564C5E023C1367B257EA20D141/1770621.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1276": {
+      "name": "Skill 1276",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s91805": {
+      "name": "Skill 91805",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45088": {
+      "name": "Malicious Restoration",
+      "icon": "https://render.guildwars2.com/file/C1E7E96F22330A9AF3DBDAF5245430CBA17FB0A3/1770611.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40600": {
+      "name": "Kneel",
+      "icon": "https://render.guildwars2.com/file/B872B96AC8ED04DE1F1FAE0EA93D71270A6B2DF1/1770631.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44591": {
+      "name": "Spotter's Shot",
+      "icon": "https://render.guildwars2.com/file/0CFD156D4CF5F17EA13952B6083CAE04E1601B5E/1770624.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44087": {
+      "name": "Malicious Death's Judgment",
+      "icon": "https://render.guildwars2.com/file/7228E29372F37958FEB8684E91F7060D71D3D6E2/1770628.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41158": {
+      "name": "Shadow Flare",
+      "icon": "https://render.guildwars2.com/file/007CF2CAA795DC259DD538C0CB7D9C36FE3AE423/1770636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45508": {
+      "name": "Shadow Meld",
+      "icon": "https://render.guildwars2.com/file/380609B742C9C59C9EC5B4A428070039787A61C9/1770610.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41372": {
+      "name": "Mercy",
+      "icon": "https://render.guildwars2.com/file/120BA65D429AC57ECAED3BEAAFCF7C9E3D356DDD/1770635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13097": {
+      "name": "Heartseeker",
+      "icon": "https://render.guildwars2.com/file/7F30CC1709A64346280859937A281DF863E7CD0E/103169.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s50481": {
+      "name": "Malicious Backstab",
+      "icon": "https://render.guildwars2.com/file/FF0A2DF63F383E7C9B3D090FFDF070BC472520F9/2010288.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 45088,
+    "slot_7": 41158,
+    "slot_0": 45508,
+    "slot_8": 41372
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Deadeye",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Kite Deadeye",
+    "profession": "Thief",
+    "elite_spec": "Deadeye",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/thief/kite-deadeye-q-rifle-dagger-dagger",
+    "weapons": "Rifle & Dagger / Dagger",
+    "chat_code": "[&DQUcPSMbOi/xFQAAMwEAACAXAACsFgAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbOi/xFQAAMwEAACAXAACsFgAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

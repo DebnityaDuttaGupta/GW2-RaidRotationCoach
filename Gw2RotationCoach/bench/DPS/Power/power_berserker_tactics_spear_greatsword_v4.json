@@ -1130,7 +1130,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1058637": {
       "name": "Head Butt",
       "icon": "https://render.guildwars2.com/file/046F1B0E64AC140CB7C0DE26A8D61CE13E02466A/1058637.png",
@@ -1247,16 +1247,23 @@
     "slot_9": 1058652,
     "slot_0": 1058637
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Claw",
+    "food": "Plate of Coq Au Vin with Salsa",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Berserker",
+    "name": "Power Berserker (Tactics)",
     "profession": "Warrior",
     "elite_spec": "Berserker",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-berserker-tactics-spear-greatsword",
-    "dps_report_url": "https://dps.report/dT1J-20260119-181913_golem",
-    "overall_dps": 47407.0,
     "weapons": "Spear / Greatsword",
-    "chat_code": "[&DQIEHzMaEhXyEgAAqQCtANcSqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAAAAA==]"
+    "chat_code": "[&DQIEHwsVEhXyEvIS1xKoAK0ArQCpAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]",
+    "build_template": "[&DQIEHwsVEhXyEvIS1xKoAK0ArQCpAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]"
   }
 }

@@ -9,10 +9,16 @@ RotationCatalog::RotationCatalog()
 
     standaloneAddonDirectoryPath = "E:\\SteamLibrary\\steamapps\\common\\Guild Wars 2\\addons\\Gw2RotationCoach";
 
-    std::string skillsFilePath = standaloneAddonDirectoryPath + "\\skills\\gw2_skills_en.json";
-    if (std::filesystem::exists(skillsFilePath))
+    std::string primarySkillsFilePath = standaloneAddonDirectoryPath + "\\skills\\gw2_skills_en.json";
+    if (std::filesystem::exists(primarySkillsFilePath))
     {
-        LoadMasterSkillDatabase(skillsFilePath);
+        LoadMasterSkillDatabase(primarySkillsFilePath);
+    }
+
+    std::string uncategorizedSkillsFilePath = standaloneAddonDirectoryPath + "\\skills\\gw2_uncategorized_skills.json";
+    if (std::filesystem::exists(uncategorizedSkillsFilePath))
+    {
+        LoadMasterSkillDatabase(uncategorizedSkillsFilePath);
     }
 
     std::string standaloneBenchPath = standaloneAddonDirectoryPath + "\\bench";
@@ -24,135 +30,38 @@ RotationCatalog::RotationCatalog()
 
 void RotationCatalog::PopulateDefaultSkillMappings()
 {
-    skillIdentifierToIconFileNameMap[2479383] = "2479383.png";
-    skillIdentifierToIconFileNameMap[62616] = "2479383.png";
-    skillIdentifierToIconFileNameMap[2479382] = "2479382.png";
-    skillIdentifierToIconFileNameMap[62568] = "2479383.png";
-    skillIdentifierToIconFileNameMap[2479379] = "2479379.png";
-    skillIdentifierToIconFileNameMap[2479391] = "2479391.png";
-    skillIdentifierToIconFileNameMap[103723] = "103723.png";
-    skillIdentifierToIconFileNameMap[10214] = "103723.png";
-    skillIdentifierToIconFileNameMap[2479389] = "2479389.png";
-    skillIdentifierToIconFileNameMap[2479385] = "2479385.png";
-    skillIdentifierToIconFileNameMap[103768] = "103768.png";
-    skillIdentifierToIconFileNameMap[10267] = "103768.png";
-    skillIdentifierToIconFileNameMap[699528] = "699528.png";
-    skillIdentifierToIconFileNameMap[10211] = "699528.png";
-    skillIdentifierToIconFileNameMap[103756] = "103756.png";
-    skillIdentifierToIconFileNameMap[2479384] = "2479384.png";
-    skillIdentifierToIconFileNameMap[2479381] = "2479381.png";
-    skillIdentifierToIconFileNameMap[103284] = "103284.png";
-
-    skillIdentifierToIconFileNameMap[40915] = "1770490.png";
-    skillIdentifierToIconFileNameMap[41258] = "1770490.png";
-    skillIdentifierToIconFileNameMap[40963] = "1770463.png";
-    skillIdentifierToIconFileNameMap[41259] = "1770463.png";
-    skillIdentifierToIconFileNameMap[9093] = "103268.png";
-    skillIdentifierToIconFileNameMap[9094] = "103636.png";
-    skillIdentifierToIconFileNameMap[68648] = "2779164.png";
-    skillIdentifierToIconFileNameMap[45210] = "2779164.png";
-    skillIdentifierToIconFileNameMap[1770485] = "1770485.png";
-    skillIdentifierToIconFileNameMap[45211] = "1770485.png";
-    skillIdentifierToIconFileNameMap[1770486] = "1770486.png";
-    skillIdentifierToIconFileNameMap[45212] = "1770486.png";
-    skillIdentifierToIconFileNameMap[9152] = "103702.png";
-    skillIdentifierToIconFileNameMap[60975] = "60975.png";
     skillIdentifierToIconFileNameMap[9999] = "9999.png";
-    skillIdentifierToIconFileNameMap[9110] = "103655.png";
-    skillIdentifierToIconFileNameMap[9115] = "103671.png";
-    skillIdentifierToIconFileNameMap[9118] = "103638.png";
-    skillIdentifierToIconFileNameMap[9122] = "103662.png";
-    skillIdentifierToIconFileNameMap[9119] = "103643.png";
+    skillIdentifierToIconFileNameMap[60975] = "60975.png";
 
-    skillNameToIconFileNameMap["Bladesong Sorrow"] = "2479383.png";
-    skillNameToIconFileNameMap["Bladesong Sorrow (F2)"] = "2479383.png";
-    skillNameToIconFileNameMap["Bladesong Harmony"] = "2479382.png";
-    skillNameToIconFileNameMap["Bladesong Harmony (F1)"] = "2479382.png";
-    skillNameToIconFileNameMap["Bladecall"] = "2479379.png";
-    skillNameToIconFileNameMap["Bladecall (Dagger 2)"] = "2479379.png";
-    skillNameToIconFileNameMap["Unstable Bladestorm"] = "2479391.png";
-    skillNameToIconFileNameMap["Unstable Bladestorm (Dagger 3)"] = "2479391.png";
-    skillNameToIconFileNameMap["Unrelenting Bladestorm"] = "2479391.png";
-    skillNameToIconFileNameMap["Unrelenting Bladestorm (Dagger 3)"] = "2479391.png";
-    skillNameToIconFileNameMap["Flying Cutter"] = "2479385.png";
-    skillNameToIconFileNameMap["Flying Cutter (Dagger 1)"] = "2479385.png";
-    skillNameToIconFileNameMap["Phantasmal Swordsman"] = "103723.png";
-    skillNameToIconFileNameMap["Phantasmal Swordsman (Sword 5)"] = "103723.png";
-    skillNameToIconFileNameMap["Thousand Cuts"] = "2479389.png";
-    skillNameToIconFileNameMap["Phantasmal Warden"] = "103768.png";
-    skillNameToIconFileNameMap["Phantasmal Warden (Focus 4)"] = "103768.png";
-    skillNameToIconFileNameMap["Signet of the Ether"] = "699528.png";
-    skillNameToIconFileNameMap["Signet of Illusions"] = "103756.png";
-    skillNameToIconFileNameMap["Bladeturn Requiem"] = "2479384.png";
-    skillNameToIconFileNameMap["Bladeturn Requiem (F4)"] = "2479384.png";
-    skillNameToIconFileNameMap["Bladesong Dissonance"] = "2479381.png";
-    skillNameToIconFileNameMap["Bladesong Dissonance (F3)"] = "2479381.png";
-    skillNameToIconFileNameMap["Bladesong Distortion"] = "103284.png";
-    skillNameToIconFileNameMap["Bladesong Distortion (F5)"] = "103284.png";
+    skillNameToIconFileNameMap["Weapon Swap"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Axe / Shield)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Staff)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Greatsword)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Longbow)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Sword / Focus)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Dagger / Torch)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Scepter / Focus)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Pistol / Pistol)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Hammer)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Rifle)"] = "9999.png";
+    skillNameToIconFileNameMap["Weapon Swap (Shortbow)"] = "9999.png";
 
-    skillNameToIconFileNameMap["Mantra of Potence"] = "1770490.png";
-    skillNameToIconFileNameMap["Mantra of Solace"] = "1770463.png";
-    skillNameToIconFileNameMap["Symbol of Swiftness"] = "103268.png";
-    skillNameToIconFileNameMap["Symbol of Swiftness (Staff 3)"] = "103268.png";
-    skillNameToIconFileNameMap["Empower"] = "103636.png";
-    skillNameToIconFileNameMap["Empower (Staff 4)"] = "103636.png";
-    skillNameToIconFileNameMap["Tome of Resolve"] = "2779164.png";
-    skillNameToIconFileNameMap["Tome of Resolve (F2)"] = "2779164.png";
-    skillNameToIconFileNameMap["Tome of Courage (F3)"] = "2779164.png";
-    skillNameToIconFileNameMap["Chapter 3: Valiant Bulwark"] = "1770485.png";
-    skillNameToIconFileNameMap["Chapter 4: Stalwart Stand"] = "1770486.png";
-    skillNameToIconFileNameMap["Feel My Wrath!"] = "103702.png";
-    skillNameToIconFileNameMap["\"Feel My Wrath!\""] = "103702.png";
+    skillNameToIconFileNameMap["Stow"] = "60975.png";
+    skillNameToIconFileNameMap["Stow Weapon"] = "60975.png";
+    skillNameToIconFileNameMap["Stow Pet"] = "60975.png";
+    skillNameToIconFileNameMap["Stow Tome"] = "60975.png";
     skillNameToIconFileNameMap["Stow Tome (F2)"] = "60975.png";
     skillNameToIconFileNameMap["Stow Tome (F3)"] = "60975.png";
-    skillNameToIconFileNameMap["Stow Tome"] = "60975.png";
-    skillNameToIconFileNameMap["Weapon Swap"] = "9999.png";
-    skillNameToIconFileNameMap["Symbol of Resolution"] = "103655.png";
-    skillNameToIconFileNameMap["Shield of Judgment"] = "103671.png";
-    skillNameToIconFileNameMap["Symbol of Blades (Sword 2)"] = "103638.png";
-    skillNameToIconFileNameMap["Ray of Judgment (Focus 4)"] = "103662.png";
-    skillNameToIconFileNameMap["Zealot's Defense (Sword 3)"] = "103643.png";
+
+    skillNameToSlotCategoryMap["Weapon Swap"] = SkillSlotCategory::WeaponSwap;
+    skillNameToSlotCategoryMap["Dodge"] = SkillSlotCategory::DodgeAction;
 
     skillNameToSlotCategoryMap["Bladesong Harmony"] = SkillSlotCategory::ProfessionSkillOne;
     skillNameToSlotCategoryMap["Bladesong Sorrow"] = SkillSlotCategory::ProfessionSkillTwo;
     skillNameToSlotCategoryMap["Bladesong Dissonance"] = SkillSlotCategory::ProfessionSkillThree;
     skillNameToSlotCategoryMap["Bladeturn Requiem"] = SkillSlotCategory::ProfessionSkillFour;
     skillNameToSlotCategoryMap["Bladesong Distortion"] = SkillSlotCategory::ProfessionSkillFive;
-    skillNameToSlotCategoryMap["Flying Cutter"] = SkillSlotCategory::WeaponSkillOne;
-    skillNameToSlotCategoryMap["Bladecall"] = SkillSlotCategory::WeaponSkillTwo;
-    skillNameToSlotCategoryMap["Unstable Bladestorm"] = SkillSlotCategory::WeaponSkillThree;
-    skillNameToSlotCategoryMap["Unrelenting Bladestorm"] = SkillSlotCategory::WeaponSkillThree;
-    skillNameToSlotCategoryMap["Illusionary Riposte"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Phantasmal Warden"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Phantasmal Swordsman"] = SkillSlotCategory::WeaponSkillFive;
-    skillNameToSlotCategoryMap["Temporal Curtain"] = SkillSlotCategory::WeaponSkillFive;
-    skillNameToSlotCategoryMap["Into the Void"] = SkillSlotCategory::WeaponSkillFive;
-    skillNameToSlotCategoryMap["Spatial Surge"] = SkillSlotCategory::WeaponSkillOne;
-    skillNameToSlotCategoryMap["Mirror Blade"] = SkillSlotCategory::WeaponSkillTwo;
-    skillNameToSlotCategoryMap["Mind Stab"] = SkillSlotCategory::WeaponSkillThree;
-    skillNameToSlotCategoryMap["Phantasmal Berserker"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Illusionary Wave"] = SkillSlotCategory::WeaponSkillFive;
-    skillNameToSlotCategoryMap["Power Spike"] = SkillSlotCategory::UtilitySkillOne;
-    skillNameToSlotCategoryMap["Mantra of Pain"] = SkillSlotCategory::UtilitySkillOne;
-    skillNameToSlotCategoryMap["Rain of Swords"] = SkillSlotCategory::UtilitySkillTwo;
-    skillNameToSlotCategoryMap["Phantasmal Disenchanter"] = SkillSlotCategory::UtilitySkillThree;
-    skillNameToSlotCategoryMap["Power Lock"] = SkillSlotCategory::UtilitySkillThree;
-    skillNameToSlotCategoryMap["Mantra of Distraction"] = SkillSlotCategory::UtilitySkillThree;
-    skillNameToSlotCategoryMap["Mantra of Recovery"] = SkillSlotCategory::HealingSkill;
-    skillNameToSlotCategoryMap["Signet of the Ether"] = SkillSlotCategory::HealingSkill;
-    skillNameToSlotCategoryMap["Signet of Illusions"] = SkillSlotCategory::UtilitySkillOne;
-    skillNameToSlotCategoryMap["Thousand Cuts"] = SkillSlotCategory::EliteSkill;
-
-    skillNameToSlotCategoryMap["Tome of Justice"] = SkillSlotCategory::ProfessionSkillOne;
-    skillNameToSlotCategoryMap["Tome of Resolve"] = SkillSlotCategory::ProfessionSkillTwo;
-    skillNameToSlotCategoryMap["Tome of Courage"] = SkillSlotCategory::ProfessionSkillThree;
-    skillNameToSlotCategoryMap["Symbol of Blades"] = SkillSlotCategory::WeaponSkillTwo;
-    skillNameToSlotCategoryMap["Zealot's Defense"] = SkillSlotCategory::WeaponSkillThree;
-    skillNameToSlotCategoryMap["Symbol of Swiftness"] = SkillSlotCategory::WeaponSkillThree;
-    skillNameToSlotCategoryMap["Ray of Judgment"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Empower"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Symbol of Resolution"] = SkillSlotCategory::WeaponSkillFour;
-    skillNameToSlotCategoryMap["Shield of Judgment"] = SkillSlotCategory::WeaponSkillFive;
+    skillNameToSlotCategoryMap["Distortion"] = SkillSlotCategory::ProfessionSkillFive;
 
     skillNameToSlotCategoryMap["Fire Attunement"] = SkillSlotCategory::ProfessionSkillOne;
     skillNameToSlotCategoryMap["Water Attunement"] = SkillSlotCategory::ProfessionSkillTwo;
@@ -204,14 +113,22 @@ std::string RotationCatalog::GetSkillIconFileName(uint32_t skillIdentifier) cons
 
 std::string RotationCatalog::FindSkillIconByName(const std::string& skillName) const
 {
-    if (skillName.empty())
-    {
-        return "";
-    }
-
-    if (skillName.find("Weapon Swap") != std::string::npos || skillName.find("Drop Med Kit") != std::string::npos)
-    {
-        return "9999.png";
+    if (skillName.empty())
+
+    {
+
+        return "";
+
+    }
+
+
+
+    if (skillName.find("Weapon Swap") != std::string::npos || skillName.find("Drop Med Kit") != std::string::npos)
+
+    {
+
+        return "9999.png";
+
     }
 
     auto exactIterator = skillNameToIconFileNameMap.find(skillName);
@@ -268,6 +185,18 @@ std::string RotationCatalog::FindSkillIconByName(const std::string& skillName) c
 void RotationCatalog::SetStandaloneAddonDirectory(const std::string& directoryPath)
 {
     standaloneAddonDirectoryPath = directoryPath;
+
+    std::string primarySkillsFilePath = standaloneAddonDirectoryPath + "\\skills\\gw2_skills_en.json";
+    if (std::filesystem::exists(primarySkillsFilePath))
+    {
+        LoadMasterSkillDatabase(primarySkillsFilePath);
+    }
+
+    std::string uncategorizedSkillsFilePath = standaloneAddonDirectoryPath + "\\skills\\gw2_uncategorized_skills.json";
+    if (std::filesystem::exists(uncategorizedSkillsFilePath))
+    {
+        LoadMasterSkillDatabase(uncategorizedSkillsFilePath);
+    }
 }
 
 const std::string& RotationCatalog::GetStandaloneAddonDirectory() const
@@ -285,6 +214,85 @@ const SkillDefinitionMetadata* RotationCatalog::FindSkillMetadata(uint32_t skill
     }
 
     return nullptr;
+}
+
+const SkillDefinitionMetadata* RotationCatalog::FindSkillMetadataByName(const std::string& skillName) const
+{
+    auto nameIterator = skillNameToIdentifierMap.find(skillName);
+    if (nameIterator != skillNameToIdentifierMap.end())
+    {
+        return FindSkillMetadata(nameIterator->second);
+    }
+
+    for (const auto& databaseEntry : masterSkillDatabase)
+    {
+        if (databaseEntry.second.skillName == skillName)
+        {
+            return &databaseEntry.second;
+        }
+    }
+
+    return nullptr;
+}
+
+uint32_t RotationCatalog::GetSkillCooldownSeconds(uint32_t skillIdentifier, const std::string& skillName) const
+{
+    const SkillDefinitionMetadata* metadata = FindSkillMetadata(skillIdentifier);
+    if (metadata != nullptr && metadata->cooldownSeconds > 0)
+    {
+        return metadata->cooldownSeconds;
+    }
+
+    if (!skillName.empty())
+    {
+        metadata = FindSkillMetadataByName(skillName);
+        if (metadata != nullptr && metadata->cooldownSeconds > 0)
+        {
+            return metadata->cooldownSeconds;
+        }
+    }
+
+    return 0;
+}
+
+uint32_t RotationCatalog::GetSkillCastTimeMilliseconds(uint32_t skillIdentifier, const std::string& skillName) const
+{
+    const SkillDefinitionMetadata* metadata = FindSkillMetadata(skillIdentifier);
+    if (metadata != nullptr && metadata->castTimeMilliseconds > 0)
+    {
+        return metadata->castTimeMilliseconds;
+    }
+
+    if (!skillName.empty())
+    {
+        metadata = FindSkillMetadataByName(skillName);
+        if (metadata != nullptr && metadata->castTimeMilliseconds > 0)
+        {
+            return metadata->castTimeMilliseconds;
+        }
+    }
+
+    return 0;
+}
+
+uint32_t RotationCatalog::GetSkillEnergyCost(uint32_t skillIdentifier, const std::string& skillName) const
+{
+    const SkillDefinitionMetadata* metadata = FindSkillMetadata(skillIdentifier);
+    if (metadata != nullptr && metadata->energyCost > 0)
+    {
+        return metadata->energyCost;
+    }
+
+    if (!skillName.empty())
+    {
+        metadata = FindSkillMetadataByName(skillName);
+        if (metadata != nullptr && metadata->energyCost > 0)
+        {
+            return metadata->energyCost;
+        }
+    }
+
+    return 0;
 }
 
 bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFilePath)
@@ -316,6 +324,12 @@ bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFileP
         }
 
         std::string idText = fileContent.substr(idPosition + 5, commaAfterId - (idPosition + 5));
+        if (idText.find('-') != std::string::npos)
+        {
+            scanPosition = commaAfterId + 1;
+            continue;
+        }
+
         uint32_t skillIdentifier = 0;
         try
         {
@@ -346,6 +360,9 @@ bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFileP
         SkillDefinitionMetadata metadata;
         metadata.skillIdentifier = skillIdentifier;
         metadata.rechargeSeconds = 0;
+        metadata.cooldownSeconds = 0;
+        metadata.castTimeMilliseconds = 0;
+        metadata.energyCost = 0;
         metadata.isAutoAttack = false;
         metadata.slotCategory = SkillSlotCategory::WeaponSkillOne;
 
@@ -383,6 +400,8 @@ bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFileP
 
                         if (!metadata.skillName.empty())
                         {
+            skillNameToIdentifierMap[metadata.skillName] = skillIdentifier;
+
                             skillNameToIconFileNameMap[metadata.skillName] = metadata.iconFileName;
                         }
 
@@ -505,7 +524,46 @@ bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFileP
             }
         }
 
-        if (skillBlock.find("\"is_auto_attack\": true") != std::string::npos)
+        size_t castTimePos = skillBlock.find("\"cast_time\":");
+        if (castTimePos != std::string::npos)
+        {
+            size_t castTimeComma = skillBlock.find_first_of(",}", castTimePos);
+            if (castTimeComma != std::string::npos)
+            {
+                std::string castTimeText = skillBlock.substr(castTimePos + 12, castTimeComma - (castTimePos + 12));
+                try
+                {
+                    float castTimeSeconds = std::stof(castTimeText);
+                    metadata.castTimeMilliseconds = static_cast<uint32_t>(castTimeSeconds * 1000.0f);
+                }
+                catch (...) {}
+            }
+        }
+
+        size_t energyPos = skillBlock.find("\"energy\":");
+        if (energyPos == std::string::npos)
+        {
+            energyPos = skillBlock.find("\"energy_cost\":");
+        }
+        if (energyPos != std::string::npos)
+        {
+            size_t energyColon = skillBlock.find(':', energyPos);
+            if (energyColon != std::string::npos)
+            {
+                size_t energyComma = skillBlock.find_first_of(",}", energyColon);
+                if (energyComma != std::string::npos)
+                {
+                    std::string energyText = skillBlock.substr(energyColon + 1, energyComma - (energyColon + 1));
+                    try
+                    {
+                        metadata.energyCost = static_cast<uint32_t>(std::stoul(energyText));
+                    }
+                    catch (...) {}
+                }
+            }
+        }
+
+if (skillBlock.find("\"is_auto_attack\": true") != std::string::npos)
         {
             metadata.isAutoAttack = true;
         }
@@ -564,7 +622,8 @@ uint32_t RotationCatalog::FindMatchingProfileIndex(uint32_t professionIdentifier
             const auto& profile = availableBuildProfiles[profileIndex];
             if (profile.professionIdentifierNumber == 7 && profile.specializationIdentifierNumber == 66)
             {
-                if (profile.damageCategory == DamageTypeCategory::ConditionDamage || profile.buildDisplayName.find("Condition") != std::string::npos)
+                if (profile.buildDisplayName.find("Beginner") == std::string::npos &&
+                    (profile.damageCategory == DamageTypeCategory::ConditionDamage || profile.buildDisplayName.find("Condition") != std::string::npos))
                 {
                     return profileIndex;
                 }
@@ -1103,6 +1162,132 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
 
     }
 
+    else if (lowerStem.find("paragon") != std::string::npos)
+
+    {
+
+        profession = "Warrior";
+
+        specialization = "Paragon";
+
+        professionIdentifier = 2;
+
+        specializationIdentifier = 73;
+
+    }
+
+    else if (lowerStem.find("amalgam") != std::string::npos)
+
+    {
+
+        profession = "Engineer";
+
+        specialization = "Amalgam";
+
+        professionIdentifier = 3;
+
+        specializationIdentifier = 74;
+
+    }
+
+    else if (lowerStem.find("antiquary") != std::string::npos)
+
+    {
+
+        profession = "Thief";
+
+        specialization = "Antiquary";
+
+        professionIdentifier = 5;
+
+        specializationIdentifier = 75;
+
+    }
+
+    else if (lowerStem.find("evoker") != std::string::npos)
+
+    {
+
+        profession = "Elementalist";
+
+        specialization = "Evoker";
+
+        professionIdentifier = 6;
+
+        specializationIdentifier = 76;
+
+    }
+
+    else if (lowerStem.find("conduit") != std::string::npos)
+
+    {
+
+        profession = "Revenant";
+
+        specialization = "Conduit";
+
+        professionIdentifier = 9;
+
+        specializationIdentifier = 77;
+
+    }
+
+    else if (lowerStem.find("luminary") != std::string::npos)
+
+    {
+
+        profession = "Guardian";
+
+        specialization = "Luminary";
+
+        professionIdentifier = 1;
+
+        specializationIdentifier = 78;
+
+    }
+
+    else if (lowerStem.find("galeshot") != std::string::npos)
+
+    {
+
+        profession = "Ranger";
+
+        specialization = "Galeshot";
+
+        professionIdentifier = 4;
+
+        specializationIdentifier = 79;
+
+    }
+
+    else if (lowerStem.find("troubadour") != std::string::npos)
+
+    {
+
+        profession = "Mesmer";
+
+        specialization = "Troubadour";
+
+        professionIdentifier = 7;
+
+        specializationIdentifier = 80;
+
+    }
+
+    else if (lowerStem.find("ritualist") != std::string::npos)
+
+    {
+
+        profession = "Necromancer";
+
+        specialization = "Ritualist";
+
+        professionIdentifier = 8;
+
+        specializationIdentifier = 81;
+
+    }
+
     else if (lowerStem.find("guardian") != std::string::npos)
 
     {
@@ -1360,6 +1545,34 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
                 if (secondQuote != std::string::npos)
                 {
                     chatCode = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t professionPos = fileContent.find("\"profession\":", metadataPosition);
+        if (professionPos != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', professionPos + 13);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos)
+                {
+                    profession = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t specPos = fileContent.find("\"elite_spec\":", metadataPosition);
+        if (specPos != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', specPos + 13);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos)
+                {
+                    specialization = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
                 }
             }
         }
@@ -1890,6 +2103,94 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
     std::string relic = (roleCategory == BuildRoleCategory::HealSupport ? "Relic of Karakosa" : "Relic of Fireworks");
     std::string food = (roleCategory == BuildRoleCategory::HealSupport ? "Delicious Rice Ball" : "Bowl of Sweet and Spicy Butternut Squash Soup");
     std::string utility = (roleCategory == BuildRoleCategory::HealSupport ? "Bountiful Maintenance Oil" : "Superior Sharpening Stone");
+
+    size_t equipmentPosition = fileContent.find("\"equipment\":");
+    if (equipmentPosition != std::string::npos)
+    {
+        size_t attributesPosition = fileContent.find("\"armor_attributes\":", equipmentPosition);
+        if (attributesPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', attributesPosition + 19);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    armorAttributes = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t runesPosition = fileContent.find("\"runes\":", equipmentPosition);
+        if (runesPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', runesPosition + 8);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    upgradeRunes = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t sigilsPosition = fileContent.find("\"sigils\":", equipmentPosition);
+        if (sigilsPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', sigilsPosition + 9);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    sigils = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t relicPosition = fileContent.find("\"relic\":", equipmentPosition);
+        if (relicPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', relicPosition + 8);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    relic = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t foodPosition = fileContent.find("\"food\":", equipmentPosition);
+        if (foodPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', foodPosition + 7);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    food = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+
+        size_t utilityPosition = fileContent.find("\"utility\":", equipmentPosition);
+        if (utilityPosition != std::string::npos)
+        {
+            size_t firstQuote = fileContent.find('"', utilityPosition + 10);
+            if (firstQuote != std::string::npos)
+            {
+                size_t secondQuote = fileContent.find('"', firstQuote + 1);
+                if (secondQuote != std::string::npos && secondQuote > firstQuote + 1)
+                {
+                    utility = fileContent.substr(firstQuote + 1, secondQuote - (firstQuote + 1));
+                }
+            }
+        }
+    }
 
     newProfile.equipment = {
         primaryWeaponsString,

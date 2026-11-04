@@ -1928,7 +1928,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s104093": {
       "name": "Thieves Guild",
       "icon": "https://render.guildwars2.com/file/C314B19D687453E02BC5B5BB4137903A12267AF1/104093.png",
@@ -2045,16 +2045,23 @@
     "slot_9": 2175070,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Viper's & Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Doom & Superior Sigil of Torment & Superior Sigil of Geomancy",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
-    "name": "Condition Alacrity Specter Scepter Dagger Dagger",
+    "name": "Condition Alacrity Specter",
     "profession": "Thief",
     "elite_spec": "Specter",
     "build_type": "condition",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/condition-alacrity-specter-scepter-dagger-dagger",
-    "dps_report_url": "https://dps.report/YFvl-20250830-112530_golem",
-    "overall_dps": 35323.0,
-    "weapons": "Scepter / Dagger & Dagger",
-    "chat_code": "[&DQUcGywfRz4MAQAAWgEAAKsBAAAvAQAAEAEDAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Scepter & Dagger / Dagger",
+    "chat_code": "[&DQUcGyw3RzUVGwAALwEAAAYbAAALAQAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcGyw3RzUVGwAALwEAAAYbAAALAQAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

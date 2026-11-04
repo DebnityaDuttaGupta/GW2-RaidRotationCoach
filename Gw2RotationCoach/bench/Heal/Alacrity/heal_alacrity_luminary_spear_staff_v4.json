@@ -1,0 +1,380 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        73132,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        72978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        78837,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        78604,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        77073,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        76616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        9143,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        9265,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        73055,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        72940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        9140,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        9265,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9143,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        73132,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        558,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        78604,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77136,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        551,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        101268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        78770,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        77136,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        76616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        76687,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s73132": {
+      "name": "Symbol of Luminance",
+      "icon": "https://render.guildwars2.com/file/0E1E2D69CBC3C0E36217506C6CCB710138035373/3379129.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72978": {
+      "name": "Gleaming Disc",
+      "icon": "https://render.guildwars2.com/file/0A7A6902DC73F1C8A50907DAAE080A3CA40BC44F/3379127.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9152": {
+      "name": "\"Hold the Line!\"",
+      "icon": "https://render.guildwars2.com/file/CA143E59076FDECC06DF0F209836104F359977E0/103663.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78837": {
+      "name": "Radiant Justice",
+      "icon": "https://render.guildwars2.com/file/4AA777300AE7D0681907353CA69FBAFD7E649253/3713157.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78604": {
+      "name": "Radiant Resolve",
+      "icon": "https://render.guildwars2.com/file/FA9E0C3E1024084F9E0F5505DAD826E242580C58/3713158.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77073": {
+      "name": "Enter Radiant Forge",
+      "icon": "https://render.guildwars2.com/file/C64AE4AF57E83451F763B80C125410773909730A/3680147.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77339": {
+      "name": "Dazzling Hammer",
+      "icon": "https://render.guildwars2.com/file/4ECA0C916F5D54C3C12AC135AB5A1E2D4BC792E5/3680142.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76616": {
+      "name": "Exit Radiant Forge",
+      "icon": "https://render.guildwars2.com/file/72EAE7EF5A1F5CBBD815618094F40A3D01A2FB11/3680146.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9143": {
+      "name": "Symbol of Swiftness",
+      "icon": "https://render.guildwars2.com/file/E315FF56624F5B2BB8BF51D00FA716FA4936F037/103268.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9265": {
+      "name": "Empower",
+      "icon": "https://render.guildwars2.com/file/0EFCC1FD452CC19694D6BA3F390C1822C3FE73CD/103636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73055": {
+      "name": "Daybreaking Slash",
+      "icon": "https://render.guildwars2.com/file/9CE5430CF8490EAC2512AAC1C8362DD24A65D428/3379124.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72940": {
+      "name": "Helio Rush",
+      "icon": "https://render.guildwars2.com/file/E1207948233A0CAC25B25F4B1240773719CC6838/3379125.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9140": {
+      "name": "Holy Strike",
+      "icon": "https://render.guildwars2.com/file/E693B0D94525BFECFDB6FAC2670A1360443DB2F0/2029305.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76708": {
+      "name": "Luminous Staff",
+      "icon": "https://render.guildwars2.com/file/06BD9362B2F9FAE403181D0F9BE96A12664C22CA/3680148.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s558": {
+      "name": "Skill 558",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77136": {
+      "name": "Restorative Glow",
+      "icon": "https://render.guildwars2.com/file/9B72587791FE50B415B94BE92AA9050F43F6A848/3680149.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s551": {
+      "name": "Skill 551",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s101268": {
+      "name": "Skill 101268",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78770": {
+      "name": "Radiant Courage",
+      "icon": "https://render.guildwars2.com/file/61FA2B39C018F8930B38D1FC0FE5CE9C49BA681A/3713156.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77197": {
+      "name": "Radiant Bulwark",
+      "icon": "https://render.guildwars2.com/file/06735858B4DE086359A7DB1D4B2B650F97D7DD03/3680144.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76687": {
+      "name": "Daring Advance",
+      "icon": "https://render.guildwars2.com/file/2E24D2089501C663801BF7CC567E1CC0F5714AD7/3680140.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 9152,
+    "slot_0": 76687
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Magi's & Giver's",
+    "runes": "Superior Rune of the Water",
+    "sigils": "Superior Sigil of Concentration & Superior Sigil of Transference",
+    "relic": "Relic of Karakosa",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Luminary",
+    "profession": "Guardian",
+    "elite_spec": "Luminary",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/guardian/heal-alacrity-luminary-spear-staff",
+    "weapons": "Spear / Staff",
+    "chat_code": "[&DQExLy47URdhHQMBNQFMAQAAAAAAADYBiRIAAAAAAAAAAAAAAAAAAAAAAAACCQFZAAA=]",
+    "build_template": "[&DQExLy47URdhHQMBNQFMAQAAAAAAADYBiRIAAAAAAAAAAAAAAAAAAAAAAAACCQFZAAA=]"
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        28409,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77371,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        77243,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        27505,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        78615,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        27917,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        72954,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        76503,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        27505,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        72938,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        78615,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        76610,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        78661,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        77243,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        28409,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        27964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        27066,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        77243,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        78661,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        76968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        77371,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        78615,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        27505,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        27917,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        72954,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        76503,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        27505,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        72938,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        78615,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        76610,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s28409": {
+      "name": "Temporal Rift",
+      "icon": "https://render.guildwars2.com/file/BECD56D7BA6A9175F804305A4B4EB369079AEB1F/961478.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77371": {
+      "name": "Cosmic Wisdom",
+      "icon": "https://render.guildwars2.com/file/5DA12A719EBDBFA95C7F416BAC7101D035DEBC22/3680202.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77243": {
+      "name": "Hex-Eater Vortex",
+      "icon": "https://render.guildwars2.com/file/B12634A1D7E5E3A725B6EED5ED13E0482908FE26/3680205.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76968": {
+      "name": "Twin Moon Sweep",
+      "icon": "https://render.guildwars2.com/file/7092333DE604FB98B3DEF024E01ABDCFFD967DDA/3680198.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28494": {
+      "name": "Legendary Demon Stance",
+      "icon": "https://render.guildwars2.com/file/1A1407F7D34E5ED41B59A25F39EBF728CC926423/961413.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28287": {
+      "name": "Embrace the Darkness",
+      "icon": "https://render.guildwars2.com/file/13B6D13EF593CF54DBB204CF6425FDAFC0D723C7/961453.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27505": {
+      "name": "Banish Enchantment",
+      "icon": "https://render.guildwars2.com/file/D327055AA824ABDDAD70E2606E1C9AF018FF9902/961449.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78615": {
+      "name": "Release Potential: Mesmer",
+      "icon": "https://render.guildwars2.com/file/11A390F793A2EBE57DA6DD6FFD03290CCE6F0305/3713169.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73059": {
+      "name": "Abyssal Raze",
+      "icon": "https://render.guildwars2.com/file/632F757C2309C12BCFE99FCCE4BB761FA59AECEE/3379187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72972": {
+      "name": "Abyssal Force",
+      "icon": "https://render.guildwars2.com/file/0A9AFFBB077A5DC031C9E4A712C4573E97FED0EC/3379184.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27917": {
+      "name": "Call to Anguish",
+      "icon": "https://render.guildwars2.com/file/CA26B3FC712CCF9BD695BD1128B51A759AFA0522/961452.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72954": {
+      "name": "Abyssal Blot",
+      "icon": "https://render.guildwars2.com/file/08C3096215DC0FCE3FCD46FB10E3639178C15C4E/3379186.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76503": {
+      "name": "Unyielding Impact",
+      "icon": "https://render.guildwars2.com/file/0BFE7E484552037E102533C3B1590599B00FA4EF/3645915.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72938": {
+      "name": "Abyssal Blitz",
+      "icon": "https://render.guildwars2.com/file/E4E54213769DC10572D31BDD4573E0B6B9A56DA6/3379185.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76610": {
+      "name": "Legendary Entity Stance",
+      "icon": "https://render.guildwars2.com/file/3FEE4B97282956F1F3654BE36119A0030E08C1D7/3680200.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78661": {
+      "name": "Release Potential: Dervish",
+      "icon": "https://render.guildwars2.com/file/127861C8CAA5C05A05D191480D54D40C022EF205/3713170.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28357": {
+      "name": "Searing Fissure",
+      "icon": "https://render.guildwars2.com/file/3FAB9EB7587857745278027D29154ABC015710A6/961477.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27964": {
+      "name": "Echoing Eruption",
+      "icon": "https://render.guildwars2.com/file/EBC404DE4ACFF17BDB0FF7BC9BF592641BA64046/961470.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27066": {
+      "name": "Misery Swipe",
+      "icon": "https://render.guildwars2.com/file/0418D8F15F0DF2594023CFBCE61A0A1126BA92C5/961465.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 77243,
+    "slot_0": 28287,
+    "slot_8": 27505,
+    "slot_9": 27917
+  },
+  "equipment": {
+    "armor_attributes": "Viper's & Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Bursting & Superior Sigil of Geomancy & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Quickness Conduit",
+    "profession": "Revenant",
+    "elite_spec": "Conduit",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-conduit-spear-mace-axe",
+    "weapons": "Spear & Mace / Axe",
+    "chat_code": "[&DQkOFQMmTzrcEQAA1BEAACsSAAAGEgAAyhEAAAgEAADUEQYSKxIAAAAAAAA=]",
+    "build_template": "[&DQkOFQMmTzrcEQAA1BEAACsSAAAGEgAAyhEAAAgEAADUEQYSKxIAAAAAAAA=]"
+  }
+}

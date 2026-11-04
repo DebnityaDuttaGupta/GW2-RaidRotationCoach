@@ -1,0 +1,631 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        12493,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        63330,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        63438,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        63131,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        63335,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        63336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        72079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        71999,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        71903,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        71963,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        71841,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        71999,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        71903,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        71841,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        71963,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        72079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        72932,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        73008,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        73030,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        72928,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        12681,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73150,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        73008,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        73030,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        72928,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        73008,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        12493,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        72932,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        73030,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        63438,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        63335,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        63131,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        63197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        63208,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        12493,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        63335,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.0,
+        63438,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        63209,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.0,
+        63258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.5,
+        63094,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s12493": {
+      "name": "Storm Spirit",
+      "icon": "https://render.guildwars2.com/file/42B863334A6F66D64BC0DDD798959EEB15650F02/103993.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63330": {
+      "name": "Thump",
+      "icon": "https://render.guildwars2.com/file/B50D7DA590A8593098B1326FE951D9156CA0C25C/2503722.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63147": {
+      "name": "Unleash Ranger",
+      "icon": "https://render.guildwars2.com/file/EFC812F33C2A9ECA91F0C1F966E1715FF35E2BDF/2503729.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63438": {
+      "name": "Relentless Whirl",
+      "icon": "https://render.guildwars2.com/file/1FD6BA0D5205082CF724026543A9CE3EA9E3AB10/2565748.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63131": {
+      "name": "Unleashed Savage Shock Wave",
+      "icon": "https://render.guildwars2.com/file/2939557FFA0BDF9C4D0B7FD1A19AA57DE9C49FDD/2503721.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63335": {
+      "name": "Unleashed Wild Swing",
+      "icon": "https://render.guildwars2.com/file/7369B820749874C1F15A4B02AD2F18B94A6AB84C/2503717.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63336": {
+      "name": "Deft Strike",
+      "icon": "https://render.guildwars2.com/file/583FF23D285DAFF432CF2C3BFBE27FF4142D4C9B/2565753.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69203": {
+      "name": "Pounce",
+      "icon": "https://render.guildwars2.com/file/CECBFA1662D837E8A526E475A1E701679A2662BA/103125.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12482": {
+      "name": "Serpent's Strike",
+      "icon": "https://render.guildwars2.com/file/26B3CC91C193FDC30873937B2FB735E1B7C6A83A/103126.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12638": {
+      "name": "Path of Scars",
+      "icon": "https://render.guildwars2.com/file/B5B27723701C39327D2145DEE76579FB007F9344/103903.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12639": {
+      "name": "Whirling Defense",
+      "icon": "https://render.guildwars2.com/file/3D24774AAFBEFF40016ED8B451A245D95A2D08E3/103147.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63344": {
+      "name": "Unleash Pet",
+      "icon": "https://render.guildwars2.com/file/A5E324616977BF624698CA610628B7C3D73ADB1C/2503728.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72079": {
+      "name": "Rampant Growth",
+      "icon": "https://render.guildwars2.com/file/AA6DF43F39613B3BFF36EA5E5DE8E479B54C3D13/3256376.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71999": {
+      "name": "Flourish",
+      "icon": "https://render.guildwars2.com/file/A3CAFE3F4F60F5BA30DBF3511AEF2EB03D75673E/3256384.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71903": {
+      "name": "Thistleguard",
+      "icon": "https://render.guildwars2.com/file/D246F868FF56A5DA990D4C0593BC6FD4082456DD/3256386.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71963": {
+      "name": "Oaken Cudgel",
+      "icon": "https://render.guildwars2.com/file/AF04C49117A8634CDDAA1AB3B35B25111B394FEC/3256385.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71841": {
+      "name": "Wild Strikes",
+      "icon": "https://render.guildwars2.com/file/4063516E170663BE3C0B07A744F2A4A142E90FC3/3256387.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72932": {
+      "name": "Ravager's Abandon",
+      "icon": "https://render.guildwars2.com/file/100EF926B3F04A73719E7CD531C8ABC81938CF19/3379182.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73008": {
+      "name": "Panther's Prowl",
+      "icon": "https://render.guildwars2.com/file/07F83EAFE63F1BBD31ABE1C954BED3D1C5CB090C/3379180.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73030": {
+      "name": "Wolf's Onslaught",
+      "icon": "https://render.guildwars2.com/file/E1550C4BB87B62B14AC39E3F2DB2AC4E07F55F91/3379175.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72928": {
+      "name": "Falcon's Stoop",
+      "icon": "https://render.guildwars2.com/file/3AD908302F5A733FB07AF295DBDB30B637ADD0F4/3379176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12681": {
+      "name": "Stalk",
+      "icon": "https://render.guildwars2.com/file/15780BCEBC0C20E7403191DEA92DB365AB380AE6/103960.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73150": {
+      "name": "Predator's Ambush",
+      "icon": "https://render.guildwars2.com/file/2D36D9D30E372A750D700F3334A8CE697B4C3010/3379179.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63197": {
+      "name": "Unleashed Overbearing Smash",
+      "icon": "https://render.guildwars2.com/file/7BA2A9B41EEEB1E1BF61FD7BF108BE0C05932080/2503719.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63208": {
+      "name": "Unleashed Thump",
+      "icon": "https://render.guildwars2.com/file/0CA1B13856E838595833F90B4C22A62FBEFBB39F/2503723.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63209": {
+      "name": "Venomous Outburst",
+      "icon": "https://render.guildwars2.com/file/DE977DE6D693A71B24AFCC01E6EBF8F30DD4669E/2503725.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63258": {
+      "name": "Rending Vines",
+      "icon": "https://render.guildwars2.com/file/68D3A9D218CE4F19F0D1E1A2F20F953D103FE99A/2503726.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63094": {
+      "name": "Enveloping Haze",
+      "icon": "https://render.guildwars2.com/file/39EFE795AEE7A670EAC0CC34C8526A2EB899ED4C/2503727.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 12493
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of Fireworks",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Quickness Untamed (Nature)",
+    "profession": "Ranger",
+    "elite_spec": "Untamed",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-nature-magic-hammer-sword-axe",
+    "weapons": "Hammer & Sword / Axe",
+    "chat_code": "[&DQQZGR45SB95AHkAtgC2AKUBvACsAawBDxsPGy9GFS8AAAAAAAAAAAAAAAACNQAFAAA=]",
+    "build_template": "[&DQQZGR45SB95AHkAtgC2AKUBvACsAawBDxsPGy9GFS8AAAAAAAAAAAAAAAACNQAFAAA=]"
+  }
+}

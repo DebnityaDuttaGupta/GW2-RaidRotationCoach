@@ -1417,7 +1417,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2": {
       "name": "Dodge",
       "icon": "https://render.guildwars2.com/file/archive_b_b2_20150601155307/21Dodge.png",
@@ -1510,16 +1510,23 @@
     "slot_9": 2175070,
     "slot_0": 104093
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Agony & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Plate of Kimchi Pancakes",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
-    "name": "Condition Daredevil Dagger Only",
+    "name": "Condition Daredevil",
     "profession": "Thief",
     "elite_spec": "Daredevil",
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/condition-daredevil-dagger-only",
-    "dps_report_url": "https://dps.report/x9oZ-20250629-021609_golem",
-    "overall_dps": 41472.0,
     "weapons": "Dagger",
-    "chat_code": "[&DQUcGyw2Oh/xFQAALwEAAFUBAAAgFwAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQUcGyw9BxuUEgwBDQE+AS8BVQELAS8BKAAoAAAAAAAAAAAAAAAAAAAAAAADCQEFAC8AAA==]",
+    "build_template": "[&DQUcGyw9BxuUEgwBDQE+AS8BVQELAS8BKAAoAAAAAAAAAAAAAAAAAAAAAAADCQEFAC8AAA==]"
   }
 }

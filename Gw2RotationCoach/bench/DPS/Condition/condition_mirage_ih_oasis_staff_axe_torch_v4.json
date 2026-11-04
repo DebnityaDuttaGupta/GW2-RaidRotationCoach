@@ -1466,7 +1466,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103156": {
       "name": "Chaos Storm",
       "icon": "https://render.guildwars2.com/file/B741282BD5EE93C9FC43AE417878953D50BB3974/103156.png",
@@ -1613,6 +1613,14 @@
     "slot_9": 1770514,
     "slot_0": 1770505
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Demons & Superior Sigil of Energy",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Mirage",
     "profession": "Mesmer",
@@ -1620,9 +1628,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-ih-oasis-staff-axe-torch",
-    "dps_report_url": "https://dps.report/5eVE-20250827-031559_golem",
-    "overall_dps": 50894.0,
-    "weapons": "Staff / Axe & Torch",
-    "chat_code": "[&DQcBJRg/Ox0jDyMPgQGBAYMBgwHgFQcWRhftEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
+    "weapons": "Staff & Axe / Torch",
+    "chat_code": "[&DQcBJRg/Ox3uFSMPgQGBAYMBgwHgFQcWRhftEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]",
+    "build_template": "[&DQcBJRg/Ox3uFSMPgQGBAYMBgwHgFQcWRhftEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
   }
 }

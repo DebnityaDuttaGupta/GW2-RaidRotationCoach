@@ -1,0 +1,384 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        13028,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        56898,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        72924,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        73041,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        72904,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        77192,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        76674,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        13026,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        77277,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        76733,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        76816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        76582,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        13026,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        76674,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s13028": {
+      "name": "Caltrops",
+      "icon": "https://render.guildwars2.com/file/A85F59D91114D0702C3AB54A0AA81EC1CAE66CF5/103073.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77397": {
+      "name": "Skritt Swipe",
+      "icon": "https://render.guildwars2.com/file/291DAF077409087C5905700A785E4EDDC9DBC47A/3680217.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56898": {
+      "name": "Thousand Needles",
+      "icon": "https://render.guildwars2.com/file/2E9B1FD2687F76E4CDF00ADF04B6AB07CE7CD880/2175069.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72927": {
+      "name": "Distracting Throw",
+      "icon": "https://render.guildwars2.com/file/D778C3EF460E2F960DA2153F7A3326C13DAD18E7/3379195.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77255": {
+      "name": "Skritt Scuffle",
+      "icon": "https://render.guildwars2.com/file/697095D59F91E5085007FE240105CAFF64BD0B2A/3680206.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72924": {
+      "name": "Malicious Ashen Assault",
+      "icon": "https://render.guildwars2.com/file/D3EB04ABC0B56CEF0F29F10A61B4B64F073E213C/3379198.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73041": {
+      "name": "Mantis Sting",
+      "icon": "https://render.guildwars2.com/file/195C9FD6753501224702FE4EA7480E2CD7437B29/3379189.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72896": {
+      "name": "Entangling Asp",
+      "icon": "https://render.guildwars2.com/file/0A5EE17BC8F00A9F10349C72C4D5B7366C37FF04/3379190.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73076": {
+      "name": "Falling Spider",
+      "icon": "https://render.guildwars2.com/file/BEA5D1B8D1BC0F97690CE57CD03DADB9DA7F4004/3379191.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72904": {
+      "name": "Shattering Assault",
+      "icon": "https://render.guildwars2.com/file/68E71F96676504BED138AA0F3238D33B1408F3F9/3379194.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73005": {
+      "name": "Ashen Assault",
+      "icon": "https://render.guildwars2.com/file/07F4055E57F1E82EE1BFBAA11AE1F59145070617/3379197.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77192": {
+      "name": "Summon Kryptis Turret",
+      "icon": "https://render.guildwars2.com/file/2DC92035E3A36CBCDB62C84E65BEF69BFA0BDD02/3680213.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76674": {
+      "name": "Holo-Dancer Decoy",
+      "icon": "https://render.guildwars2.com/file/CEE6340604724A060D7C570709C4B05DFAD56617/3680212.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13037": {
+      "name": "Spider Venom",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13026": {
+      "name": "Prepare Thousand Needles",
+      "icon": "https://render.guildwars2.com/file/F0A856B0596935DC9BF4FBCA95069D75264B5570/2175070.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76633": {
+      "name": "Forged Surfer Dash",
+      "icon": "https://render.guildwars2.com/file/696501BA136CA660BD22D0D0A3B19741D4A77529/3680211.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77277": {
+      "name": "Mistburn Mortar",
+      "icon": "https://render.guildwars2.com/file/4519AE3A9032E03F2F14AAA1B5EEE10F1AF1EEAE/3680215.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76733": {
+      "name": "Zephyrite Sun Crystal",
+      "icon": "https://render.guildwars2.com/file/3C1B2075B7B164EB2ABE4F6650F553D40F689E53/3680218.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76816": {
+      "name": "Chak Shield",
+      "icon": "https://render.guildwars2.com/file/4506224EB1921800602CAD52B6B209960FE51153/3680209.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76582": {
+      "name": "Metal Legion Guitar",
+      "icon": "https://render.guildwars2.com/file/02727B1807CF0FEF31037FD9E307BABB2055AE3C/3680214.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 13028,
+    "slot_8": 56898,
+    "slot_0": 77255,
+    "slot_9": 13037
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Torment",
+    "relic": "Relic of the Blightbringer",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Antiquary",
+    "profession": "Thief",
+    "elite_spec": "Antiquary",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/condition-alacrity-antiquary-spear-only",
+    "weapons": "Spear",
+    "chat_code": "[&DQUcGyw3TSuFAAAAWR0AAAsBAAAvAQAAfB0AAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]",
+    "build_template": "[&DQUcGyw3TSuFAAAAWR0AAAsBAAAvAQAAfB0AAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]"
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        63276,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        72986,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        56898,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        13026,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        63160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        63251,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        63067,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        72986,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        72904,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        63160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        63167,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        63362,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        63251,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        24605,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        24609,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73041,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        72896,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        72904,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        63067,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        63155,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        63251,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        63067,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        63067,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s63276": {
+      "name": "Well of Sorrow",
+      "icon": "https://render.guildwars2.com/file/494191F4140194C74A1AC0CCF137710290364CA7/2503755.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72986": {
+      "name": "Unsuspecting Strike",
+      "icon": "https://render.guildwars2.com/file/805A252809DD3DA83ECACC630803A21B904158AA/3379192.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56898": {
+      "name": "Thousand Needles",
+      "icon": "https://render.guildwars2.com/file/2E9B1FD2687F76E4CDF00ADF04B6AB07CE7CD880/2175069.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13037": {
+      "name": "Spider Venom",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13026": {
+      "name": "Prepare Thousand Needles",
+      "icon": "https://render.guildwars2.com/file/F0A856B0596935DC9BF4FBCA95069D75264B5570/2175070.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63155": {
+      "name": "Enter Shadow Shroud",
+      "icon": "https://render.guildwars2.com/file/0A93EB27CFAE0291F0D009E15B4545DD7D054A28/2503737.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63167": {
+      "name": "Grasping Shadows",
+      "icon": "https://render.guildwars2.com/file/069BBE2DDF56A0C0565D475E1715157A514FABD3/2503740.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63160": {
+      "name": "Eternal Night",
+      "icon": "https://render.guildwars2.com/file/D6CB992E12F0BCB2984C3FEA066FA1B7A077752A/2503738.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63251": {
+      "name": "Exit Shadow Shroud",
+      "icon": "https://render.guildwars2.com/file/44F8D2065727B25C7DA9D5E52065D1A86CC6330F/2503739.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72896": {
+      "name": "Entangling Asp",
+      "icon": "https://render.guildwars2.com/file/0A5EE17BC8F00A9F10349C72C4D5B7366C37FF04/3379190.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63067": {
+      "name": "Siphon",
+      "icon": "https://render.guildwars2.com/file/C6D7F7A40A041D52D15E595D3DA59F24B8B1A6E9/2503748.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73076": {
+      "name": "Falling Spider",
+      "icon": "https://render.guildwars2.com/file/BEA5D1B8D1BC0F97690CE57CD03DADB9DA7F4004/3379191.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72927": {
+      "name": "Distracting Throw",
+      "icon": "https://render.guildwars2.com/file/D778C3EF460E2F960DA2153F7A3326C13DAD18E7/3379195.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72904": {
+      "name": "Shattering Assault",
+      "icon": "https://render.guildwars2.com/file/68E71F96676504BED138AA0F3238D33B1408F3F9/3379194.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73005": {
+      "name": "Ashen Assault",
+      "icon": "https://render.guildwars2.com/file/07F4055E57F1E82EE1BFBAA11AE1F59145070617/3379197.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63362": {
+      "name": "Haunt Shot",
+      "icon": "https://render.guildwars2.com/file/409264A2535956BCFDD9CA608008A79FB027F06E/2503741.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24605": {
+      "name": "Skill 24605",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24609": {
+      "name": "Skill 24609",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73041": {
+      "name": "Mantis Sting",
+      "icon": "https://render.guildwars2.com/file/195C9FD6753501224702FE4EA7480E2CD7437B29/3379189.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 63276,
+    "slot_8": 56898,
+    "slot_9": 13037
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Geomancy & Superior Sigil of Earth & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Specter",
+    "profession": "Thief",
+    "elite_spec": "Specter",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/condition-specter-spear-only",
+    "weapons": "Spear",
+    "chat_code": "[&DQUcGyw3RxUVG4UACwFVAQYbPgEvAS8BDgEOAQAAAAAAAAAAAAAAAAAAAAACCQFVAAA=]",
+    "build_template": "[&DQUcGyw3RxUVG4UACwFVAQYbPgEvAS8BDgEOAQAAAAAAAAAAAAAAAAAAAAACCQFVAAA=]"
+  }
+}

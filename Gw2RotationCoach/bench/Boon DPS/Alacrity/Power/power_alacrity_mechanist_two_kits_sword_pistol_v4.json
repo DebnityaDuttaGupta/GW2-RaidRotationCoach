@@ -1,0 +1,275 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5812,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        44110,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5831,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5936,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        40160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5822,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        76530,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        5830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5831,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5936,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        40160,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        63293,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        63141,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        63188,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        63095,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5812": {
+      "name": "Bomb Kit",
+      "icon": "https://render.guildwars2.com/file/B06C59BBB1EC416859E04E7C9859BE020C4B3E17/103399.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5830": {
+      "name": "Glue Shot",
+      "icon": "https://render.guildwars2.com/file/AA05DE91B26C2926046495CE0293966A3C1EA492/103187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44110": {
+      "name": "Refraction Cutter",
+      "icon": "https://render.guildwars2.com/file/C571A742D055DCA81F6FD70D38C0409DDC9ABEE5/1770408.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5831": {
+      "name": "Blowtorch",
+      "icon": "https://render.guildwars2.com/file/061D48DCAC954D91D8F8BD7F6B193201A695F92F/103407.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5936": {
+      "name": "Acid Bomb",
+      "icon": "https://render.guildwars2.com/file/D17CEA181773C2B17F9F05212D352BCACE55BCC3/103440.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40160": {
+      "name": "Radiant Arc",
+      "icon": "https://render.guildwars2.com/file/A57A38790F3B7AE905B60AB2E172DC0C437125EA/1770409.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5813": {
+      "name": "Big Ol' Bomb",
+      "icon": "https://render.guildwars2.com/file/9ADBE10F0E4F7D75DC0BF54EBD5B360BE1AB9D09/103400.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5823": {
+      "name": "Fire Bomb",
+      "icon": "https://render.guildwars2.com/file/95DF02395BB2C2EFD4D7BA5BE3ECC512E875EFEE/103404.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5822": {
+      "name": "Galvanic Bomb",
+      "icon": "https://render.guildwars2.com/file/E406DB5F73E8AE312E0E04650FDAF0CCFCFC28FF/103403.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76530": {
+      "name": "Magnetic Bomb",
+      "icon": "https://render.guildwars2.com/file/B70B5426F0B2F4924E08198069789121426F9517/103176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5933": {
+      "name": "Elixir Gun",
+      "icon": "https://render.guildwars2.com/file/5D6E07C3D17AD7C701B199684C641F0E024961C8/103437.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63293": {
+      "name": "Crisis Zone",
+      "icon": "https://render.guildwars2.com/file/157891E17AB0EC5703BC5AF19F7A0E0CA27105A1/2503675.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63141": {
+      "name": "Barrier Burst",
+      "icon": "https://render.guildwars2.com/file/BAF5BED745DABF5112014A7E2F5E29645FDBA6D3/2503685.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63188": {
+      "name": "Spark Revolver",
+      "icon": "https://render.guildwars2.com/file/5F4E2699CF2750EA912E4D1303EB1EDF6AE30C3F/2503680.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63095": {
+      "name": "Overclock Signet",
+      "icon": "https://render.guildwars2.com/file/A82F0980D5ED24F305FA57F3A929C1E90D26327F/2503668.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5812,
+    "slot_8": 5933,
+    "slot_0": 63095
+  },
+  "equipment": {
+    "armor_attributes": "Diviner's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air & Superior Sigil of Paralyzation",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Alacrity Mechanist",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/engineer/power-alacrity-mechanist-two-kits-sword-pistol",
+    "weapons": "Sword / Pistol",
+    "chat_code": "[&DQMmHwY3RisNGxQBlQGNARobXgEHAQAACRuJAQAAAAAAAAAAAAAAAAAAAAADMwBaADYAAA==]",
+    "build_template": "[&DQMmHwY3RisNGxQBlQGNARobXgEHAQAACRuJAQAAAAAAAAAAAAAAAAAAAAADMwBaADYAAA==]"
+  }
+}

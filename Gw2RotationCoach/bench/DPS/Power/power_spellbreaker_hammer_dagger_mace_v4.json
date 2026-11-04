@@ -1522,7 +1522,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1770661": {
       "name": "Breaching Strike",
       "icon": "https://render.guildwars2.com/file/48B836AE01C6EC0D0A0A0680D23834960D556A7E/1770661.png",
@@ -1651,6 +1651,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Spellbreaker",
     "profession": "Warrior",
@@ -1658,9 +1666,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/warrior/power-spellbreaker-hammer-dagger-mace",
-    "dps_report_url": "https://dps.report/6dF5-20260123-212043_golem",
-    "overall_dps": 45016.0,
-    "weapons": "Hammer / Dagger & Mace",
-    "chat_code": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Hammer & Dagger / Mace",
+    "chat_code": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQIEHxY/PT2mAAAArQAAAKkAAACvAAAAnRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

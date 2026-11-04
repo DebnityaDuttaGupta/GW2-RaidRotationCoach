@@ -1,0 +1,408 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        76960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        76746,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        77079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        10247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        77079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        77066,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        76746,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        76960,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s10221": {
+      "name": "Phantasmal Berserker",
+      "icon": "https://render.guildwars2.com/file/3EE57D40E5F2B376FF921FA7455D00319C7DB8A8/103747.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76960": {
+      "name": "Harmonious Harp",
+      "icon": "https://render.guildwars2.com/file/C1BCF465DE1DAB00E00B0F1494ABDB2D7F57BECA/3680162.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10218": {
+      "name": "Mind Stab",
+      "icon": "https://render.guildwars2.com/file/DA0126D7F32A973F4432E2070C0DB7252F561E90/103584.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10333": {
+      "name": "Mirror Blade",
+      "icon": "https://render.guildwars2.com/file/2E3FFCF506520375FEA923CAC4B25846035B5A0D/103789.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77306": {
+      "name": "Lively Lute",
+      "icon": "https://render.guildwars2.com/file/4CAA3750145A55B7E73D5EB9917590EC45657BE7/3680159.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73093": {
+      "name": "Mind the Gap",
+      "icon": "https://render.guildwars2.com/file/A2482595561FEE203E1E72A670F10FAB2F2FFB97/3379155.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72946": {
+      "name": "Phantasmal Lancer",
+      "icon": "https://render.guildwars2.com/file/5E6C98FA3B942EE76808530B016FF5621A25764F/3379157.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76746": {
+      "name": "Flustering Flute",
+      "icon": "https://render.guildwars2.com/file/CFE30B5052A2AA67D9A8AE5FC1FBA0A56C64584C/3680160.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77079": {
+      "name": "Deafening Drum",
+      "icon": "https://render.guildwars2.com/file/E061ECE20A34DC281C0E3EB8FB90094549E87941/3680161.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10247": {
+      "name": "Signet of Illusions",
+      "icon": "https://render.guildwars2.com/file/24B9A56E45B7AB5AA96FF3E85505DF60EA6EBD11/103756.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76931": {
+      "name": "Crescendo",
+      "icon": "https://render.guildwars2.com/file/935C32505D1F4DB7D9739C2C4B4137D4346709A4/3680163.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72957": {
+      "name": "Mental Collapse",
+      "icon": "https://render.guildwars2.com/file/6F07061FEB1E435935AE9269C27DA3EDF5095627/3379158.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77066": {
+      "name": "Tale of the Tortured Mastermind",
+      "icon": "https://render.guildwars2.com/file/64FFFDF0DB06E31493673D7313305536B7AAA53D/3680167.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73152": {
+      "name": "Imaginary Inversion",
+      "icon": "https://render.guildwars2.com/file/04DD10464EFA2CC6E034CABF03D4D89427CFB4E4/3379156.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 10247,
+    "slot_8": 77066
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Shackles",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Troubadour",
+    "profession": "Mesmer",
+    "elite_spec": "Troubadour",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/power-troubadour-spear-greatsword",
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQcBHQoaSRdtAQAAZh0AAIIBAABpAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]",
+    "build_template": "[&DQcBHQoaSRdtAQAAZh0AAIIBAABpAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
+  }
+}

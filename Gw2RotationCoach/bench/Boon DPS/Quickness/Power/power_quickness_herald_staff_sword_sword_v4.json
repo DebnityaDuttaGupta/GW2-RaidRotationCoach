@@ -2460,7 +2460,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1013008": {
       "name": "Burst of Strength",
       "icon": "https://render.guildwars2.com/file/91F9252B1F3C71C934B75502B8DD070A064115D8/1013008.png",
@@ -2577,16 +2577,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Quickness Herald Staff Sword Sword",
+    "name": "Power Quickness Herald",
     "profession": "Revenant",
     "elite_spec": "Herald",
     "build_type": "power",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/revenant/power-quickness-herald-staff-sword-sword",
-    "dps_report_url": "https://dps.report/RBcU-20250211-234906_golem",
-    "overall_dps": 30089.0,
-    "weapons": "Staff / Sword & Sword",
-    "chat_code": "[&DQkDNg8qNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQECAQIGEisS1BEGEisS1BE=]"
+    "weapons": "Staff & Sword / Sword",
+    "chat_code": "[&DQkDNg8qNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQECAQIGEisS1BEGEisS1BE=]",
+    "build_template": "[&DQkDNg8qNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQECAQIGEisS1BEGEisS1BE=]"
   }
 }

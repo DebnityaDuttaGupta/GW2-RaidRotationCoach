@@ -1,0 +1,425 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        14355,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        14410,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        30435,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        14415,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        14518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        30189,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        14399,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        14410,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        14410,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s14355": {
+      "name": "Signet of Rage",
+      "icon": "https://render.guildwars2.com/file/7A530D5434F9E9E80ED14DBE48EEE90427E33A2B/104113.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14410": {
+      "name": "Signet of Fury",
+      "icon": "https://render.guildwars2.com/file/2F34F119A12F4608685DF0B76106F7B6EABCCBF8/104119.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14421": {
+      "name": "Cyclone Axe",
+      "icon": "https://render.guildwars2.com/file/15ECC799800532F4CEAE170E6D7D03FBA225B7C9/102767.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30435": {
+      "name": "Berserk",
+      "icon": "https://render.guildwars2.com/file/1354D8FC07F9F859DC7F0E7B61C0724FD4927C4E/1058638.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30851": {
+      "name": "Decapitate",
+      "icon": "https://render.guildwars2.com/file/93C1E158334AF969FCDCDFC3FD2625780C73B237/1058636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30258": {
+      "name": "Outrage",
+      "icon": "https://render.guildwars2.com/file/DE44372830465728D82500744A04041359ECA9C0/1058652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14418": {
+      "name": "Dual Strike",
+      "icon": "https://render.guildwars2.com/file/20185D064F3665CD7170457DDAC1FBEA0F232974/103000.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14398": {
+      "name": "Throw Axe",
+      "icon": "https://render.guildwars2.com/file/46C6E91E394242FDD3C762DD672CE01D19C05B67/103247.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s80247": {
+      "name": "Skill 80247",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14518": {
+      "name": "Crushing Blow",
+      "icon": "https://render.guildwars2.com/file/53DD40AE0BFA70045A054E30516CC054ECA73E15/103149.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14415": {
+      "name": "Tremor",
+      "icon": "https://render.guildwars2.com/file/60B9CD0D66AAA817ACF9F250B33391A0157D1BFE/103287.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30189": {
+      "name": "Blood Reckoning",
+      "icon": "https://render.guildwars2.com/file/3E80EA264B52D3A3B3CA2E5DA41F57BF35445AF4/1058642.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14399": {
+      "name": "Whirling Axe",
+      "icon": "https://render.guildwars2.com/file/7BD3B56E245B01B50F775627C20965C9410DE842/103866.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 14355,
+    "slot_7": 14410,
+    "slot_8": 30258,
+    "slot_6": 30189
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Berserker",
+    "profession": "Warrior",
+    "elite_spec": "Berserker",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/power-berserker-axe-axe-sword-mace",
+    "weapons": "Axe & Axe / Sword",
+    "chat_code": "[&DQIEHyQ+EhXyEgAA1xKtAKkAqQCvAK8AnACcAAAAAAAAAAAAAAAAAAAAAAACBQAJAQA=]",
+    "build_template": "[&DQIEHyQ+EhXyEgAA1xKtAKkAqQCvAK8AnACcAAAAAAAAAAAAAAAAAAAAAAACBQAJAQA=]"
+  }
+}

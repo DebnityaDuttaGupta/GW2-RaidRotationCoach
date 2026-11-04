@@ -1,0 +1,490 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        2268,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        12504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        43536,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12635,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        46123,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        12504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        69223,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        63129,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        12478,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        12477,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        69223,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        69223,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        12504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        43536,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        12635,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        46123,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        12504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        69223,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        46123,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        12635,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        43536,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        63129,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        12478,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        12477,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        12480,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        63344,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        63147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        63129,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        12490,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        69223,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s2268": {
+      "name": "Skill 2268",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63147": {
+      "name": "Unleash Ranger",
+      "icon": "https://render.guildwars2.com/file/EFC812F33C2A9ECA91F0C1F966E1715FF35E2BDF/2503729.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63344": {
+      "name": "Unleash Pet",
+      "icon": "https://render.guildwars2.com/file/A5E324616977BF624698CA610628B7C3D73ADB1C/2503728.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12504": {
+      "name": "Bonfire",
+      "icon": "https://render.guildwars2.com/file/9C7194F175325315B12FC274F1CA48D094C25AD3/103532.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43536": {
+      "name": "Double Arc",
+      "icon": "https://render.guildwars2.com/file/337557BD3779CD416D6DD32E6E74BB7D949708E4/1770556.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12635": {
+      "name": "Throw Torch",
+      "icon": "https://render.guildwars2.com/file/10A02F01D7021C39049292DAEEC14E690CE5460B/102988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46123": {
+      "name": "Instinctive Engage",
+      "icon": "https://render.guildwars2.com/file/411FB9186E16AAF67508EA94FAD8115855051430/1770557.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69223": {
+      "name": "Neurotoxin Burst",
+      "icon": "https://render.guildwars2.com/file/3B7CC3146E0796B901AA05E4D7AD9AD0DDCC2BC0/3098874.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63129": {
+      "name": "Sundering Volley",
+      "icon": "https://render.guildwars2.com/file/76E435CE09EE9F155FA830BB05211BE0D7AE4DD2/2565746.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12480": {
+      "name": "Splitblade",
+      "icon": "https://render.guildwars2.com/file/9D661C490109C13717F95520EF6ED7BB16BE99E3/103986.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12490": {
+      "name": "Winter's Bite",
+      "icon": "https://render.guildwars2.com/file/1D6462C04F2B4EB601C8EAF8B80C23046E544AEB/103992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12478": {
+      "name": "Stalker's Strike",
+      "icon": "https://render.guildwars2.com/file/997E9851717291082CC3314E68F3D703FD710B08/103166.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12477": {
+      "name": "Crippling Talon",
+      "icon": "https://render.guildwars2.com/file/9B167B580711A77D5E95EF5E6E5B04A907DA3E35/103165.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {},
+  "equipment": {
+    "armor_attributes": "Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Malice",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Quickness Untamed",
+    "profession": "Ranger",
+    "elite_spec": "Untamed",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/ranger/beginner-condition-quickness-untamed-axe-dagger-dagger-torch",
+    "weapons": "Axe & Dagger / Dagger",
+    "chat_code": "[&DQQeHSE3SB95AAAAvwC/AL0ApQG6AAAAwAAAAAYwFQkAAAAAAAAAAAAAAAADBQAvAGYAAA==]",
+    "build_template": "[&DQQeHSE3SB95AAAAvwC/AL0ApQG6AAAAwAAAAAYwFQkAAAAAAAAAAAAAAAADBQAvAGYAAA==]"
+  }
+}

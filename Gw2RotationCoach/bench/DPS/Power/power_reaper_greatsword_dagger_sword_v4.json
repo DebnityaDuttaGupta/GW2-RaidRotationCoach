@@ -1347,7 +1347,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1012926": {
       "name": "Nightfall",
       "icon": "https://render.guildwars2.com/file/586F0469807BB7CB7942F098CC24331D0FF3CA4E/1012926.png",
@@ -1512,16 +1512,23 @@
     "slot_9": 1012951,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Reaper Greatsword Dagger Sword",
+    "name": "Power Reaper",
     "profession": "Necromancer",
     "elite_spec": "Reaper",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/power-reaper-greatsword-dagger-sword",
-    "dps_report_url": "https://dps.report/oU7B-20240321-155135_golem",
-    "overall_dps": 42141.0,
-    "weapons": "Greatsword / Dagger & Sword",
-    "chat_code": "[&DQg1KTIlIjbBEigPQAGBAIEAQAHxEnUBlQCVAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Greatsword & Dagger / Sword",
+    "chat_code": "[&DQg1KTIlIjbBEigPQAGBAIEAQAHxEnUBlQCVAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQg1KTIlIjbBEigPQAGBAIEAQAHxEnUBlQCVAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

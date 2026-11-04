@@ -1,0 +1,383 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40624,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        41475,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        42983,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        29965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        44364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        41475,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        42983,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        41780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        41988,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        40915,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        40915,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        41714,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        2101,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        41475,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        2101,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        42960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        29965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        40624,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        9143,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        13684,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        551,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        74326,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        24551,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        41780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        9140,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9265,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        9088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9140,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        45460,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40624": {
+      "name": "Symbol of Vengeance",
+      "icon": "https://render.guildwars2.com/file/D7DDD899551C060AB9B2C2B0BDC71A6194E379EF/1770458.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41475": {
+      "name": "Restoring Reprieve",
+      "icon": "https://render.guildwars2.com/file/F55B77232407D35E7C03CB6C7B1B199C776B7BB1/1770464.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42983": {
+      "name": "Potent Haste",
+      "icon": "https://render.guildwars2.com/file/A2CEC1C89502B948B10894A56DDEC30A59211C16/1770491.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29965": {
+      "name": "\"Feel My Wrath!\"",
+      "icon": "https://render.guildwars2.com/file/B743B8DDF91DBC0239460877775FBE7BD36F6873/103702.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44364": {
+      "name": "Tome of Justice",
+      "icon": "https://render.guildwars2.com/file/2710AF269B38A4A365089BC7B3C9389B354DE59D/1770472.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41780": {
+      "name": "Tome of Resolve",
+      "icon": "https://render.guildwars2.com/file/E206770FD62BB63B71F56209F34BF99392BADF9E/1770478.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41988": {
+      "name": "Overwhelming Celerity",
+      "icon": "https://render.guildwars2.com/file/BC1E1F76E4C9607A29AF77B61DFE35919DF56735/1770492.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40915": {
+      "name": "Mantra of Potence",
+      "icon": "https://render.guildwars2.com/file/B4CB1901D4577CCCBBD315D833FE02C7B748BBC3/1770490.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41714": {
+      "name": "Mantra of Solace",
+      "icon": "https://render.guildwars2.com/file/9E64514AF3280620040C0DBC61A7AABB0F765E54/1770463.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2101": {
+      "name": "Skill 2101",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42960": {
+      "name": "Rejuvenating Respite",
+      "icon": "https://render.guildwars2.com/file/D94367CB0B6F797D956C50B068F96B7F09D0CBBB/1770465.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9143": {
+      "name": "Symbol of Swiftness",
+      "icon": "https://render.guildwars2.com/file/E315FF56624F5B2BB8BF51D00FA716FA4936F037/103268.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13684": {
+      "name": "Lesser Symbol of Protection",
+      "icon": "https://render.guildwars2.com/file/E56B3804B2F82E3256A82318E537D024DC57E271/103161.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s551": {
+      "name": "Skill 551",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s74326": {
+      "name": "Skill 74326",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24551": {
+      "name": "Skill 24551",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9140": {
+      "name": "Holy Strike",
+      "icon": "https://render.guildwars2.com/file/E693B0D94525BFECFDB6FAC2670A1360443DB2F0/2029305.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9265": {
+      "name": "Empower",
+      "icon": "https://render.guildwars2.com/file/0EFCC1FD452CC19694D6BA3F390C1822C3FE73CD/103636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9088": {
+      "name": "Cleansing Flame",
+      "icon": "https://render.guildwars2.com/file/FC0E030F7E67C4C62F0A6717B9F1B80012A6F1C7/103127.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9187": {
+      "name": "Purging Flames",
+      "icon": "https://render.guildwars2.com/file/646CD9EA044A959A0A0D6143B29707EADB31B2B9/103675.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45460": {
+      "name": "Mantra of Lore",
+      "icon": "https://render.guildwars2.com/file/B304FBFE03030A1E2A07D8150CFB2A9EA24BE37E/1770487.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 42960,
+    "slot_7": 42983,
+    "slot_0": 29965,
+    "slot_8": 41988,
+    "slot_9": 40915
+  },
+  "equipment": {
+    "armor_attributes": "Celestial",
+    "runes": "Superior Rune of Leadership",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Water & Superior Sigil of Smoldering & Superior Sigil of Torment",
+    "relic": "Relic of the Flock",
+    "food": "Spherified Oyster Soup with Mint Garnish",
+    "utility": "Magnanimous Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Celestial Quickness Firebrand",
+    "profession": "Guardian",
+    "elite_spec": "Firebrand",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/guardian/celestial-quickness-firebrand-staff-axe-torch",
+    "weapons": "Staff & Axe / Torch",
+    "chat_code": "[&DQExLxAaPiZLFyYPehZIARUXTAFMATEBiRKJEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]",
+    "build_template": "[&DQExLxAaPiZLFyYPehZIARUXTAFMATEBiRKJEgAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
+  }
+}

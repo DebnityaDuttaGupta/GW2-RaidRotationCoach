@@ -1648,7 +1648,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1770411": {
       "name": "Laser Disk",
       "icon": "https://render.guildwars2.com/file/A01806176C59A9D0E80A5A7F5BAC2B7C96E51DC6/1770411.png",
@@ -1837,6 +1837,14 @@
     "slot_9": 1770411,
     "slot_0": 1770387
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact & Superior Sigil of Paralyzation",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Holosmith",
     "profession": "Engineer",
@@ -1844,9 +1852,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-holosmith-sword-pistol",
-    "dps_report_url": "https://dps.report/nrc1-20260118-001246_golem",
-    "overall_dps": 43266.0,
     "weapons": "Sword / Pistol",
-    "chat_code": "[&DQMGOyYfOSsqDwAAhgAAAOUWAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQMGOyYfOSsqDwAAhgAAAOUWAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGOyYfOSsqDwAAhgAAAOUWAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }
