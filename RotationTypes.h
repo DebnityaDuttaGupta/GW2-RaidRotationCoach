@@ -96,6 +96,9 @@ struct BenchmarkEvaluation
     double benchmarkEightyFivePercentMilliseconds;
     double benchmarkNinetyFivePercentMilliseconds;
     double pacingDeltaMilliseconds;
+    double executionSpeedPercentage;
+    double deficitPercentageNinetyFive;
+    double deficitPercentageEightyFive;
     uint32_t successfulCastCount;
     uint32_t mistakeCount;
 };

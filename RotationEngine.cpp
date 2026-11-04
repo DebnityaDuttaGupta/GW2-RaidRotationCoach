@@ -175,6 +175,97 @@ void RotationEngine::ApplySpecialSkillCooldownEffects(const std::string& skillNa
             }
         }
     }
+    else if (skillName.find("Renewed Focus") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Virtue of") != std::string::npos ||
+                timerPair.first.find("Spear of Justice") != std::string::npos ||
+                timerPair.first.find("Wings of Resolve") != std::string::npos ||
+                timerPair.first.find("Shield of Courage") != std::string::npos ||
+                timerPair.first.find("Rushing Justice") != std::string::npos ||
+                timerPair.first.find("Flowing Resolve") != std::string::npos ||
+                timerPair.first.find("Crashing Courage") != std::string::npos ||
+                timerPair.first.find("Chapter") != std::string::npos ||
+                timerPair.first.find("Epilogue") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Berserk") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Arc Divider") != std::string::npos ||
+                timerPair.first.find("Decapitate") != std::string::npos ||
+                timerPair.first.find("Combustive Shot") != std::string::npos ||
+                timerPair.first.find("Skull Grinder") != std::string::npos ||
+                timerPair.first.find("Rupturing Smash") != std::string::npos ||
+                timerPair.first.find("Flamestrike") != std::string::npos ||
+                timerPair.first.find("Gun Flame") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Fresh Air") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Air Attunement") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Weave Self") != std::string::npos || skillName.find("Tailored Victory") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Attunement") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Swap Pet") != std::string::npos || skillName.find("Pet Swap") != std::string::npos ||
+             skillName.find("Enter Beastmode") != std::string::npos || skillName.find("Leave Beastmode") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Command") != std::string::npos ||
+                timerPair.first.find("Beast") != std::string::npos ||
+                timerPair.first.find("Bite") != std::string::npos ||
+                timerPair.first.find("Maul") != std::string::npos ||
+                timerPair.first.find("Swipe") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Deadeye's Mark") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Deadeye's Mark") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
+    else if (skillName.find("Legendary ") != std::string::npos && skillName.find("Stance") != std::string::npos)
+    {
+        for (auto& timerPair : skillCooldownTimers)
+        {
+            if (timerPair.first.find("Facet") != std::string::npos ||
+                timerPair.first.find("Orders from the Above") != std::string::npos ||
+                timerPair.first.find("Soulcleave") != std::string::npos)
+            {
+                timerPair.second = 0.0f;
+            }
+        }
+    }
 }
 
 void RotationEngine::ResetAllCooldowns()
@@ -1005,6 +1096,9 @@ BenchmarkEvaluation RotationEngine::CalculateBenchmarkEvaluation() const
     BenchmarkEvaluation evaluationResult;
     evaluationResult.successfulCastCount = currentStepIndex;
     evaluationResult.mistakeCount = static_cast<uint32_t>(mistakeHistory.size());
+    evaluationResult.executionSpeedPercentage = 0.0;
+    evaluationResult.deficitPercentageNinetyFive = 0.0;
+    evaluationResult.deficitPercentageEightyFive = 0.0;
 
     double baselineEightyFivePercentMilliseconds = 210.0;
     double baselineNinetyFivePercentMilliseconds = 85.0;
@@ -1023,6 +1117,21 @@ BenchmarkEvaluation RotationEngine::CalculateBenchmarkEvaluation() const
     evaluationResult.currentAverageGapMilliseconds = totalIntervalSum / static_cast<double>(recordedGapIntervals.size());
 
     evaluationResult.pacingDeltaMilliseconds = evaluationResult.currentAverageGapMilliseconds - evaluationResult.benchmarkNinetyFivePercentMilliseconds;
+
+    if (evaluationResult.currentAverageGapMilliseconds > 0.0)
+    {
+        evaluationResult.executionSpeedPercentage = (evaluationResult.benchmarkNinetyFivePercentMilliseconds / evaluationResult.currentAverageGapMilliseconds) * 100.0;
+
+        if (evaluationResult.currentAverageGapMilliseconds > evaluationResult.benchmarkNinetyFivePercentMilliseconds)
+        {
+            evaluationResult.deficitPercentageNinetyFive = ((evaluationResult.currentAverageGapMilliseconds - evaluationResult.benchmarkNinetyFivePercentMilliseconds) / evaluationResult.benchmarkNinetyFivePercentMilliseconds) * 100.0;
+        }
+
+        if (evaluationResult.currentAverageGapMilliseconds > evaluationResult.benchmarkEightyFivePercentMilliseconds)
+        {
+            evaluationResult.deficitPercentageEightyFive = ((evaluationResult.currentAverageGapMilliseconds - evaluationResult.benchmarkEightyFivePercentMilliseconds) / evaluationResult.benchmarkEightyFivePercentMilliseconds) * 100.0;
+        }
+    }
 
     return evaluationResult;
 }

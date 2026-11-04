@@ -1,3 +1,6 @@
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <iphlpapi.h>
 #include <windows.h>
 #include <string>
 #include <vector>
@@ -5,6 +8,9 @@
 #include <chrono>
 #include <cmath>
 #include <algorithm>
+
+#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "iphlpapi.lib")
 
 #include "Nexus.h"
 #include "imgui/imgui.h"
@@ -26,10 +32,15 @@ static bool globalShowPacingMetricsWindow = false;
 static bool globalShowMistakeHistoryWindow = false;
 
 static float globalWeaponBarHorizontalOffset = 6.0f;
+static float globalWeaponBarVerticalOffset = -21.0f;
 static float globalUtilityBarHorizontalOffset = 3.0f;
+static float globalUtilityBarVerticalOffset = -21.0f;
 static float globalProfessionBarHorizontalOffset = 0.0f;
 static float globalProfessionBarVerticalOffset = 0.0f;
-static float globalActionBarVerticalOffset = -21.0f;
+
+static bool globalAutoDetectLivePing = true;
+static double globalLiveSmoothedPingMilliseconds = 50.0;
+static std::chrono::steady_clock::time_point globalLastPingSampleTime;
 static float globalActionBarSlotSize = 48.0f;
 static float globalActionBarSlotSpacing = 7.0f;
 static float globalProfessionSlotSize = 37.0f;
@@ -168,6 +179,110 @@ static ProfessionBarAlignmentProfile& GetProfessionAlignmentProfile(const std::s
 
     globalProfessionAlignmentProfiles[effectiveKey] = defaultProfile;
     return globalProfessionAlignmentProfiles[effectiveKey];
+}
+
+static void UpdateLiveNetworkPing()
+{
+    if (!globalAutoDetectLivePing)
+    {
+        return;
+    }
+
+    auto currentTimePoint = std::chrono::steady_clock::now();
+    auto elapsedMilliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(currentTimePoint - globalLastPingSampleTime).count();
+    if (elapsedMilliseconds < 2500)
+    {
+        return;
+    }
+
+    globalLastPingSampleTime = currentTimePoint;
+
+    DWORD tableSize = 0;
+    GetExtendedTcpTable(nullptr, &tableSize, TRUE, AF_INET, TCP_TABLE_OWNER_PID_ALL, 0);
+    if (tableSize == 0)
+    {
+        return;
+    }
+
+    std::vector<uint8_t> buffer(tableSize);
+    if (GetExtendedTcpTable(buffer.data(), &tableSize, TRUE, AF_INET, TCP_TABLE_OWNER_PID_ALL, 0) != NO_ERROR)
+    {
+        return;
+    }
+
+    const MIB_TCPTABLE_OWNER_PID* tcpTable = reinterpret_cast<const MIB_TCPTABLE_OWNER_PID*>(buffer.data());
+    DWORD currentProcessIdentifier = GetCurrentProcessId();
+    uint32_t targetServerAddress = 0;
+    uint16_t targetServerPort = 0;
+
+    for (DWORD entryIndex = 0; entryIndex < tcpTable->dwNumEntries; entryIndex = entryIndex + 1)
+    {
+        const MIB_TCPROW_OWNER_PID& tcpRow = tcpTable->table[entryIndex];
+        if (tcpRow.dwOwningPid == currentProcessIdentifier && tcpRow.dwState == MIB_TCP_STATE_ESTAB)
+        {
+            uint16_t remotePort = ntohs(static_cast<u_short>(tcpRow.dwRemotePort));
+            if (remotePort == 6112)
+            {
+                targetServerAddress = tcpRow.dwRemoteAddr;
+                targetServerPort = static_cast<uint16_t>(tcpRow.dwRemotePort);
+                break;
+            }
+        }
+    }
+
+    if (targetServerAddress == 0)
+    {
+        return;
+    }
+
+    SOCKET pingSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    if (pingSocket == INVALID_SOCKET)
+    {
+        return;
+    }
+
+    u_long nonBlockingMode = 1;
+    ioctlsocket(pingSocket, FIONBIO, &nonBlockingMode);
+
+    sockaddr_in serverSocketAddress;
+    memset(&serverSocketAddress, 0, sizeof(serverSocketAddress));
+    serverSocketAddress.sin_family = AF_INET;
+    serverSocketAddress.sin_addr.s_addr = targetServerAddress;
+    serverSocketAddress.sin_port = targetServerPort;
+
+    auto connectStartTimePoint = std::chrono::steady_clock::now();
+    connect(pingSocket, reinterpret_cast<sockaddr*>(&serverSocketAddress), sizeof(serverSocketAddress));
+
+    fd_set writeSet;
+    FD_ZERO(&writeSet);
+    FD_SET(pingSocket, &writeSet);
+
+    timeval timeoutStructure;
+    timeoutStructure.tv_sec = 0;
+    timeoutStructure.tv_usec = 800000;
+
+    int selectResult = select(0, nullptr, &writeSet, nullptr, &timeoutStructure);
+    if (selectResult > 0)
+    {
+        auto connectEndTimePoint = std::chrono::steady_clock::now();
+        double measuredPingMilliseconds = static_cast<double>(std::chrono::duration_cast<std::chrono::microseconds>(connectEndTimePoint - connectStartTimePoint).count()) / 1000.0;
+
+        if (measuredPingMilliseconds > 0.0 && measuredPingMilliseconds < 1000.0)
+        {
+            if (globalLiveSmoothedPingMilliseconds <= 0.0)
+            {
+                globalLiveSmoothedPingMilliseconds = measuredPingMilliseconds;
+            }
+            else
+            {
+                globalLiveSmoothedPingMilliseconds = (globalLiveSmoothedPingMilliseconds * 0.6) + (measuredPingMilliseconds * 0.4);
+            }
+
+            globalRotationEngine.SetNetworkLatencyMilliseconds(globalLiveSmoothedPingMilliseconds);
+        }
+    }
+
+    closesocket(pingSocket);
 }
 
 static float globalRibbonHudHorizontalOffset = 0.0f;
@@ -393,10 +508,12 @@ struct ActionSlotBox
 
 static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth, float displayHeight)
 {
-    float screenBaseY = (displayHeight - 52.0f) + globalActionBarVerticalOffset;
     float slotBoxWidth = globalActionBarSlotSize;
     float slotBoxHeight = globalActionBarSlotSize;
     float slotSpacing = globalActionBarSlotSpacing;
+
+    float weaponBaseY = (displayHeight - 52.0f) + globalWeaponBarVerticalOffset;
+    float utilityBaseY = (displayHeight - 52.0f) + globalUtilityBarVerticalOffset;
 
     float weaponCenterX = (displayWidth * 0.5f) + globalWeaponBarHorizontalOffset;
     float utilityCenterX = (displayWidth * 0.5f) + globalUtilityBarHorizontalOffset;
@@ -408,21 +525,21 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
     float weaponSkillOneLeftCoordinateX = weaponSkillFiveRightCoordinateX - (5.0f * slotBoxWidth) - (4.0f * slotSpacing);
     float weaponSwapDimension = slotBoxWidth * 0.72f;
     float weaponSwapCoordinateX = weaponSkillOneLeftCoordinateX - weaponSwapDimension - 6.0f;
-    float weaponSwapCoordinateY = screenBaseY + ((slotBoxHeight - weaponSwapDimension) * 0.5f);
+    float weaponSwapCoordinateY = weaponBaseY + ((slotBoxHeight - weaponSwapDimension) * 0.5f);
 
     resultBoxes.push_back({weaponSwapCoordinateX, weaponSwapCoordinateY, weaponSwapDimension, weaponSwapDimension, "`", SkillSlotCategory::WeaponSwap});
-    resultBoxes.push_back({weaponSkillOneLeftCoordinateX, screenBaseY, slotBoxWidth, slotBoxHeight, "1", SkillSlotCategory::WeaponSkillOne});
-    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 1.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "2", SkillSlotCategory::WeaponSkillTwo});
-    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 2.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "3", SkillSlotCategory::WeaponSkillThree});
-    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 3.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "4", SkillSlotCategory::WeaponSkillFour});
-    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 4.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "5", SkillSlotCategory::WeaponSkillFive});
+    resultBoxes.push_back({weaponSkillOneLeftCoordinateX, weaponBaseY, slotBoxWidth, slotBoxHeight, "1", SkillSlotCategory::WeaponSkillOne});
+    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 1.0f * (slotBoxWidth + slotSpacing), weaponBaseY, slotBoxWidth, slotBoxHeight, "2", SkillSlotCategory::WeaponSkillTwo});
+    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 2.0f * (slotBoxWidth + slotSpacing), weaponBaseY, slotBoxWidth, slotBoxHeight, "3", SkillSlotCategory::WeaponSkillThree});
+    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 3.0f * (slotBoxWidth + slotSpacing), weaponBaseY, slotBoxWidth, slotBoxHeight, "4", SkillSlotCategory::WeaponSkillFour});
+    resultBoxes.push_back({weaponSkillOneLeftCoordinateX + 4.0f * (slotBoxWidth + slotSpacing), weaponBaseY, slotBoxWidth, slotBoxHeight, "5", SkillSlotCategory::WeaponSkillFive});
 
     float utilityLeftCoordinateX = utilityCenterX + healthGlobeRadius;
-    resultBoxes.push_back({utilityLeftCoordinateX, screenBaseY, slotBoxWidth, slotBoxHeight, "6", SkillSlotCategory::HealingSkill});
-    resultBoxes.push_back({utilityLeftCoordinateX + 1.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "7", SkillSlotCategory::UtilitySkillOne});
-    resultBoxes.push_back({utilityLeftCoordinateX + 2.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "8", SkillSlotCategory::UtilitySkillTwo});
-    resultBoxes.push_back({utilityLeftCoordinateX + 3.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "9", SkillSlotCategory::UtilitySkillThree});
-    resultBoxes.push_back({utilityLeftCoordinateX + 4.0f * (slotBoxWidth + slotSpacing), screenBaseY, slotBoxWidth, slotBoxHeight, "0", SkillSlotCategory::EliteSkill});
+    resultBoxes.push_back({utilityLeftCoordinateX, utilityBaseY, slotBoxWidth, slotBoxHeight, "6", SkillSlotCategory::HealingSkill});
+    resultBoxes.push_back({utilityLeftCoordinateX + 1.0f * (slotBoxWidth + slotSpacing), utilityBaseY, slotBoxWidth, slotBoxHeight, "7", SkillSlotCategory::UtilitySkillOne});
+    resultBoxes.push_back({utilityLeftCoordinateX + 2.0f * (slotBoxWidth + slotSpacing), utilityBaseY, slotBoxWidth, slotBoxHeight, "8", SkillSlotCategory::UtilitySkillTwo});
+    resultBoxes.push_back({utilityLeftCoordinateX + 3.0f * (slotBoxWidth + slotSpacing), utilityBaseY, slotBoxWidth, slotBoxHeight, "9", SkillSlotCategory::UtilitySkillThree});
+    resultBoxes.push_back({utilityLeftCoordinateX + 4.0f * (slotBoxWidth + slotSpacing), utilityBaseY, slotBoxWidth, slotBoxHeight, "0", SkillSlotCategory::EliteSkill});
 
     const BuildProfile* activeProfile = globalRotationEngine.GetActiveProfilePointer();
     std::string professionName = (activeProfile != nullptr) ? activeProfile->professionName : "";
@@ -440,54 +557,55 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
 
     float professionSlotSize = alignmentProfile.slotBoxDimension;
     float professionSpacing = alignmentProfile.slotSpacingDimension;
-    float professionBaseY = screenBaseY - professionSlotSize - 6.0f + alignmentProfile.verticalOffset;
+    float standardProfessionBaseY = (displayHeight - 52.0f) - professionSlotSize - 6.0f + alignmentProfile.verticalOffset;
+    float standardProfessionLeftBaseX = (displayWidth * 0.5f) - healthGlobeRadius - (5.0f * slotBoxWidth) - (4.0f * slotSpacing);
 
     if (specializationName == "Firebrand" || specializationIdentifier == 62)
     {
-        float firebrandStartX = weaponSkillOneLeftCoordinateX + 6.0f + alignmentProfile.horizontalOffset;
+        float firebrandStartX = standardProfessionLeftBaseX + 6.0f + alignmentProfile.horizontalOffset;
 
-        resultBoxes.push_back({firebrandStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-        resultBoxes.push_back({firebrandStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
-        resultBoxes.push_back({firebrandStartX + 2.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
+        resultBoxes.push_back({firebrandStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+        resultBoxes.push_back({firebrandStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+        resultBoxes.push_back({firebrandStartX + 2.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
     }
     else if (professionName == "Guardian" || professionIdentifier == 1)
     {
-        float guardianStartX = weaponSkillOneLeftCoordinateX + (0.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+        float guardianStartX = standardProfessionLeftBaseX + (0.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-        resultBoxes.push_back({guardianStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-        resultBoxes.push_back({guardianStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
-        resultBoxes.push_back({guardianStartX + 2.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
+        resultBoxes.push_back({guardianStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+        resultBoxes.push_back({guardianStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+        resultBoxes.push_back({guardianStartX + 2.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
     }
     else if (professionName == "Warrior" || professionIdentifier == 2)
     {
         if (specializationName == "Berserker" || specializationName == "Spellbreaker" || specializationName == "Bladesworn" ||
             specializationIdentifier == 18 || specializationIdentifier == 61 || specializationIdentifier == 68)
         {
-            float warriorStartX = weaponSkillOneLeftCoordinateX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float warriorStartX = standardProfessionLeftBaseX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({warriorStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-            resultBoxes.push_back({warriorStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+            resultBoxes.push_back({warriorStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({warriorStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
         }
         else
         {
-            float warriorStartX = weaponSkillOneLeftCoordinateX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float warriorStartX = standardProfessionLeftBaseX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({warriorStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({warriorStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
         }
     }
     else if (professionName == "Engineer" || professionIdentifier == 3)
     {
         if (specializationName == "Mechanist" || specializationIdentifier == 70)
         {
-            float mechanistStartX = weaponSkillOneLeftCoordinateX + (0.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float mechanistStartX = standardProfessionLeftBaseX + (0.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({mechanistStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-            resultBoxes.push_back({mechanistStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
-            resultBoxes.push_back({mechanistStartX + 2.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
+            resultBoxes.push_back({mechanistStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({mechanistStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+            resultBoxes.push_back({mechanistStartX + 2.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
         }
         else
         {
-            float engineerStartX = weaponSkillOneLeftCoordinateX + 4.0f + alignmentProfile.horizontalOffset;
+            float engineerStartX = standardProfessionLeftBaseX + 4.0f + alignmentProfile.horizontalOffset;
 
             for (uint32_t slotIndex = 0; slotIndex < 5; slotIndex = slotIndex + 1)
             {
@@ -495,13 +613,13 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
                 SkillSlotCategory slotCategory = static_cast<SkillSlotCategory>(static_cast<uint32_t>(SkillSlotCategory::ProfessionSkillOne) + slotIndex);
                 std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
-                resultBoxes.push_back({slotCoordinateX, professionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
+                resultBoxes.push_back({slotCoordinateX, standardProfessionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
             }
         }
     }
     else if (professionName == "Elementalist" || professionIdentifier == 6)
     {
-        float elementalistStartX = weaponSkillOneLeftCoordinateX + 4.0f + alignmentProfile.horizontalOffset;
+        float elementalistStartX = standardProfessionLeftBaseX + 4.0f + alignmentProfile.horizontalOffset;
         SkillSlotCategory activeAttunement = globalRotationEngine.GetActiveAttunementCategory();
 
         for (uint32_t slotIndex = 0; slotIndex < 4; slotIndex = slotIndex + 1)
@@ -510,13 +628,13 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
             std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
             float currentSlotX = elementalistStartX + (static_cast<float>(slotIndex) * (professionSlotSize + professionSpacing));
-            float currentSlotY = professionBaseY;
+            float currentSlotY = standardProfessionBaseY;
             float currentSlotDimension = professionSlotSize;
 
             if (category == activeAttunement)
             {
                 currentSlotDimension = professionSlotSize * 1.25f;
-                currentSlotY = professionBaseY - (professionSlotSize * 0.20f);
+                currentSlotY = standardProfessionBaseY - (professionSlotSize * 0.20f);
                 currentSlotX = currentSlotX - ((currentSlotDimension - professionSlotSize) * 0.5f);
             }
 
@@ -527,7 +645,7 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
         {
             float catalystEnergyGaugeGap = professionSlotSize * 0.65f;
             float catalystJadeSphereStartX = elementalistStartX + (4.0f * (professionSlotSize + professionSpacing)) + catalystEnergyGaugeGap;
-            resultBoxes.push_back({catalystJadeSphereStartX, professionBaseY, professionSlotSize, professionSlotSize, "F5", SkillSlotCategory::ProfessionSkillFive});
+            resultBoxes.push_back({catalystJadeSphereStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F5", SkillSlotCategory::ProfessionSkillFive});
         }
     }
     else if (professionName == "Mesmer" || professionIdentifier == 7)
@@ -536,32 +654,35 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
 
         if (specializationName == "Virtuoso" || specializationIdentifier == 66)
         {
-            float virtuosoLeftBoundX = weaponSkillOneLeftCoordinateX + 1.0f * (slotBoxWidth + slotSpacing);
-            float virtuosoRightBoundX = weaponSkillOneLeftCoordinateX + 5.0f * (slotBoxWidth + slotSpacing) - slotSpacing;
-            float availableVirtuosoWidth = virtuosoRightBoundX - virtuosoLeftBoundX;
-            float virtuosoSlotDimension = (availableVirtuosoWidth - (4.0f * professionSpacing)) / 5.0f;
-
-            if (alignmentProfile.slotBoxDimension > 0.0f && alignmentProfile.slotBoxDimension != 37.0f)
+            float virtuosoSlotDimension = 36.0f;
+            if (alignmentProfile.slotBoxDimension > 0.0f)
             {
                 virtuosoSlotDimension = alignmentProfile.slotBoxDimension;
             }
 
-            float virtuosoStartX = virtuosoLeftBoundX + alignmentProfile.horizontalOffset;
+            float virtuosoSpacing = 4.0f;
+            if (alignmentProfile.slotSpacingDimension > 0.0f)
+            {
+                virtuosoSpacing = alignmentProfile.slotSpacingDimension;
+            }
+
+            float virtuosoStartX = standardProfessionLeftBaseX + (1.0f * (slotBoxWidth + slotSpacing)) + 8.0f + alignmentProfile.horizontalOffset;
+            float virtuosoBaseY = (displayHeight - 52.0f) - virtuosoSlotDimension - 6.0f + alignmentProfile.verticalOffset;
 
             for (uint32_t slotIndex = 0; slotIndex < 5; slotIndex = slotIndex + 1)
             {
-                float slotCoordinateX = virtuosoStartX + (static_cast<float>(slotIndex) * (virtuosoSlotDimension + professionSpacing));
+                float slotCoordinateX = virtuosoStartX + (static_cast<float>(slotIndex) * (virtuosoSlotDimension + virtuosoSpacing));
                 SkillSlotCategory slotCategory = static_cast<SkillSlotCategory>(static_cast<uint32_t>(SkillSlotCategory::ProfessionSkillOne) + slotIndex);
                 std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
-                resultBoxes.push_back({slotCoordinateX, professionBaseY, virtuosoSlotDimension, virtuosoSlotDimension, slotLabel, slotCategory});
+                resultBoxes.push_back({slotCoordinateX, virtuosoBaseY, virtuosoSlotDimension, virtuosoSlotDimension, slotLabel, slotCategory});
             }
         }
         else
         {
             float totalProfessionGroupWidth = (static_cast<float>(shatterCount) * professionSlotSize) + (static_cast<float>(shatterCount - 1) * professionSpacing);
             float weaponBarTotalWidth = (5.0f * slotBoxWidth) + (4.0f * slotSpacing);
-            float mesmerStartX = (weaponSkillOneLeftCoordinateX + weaponBarTotalWidth) - totalProfessionGroupWidth - 12.0f + alignmentProfile.horizontalOffset;
+            float mesmerStartX = (standardProfessionLeftBaseX + weaponBarTotalWidth) - totalProfessionGroupWidth - 12.0f + alignmentProfile.horizontalOffset;
 
             for (uint32_t slotIndex = 0; slotIndex < shatterCount; slotIndex = slotIndex + 1)
             {
@@ -569,7 +690,7 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
                 SkillSlotCategory slotCategory = static_cast<SkillSlotCategory>(static_cast<uint32_t>(SkillSlotCategory::ProfessionSkillOne) + slotIndex);
                 std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
-                resultBoxes.push_back({slotCoordinateX, professionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
+                resultBoxes.push_back({slotCoordinateX, standardProfessionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
             }
         }
     }
@@ -577,7 +698,7 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
     {
         if (specializationName == "Scourge" || specializationIdentifier == 60)
         {
-            float scourgeStartX = weaponSkillOneLeftCoordinateX + 4.0f + alignmentProfile.horizontalOffset;
+            float scourgeStartX = standardProfessionLeftBaseX + 4.0f + alignmentProfile.horizontalOffset;
 
             for (uint32_t slotIndex = 0; slotIndex < 5; slotIndex = slotIndex + 1)
             {
@@ -585,66 +706,56 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
                 SkillSlotCategory slotCategory = static_cast<SkillSlotCategory>(static_cast<uint32_t>(SkillSlotCategory::ProfessionSkillOne) + slotIndex);
                 std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
-                resultBoxes.push_back({slotCoordinateX, professionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
+                resultBoxes.push_back({slotCoordinateX, standardProfessionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
             }
         }
         else
         {
-            float shroudCoordinateX = weaponSkillOneLeftCoordinateX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float shroudCoordinateX = standardProfessionLeftBaseX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({shroudCoordinateX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({shroudCoordinateX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
         }
     }
     else if (professionName == "Ranger" || professionIdentifier == 4)
     {
-        float rangerStartX = weaponSkillOneLeftCoordinateX - 4.0f + alignmentProfile.horizontalOffset;
+        float rangerStartX = standardProfessionLeftBaseX - 4.0f + alignmentProfile.horizontalOffset;
 
-        resultBoxes.push_back({rangerStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-        resultBoxes.push_back({rangerStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
-        resultBoxes.push_back({rangerStartX + 2.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
-        resultBoxes.push_back({rangerStartX + 3.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F4", SkillSlotCategory::ProfessionSkillFour});
+        resultBoxes.push_back({rangerStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+        resultBoxes.push_back({rangerStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+        resultBoxes.push_back({rangerStartX + 2.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F3", SkillSlotCategory::ProfessionSkillThree});
+        resultBoxes.push_back({rangerStartX + 3.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F4", SkillSlotCategory::ProfessionSkillFour});
 
-        if (specializationName == "Soulbeast" || specializationName == "Druid" || specializationName == "Untamed" ||
-            specializationIdentifier == 55 || specializationIdentifier == 5 || specializationIdentifier == 72)
+        if (specializationName != "Untamed" && specializationIdentifier != 72)
         {
-            resultBoxes.push_back({rangerStartX + 4.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F5", SkillSlotCategory::ProfessionSkillFive});
+            resultBoxes.push_back({rangerStartX + 4.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F5", SkillSlotCategory::ProfessionSkillFive});
         }
     }
     else if (professionName == "Thief" || professionIdentifier == 5)
     {
-        if (specializationName == "Deadeye" || specializationName == "Specter" || specializationIdentifier == 63 || specializationIdentifier == 71)
+        if (specializationName == "Specter" || specializationIdentifier == 71)
         {
-            float thiefStartX = weaponSkillOneLeftCoordinateX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float thiefStartX = standardProfessionLeftBaseX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({thiefStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-            resultBoxes.push_back({thiefStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
+            resultBoxes.push_back({thiefStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({thiefStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
         }
         else
         {
-            float thiefStartX = weaponSkillOneLeftCoordinateX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+            float thiefStartX = standardProfessionLeftBaseX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({thiefStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+            resultBoxes.push_back({thiefStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
         }
     }
     else if (professionName == "Revenant" || professionIdentifier == 9)
     {
-        if (specializationName == "Herald" || specializationName == "Vindicator" || specializationIdentifier == 52 || specializationIdentifier == 69)
-        {
-            float revenantStartX = weaponSkillOneLeftCoordinateX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
+        float revenantStartX = standardProfessionLeftBaseX + (1.0f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
 
-            resultBoxes.push_back({revenantStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-            resultBoxes.push_back({revenantStartX + 1.0f * (professionSlotSize + professionSpacing), professionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
-        }
-        else
-        {
-            float revenantStartX = weaponSkillOneLeftCoordinateX + (1.5f * (slotBoxWidth + slotSpacing)) + alignmentProfile.horizontalOffset;
-
-            resultBoxes.push_back({revenantStartX, professionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
-        }
+        resultBoxes.push_back({revenantStartX, standardProfessionBaseY, professionSlotSize, professionSlotSize, "F1", SkillSlotCategory::ProfessionSkillOne});
+        resultBoxes.push_back({revenantStartX + 1.0f * (professionSlotSize + professionSpacing), standardProfessionBaseY, professionSlotSize, professionSlotSize, "F2", SkillSlotCategory::ProfessionSkillTwo});
     }
     else
     {
-        float defaultStartX = weaponSkillOneLeftCoordinateX + 4.0f + alignmentProfile.horizontalOffset;
+        float defaultStartX = standardProfessionLeftBaseX + 4.0f + alignmentProfile.horizontalOffset;
 
         for (uint32_t slotIndex = 0; slotIndex < 5; slotIndex = slotIndex + 1)
         {
@@ -652,7 +763,7 @@ static std::vector<ActionSlotBox> CalculateAllActionSlotBoxes(float displayWidth
             SkillSlotCategory slotCategory = static_cast<SkillSlotCategory>(static_cast<uint32_t>(SkillSlotCategory::ProfessionSkillOne) + slotIndex);
             std::string slotLabel = "F" + std::to_string(slotIndex + 1);
 
-            resultBoxes.push_back({slotCoordinateX, professionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
+            resultBoxes.push_back({slotCoordinateX, standardProfessionBaseY, professionSlotSize, professionSlotSize, slotLabel, slotCategory});
         }
     }
 
@@ -791,7 +902,7 @@ static void RenderActionBarSlotHighlighter()
                 {
                     ImVec2 mouseMovementDelta = ImGui::GetIO().MouseDelta;
                     globalWeaponBarHorizontalOffset = globalWeaponBarHorizontalOffset + mouseMovementDelta.x;
-                    globalActionBarVerticalOffset = globalActionBarVerticalOffset + mouseMovementDelta.y;
+                    globalWeaponBarVerticalOffset = globalWeaponBarVerticalOffset + mouseMovementDelta.y;
                 }
                 ImGui::PopStyleColor(3);
             }
@@ -813,7 +924,7 @@ static void RenderActionBarSlotHighlighter()
                 {
                     ImVec2 mouseMovementDelta = ImGui::GetIO().MouseDelta;
                     globalUtilityBarHorizontalOffset = globalUtilityBarHorizontalOffset + mouseMovementDelta.x;
-                    globalActionBarVerticalOffset = globalActionBarVerticalOffset + mouseMovementDelta.y;
+                    globalUtilityBarVerticalOffset = globalUtilityBarVerticalOffset + mouseMovementDelta.y;
                 }
                 ImGui::PopStyleColor(3);
             }
@@ -981,9 +1092,10 @@ static void RenderMasterControlPanel()
                         globalActionBarSlotSpacing = 8.0f;
                     }
 
-                    ImGui::SliderFloat("Weapon Bar (Left) Offset", &globalWeaponBarHorizontalOffset, -300.0f, 300.0f, "%.0f px");
-                    ImGui::SliderFloat("Utility Bar (Right) Offset", &globalUtilityBarHorizontalOffset, -300.0f, 300.0f, "%.0f px");
-                    ImGui::SliderFloat("Vertical Offset", &globalActionBarVerticalOffset, -200.0f, 100.0f, "%.0f px");
+                    ImGui::SliderFloat("Weapon Bar Horizontal Offset", &globalWeaponBarHorizontalOffset, -300.0f, 300.0f, "%.0f px");
+                    ImGui::SliderFloat("Weapon Bar Vertical Offset", &globalWeaponBarVerticalOffset, -200.0f, 100.0f, "%.0f px");
+                    ImGui::SliderFloat("Utility Bar Horizontal Offset", &globalUtilityBarHorizontalOffset, -300.0f, 300.0f, "%.0f px");
+                    ImGui::SliderFloat("Utility Bar Vertical Offset", &globalUtilityBarVerticalOffset, -200.0f, 100.0f, "%.0f px");
                     ImGui::SliderFloat("Slot Box Size", &globalActionBarSlotSize, 30.0f, 65.0f, "%.0f px");
                     ImGui::SliderFloat("Slot Box Spacing", &globalActionBarSlotSpacing, 0.0f, 20.0f, "%.0f px");
 
@@ -1397,10 +1509,18 @@ static void RenderMasterControlPanel()
                 ImGui::Spacing();
                 ImGui::Separator();
 
-                float latencySliderValue = static_cast<float>(globalRotationEngine.GetNetworkLatencyMilliseconds());
-                if (ImGui::SliderFloat("Network Latency (Ping in ms)", &latencySliderValue, 10.0f, 350.0f, "%.0f ms"))
+                ImGui::Checkbox("Auto-Detect Live Game Ping", &globalAutoDetectLivePing);
+                if (globalAutoDetectLivePing)
                 {
-                    globalRotationEngine.SetNetworkLatencyMilliseconds(static_cast<double>(latencySliderValue));
+                    ImGui::Text("Network Ping: %.0f ms (Auto-Detected)", globalRotationEngine.GetNetworkLatencyMilliseconds());
+                }
+                else
+                {
+                    float latencySliderValue = static_cast<float>(globalRotationEngine.GetNetworkLatencyMilliseconds());
+                    if (ImGui::SliderFloat("Network Latency (Ping in ms)", &latencySliderValue, 10.0f, 350.0f, "%.0f ms"))
+                    {
+                        globalRotationEngine.SetNetworkLatencyMilliseconds(static_cast<double>(latencySliderValue));
+                    }
                 }
 
                 ImGui::Spacing();
@@ -1649,211 +1769,420 @@ static void RenderCompactRibbonHud()
     ImGui::PopStyleColor(2);
 }
 
-static uint32_t CalculateBuildRoleSortPriority(BuildRoleCategory roleCategory, DamageTypeCategory damageCategory, const std::string& buildDisplayName, const std::string& profileIdentifier)
-{
-    std::string combinedLowerText = buildDisplayName + " " + profileIdentifier;
-    for (char& character : combinedLowerText)
-    {
-        character = static_cast<char>(tolower(character));
-    }
-
-    if (roleCategory == BuildRoleCategory::HealSupport || combinedLowerText.find("heal") != std::string::npos)
-    {
-        if (combinedLowerText.find("quick") != std::string::npos)
-        {
-            return 10;
-        }
-
-        return 9;
-    }
-
-    if (roleCategory == BuildRoleCategory::HybridSupportDamage || combinedLowerText.find("celestial") != std::string::npos || combinedLowerText.find("hybrid") != std::string::npos)
-    {
-        if (combinedLowerText.find("quick") != std::string::npos)
-        {
-            return 8;
-        }
-
-        return 7;
-    }
-
-    if (roleCategory == BuildRoleCategory::BoonAlacrity || combinedLowerText.find("alac") != std::string::npos)
-    {
-        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
-        {
-            return 3;
-        }
-
-        return 5;
-    }
-
-    if (roleCategory == BuildRoleCategory::BoonQuickness || combinedLowerText.find("quick") != std::string::npos)
-    {
-        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
-        {
-            return 4;
-        }
-
-        return 6;
-    }
-
-    if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
-    {
-        return 1;
-    }
-
-    return 2;
-}
-
-static const char* GetRoleCategorySectionTitle(uint32_t priorityTier)
-{
-    switch (priorityTier)
-    {
-    case 1:
-        return "Power DPS";
-    case 2:
-        return "Condition DPS";
-    case 3:
-        return "Power Alacrity";
-    case 4:
-        return "Power Quickness";
-    case 5:
-        return "Condition Alacrity";
-    case 6:
-        return "Condition Quickness";
-    case 7:
-        return "Hybrid Alacrity";
-    case 8:
-        return "Hybrid Quickness";
-    case 9:
-        return "Heal Alacrity";
-    case 10:
-        return "Heal Quickness";
-    default:
-        return "Other Builds";
-    }
-}
-
-static void RenderBuildInspectorWindow()
-{
-    ImGui::SetNextWindowSize(ImVec2(680, 580), ImGuiCond_FirstUseEver);
-
-    if (ImGui::Begin("Build & Gear Showcase", &globalShowBuildInspectorWindow))
-    {
-        const RotationCatalog& catalog = globalRotationEngine.GetCatalogReference();
-        const auto& allProfiles = catalog.GetAllProfiles();
-        uint32_t activeIndex = globalRotationEngine.GetActiveProfileIndex();
-
-        const BuildProfile* activeProfile = globalRotationEngine.GetActiveProfilePointer();
-        std::string activeProfession = activeProfile != nullptr ? activeProfile->professionName : "";
-        std::string activeSpecialization = activeProfile != nullptr ? activeProfile->specializationName : "";
-
-        ImGui::Text("Search Benchmark Build:");
-        ImGui::InputText("##BuildSearchFilter", globalBuildSearchBuffer, sizeof(globalBuildSearchBuffer));
-
-        std::string searchFilterString = globalBuildSearchBuffer;
-        std::transform(searchFilterString.begin(), searchFilterString.end(), searchFilterString.begin(), ::tolower);
-
-        ImGui::Spacing();
-        ImGui::Text("Select Build by Profession & Specialization:");
-        ImGui::Separator();
-
-        std::map<std::string, std::map<std::string, std::map<uint32_t, std::vector<uint32_t>>>> professionHierarchy;
-
-        for (uint32_t profileIndex = 0; profileIndex < allProfiles.size(); profileIndex = profileIndex + 1)
-        {
-            const auto& profile = allProfiles[profileIndex];
-
-            if (!searchFilterString.empty())
-            {
-                std::string lowercaseDisplayName = profile.buildDisplayName;
-                std::transform(lowercaseDisplayName.begin(), lowercaseDisplayName.end(), lowercaseDisplayName.begin(), ::tolower);
-
-                std::string lowercaseSpecName = profile.specializationName;
-                std::transform(lowercaseSpecName.begin(), lowercaseSpecName.end(), lowercaseSpecName.begin(), ::tolower);
-
-                std::string lowercaseProfName = profile.professionName;
-                std::transform(lowercaseProfName.begin(), lowercaseProfName.end(), lowercaseProfName.begin(), ::tolower);
-
-                if (lowercaseDisplayName.find(searchFilterString) == std::string::npos &&
-                    lowercaseSpecName.find(searchFilterString) == std::string::npos &&
-                    lowercaseProfName.find(searchFilterString) == std::string::npos)
-                {
-                    continue;
-                }
-            }
-
-            uint32_t rolePriority = CalculateBuildRoleSortPriority(profile.roleCategory, profile.damageCategory, profile.buildDisplayName, profile.profileIdentifier);
-
-            professionHierarchy[profile.professionName][profile.specializationName][rolePriority].push_back(profileIndex);
-        }
-
-        if (ImGui::BeginChild("BuildScrollingList", ImVec2(0, 320), true))
-        {
-            for (const auto& professionEntry : professionHierarchy)
-            {
-                const std::string& currentProfession = professionEntry.first;
-                ProfessionColorRgba classColor = catalog.GetProfessionThemeColor(currentProfession);
-                ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(classColor.red, classColor.green, classColor.blue, 1.0f));
-
-                bool openProfessionByDefault = (!searchFilterString.empty()) || (currentProfession == activeProfession);
-                ImGuiTreeNodeFlags professionFlags = openProfessionByDefault ? (ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed) : ImGuiTreeNodeFlags_Framed;
-
-                bool professionExpanded = ImGui::TreeNodeEx(currentProfession.c_str(), professionFlags);
-                ImGui::PopStyleColor();
-
-                if (professionExpanded)
-                {
-                    for (const auto& specializationEntry : professionEntry.second)
-                    {
-                        const std::string& currentSpecialization = specializationEntry.first;
-
-                        bool openSpecializationByDefault = (!searchFilterString.empty()) || (currentSpecialization == activeSpecialization);
-                        ImGuiTreeNodeFlags specializationFlags = openSpecializationByDefault ? ImGuiTreeNodeFlags_DefaultOpen : 0;
-
-                        if (ImGui::TreeNodeEx(currentSpecialization.c_str(), specializationFlags))
-                        {
-                            for (const auto& roleGroupEntry : specializationEntry.second)
-                            {
-                                uint32_t rolePriority = roleGroupEntry.first;
-                                const char* roleSectionTitle = GetRoleCategorySectionTitle(rolePriority);
-
-                                if (ImGui::TreeNodeEx(roleSectionTitle, ImGuiTreeNodeFlags_DefaultOpen))
-                                {
-                                    for (uint32_t profileIndex : roleGroupEntry.second)
-                                    {
-                                        const auto& profile = allProfiles[profileIndex];
-                                        bool isSelected = (profileIndex == activeIndex);
-
-                                        std::string itemLabel = profile.buildDisplayName;
-                                        if (!profile.equipment.primaryWeaponSetName.empty() && profile.equipment.primaryWeaponSetName != "First Weapon Set")
-                                        {
-                                            itemLabel = itemLabel + " (" + profile.equipment.primaryWeaponSetName + ")";
-                                        }
-
-                                        if (ImGui::Selectable(itemLabel.c_str(), isSelected))
-                                        {
-                                            globalRotationEngine.LoadBuildProfileByIndex(profileIndex);
-                                        }
-                                    }
-
-                                    ImGui::TreePop();
-                                }
-                            }
-
-                            ImGui::TreePop();
-                        }
-                    }
-
-                    ImGui::TreePop();
-                }
-            }
-        }
-        ImGui::EndChild();
-
-        ImGui::Spacing();
-        ImGui::Separator();
-
+static uint32_t CalculateBuildRoleSortPriority(BuildRoleCategory roleCategory, DamageTypeCategory damageCategory, const std::string& buildDisplayName, const std::string& profileIdentifier)
+
+{
+
+    std::string combinedLowerText = buildDisplayName + " " + profileIdentifier;
+
+    for (char& character : combinedLowerText)
+
+    {
+
+        character = static_cast<char>(tolower(character));
+
+    }
+
+
+
+    if (roleCategory == BuildRoleCategory::HealSupport || combinedLowerText.find("heal") != std::string::npos)
+
+    {
+
+        if (combinedLowerText.find("quick") != std::string::npos)
+
+        {
+
+            return 10;
+
+        }
+
+
+
+        return 9;
+
+    }
+
+
+
+    if (roleCategory == BuildRoleCategory::HybridSupportDamage || combinedLowerText.find("celestial") != std::string::npos || combinedLowerText.find("hybrid") != std::string::npos)
+
+    {
+
+        if (combinedLowerText.find("quick") != std::string::npos)
+
+        {
+
+            return 8;
+
+        }
+
+
+
+        return 7;
+
+    }
+
+
+
+    if (roleCategory == BuildRoleCategory::BoonAlacrity || combinedLowerText.find("alac") != std::string::npos)
+
+    {
+
+        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+
+        {
+
+            return 3;
+
+        }
+
+
+
+        return 5;
+
+    }
+
+
+
+    if (roleCategory == BuildRoleCategory::BoonQuickness || combinedLowerText.find("quick") != std::string::npos)
+
+    {
+
+        if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+
+        {
+
+            return 4;
+
+        }
+
+
+
+        return 6;
+
+    }
+
+
+
+    if (damageCategory == DamageTypeCategory::PowerDamage || combinedLowerText.find("power") != std::string::npos)
+
+    {
+
+        return 1;
+
+    }
+
+
+
+    return 2;
+
+}
+
+
+
+static const char* GetRoleCategorySectionTitle(uint32_t priorityTier)
+
+{
+
+    switch (priorityTier)
+
+    {
+
+    case 1:
+
+        return "Power DPS";
+
+    case 2:
+
+        return "Condition DPS";
+
+    case 3:
+
+        return "Power Alacrity";
+
+    case 4:
+
+        return "Power Quickness";
+
+    case 5:
+
+        return "Condition Alacrity";
+
+    case 6:
+
+        return "Condition Quickness";
+
+    case 7:
+
+        return "Hybrid Alacrity";
+
+    case 8:
+
+        return "Hybrid Quickness";
+
+    case 9:
+
+        return "Heal Alacrity";
+
+    case 10:
+
+        return "Heal Quickness";
+
+    default:
+
+        return "Other Builds";
+
+    }
+
+}
+
+
+
+static void RenderBuildInspectorWindow()
+
+{
+
+    ImGui::SetNextWindowSize(ImVec2(680, 580), ImGuiCond_FirstUseEver);
+
+
+
+    if (ImGui::Begin("Build & Gear Showcase", &globalShowBuildInspectorWindow))
+
+    {
+
+        const RotationCatalog& catalog = globalRotationEngine.GetCatalogReference();
+
+        const auto& allProfiles = catalog.GetAllProfiles();
+
+        uint32_t activeIndex = globalRotationEngine.GetActiveProfileIndex();
+
+
+
+        const BuildProfile* activeProfile = globalRotationEngine.GetActiveProfilePointer();
+
+        std::string activeProfession = activeProfile != nullptr ? activeProfile->professionName : "";
+
+        std::string activeSpecialization = activeProfile != nullptr ? activeProfile->specializationName : "";
+
+
+
+        ImGui::Text("Search Benchmark Build:");
+
+        ImGui::InputText("##BuildSearchFilter", globalBuildSearchBuffer, sizeof(globalBuildSearchBuffer));
+
+
+
+        std::string searchFilterString = globalBuildSearchBuffer;
+
+        std::transform(searchFilterString.begin(), searchFilterString.end(), searchFilterString.begin(), ::tolower);
+
+
+
+        ImGui::Spacing();
+
+        ImGui::Text("Select Build by Profession & Specialization:");
+
+        ImGui::Separator();
+
+
+
+        std::map<std::string, std::map<std::string, std::map<uint32_t, std::vector<uint32_t>>>> professionHierarchy;
+
+
+
+        for (uint32_t profileIndex = 0; profileIndex < allProfiles.size(); profileIndex = profileIndex + 1)
+
+        {
+
+            const auto& profile = allProfiles[profileIndex];
+
+
+
+            if (!searchFilterString.empty())
+
+            {
+
+                std::string lowercaseDisplayName = profile.buildDisplayName;
+
+                std::transform(lowercaseDisplayName.begin(), lowercaseDisplayName.end(), lowercaseDisplayName.begin(), ::tolower);
+
+
+
+                std::string lowercaseSpecName = profile.specializationName;
+
+                std::transform(lowercaseSpecName.begin(), lowercaseSpecName.end(), lowercaseSpecName.begin(), ::tolower);
+
+
+
+                std::string lowercaseProfName = profile.professionName;
+
+                std::transform(lowercaseProfName.begin(), lowercaseProfName.end(), lowercaseProfName.begin(), ::tolower);
+
+
+
+                if (lowercaseDisplayName.find(searchFilterString) == std::string::npos &&
+
+                    lowercaseSpecName.find(searchFilterString) == std::string::npos &&
+
+                    lowercaseProfName.find(searchFilterString) == std::string::npos)
+
+                {
+
+                    continue;
+
+                }
+
+            }
+
+
+
+            uint32_t rolePriority = CalculateBuildRoleSortPriority(profile.roleCategory, profile.damageCategory, profile.buildDisplayName, profile.profileIdentifier);
+
+
+
+            professionHierarchy[profile.professionName][profile.specializationName][rolePriority].push_back(profileIndex);
+
+        }
+
+
+
+        if (ImGui::BeginChild("BuildScrollingList", ImVec2(0, 320), true))
+
+        {
+
+            for (const auto& professionEntry : professionHierarchy)
+
+            {
+
+                const std::string& currentProfession = professionEntry.first;
+
+                ProfessionColorRgba classColor = catalog.GetProfessionThemeColor(currentProfession);
+
+                ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(classColor.red, classColor.green, classColor.blue, 1.0f));
+
+
+
+                bool openProfessionByDefault = (!searchFilterString.empty()) || (currentProfession == activeProfession);
+
+                ImGuiTreeNodeFlags professionFlags = openProfessionByDefault ? (ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed) : ImGuiTreeNodeFlags_Framed;
+
+
+
+                bool professionExpanded = ImGui::TreeNodeEx(currentProfession.c_str(), professionFlags);
+
+                ImGui::PopStyleColor();
+
+
+
+                if (professionExpanded)
+
+                {
+
+                    for (const auto& specializationEntry : professionEntry.second)
+
+                    {
+
+                        const std::string& currentSpecialization = specializationEntry.first;
+
+
+
+                        bool openSpecializationByDefault = (!searchFilterString.empty()) || (currentSpecialization == activeSpecialization);
+
+                        ImGuiTreeNodeFlags specializationFlags = openSpecializationByDefault ? ImGuiTreeNodeFlags_DefaultOpen : 0;
+
+
+
+                        if (ImGui::TreeNodeEx(currentSpecialization.c_str(), specializationFlags))
+
+                        {
+
+                            for (const auto& roleGroupEntry : specializationEntry.second)
+
+                            {
+
+                                uint32_t rolePriority = roleGroupEntry.first;
+
+                                const char* roleSectionTitle = GetRoleCategorySectionTitle(rolePriority);
+
+
+
+                                if (ImGui::TreeNodeEx(roleSectionTitle, ImGuiTreeNodeFlags_DefaultOpen))
+
+                                {
+
+                                    for (uint32_t profileIndex : roleGroupEntry.second)
+
+                                    {
+
+                                        const auto& profile = allProfiles[profileIndex];
+
+                                        bool isSelected = (profileIndex == activeIndex);
+
+
+
+                                        std::string itemLabel = profile.buildDisplayName;
+
+                                        if (!profile.equipment.primaryWeaponSetName.empty() && profile.equipment.primaryWeaponSetName != "First Weapon Set")
+                                        {
+                                            if (!profile.equipment.secondaryWeaponSetName.empty() &&
+                                                profile.equipment.secondaryWeaponSetName != "Second Weapon Set" &&
+                                                profile.equipment.secondaryWeaponSetName.find("None") == std::string::npos)
+                                            {
+                                                itemLabel = itemLabel + " (" + profile.equipment.primaryWeaponSetName + " / " + profile.equipment.secondaryWeaponSetName + ")";
+                                            }
+                                            else
+                                            {
+                                                itemLabel = itemLabel + " (" + profile.equipment.primaryWeaponSetName + ")";
+                                            }
+                                        }
+
+                                        if (ImGui::Selectable(itemLabel.c_str(), isSelected))
+
+                                        {
+
+                                            globalRotationEngine.LoadBuildProfileByIndex(profileIndex);
+
+                                        }
+
+                                    }
+
+
+
+                                    ImGui::TreePop();
+
+                                }
+
+                            }
+
+
+
+                            ImGui::TreePop();
+
+                        }
+
+                    }
+
+
+
+                    ImGui::TreePop();
+
+                }
+
+            }
+
+        }
+
+        ImGui::EndChild();
+
+
+
+        ImGui::Spacing();
+
+        ImGui::Separator();
+
+
+
         if (activeProfile != nullptr)
         {
             ImGui::TextColored(ImVec4(0.2f, 0.9f, 1.0f, 1.0f), "Active Build: %s", activeProfile->buildDisplayName.c_str());
@@ -1909,13 +2238,13 @@ static void RenderBuildInspectorWindow()
 
 static void RenderPacingMetricsWindow()
 {
-    ImGui::SetNextWindowSize(ImVec2(420, 260), ImGuiCond_FirstUseEver);
+    ImGui::SetNextWindowSize(ImVec2(440, 280), ImGuiCond_FirstUseEver);
 
     if (ImGui::Begin("Benchmark Pacing Metrics", &globalShowPacingMetricsWindow))
     {
         BenchmarkEvaluation evaluation = globalRotationEngine.CalculateBenchmarkEvaluation();
 
-        ImGui::Text("Network Ping (Latency): %.0f ms", globalRotationEngine.GetNetworkLatencyMilliseconds());
+        ImGui::Text("Network Ping (Latency): %.0f ms%s", globalRotationEngine.GetNetworkLatencyMilliseconds(), globalAutoDetectLivePing ? " (Auto-Detected)" : "");
         ImGui::Separator();
 
         ImGui::Text("85%% Benchmark Target Gap: %.0f ms", evaluation.benchmarkEightyFivePercentMilliseconds);
@@ -1926,15 +2255,24 @@ static void RenderPacingMetricsWindow()
 
         if (evaluation.currentAverageGapMilliseconds > 0.0)
         {
-            ImGui::Text("Your Average Cast Gap: %.0f ms", evaluation.currentAverageGapMilliseconds);
+            ImGui::Text("Your Average Cast Gap: %.0f ms (%.0f%% Optimal Speed)", evaluation.currentAverageGapMilliseconds, evaluation.executionSpeedPercentage);
 
-            if (evaluation.pacingDeltaMilliseconds > 0.0)
+            if (evaluation.deficitPercentageNinetyFive > 0.0)
             {
-                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.2f, 1.0f), "Queue Deficit: +%.0f ms behind optimal", evaluation.pacingDeltaMilliseconds);
+                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.2f, 1.0f), "Slower than 95%% Target: +%.1f%% slower", evaluation.deficitPercentageNinetyFive);
             }
             else
             {
-                ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.4f, 1.0f), "Pacing Status: Matching top benchmark speed!");
+                ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.4f, 1.0f), "95%% Benchmark Status: Matching / Beating Target!");
+            }
+
+            if (evaluation.deficitPercentageEightyFive > 0.0)
+            {
+                ImGui::TextColored(ImVec4(1.0f, 0.7f, 0.2f, 1.0f), "Slower than 85%% Target: +%.1f%% slower", evaluation.deficitPercentageEightyFive);
+            }
+            else
+            {
+                ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.4f, 1.0f), "85%% Benchmark Status: Matching / Beating Target!");
             }
         }
         else
@@ -1982,6 +2320,8 @@ static void RenderMistakeHistoryWindow()
 static void RenderCoachUserInterface()
 {
     AdvanceFrameTimer();
+
+    UpdateLiveNetworkPing();
 
     if (globalNexusAddonInterface != nullptr)
     {
@@ -2157,10 +2497,18 @@ static void RenderCoachOptionsUserInterface()
 
     ImGui::Spacing();
 
-    float latencyValue = static_cast<float>(globalRotationEngine.GetNetworkLatencyMilliseconds());
-    if (ImGui::SliderFloat("Network Latency (Ping in ms)", &latencyValue, 10.0f, 350.0f, "%.0f ms"))
+    ImGui::Checkbox("Auto-Detect Live Game Ping", &globalAutoDetectLivePing);
+    if (globalAutoDetectLivePing)
     {
-        globalRotationEngine.SetNetworkLatencyMilliseconds(static_cast<double>(latencyValue));
+        ImGui::Text("Network Ping: %.0f ms (Auto-Detected)", globalRotationEngine.GetNetworkLatencyMilliseconds());
+    }
+    else
+    {
+        float latencyValue = static_cast<float>(globalRotationEngine.GetNetworkLatencyMilliseconds());
+        if (ImGui::SliderFloat("Network Latency (Ping in ms)", &latencyValue, 10.0f, 350.0f, "%.0f ms"))
+        {
+            globalRotationEngine.SetNetworkLatencyMilliseconds(static_cast<double>(latencyValue));
+        }
     }
 }
 
@@ -2217,7 +2565,7 @@ static UINT CoachWindowProcedure(HWND windowHandle, UINT messageIdentifier, WPAR
     return messageIdentifier;
 }
 
-static void OnArcdpsCombatEvent(void* eventArguments)
+static void OnCombatEvent(void* eventArguments)
 {
     if (eventArguments == nullptr)
     {
@@ -2258,6 +2606,18 @@ static void AddonLoad(AddonAPI_t* addonApplicationInterface)
                 globalRotationEngine.GetMutableCatalogReference().SetStandaloneAddonDirectory(addonDirectory);
                 std::string standaloneBenchPath = std::string(addonDirectory) + "\\bench";
                 globalRotationEngine.LoadBenchmarks(standaloneBenchPath);
+
+                std::string configurationFilePath = std::string(addonDirectory) + "\\Gw2RotationCoach.ini";
+                DWORD fileAttributes = GetFileAttributesA(configurationFilePath.c_str());
+                if (fileAttributes == INVALID_FILE_ATTRIBUTES)
+                {
+                    globalShowMasterControlPanel = true;
+                    HANDLE createdFileHandle = CreateFileA(configurationFilePath.c_str(), GENERIC_WRITE, 0, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
+                    if (createdFileHandle != INVALID_HANDLE_VALUE)
+                    {
+                        CloseHandle(createdFileHandle);
+                    }
+                }
             }
         }
 
@@ -2284,7 +2644,7 @@ static void AddonLoad(AddonAPI_t* addonApplicationInterface)
 
         globalNexusAddonInterface->WndProc_Register(CoachWindowProcedure);
 
-        globalNexusAddonInterface->Events_Subscribe("EV_ARCDPS_COMBATEVENT", OnArcdpsCombatEvent);
+        globalNexusAddonInterface->Events_Subscribe("EV_ARCDPS_COMBATEVENT", OnCombatEvent);
     }
 }
 
@@ -2292,7 +2652,7 @@ static void AddonUnload()
 {
     if (globalNexusAddonInterface != nullptr)
     {
-        globalNexusAddonInterface->Events_Unsubscribe("EV_ARCDPS_COMBATEVENT", OnArcdpsCombatEvent);
+        globalNexusAddonInterface->Events_Unsubscribe("EV_ARCDPS_COMBATEVENT", OnCombatEvent);
 
         globalNexusAddonInterface->WndProc_Deregister(CoachWindowProcedure);
 
@@ -2313,8 +2673,8 @@ static AddonDefinition_t coachAddonDefinition = {
     0x524F5443,
     NEXUS_API_VERSION,
     "Rotation Coach",
-    {1, 0, 0, 0},
-    "Oneleaf",
+    {0, 525, 0, 0},
+    "Oneleaf525",
     "Real-time rotation trainer, benchmark pacing analyzer, and mistake detector",
     AddonLoad,
     AddonUnload,
