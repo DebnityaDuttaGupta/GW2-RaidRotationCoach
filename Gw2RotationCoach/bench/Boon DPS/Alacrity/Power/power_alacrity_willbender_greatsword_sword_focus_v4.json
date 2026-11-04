@@ -1368,7 +1368,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103641": {
       "name": "Symbol of Blades",
       "icon": "https://render.guildwars2.com/file/E7F5FFA84F0AE4EA0EC5AE54FA365C09925551A0/103641.png",
@@ -1497,16 +1497,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Pack",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of the Warrior",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Alacrity Willbender Greatsword Sword Focus",
+    "name": "Power Alacrity Willbender",
     "profession": "Guardian",
     "elite_spec": "Willbender",
     "build_type": "power",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-willbender-greatsword-sword-focus",
-    "dps_report_url": "https://dps.report/Jcfa-20260114-085045_golem",
-    "overall_dps": 37674.0,
-    "weapons": "Greatsword / Sword & Focus",
-    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Greatsword & Sword / Focus",
+    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

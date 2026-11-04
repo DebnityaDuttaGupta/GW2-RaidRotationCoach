@@ -1,0 +1,115 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5492,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.2,
+        5518,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.8,
+        29723,
+        2500.0,
+        1,
+        1.0
+      ],
+      [
+        3.4,
+        5494,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        3.6,
+        29943,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        4.1,
+        29944,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.7,
+        29724,
+        2500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5492": {
+      "name": "Fire Attunement (F1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5492.png"
+    },
+    "s5494": {
+      "name": "Water Attunement (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5494.png"
+    },
+    "s5495": {
+      "name": "Earth Attunement (F4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5495.png"
+    },
+    "s29723": {
+      "name": "Overload Fire (F1)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29723.png"
+    },
+    "s29724": {
+      "name": "Overload Water (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29724.png"
+    },
+    "s5518": {
+      "name": "Dragon's Tooth (Scepter 2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5518.png"
+    },
+    "s29943": {
+      "name": "Tidal Surge (Warhorn 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29943.png"
+    },
+    "s29944": {
+      "name": "Water Globe (Warhorn 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29944.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 29943,
+    "slot_7": 29944,
+    "slot_8": 5518,
+    "slot_9": 5492,
+    "slot_0": 29723
+  },
+  "equipment": {
+    "armor_attributes": "Celestial",
+    "runes": "Superior Rune of Divinity",
+    "sigils": "Superior Sigil of Smoldering & Superior Sigil of Torment",
+    "relic": "Relic of Karakosa",
+    "food": "Spherified Oyster Soup with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Celestial Alacrity Tempest",
+    "profession": "Elementalist",
+    "elite_spec": "Tempest",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/celestial-alacrity-tempest-scepter-warhorn",
+    "weapons": "Scepter / Warhorn",
+    "chat_code": "[&DQYfFREuMD/HEgAAwxIAAHIAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQYfFREuMD/HEgAAwxIAAHIAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

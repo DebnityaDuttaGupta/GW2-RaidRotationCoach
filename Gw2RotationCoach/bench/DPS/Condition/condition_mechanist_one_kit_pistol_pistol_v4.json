@@ -1,0 +1,174 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5829,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5831,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5828,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5812,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5822,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        63121,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        63367,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        63334,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        63095,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5829": {
+      "name": "Static Shot",
+      "icon": "https://render.guildwars2.com/file/CBC5740B8092A6474595F8BFB2394D145D3AB0E8/103406.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5831": {
+      "name": "Blowtorch",
+      "icon": "https://render.guildwars2.com/file/061D48DCAC954D91D8F8BD7F6B193201A695F92F/103407.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5828": {
+      "name": "Poison Dart Volley",
+      "icon": "https://render.guildwars2.com/file/E630EC9663DDE5C165BC0304C636900C7D2006F9/103171.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5812": {
+      "name": "Bomb Kit",
+      "icon": "https://render.guildwars2.com/file/B06C59BBB1EC416859E04E7C9859BE020C4B3E17/103399.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5823": {
+      "name": "Fire Bomb",
+      "icon": "https://render.guildwars2.com/file/95DF02395BB2C2EFD4D7BA5BE3ECC512E875EFEE/103404.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5822": {
+      "name": "Galvanic Bomb",
+      "icon": "https://render.guildwars2.com/file/E406DB5F73E8AE312E0E04650FDAF0CCFCFC28FF/103403.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5813": {
+      "name": "Big Ol' Bomb",
+      "icon": "https://render.guildwars2.com/file/9ADBE10F0E4F7D75DC0BF54EBD5B360BE1AB9D09/103400.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63121": {
+      "name": "Jade Mortar",
+      "icon": "https://render.guildwars2.com/file/BB3491B513007BC7109250054CC003B408E46D01/2503684.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63367": {
+      "name": "Discharge Array",
+      "icon": "https://render.guildwars2.com/file/604109FCDFB65446F2274106E7C113F75B111345/2503681.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63334": {
+      "name": "Rolling Smash",
+      "icon": "https://render.guildwars2.com/file/043E0C37A34EB862D81B3902EC7660392FE9D922/2503678.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63095": {
+      "name": "Overclock Signet",
+      "icon": "https://render.guildwars2.com/file/A82F0980D5ED24F305FA57F3A929C1E90D26327F/2503668.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5812,
+    "slot_0": 63095
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Potent Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Mechanist",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-one-kit-pistol-pistol",
+    "weapons": "Pistol / Pistol",
+    "chat_code": "[&DQMmOQYnRhUNGxQBBwGNARAbXgEOGwAACRuJAQAAAAAAAAAAAAAAAAAAAAACMwBVAAA=]",
+    "build_template": "[&DQMmOQYnRhUNGxQBBwGNARAbXgEOGwAACRuJAQAAAAAAAAAAAAAAAAAAAAACMwBVAAA=]"
+  }
+}

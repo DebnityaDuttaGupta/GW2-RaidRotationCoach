@@ -1,0 +1,387 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5492,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5495,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5493,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5736,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        62965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        62837,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5780,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        5696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        5561,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5542,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5538,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5510,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        5520,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        5538,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        5510,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5492": {
+      "name": "Fire Attunement",
+      "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5495": {
+      "name": "Earth Attunement",
+      "icon": "https://render.guildwars2.com/file/4B8056D9BD080DC8E74AE6A57B2B383A2D4265C9/102870.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5494": {
+      "name": "Air Attunement",
+      "icon": "https://render.guildwars2.com/file/4857F59020DE3B0950B9C91F3D234A1C1932984A/103048.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5493": {
+      "name": "Water Attunement",
+      "icon": "https://render.guildwars2.com/file/737E1B9F7855B9F5D3DE1C990CD42118EF3D1C92/102820.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5692": {
+      "name": "Dragon's Tooth",
+      "icon": "https://render.guildwars2.com/file/139899C1026E93EE0EDC44030B11E310E27D9807/103105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5736": {
+      "name": "Firestorm",
+      "icon": "https://render.guildwars2.com/file/72030C6DDD3A36ACEC0A39FF03299271CB2FE433/1424240.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62813": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/22CA7C0F420C7F61CEBFA323DF3AADC5EF237475/2491598.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62965": {
+      "name": "Relentless Fire",
+      "icon": "https://render.guildwars2.com/file/31372EE16EAB80BDB213EB99D1BF4C6C3B67B6AF/2491601.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5675": {
+      "name": "Phoenix",
+      "icon": "https://render.guildwars2.com/file/000E1F53624D2F9B222E17D02A5A5ED40417CAB7/103039.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5557": {
+      "name": "Fire Grab",
+      "icon": "https://render.guildwars2.com/file/ED2422E6051855A76214FA9F292525C1359F0B59/103296.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5691": {
+      "name": "Ring of Fire",
+      "icon": "https://render.guildwars2.com/file/CD08FDC23B56EBB19C90B909C65D9EE4D9FFF8C8/103183.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62837": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/97BEF22148DDA3159B4CF6DB18ECFEDE7107710B/2491596.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5690": {
+      "name": "Earthquake",
+      "icon": "https://render.guildwars2.com/file/01F24427AF4C18476A657647C39CB2F2374BDA57/102975.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5695": {
+      "name": "Rock Barrier",
+      "icon": "https://render.guildwars2.com/file/C5CB69247473AE2DEB35DB5F952A0C3832CC14F2/102858.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5780": {
+      "name": "Hurl",
+      "icon": "https://render.guildwars2.com/file/BB59A576C805054EB94C66D8190490F273C7BBED/102974.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5696": {
+      "name": "Dust Devil",
+      "icon": "https://render.guildwars2.com/file/EA6A082902800CC552393F24E03240A7A7D9C511/103080.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5522": {
+      "name": "Churning Earth",
+      "icon": "https://render.guildwars2.com/file/4B3D497E0F070BEE66642AF6293A77B891CEA95C/102976.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5561": {
+      "name": "Lightning Strike",
+      "icon": "https://render.guildwars2.com/file/9C090BF7E893030BABD5DC4BA4020262AD91CE2C/103134.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5529": {
+      "name": "Ride the Lightning",
+      "icon": "https://render.guildwars2.com/file/23066340DF3C6E4F06A1B105479809E1647FF5D6/103332.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5542": {
+      "name": "Signet of Fire",
+      "icon": "https://render.guildwars2.com/file/78F000A3121FCFF9B56EA62625186F0E06D8A458/103340.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5538": {
+      "name": "Shatterstone",
+      "icon": "https://render.guildwars2.com/file/801B94942A7411A4379E58C6BA363CA31D2AFCBB/103289.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5510": {
+      "name": "Water Trident",
+      "icon": "https://render.guildwars2.com/file/43AF784618DAC97FFAB43518A9F7B204A32335FA/103081.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5520": {
+      "name": "Frost Aura",
+      "icon": "https://render.guildwars2.com/file/0D5599084DE820990E9F6D5A6853900553B205BC/103077.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5736,
+    "slot_8": 62965,
+    "slot_9": 5542
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Flame Legion",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Smoldering",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Inferno Power Catalyst",
+    "profession": "Elementalist",
+    "elite_spec": "Catalyst",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/inferno-catalyst-scepter-dagger",
+    "weapons": "Scepter / Dagger",
+    "chat_code": "[&DQYfPSkvQyYnDwAA+BoAAL4BAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAFkAAA==]",
+    "build_template": "[&DQYfPSkvQyYnDwAA+BoAAL4BAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAFkAAA==]"
+  }
+}

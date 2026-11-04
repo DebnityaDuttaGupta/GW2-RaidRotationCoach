@@ -1,0 +1,303 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        79314,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77226,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5571,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5542,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        77226,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71842,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        72032,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        30336,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        29533,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        77226,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76707,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        71828,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        71940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        72032,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        71935,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        72028,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        71907,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        71842,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30795,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        71966,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5542,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        72032,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        5571,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s79314": {
+      "name": "Rejuvenate",
+      "icon": "https://render.guildwars2.com/file/BA45A84AF53AAC92301E586AAC76FA020306D96B/3729561.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77226": {
+      "name": "Calcify",
+      "icon": "https://render.guildwars2.com/file/C938A2442A5508F415AB72F70AA9A85AFA57FCDD/3680114.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76711": {
+      "name": "Fox's Fury",
+      "icon": "https://render.guildwars2.com/file/7AE9F87947BFA633B39A0977A211465549442A65/3680121.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5571": {
+      "name": "Signet of Earth",
+      "icon": "https://render.guildwars2.com/file/DC27E04D9F9CE5627D953752B5F334C7A304B7F5/103352.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5542": {
+      "name": "Signet of Fire",
+      "icon": "https://render.guildwars2.com/file/78F000A3121FCFF9B56EA62625186F0E06D8A458/103340.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71842": {
+      "name": "Boulder Blast",
+      "icon": "https://render.guildwars2.com/file/C0122C48115C5E59D499E101764C94CA6047062F/3256334.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72032": {
+      "name": "Shattering Stone",
+      "icon": "https://render.guildwars2.com/file/387446B9ED09274D20200C2F066BF4311E6D0C93/3256328.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30336": {
+      "name": "Dust Storm",
+      "icon": "https://render.guildwars2.com/file/210E23C1C2BE30F21C1C98C6FF4B053DFFC9BA1C/1029997.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29533": {
+      "name": "Wildfire",
+      "icon": "https://render.guildwars2.com/file/9E33D36DB142E4F9C7C21CA9CD06D76B000FE506/1029999.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76707": {
+      "name": "Seismic Impact",
+      "icon": "https://render.guildwars2.com/file/026020B3C3EF9AC03DF8C352E91299562573FCCA/3680118.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71828": {
+      "name": "Raging Ricochet",
+      "icon": "https://render.guildwars2.com/file/7ED653511F5A3F3E6D705FF706265D3370647644/3256329.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71940": {
+      "name": "Searing Salvo",
+      "icon": "https://render.guildwars2.com/file/7546C0CAE32CD437249FC903BF1AC84122B0EAC4/3256335.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71935": {
+      "name": "Frozen Fusillade",
+      "icon": "https://render.guildwars2.com/file/12144A540D981D6AC7010A7A34C1B3EF0A02D7F5/3256336.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72028": {
+      "name": "Frigid Flurry",
+      "icon": "https://render.guildwars2.com/file/11DB6D78E16F6ACDE1000BF4AEF69ED5A9410BA9/3256330.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71907": {
+      "name": "Elemental Explosion",
+      "icon": "https://render.guildwars2.com/file/95DA48632542F0073A9022C4165E570EDBD72474/3256337.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30795": {
+      "name": "Lightning Orb",
+      "icon": "https://render.guildwars2.com/file/F94EF9AA5A3B073807426D499F6353C91F7BC09F/1029995.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71966": {
+      "name": "Dazing Discharge",
+      "icon": "https://render.guildwars2.com/file/43FE5D1C5B3D70422F324071037AC844CE9C01F3/3256327.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 79314,
+    "slot_7": 76711,
+    "slot_8": 5571,
+    "slot_9": 5542
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Malice",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Evoker",
+    "profession": "Elementalist",
+    "elite_spec": "Evoker",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-evoker-pistol-warhorn",
+    "weapons": "Pistol / Warhorn",
+    "chat_code": "[&DQYfJRomUBliHXQAdx0AAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAACNgBnAAA=]",
+    "build_template": "[&DQYfJRomUBliHXQAdx0AAJEAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAACNgBnAAA=]"
+  }
+}

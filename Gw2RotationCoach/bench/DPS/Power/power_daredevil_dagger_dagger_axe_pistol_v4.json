@@ -1,0 +1,293 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        13082,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        13027,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        31129,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        72034,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        30369,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        71854,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        13005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        13005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        30369,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        13046,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        30693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        16432,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        13005,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s13082": {
+      "name": "Thieves Guild",
+      "icon": "https://render.guildwars2.com/file/C314B19D687453E02BC5B5BB4137903A12267AF1/104093.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13027": {
+      "name": "Hide in Shadows",
+      "icon": "https://render.guildwars2.com/file/C90D2FF2084A207F9C974C90049AF1A3F8B4B548/104070.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31129": {
+      "name": "Bound",
+      "icon": "https://render.guildwars2.com/file/F3E22D0FDFDB436780BD4ACBA5D135EE40507FFD/1058554.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71965": {
+      "name": "Orchestrated Assault",
+      "icon": "https://render.guildwars2.com/file/EDAA6A645279109A6FD7064A4439ECE3DDBE05F4/3256390.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72034": {
+      "name": "Cunning Salvo",
+      "icon": "https://render.guildwars2.com/file/74E8A2686C3BBBC6E572C42A7824EC070C98F25E/3256393.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71852": {
+      "name": "Venomous Volley",
+      "icon": "https://render.guildwars2.com/file/9F1A55D17C0CDD42675FC758B797BBCFE610D4A7/3256394.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30868": {
+      "name": "Fist Flurry",
+      "icon": "https://render.guildwars2.com/file/3B267195CECDF50705092272D0190CA9A391B507/1058631.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30369": {
+      "name": "Impairing Daggers",
+      "icon": "https://render.guildwars2.com/file/265D095168000FA9A20BC11E43A3BB63B90C349B/1058635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71854": {
+      "name": "Spinning Axe",
+      "icon": "https://render.guildwars2.com/file/A00600C596C0A71A3776DF1D9E2AC2BE5F2E1229/3256391.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30693": {
+      "name": "Palm Strike",
+      "icon": "https://render.guildwars2.com/file/96580AB413D9791D53D45093063F54CD9F56C513/1058634.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s16432": {
+      "name": "Cloak and Dagger",
+      "icon": "https://render.guildwars2.com/file/7293472129D2636CC9F0DEE8D9AA7954E504F557/103617.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13005": {
+      "name": "Backstab",
+      "icon": "https://render.guildwars2.com/file/96EFE0C268C5A70654BBA8B491E1FACC1C180CF3/103616.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13046": {
+      "name": "Assassin's Signet",
+      "icon": "https://render.guildwars2.com/file/16BAE223E268B19ABFE66040F11706B7BC00EF79/104076.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 13082,
+    "slot_6": 13027,
+    "slot_7": 30868,
+    "slot_8": 30369,
+    "slot_9": 30693
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Eagle",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Daredevil",
+    "profession": "Thief",
+    "elite_spec": "Daredevil",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/power-daredevil-dagger-dagger-axe-pistol",
+    "weapons": "Dagger & Dagger / Axe",
+    "chat_code": "[&DQUcPSMbBzsMAQwBsBIAADMBNAEpE1YBKAAAAAAAAAAAAAAAAAAAAAAAAAADBQA2AC8AAA==]",
+    "build_template": "[&DQUcPSMbBzsMAQwBsBIAADMBNAEpE1YBKAAAAAAAAAAAAAAAAAAAAAAAAAADBQA2AC8AAA==]"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        44364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        46148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        40915,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        44364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        29965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        41475,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        71968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        71918,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        71987,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        9104,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9089,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        71987,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9104,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        44364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        9089,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        71968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        9104,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        9089,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        71817,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s9187": {
+      "name": "Purging Flames",
+      "icon": "https://render.guildwars2.com/file/646CD9EA044A959A0A0D6143B29707EADB31B2B9/103675.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44364": {
+      "name": "Tome of Justice",
+      "icon": "https://render.guildwars2.com/file/2710AF269B38A4A365089BC7B3C9389B354DE59D/1770472.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46148": {
+      "name": "Mantra of Flame",
+      "icon": "https://render.guildwars2.com/file/795917A9C66755C96C7AFEA510CA2271E260F3B2/1770484.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40915": {
+      "name": "Mantra of Potence",
+      "icon": "https://render.guildwars2.com/file/B4CB1901D4577CCCBBD315D833FE02C7B748BBC3/1770490.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29965": {
+      "name": "\"Feel My Wrath!\"",
+      "icon": "https://render.guildwars2.com/file/B743B8DDF91DBC0239460877775FBE7BD36F6873/103702.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41475": {
+      "name": "Restoring Reprieve",
+      "icon": "https://render.guildwars2.com/file/F55B77232407D35E7C03CB6C7B1B199C776B7BB1/1770464.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71968": {
+      "name": "Peacekeeper",
+      "icon": "https://render.guildwars2.com/file/E0F376A8512ECB5938A6C7B10477F6C397FF0D00/3256352.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71918": {
+      "name": "Hail of Justice",
+      "icon": "https://render.guildwars2.com/file/1A29DD0527137526CB1D355403DC009A57D767A6/3256354.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71987": {
+      "name": "Symbol of Ignition",
+      "icon": "https://render.guildwars2.com/file/93750C95B5645112B9ED807DE3AF29A340037ED0/3256353.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9104": {
+      "name": "Zealot's Flame",
+      "icon": "https://render.guildwars2.com/file/3CB42772DD937ACF48EF5FE4615EF33F49035450/103231.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9089": {
+      "name": "Zealot's Fire",
+      "icon": "https://render.guildwars2.com/file/537D1557E29B42B95D07A1DB01493C7B63C4E402/103637.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71817": {
+      "name": "Jurisdiction",
+      "icon": "https://render.guildwars2.com/file/18E2D752067BEAC1E47A2928DFF2A1CE13B8DE3B/3256355.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9088": {
+      "name": "Cleansing Flame",
+      "icon": "https://render.guildwars2.com/file/FC0E030F7E67C4C62F0A6717B9F1B80012A6F1C7/103127.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 9187,
+    "slot_8": 46148,
+    "slot_9": 40915,
+    "slot_0": 29965,
+    "slot_6": 41475
+  },
+  "equipment": {
+    "armor_attributes": "Ritualist's & Sinister",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Smoldering",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Quickness Firebrand",
+    "profession": "Guardian",
+    "elite_spec": "Firebrand",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/guardian/beginner-condition-quickness-firebrand-pistol-torch-pistol",
+    "weapons": "Pistol & Torch / Pistol",
+    "chat_code": "[&DQEQGi4fPiZLFwAATAEAABUXAAB6FgAAiRIAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEQGi4fPiZLFwAATAEAABUXAAB6FgAAiRIAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

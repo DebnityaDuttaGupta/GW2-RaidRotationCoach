@@ -1004,7 +1004,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1029987": {
       "name": "Overload Air",
       "icon": "https://render.guildwars2.com/file/592CC2A120322000BC7234B8522BBE7BAF2F4A57/1029987.png",
@@ -1145,16 +1145,23 @@
     "slot_9": 103340,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Flame Legion",
+    "sigils": "Superior Sigil of Smoldering & Superior Sigil of Accuracy",
+    "relic": "Relic of the Last Tyrant",
+    "food": "Plate of Coq Au Vin with Salsa",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Inferno Tempest",
+    "name": "Inferno Power Tempest",
     "profession": "Elementalist",
     "elite_spec": "Tempest",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/elementalist/inferno-tempest-scepter-dagger",
-    "dps_report_url": "https://dps.report/lpOL-20251006-093317_golem",
-    "overall_dps": 46642.0,
     "weapons": "Scepter / Dagger",
-    "chat_code": "[&DQYpHx8dQz4nDycP+Br4Gr4B7hrLAMsAJgD3GgAAAAAAAAAAAAAAAAAAAAADVgAvAFkAAA==]"
+    "chat_code": "[&DQYpHx89MBcAACcPwxJQAb4BAADLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAADVgAxAFkAAA==]",
+    "build_template": "[&DQYpHx89MBcAACcPwxJQAb4BAADLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAADVgAxAFkAAA==]"
   }
 }

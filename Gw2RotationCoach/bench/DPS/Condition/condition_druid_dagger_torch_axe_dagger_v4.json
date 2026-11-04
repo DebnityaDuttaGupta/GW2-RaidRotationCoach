@@ -1431,7 +1431,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1770557": {
       "name": "Instinctive Engage",
       "icon": "https://render.guildwars2.com/file/411FB9186E16AAF67508EA94FAD8115855051430/1770557.png",
@@ -1602,6 +1602,14 @@
     "slot_9": 104004,
     "slot_0": 103101
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Doom & Superior Sigil of Geomancy",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Potent Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Druid",
     "profession": "Ranger",
@@ -1609,9 +1617,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/condition-druid-dagger-torch-axe-dagger",
-    "dps_report_url": "https://dps.report/704v-20250625-144721_golem",
-    "overall_dps": 48550.0,
-    "weapons": "Dagger & Torch / Axe & Dagger",
-    "chat_code": "[&DQQeHSE3SB95AAAAvwC/AL0ApQG6AAAAwAAAAAYwFQkAAAAAAAAAAAAAAAADBQAvAGYAAA==]"
+    "weapons": "Dagger & Torch / Axe",
+    "chat_code": "[&DQQeLSE3BT95AAAAvwAAALoAAAC9AAAAwAAAAAY5AAAAAAAAAAAAAAAAAAAAAA==]",
+    "build_template": "[&DQQeLSE3BT95AAAAvwAAALoAAAC9AAAAwAAAAAY5AAAAAAAAAAAAAAAAAAAAAA==]"
   }
 }

@@ -1,0 +1,429 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        29578,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76746,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        77066,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        76960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        10212,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        77066,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        77079,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        76931,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        77306,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        62607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62560,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        10174,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        62607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        76960,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s29578": {
+      "name": "Mimic",
+      "icon": "https://render.guildwars2.com/file/6C744B3948470EF0E6422DEACDC6BFBD42B609D4/103604.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62607": {
+      "name": "Unstable Bladestorm",
+      "icon": "https://render.guildwars2.com/file/449039B4B74B133D226BEED819B7C408AF2B61BB/2479391.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10174": {
+      "name": "Phantasmal Swordsman",
+      "icon": "https://render.guildwars2.com/file/755CAC115104F0AA0630DCEB472D0678B62A916E/103723.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76746": {
+      "name": "Flustering Flute",
+      "icon": "https://render.guildwars2.com/file/CFE30B5052A2AA67D9A8AE5FC1FBA0A56C64584C/3680160.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62560": {
+      "name": "Bladecall",
+      "icon": "https://render.guildwars2.com/file/45B04E5D30ADD8D1B3086A98D40BE506E313B646/2479379.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77306": {
+      "name": "Lively Lute",
+      "icon": "https://render.guildwars2.com/file/4CAA3750145A55B7E73D5EB9917590EC45657BE7/3680159.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73093": {
+      "name": "Mind the Gap",
+      "icon": "https://render.guildwars2.com/file/A2482595561FEE203E1E72A670F10FAB2F2FFB97/3379155.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72946": {
+      "name": "Phantasmal Lancer",
+      "icon": "https://render.guildwars2.com/file/5E6C98FA3B942EE76808530B016FF5621A25764F/3379157.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77066": {
+      "name": "Tale of the Tortured Mastermind",
+      "icon": "https://render.guildwars2.com/file/64FFFDF0DB06E31493673D7313305536B7AAA53D/3680167.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76960": {
+      "name": "Harmonious Harp",
+      "icon": "https://render.guildwars2.com/file/C1BCF465DE1DAB00E00B0F1494ABDB2D7F57BECA/3680162.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73152": {
+      "name": "Imaginary Inversion",
+      "icon": "https://render.guildwars2.com/file/04DD10464EFA2CC6E034CABF03D4D89427CFB4E4/3379156.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10212": {
+      "name": "Power Spike",
+      "icon": "https://render.guildwars2.com/file/3519C5C770CCEAF92926D9495999E1F8A23D5AF3/103743.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77079": {
+      "name": "Deafening Drum",
+      "icon": "https://render.guildwars2.com/file/E061ECE20A34DC281C0E3EB8FB90094549E87941/3680161.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76931": {
+      "name": "Crescendo",
+      "icon": "https://render.guildwars2.com/file/935C32505D1F4DB7D9739C2C4B4137D4346709A4/3680163.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72957": {
+      "name": "Mental Collapse",
+      "icon": "https://render.guildwars2.com/file/6F07061FEB1E435935AE9269C27DA3EDF5095627/3379158.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 29578,
+    "slot_8": 77066,
+    "slot_9": 10212
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Shackles",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Troubadour",
+    "profession": "Mesmer",
+    "elite_spec": "Troubadour",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/power-troubadour-spear-dagger-sword",
+    "weapons": "Spear & Dagger / Sword",
+    "chat_code": "[&DQcBHQoaSRdtAQAAZh0AAIIBAABpAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]",
+    "build_template": "[&DQcBHQoaSRdtAQAAZh0AAIIBAABpAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADBQBmAFkAAA==]"
+  }
+}

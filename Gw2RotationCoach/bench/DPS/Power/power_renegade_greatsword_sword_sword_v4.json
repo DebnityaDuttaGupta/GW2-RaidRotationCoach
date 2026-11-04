@@ -1,0 +1,380 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        45686,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        45537,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        41294,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        27107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        28472,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        27074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29057,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        41858,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62895,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        62895,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        62692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        62929,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        62895,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        41220,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s45686": {
+      "name": "Breakrazor's Bastion",
+      "icon": "https://render.guildwars2.com/file/E3B802C86752CAD27FCA6D5C73585335F1EAAC0E/1770591.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45537": {
+      "name": "Orders from Above",
+      "icon": "https://render.guildwars2.com/file/C930ACAF03D97B6047DC0A0110CA1DCEE3BD715A/1770595.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62929": {
+      "name": "Eternity's Requiem",
+      "icon": "https://render.guildwars2.com/file/A2BDB3281AA72F05D80A3855032C1807D059167E/2491611.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40485": {
+      "name": "Icerazor's Ire",
+      "icon": "https://render.guildwars2.com/file/F151D74719642E34672C0837BB0C4071B1E3B4A7/1770605.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28134": {
+      "name": "Legendary Assassin Stance",
+      "icon": "https://render.guildwars2.com/file/67CDD35F6BC3072E0837715A5E0A90646529BAA2/1030005.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41294": {
+      "name": "Citadel Bombardment",
+      "icon": "https://render.guildwars2.com/file/A7C2C720C5ABE5AAB00EF0EA0318DA3B38FC981E/1770593.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27107": {
+      "name": "Impossible Odds",
+      "icon": "https://render.guildwars2.com/file/D5479F5A43B3A1550EC0F457AA4ED79F93EF9A22/1013014.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29233": {
+      "name": "Chilling Isolation",
+      "icon": "https://render.guildwars2.com/file/5201D39E6CC216A5A64E17F6E6ECB15708F103EE/1013003.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28472": {
+      "name": "Shackling Wave",
+      "icon": "https://render.guildwars2.com/file/C9AA7D9B9BDE6652194A5963F5C2694C3AE0CEF6/1030006.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27074": {
+      "name": "Deathstrike",
+      "icon": "https://render.guildwars2.com/file/030BA607CA9D6A0D0E29F53C201421019263F353/1876877.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29057": {
+      "name": "Preparation Thrust",
+      "icon": "https://render.guildwars2.com/file/09B709249BD429435E53DEA0E2E701560F68DD1B/1013000.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41858": {
+      "name": "Legendary Renegade Stance",
+      "icon": "https://render.guildwars2.com/file/6B3205EF5ED0802DB74BBF7F0CAE04FAA2089B74/1770592.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62692": {
+      "name": "Mist Unleashed",
+      "icon": "https://render.guildwars2.com/file/CB669AA4946F5402D592EF7EE4C7D66069FE0108/2491615.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62895": {
+      "name": "Phantom's Onslaught",
+      "icon": "https://render.guildwars2.com/file/59BA7946071713ECA0490726710D29E26FEB62FA/2491617.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42949": {
+      "name": "Razorclaw's Rage",
+      "icon": "https://render.guildwars2.com/file/2449F064B1D3427FF311D3B4C101009C52250A0C/1770606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41220": {
+      "name": "Darkrazor's Daring",
+      "icon": "https://render.guildwars2.com/file/0068FF1E08D9DC9D99097A69B82E9B50D8DB5BE6/1770604.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 45686,
+    "slot_7": 40485,
+    "slot_8": 27107,
+    "slot_9": 42949
+  },
+  "equipment": {
+    "armor_attributes": "Dragon's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of Shackles",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Renegade",
+    "profession": "Revenant",
+    "elite_spec": "Renegade",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/power-renegade-greatsword-sword-sword",
+    "weapons": "Greatsword & Sword / Sword",
+    "chat_code": "[&DQkDLg8qPyrcEQAA1BEAACsSAAAGEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkDLg8qPyrcEQAA1BEAACsSAAAGEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]"
+  }
+}

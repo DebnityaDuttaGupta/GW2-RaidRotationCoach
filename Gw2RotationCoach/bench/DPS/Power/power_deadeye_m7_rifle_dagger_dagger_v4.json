@@ -1095,7 +1095,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1770626": {
       "name": "Three Round Burst",
       "icon": "https://render.guildwars2.com/file/55013868E7A03E437305D7B706EB042A35172450/1770626.png",
@@ -1236,16 +1236,23 @@
     "slot_9": 1770635,
     "slot_0": 1770610
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Deadeye",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Deadeye M7 Rifle Dagger Dagger",
+    "name": "Power Deadeye (M7)",
     "profession": "Thief",
     "elite_spec": "Deadeye",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/power-deadeye-m7-rifle-dagger-dagger",
-    "dps_report_url": "https://dps.report/FyD0-20240322-133853_golem",
-    "overall_dps": 45055.0,
-    "weapons": "Rifle / Dagger & Dagger",
-    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Rifle & Dagger / Dagger",
+    "chat_code": "[&DQUcPSMbOh/xFQwBIBcAADMBNAGsFlYBPRYAAAAAAAAAAAAAAAAAAAAAAAACLwBVAAA=]",
+    "build_template": "[&DQUcPSMbOh/xFQwBIBcAADMBNAGsFlYBPRYAAAAAAAAAAAAAAAAAAAAAAAACLwBVAAA=]"
   }
 }

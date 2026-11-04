@@ -1,0 +1,210 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        77238,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        76864,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76741,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77003,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        76684,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        76732,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        101139,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        76607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        10557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        10556,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        19117,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        10605,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s77238": {
+      "name": "Ritualist's Shroud",
+      "icon": "https://render.guildwars2.com/file/1B55FB1EE2799643B06A68E3C419D6166A9554AA/3680176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76864": {
+      "name": "Anguish",
+      "icon": "https://render.guildwars2.com/file/9CA8D4479BEE9A28C810CCB0E234BAC7712104A0/3680170.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76741": {
+      "name": "Wanderlust",
+      "icon": "https://render.guildwars2.com/file/604BAC974ED4C76FE95E32BEE6BDB3DE594F9F6C/3680178.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77003": {
+      "name": "Innervate Anguish",
+      "icon": "https://render.guildwars2.com/file/557413F742FCA13D9A5C08C814F21CA6BCE2626F/3680171.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76684": {
+      "name": "Preservation",
+      "icon": "https://render.guildwars2.com/file/473E92AE33757816B7205C4759F1F3065346E600/3680173.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76732": {
+      "name": "Innervate Wanderlust",
+      "icon": "https://render.guildwars2.com/file/CDFE1DF19F0D660091BB935E181745BA0DB6CB47/3680179.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s101139": {
+      "name": "Skill 101139",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76607": {
+      "name": "Summon Spirits",
+      "icon": "https://render.guildwars2.com/file/CF9C5D79940CB74DAA650476DAE9DC012202B86C/3680177.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76933": {
+      "name": "Exit Ritualist's Shroud",
+      "icon": "https://render.guildwars2.com/file/01D45B1291F0F369900D94BCD19913074153A54F/3680175.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10557": {
+      "name": "Locust Swarm",
+      "icon": "https://render.guildwars2.com/file/1E2D4A00340B96CAE9A1E19F2B07B35A01741B14/103809.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10556": {
+      "name": "Wail of Doom",
+      "icon": "https://render.guildwars2.com/file/41C99E156B3F602C9069E2B838E8BD05D6262EBE/103277.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s19117": {
+      "name": "Mark of Blood",
+      "icon": "https://render.guildwars2.com/file/F205B3A517DF27E3323D2FBCFE6C0FA3430242F9/103813.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10605": {
+      "name": "Chillblains",
+      "icon": "https://render.guildwars2.com/file/A33F6E0F51AD229AD57ED83D7AC040225DFD0FEA/103138.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {},
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's & Magi's",
+    "runes": "Superior Rune of the Water",
+    "sigils": "Superior Sigil of Paralyzation & Superior Sigil of Transference",
+    "relic": "Relic of the Midnight King",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Quickness Ritualist",
+    "profession": "Necromancer",
+    "elite_spec": "Ritualist",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/necromancer/heal-quickness-ritualist-staff-dagger-warhorn",
+    "weapons": "Staff & Dagger / Warhorn",
+    "chat_code": "[&DQgTNjIeTCoSAAAAAAAAAAAAAAAAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgTNjIeTCoSAAAAAAAAAAAAAAAAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

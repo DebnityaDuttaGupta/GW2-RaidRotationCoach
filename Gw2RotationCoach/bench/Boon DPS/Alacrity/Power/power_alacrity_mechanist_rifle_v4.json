@@ -2551,7 +2551,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s102982": {
       "name": "Net Shot",
       "icon": "https://render.guildwars2.com/file/A47830A4152F5F5DEC5D22975DE0449A57F2D570/102982.png",
@@ -2668,16 +2668,23 @@
     "slot_9": -1,
     "slot_0": 2503668
   },
+  "equipment": {
+    "armor_attributes": "Diviner's & Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Earth",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Alacrity Mechanist",
     "profession": "Engineer",
     "elite_spec": "Mechanist",
     "build_type": "power",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-alacrity-mechanist-rifle",
-    "dps_report_url": "https://dps.report/EeGL-20260113-190459_golem",
-    "overall_dps": 33330.0,
     "weapons": "Rifle",
-    "chat_code": "[&DQMGNyYfRisNG4QABwGVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADCQE1AFcAAA==]"
+    "chat_code": "[&DQMGNyYvRisNG4QAhgCVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGNyYvRisNG4QAhgCVARAbBwEaGwAACRuJAQAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

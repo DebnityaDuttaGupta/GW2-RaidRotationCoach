@@ -1,0 +1,556 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        9081,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        72940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        77198,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77078,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        76924,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        77366,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        76910,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        76616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73132,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        72940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73094,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9146,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        9081,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        77078,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        77073,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76910,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        76616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        9147,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        9081,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9146,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        9080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        72978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        72940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        77073,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        76910,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        76982,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        77078,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        76924,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        77366,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        77339,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        76910,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        76616,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        73132,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        72940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        72978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        73094,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        78358,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        76910,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        76708,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        77366,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        77197,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        76621,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        77078,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s9081": {
+      "name": "Whirling Wrath",
+      "icon": "https://render.guildwars2.com/file/374A9BB028E19F0B5D04622A33B36FA67E0EC938/103574.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72940": {
+      "name": "Helio Rush",
+      "icon": "https://render.guildwars2.com/file/E1207948233A0CAC25B25F4B1240773719CC6838/3379125.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77198": {
+      "name": "Daring Advance",
+      "icon": "https://render.guildwars2.com/file/2E24D2089501C663801BF7CC567E1CC0F5714AD7/3680140.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77078": {
+      "name": "Piercing Stance",
+      "icon": "https://render.guildwars2.com/file/E5805F3477ED5618E348043475FFA442C7C791E3/3680154.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76708": {
+      "name": "Luminous Staff",
+      "icon": "https://render.guildwars2.com/file/06BD9362B2F9FAE403181D0F9BE96A12664C22CA/3680148.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76924": {
+      "name": "Gleaming Blade",
+      "icon": "https://render.guildwars2.com/file/79B0DCC5E4A0A8BBE04AC0024D01A0F36D0B0C79/3680151.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77366": {
+      "name": "Lucent Thrust",
+      "icon": "https://render.guildwars2.com/file/1967D3BD670E976B0B554AAE3C0E070E0BF672D8/3680150.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77197": {
+      "name": "Radiant Bulwark",
+      "icon": "https://render.guildwars2.com/file/06735858B4DE086359A7DB1D4B2B650F97D7DD03/3680144.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77339": {
+      "name": "Dazzling Hammer",
+      "icon": "https://render.guildwars2.com/file/4ECA0C916F5D54C3C12AC135AB5A1E2D4BC792E5/3680142.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76910": {
+      "name": "Shining Spin",
+      "icon": "https://render.guildwars2.com/file/2E5878CE9AFA2634D7F6DBAB10389D20C1BFF75E/3680143.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76616": {
+      "name": "Exit Radiant Forge",
+      "icon": "https://render.guildwars2.com/file/72EAE7EF5A1F5CBBD815618094F40A3D01A2FB11/3680146.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73132": {
+      "name": "Symbol of Luminance",
+      "icon": "https://render.guildwars2.com/file/0E1E2D69CBC3C0E36217506C6CCB710138035373/3379129.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72978": {
+      "name": "Gleaming Disc",
+      "icon": "https://render.guildwars2.com/file/0A7A6902DC73F1C8A50907DAAE080A3CA40BC44F/3379127.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73094": {
+      "name": "Solar Storm",
+      "icon": "https://render.guildwars2.com/file/D026ABCF610D6E9615A2F7BDB8716EAFB99AAAFB/3379128.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9146": {
+      "name": "Symbol of Resolution",
+      "icon": "https://render.guildwars2.com/file/B9FC18E67D7FEE5B64F60AB7700E5706CCB51DA6/103660.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9080": {
+      "name": "Leap of Faith",
+      "icon": "https://render.guildwars2.com/file/C6C1B00FD5191CB2AA311E2205A3D90D9907BB9E/103587.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77073": {
+      "name": "Enter Radiant Forge",
+      "icon": "https://render.guildwars2.com/file/C64AE4AF57E83451F763B80C125410773909730A/3680147.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9147": {
+      "name": "Binding Blade",
+      "icon": "https://render.guildwars2.com/file/B975D6E5B32392524C034114E2A2201097BFDA35/103274.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76982": {
+      "name": "Glaring Burst",
+      "icon": "https://render.guildwars2.com/file/7E68406FAAC4FFF878CDD307B257C9D6AECE2935/3680152.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s78358": {
+      "name": "Radiant Courage",
+      "icon": "https://render.guildwars2.com/file/61FA2B39C018F8930B38D1FC0FE5CE9C49BA681A/3713156.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76621": {
+      "name": "Resolute Stance",
+      "icon": "https://render.guildwars2.com/file/C0267DCD064328C6C4CF33CF08714FB1DC1171BC/3680141.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 77198,
+    "slot_7": 77078,
+    "slot_6": 76621
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Diviner's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Concentration & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Alacrity Luminary",
+    "profession": "Guardian",
+    "elite_spec": "Luminary",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-luminary-spear-greatsword",
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQEqOhA+UScmDwAA/gAAAFYdAABdHQAAZx0AAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEqOhA+UScmDwAA/gAAAFYdAABdHQAAZx0AAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

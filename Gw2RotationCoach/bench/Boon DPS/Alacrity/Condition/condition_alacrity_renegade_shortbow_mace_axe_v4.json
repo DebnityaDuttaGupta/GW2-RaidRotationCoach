@@ -1,0 +1,475 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        27964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        45537,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        40175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        43993,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        41829,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        40175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        26693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        40175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        40175,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        40497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        43993,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        41829,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        41858,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        27964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        28357,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        28409,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        27964,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        46409,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        42836,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        44076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        1791,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        26693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        26693,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        27505,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        1791,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40485": {
+      "name": "Icerazor's Ire",
+      "icon": "https://render.guildwars2.com/file/F151D74719642E34672C0837BB0C4071B1E3B4A7/1770605.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27964": {
+      "name": "Echoing Eruption",
+      "icon": "https://render.guildwars2.com/file/EBC404DE4ACFF17BDB0FF7BC9BF592641BA64046/961470.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42949": {
+      "name": "Razorclaw's Rage",
+      "icon": "https://render.guildwars2.com/file/2449F064B1D3427FF311D3B4C101009C52250A0C/1770606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28494": {
+      "name": "Legendary Demon Stance",
+      "icon": "https://render.guildwars2.com/file/1A1407F7D34E5ED41B59A25F39EBF728CC926423/961413.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45537": {
+      "name": "Orders from Above",
+      "icon": "https://render.guildwars2.com/file/C930ACAF03D97B6047DC0A0110CA1DCEE3BD715A/1770595.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28287": {
+      "name": "Embrace the Darkness",
+      "icon": "https://render.guildwars2.com/file/13B6D13EF593CF54DBB204CF6425FDAFC0D723C7/961453.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28357": {
+      "name": "Searing Fissure",
+      "icon": "https://render.guildwars2.com/file/3FAB9EB7587857745278027D29154ABC015710A6/961477.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40175": {
+      "name": "Bloodbane Path",
+      "icon": "https://render.guildwars2.com/file/07F358B1429B2535C2C83454F235A99E0902A50E/1770597.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40497": {
+      "name": "Shattershot",
+      "icon": "https://render.guildwars2.com/file/232D91913C60F230422E410CB6C8BD56E93751C4/1770596.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43993": {
+      "name": "Spiritcrush",
+      "icon": "https://render.guildwars2.com/file/AF0F3CECA42ABDE06707040ECDD994F8FB2B5F21/1770599.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41829": {
+      "name": "Sevenshot",
+      "icon": "https://render.guildwars2.com/file/9F93AB3310F46308219A25AE985AE252336843F2/1770598.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s26693": {
+      "name": "Resist the Darkness",
+      "icon": "https://render.guildwars2.com/file/330609F64410624EEE5B24FD7E46CC23F70B7D0E/961440.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41858": {
+      "name": "Legendary Renegade Stance",
+      "icon": "https://render.guildwars2.com/file/6B3205EF5ED0802DB74BBF7F0CAE04FAA2089B74/1770592.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28409": {
+      "name": "Temporal Rift",
+      "icon": "https://render.guildwars2.com/file/BECD56D7BA6A9175F804305A4B4EB369079AEB1F/961478.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s46409": {
+      "name": "Legendary Renegade Stance",
+      "icon": "https://render.guildwars2.com/file/6B3205EF5ED0802DB74BBF7F0CAE04FAA2089B74/1770592.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42836": {
+      "name": "Citadel Bombardment",
+      "icon": "https://render.guildwars2.com/file/A7C2C720C5ABE5AAB00EF0EA0318DA3B38FC981E/1770593.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44076": {
+      "name": "Heroic Command",
+      "icon": "https://render.guildwars2.com/file/A0C51CE345E94C7DA7300B2505920FC145730BBD/1770594.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1791": {
+      "name": "Skill 1791",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27505": {
+      "name": "Banish Enchantment",
+      "icon": "https://render.guildwars2.com/file/D327055AA824ABDDAD70E2606E1C9AF018FF9902/961449.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 40485,
+    "slot_8": 42949,
+    "slot_0": 26693,
+    "slot_9": 27505
+  },
+  "equipment": {
+    "armor_attributes": "Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Geomancy & Superior Sigil of Earth & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Renegade",
+    "profession": "Revenant",
+    "elite_spec": "Renegade",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/condition-alacrity-renegade-shortbow-mace-axe",
+    "weapons": "Shortbow & Mace / Axe",
+    "chat_code": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]",
+    "build_template": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]"
+  }
+}

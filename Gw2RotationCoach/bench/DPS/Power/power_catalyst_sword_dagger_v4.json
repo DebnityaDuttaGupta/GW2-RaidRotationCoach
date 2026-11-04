@@ -1,0 +1,415 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        44998,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62837,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        62965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        44998,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        43803,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        62940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62837,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        40139,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        40139,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        62965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        44451,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        45313,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        45313,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5737": {
+      "name": "Lightning Storm",
+      "icon": "https://render.guildwars2.com/file/D0D5D40C079304DB0FFF10051C79A5629EE60501/1424238.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62940": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/07D9C76FEB07BB04B9D07A05D87C09A0A0AE0319/2491594.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44998": {
+      "name": "Polaric Leap",
+      "icon": "https://render.guildwars2.com/file/62486C9906C4B4D5D6A8112CF671743F01DF392F/1770367.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5529": {
+      "name": "Ride the Lightning",
+      "icon": "https://render.guildwars2.com/file/23066340DF3C6E4F06A1B105479809E1647FF5D6/103332.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43803": {
+      "name": "Quantum Strike",
+      "icon": "https://render.guildwars2.com/file/0D4D42EF67E9EB0B4A0304CF39901661ED087BE5/1770371.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62837": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/97BEF22148DDA3159B4CF6DB18ECFEDE7107710B/2491596.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5690": {
+      "name": "Earthquake",
+      "icon": "https://render.guildwars2.com/file/01F24427AF4C18476A657647C39CB2F2374BDA57/102975.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5522": {
+      "name": "Churning Earth",
+      "icon": "https://render.guildwars2.com/file/4B3D497E0F070BEE66642AF6293A77B891CEA95C/102976.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62813": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/22CA7C0F420C7F61CEBFA323DF3AADC5EF237475/2491598.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62965": {
+      "name": "Relentless Fire",
+      "icon": "https://render.guildwars2.com/file/31372EE16EAB80BDB213EB99D1BF4C6C3B67B6AF/2491601.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45313": {
+      "name": "Flame Uprising",
+      "icon": "https://render.guildwars2.com/file/C4EF2F0EB22C2D0AEB40F6ADDD80F2A3D4BB0B7B/1770369.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44451": {
+      "name": "Cauterizing Strike",
+      "icon": "https://render.guildwars2.com/file/5CF5932ACF2EB9D17BE4DC634BB01EB3CC37070F/1770375.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5691": {
+      "name": "Ring of Fire",
+      "icon": "https://render.guildwars2.com/file/CD08FDC23B56EBB19C90B909C65D9EE4D9FFF8C8/103183.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5557": {
+      "name": "Fire Grab",
+      "icon": "https://render.guildwars2.com/file/ED2422E6051855A76214FA9F292525C1359F0B59/103296.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62725": {
+      "name": "Elemental Celerity",
+      "icon": "https://render.guildwars2.com/file/39F9519CA1BA45F570BA157B7AD4449AF94BBF01/2491568.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40139": {
+      "name": "Rust Frenzy",
+      "icon": "https://render.guildwars2.com/file/B16E9EE2AACD62042A64356334DC726E1E7FBF7B/1770372.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5737,
+    "slot_8": 62965,
+    "slot_0": 62725
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Catalyst",
+    "profession": "Elementalist",
+    "elite_spec": "Catalyst",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-sword-dagger",
+    "weapons": "Sword / Dagger",
+    "chat_code": "[&DQYfHSkfQyYnDwAA+BoAAL4BAABQAQAA9xoAAAAAAAAAAAAAAAAAAAAAAAACWgAvAAA=]",
+    "build_template": "[&DQYfHSkfQyYnDwAA+BoAAL4BAABQAQAA9xoAAAAAAAAAAAAAAAAAAAAAAAACWgAvAAA=]"
+  }
+}

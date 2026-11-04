@@ -1893,7 +1893,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s961470": {
       "name": "Echoing Eruption",
       "icon": "https://render.guildwars2.com/file/EBC404DE4ACFF17BDB0FF7BC9BF592641BA64046/961470.png",
@@ -2052,16 +2052,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Geomancy & Superior Sigil of Earth & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Magnanimous Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Alacrity Renegade",
     "profession": "Revenant",
     "elite_spec": "Renegade",
     "build_type": "condition",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-alacrity-renegade-spear-mace-axe",
-    "dps_report_url": "https://dps.report/aZsY-20241029-155240_golem",
-    "overall_dps": 37143.0,
-    "weapons": "Spear / Mace & Axe",
-    "chat_code": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]"
+    "weapons": "Spear & Mace / Axe",
+    "chat_code": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]",
+    "build_template": "[&DQkOHQMmPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUEAAArEtQRBhIAAAAAAAA=]"
   }
 }

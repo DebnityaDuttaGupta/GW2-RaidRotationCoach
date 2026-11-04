@@ -1662,7 +1662,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103275": {
       "name": "Poison Volley",
       "icon": "https://render.guildwars2.com/file/AF233703C9039AF8DABEC1B9D4D7CC16AE030105/103275.png",
@@ -1785,6 +1785,14 @@
     "slot_9": 1770571,
     "slot_0": 1770558
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Malice & Superior Sigil of Bursting",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Soulbeast",
     "profession": "Ranger",
@@ -1792,9 +1800,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/ranger/condition-soulbeast-shortbow-dagger-dagger",
-    "dps_report_url": "https://dps.report/B97C-20250625-230018_golem",
-    "overall_dps": 39258.0,
-    "weapons": "Shortbow / Dagger & Dagger",
-    "chat_code": "[&DQQeHSE3SB95AAAAvwC/AL0ApQG6AAAAwAAAAAYwFQkAAAAAAAAAAAAAAAADBQAvAGYAAA==]"
+    "weapons": "Shortbow & Dagger / Dagger",
+    "chat_code": "[&DQQeLSE3Ny55AC4XvwC/ABsApQHpFukWLhYuFgMlFQkAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQQeLSE3Ny55AC4XvwC/ABsApQHpFukWLhYuFgMlFQkAAAAAAAAAAAAAAAA=]"
   }
 }

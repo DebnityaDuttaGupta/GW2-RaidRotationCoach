@@ -2173,7 +2173,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2175057": {
       "name": "Function Gyro",
       "icon": "https://render.guildwars2.com/file/42BCB9C83B05D048C0E0BA1804F13D6FAC180DCD/2175057.png",
@@ -2332,16 +2332,23 @@
     "slot_9": 103177,
     "slot_0": 103443
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Quickness Scrapper",
     "profession": "Engineer",
     "elite_spec": "Scrapper",
     "build_type": "power",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-quickness-scrapper-hammer",
-    "dps_report_url": "https://dps.report/x1NW-20260114-104405_golem",
-    "overall_dps": 34566.0,
     "weapons": "Hammer",
-    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQMGOyYfKy0qDyoPhgBfAQcBBwEmAY0B+RKJAQAAAAAAAAAAAAAAAAAAAAACMwBVAAA=]",
+    "build_template": "[&DQMGOyYfKy0qDyoPhgBfAQcBBwEmAY0B+RKJAQAAAAAAAAAAAAAAAAAAAAACMwBVAAA=]"
   }
 }

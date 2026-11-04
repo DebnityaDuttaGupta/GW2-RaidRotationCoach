@@ -1,0 +1,481 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        73041,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        73063,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73063,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        73076,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72927,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73063,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        72904,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        73005,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        76900,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        76550,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        76582,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77277,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76674,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        13046,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        76816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        76582,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        72034,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        72034,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        71852,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        72034,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        71965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        77230,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        73063,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        77255,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s76725": {
+      "name": "Stone Summit Cannon",
+      "icon": "https://render.guildwars2.com/file/2B551306FBED061EFF9D56E49EE1CEB57309B22C/3680219.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77397": {
+      "name": "Skritt Swipe",
+      "icon": "https://render.guildwars2.com/file/291DAF077409087C5905700A785E4EDDC9DBC47A/3680217.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72927": {
+      "name": "Distracting Throw",
+      "icon": "https://render.guildwars2.com/file/D778C3EF460E2F960DA2153F7A3326C13DAD18E7/3379195.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77255": {
+      "name": "Skritt Scuffle",
+      "icon": "https://render.guildwars2.com/file/697095D59F91E5085007FE240105CAFF64BD0B2A/3680206.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73005": {
+      "name": "Ashen Assault",
+      "icon": "https://render.guildwars2.com/file/07F4055E57F1E82EE1BFBAA11AE1F59145070617/3379197.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73041": {
+      "name": "Mantis Sting",
+      "icon": "https://render.guildwars2.com/file/195C9FD6753501224702FE4EA7480E2CD7437B29/3379189.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73063": {
+      "name": "Vampiric Slash",
+      "icon": "https://render.guildwars2.com/file/60071334EC9B38397C03A5290B372D6FF3E831B0/3379193.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73076": {
+      "name": "Falling Spider",
+      "icon": "https://render.guildwars2.com/file/BEA5D1B8D1BC0F97690CE57CD03DADB9DA7F4004/3379191.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72904": {
+      "name": "Shattering Assault",
+      "icon": "https://render.guildwars2.com/file/68E71F96676504BED138AA0F3238D33B1408F3F9/3379194.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76900": {
+      "name": "Summon Kryptis Turret",
+      "icon": "https://render.guildwars2.com/file/2DC92035E3A36CBCDB62C84E65BEF69BFA0BDD02/3680213.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76550": {
+      "name": "Forged Surfer Dash",
+      "icon": "https://render.guildwars2.com/file/696501BA136CA660BD22D0D0A3B19741D4A77529/3680211.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76582": {
+      "name": "Metal Legion Guitar",
+      "icon": "https://render.guildwars2.com/file/02727B1807CF0FEF31037FD9E307BABB2055AE3C/3680214.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77277": {
+      "name": "Mistburn Mortar",
+      "icon": "https://render.guildwars2.com/file/4519AE3A9032E03F2F14AAA1B5EEE10F1AF1EEAE/3680215.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76674": {
+      "name": "Holo-Dancer Decoy",
+      "icon": "https://render.guildwars2.com/file/CEE6340604724A060D7C570709C4B05DFAD56617/3680212.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13046": {
+      "name": "Assassin's Signet",
+      "icon": "https://render.guildwars2.com/file/16BAE223E268B19ABFE66040F11706B7BC00EF79/104076.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76816": {
+      "name": "Chak Shield",
+      "icon": "https://render.guildwars2.com/file/4506224EB1921800602CAD52B6B209960FE51153/3680209.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71852": {
+      "name": "Venomous Volley",
+      "icon": "https://render.guildwars2.com/file/9F1A55D17C0CDD42675FC758B797BBCFE610D4A7/3256394.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72034": {
+      "name": "Cunning Salvo",
+      "icon": "https://render.guildwars2.com/file/74E8A2686C3BBBC6E572C42A7824EC070C98F25E/3256393.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71965": {
+      "name": "Orchestrated Assault",
+      "icon": "https://render.guildwars2.com/file/EDAA6A645279109A6FD7064A4439ECE3DDBE05F4/3256390.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77230": {
+      "name": "Canach-Coin Toss",
+      "icon": "https://render.guildwars2.com/file/CA51F09750F4C7C70A546E9F040EEF2977370DFF/3680220.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 76725,
+    "slot_0": 77255,
+    "slot_8": 13046,
+    "slot_9": 77230
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Concentration",
+    "relic": "Relic of the Claw",
+    "food": "Spherified Cilantro Oyster Soup",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Alacrity Antiquary",
+    "profession": "Thief",
+    "elite_spec": "Antiquary",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/power-alacrity-antiquary-spear-axe-pistol",
+    "weapons": "Spear & Axe / Pistol",
+    "chat_code": "[&DQUcPSMbTS+FAAwBWR0AADMBNAFgHVYBfB0AAAAAAAAAAAAAAAAAAAAAAAACWQAJAQA=]",
+    "build_template": "[&DQUcPSMbTS+FAAwBWR0AADMBNAFgHVYBfB0AAAAAAAAAAAAAAAAAAAAAAAACWQAJAQA=]"
+  }
+}

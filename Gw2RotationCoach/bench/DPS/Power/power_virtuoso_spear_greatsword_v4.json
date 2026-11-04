@@ -1200,7 +1200,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s3379155": {
       "name": "Mind the Gap",
       "icon": "https://render.guildwars2.com/file/A2482595561FEE203E1E72A670F10FAB2F2FFB97/3379155.png",
@@ -1347,6 +1347,14 @@
     "slot_9": -1,
     "slot_0": 2479389
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Virtuoso",
     "profession": "Mesmer",
@@ -1354,9 +1362,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso-spear-greatsword",
-    "dps_report_url": "https://dps.report/EekI-20250429-021335_golem",
-    "overall_dps": 46390.0,
     "weapons": "Spear / Greatsword",
-    "chat_code": "[&DQcKGgEdQiojDwAAjwEAAN0aAABpAQAA5RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQcBHQoZQiojDwAA3RoAAI8BAABpAWkB5RoAAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]",
+    "build_template": "[&DQcBHQoZQiojDwAA3RoAAI8BAABpAWkB5RoAAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]"
   }
 }

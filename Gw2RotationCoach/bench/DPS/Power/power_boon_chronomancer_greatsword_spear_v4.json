@@ -1,0 +1,664 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        56873,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        29830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        21750,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        30525,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        30814,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        10220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        30747,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        30525,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30814,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        30359,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        21750,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        56930,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        56928,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        56930,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        56873,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        103574,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        2009,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        10220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        29830,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        10212,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        10220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        103574,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        2009,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        30525,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        30814,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        30359,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        72957,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        72946,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        73152,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.0,
+        73093,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.5,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.0,
+        10220,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.5,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.0,
+        21750,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        31.5,
+        10221,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.0,
+        10218,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.5,
+        30525,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.0,
+        10333,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.5,
+        10220,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s73152": {
+      "name": "Imaginary Inversion",
+      "icon": "https://render.guildwars2.com/file/04DD10464EFA2CC6E034CABF03D4D89427CFB4E4/3379156.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56873": {
+      "name": "Time Sink",
+      "icon": "https://render.guildwars2.com/file/3A0CF805A4359A10766D1DD04FF0E7D20A05BD17/2175060.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73093": {
+      "name": "Mind the Gap",
+      "icon": "https://render.guildwars2.com/file/A2482595561FEE203E1E72A670F10FAB2F2FFB97/3379155.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72946": {
+      "name": "Phantasmal Lancer",
+      "icon": "https://render.guildwars2.com/file/5E6C98FA3B942EE76808530B016FF5621A25764F/3379157.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72957": {
+      "name": "Mental Collapse",
+      "icon": "https://render.guildwars2.com/file/6F07061FEB1E435935AE9269C27DA3EDF5095627/3379158.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10221": {
+      "name": "Phantasmal Berserker",
+      "icon": "https://render.guildwars2.com/file/3EE57D40E5F2B376FF921FA7455D00319C7DB8A8/103747.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29830": {
+      "name": "Continuum Split",
+      "icon": "https://render.guildwars2.com/file/9E7CE10D0E447973F2D9175CF16A103BD076D04B/1012882.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s21750": {
+      "name": "Signet of the Ether",
+      "icon": "https://render.guildwars2.com/file/EE5271572B2B10FBCE95097ECD54775832E8B9EF/699528.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10333": {
+      "name": "Mirror Blade",
+      "icon": "https://render.guildwars2.com/file/2E3FFCF506520375FEA923CAC4B25846035B5A0D/103789.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10218": {
+      "name": "Mind Stab",
+      "icon": "https://render.guildwars2.com/file/DA0126D7F32A973F4432E2070C0DB7252F561E90/103584.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30525": {
+      "name": "Well of Calamity",
+      "icon": "https://render.guildwars2.com/file/0EB4E57F0F26799F80727E3DFDD0470E72FB10A3/1012903.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30814": {
+      "name": "Well of Action",
+      "icon": "https://render.guildwars2.com/file/7F48A218D60E55A56DC14C4E660F56F72A472105/1012902.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10220": {
+      "name": "Illusionary Wave",
+      "icon": "https://render.guildwars2.com/file/5C16C0DE262ECCA295D80DA692EBC23A795DB9F7/103585.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30747": {
+      "name": "Continuum Shift",
+      "icon": "https://render.guildwars2.com/file/4BD3BEF1DE31476B3E40002708049EA1026F1F0B/1012895.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30359": {
+      "name": "Gravity Well",
+      "icon": "https://render.guildwars2.com/file/636CBDAB7A6026B62FF2317CD610D7414FDEC99C/1012881.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56930": {
+      "name": "Split Second",
+      "icon": "https://render.guildwars2.com/file/14090D7A6472AB06125662EB12E6EC51EDE2EEBB/2175059.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56928": {
+      "name": "Rewinder",
+      "icon": "https://render.guildwars2.com/file/F59775A05108441C09AC03C30CAD98CC049CCC28/2175058.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s103574": {
+      "name": "Skill 103574",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2009": {
+      "name": "Skill 2009",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10212": {
+      "name": "Power Spike",
+      "icon": "https://render.guildwars2.com/file/3519C5C770CCEAF92926D9495999E1F8A23D5AF3/103743.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 21750,
+    "slot_7": 30525,
+    "slot_8": 30814,
+    "slot_0": 30359,
+    "slot_9": 10212
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Chronomancer",
+    "profession": "Mesmer",
+    "elite_spec": "Chronomancer",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer-greatsword-spear",
+    "weapons": "Greatsword / Spear",
+    "chat_code": "[&DQcBHQoZKBUjDyMPBBNrAc8SaQFpAY8BsxLtEgAAAAAAAAAAAAAAAAAAAAADLwBaAAkBAA==]",
+    "build_template": "[&DQcBHQoZKBUjDyMPBBNrAc8SaQFpAY8BsxLtEgAAAAAAAAAAAAAAAAAAAAADLwBaAAkBAA==]"
+  }
+}

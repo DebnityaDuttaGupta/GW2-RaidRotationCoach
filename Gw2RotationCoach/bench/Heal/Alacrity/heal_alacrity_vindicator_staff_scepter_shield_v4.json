@@ -1,0 +1,415 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        71952,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        62729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62680,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        62796,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62687,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        62729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62757,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        29386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        28195,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29310,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        62689,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        1816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        29386,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        28262,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        62680,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        62687,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        62738,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        29148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        27025,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        27356,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        1815,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        29002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        29145,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        29321,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62941,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        27715,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        29321,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        62689,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        71942,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        71816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        71952,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        71827,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s71952": {
+      "name": "Otherworldly Bond",
+      "icon": "https://render.guildwars2.com/file/93C430490FB3141864AF2C0F992380EECB6B06A4/3240366.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62729": {
+      "name": "Alliance Tactics",
+      "icon": "https://render.guildwars2.com/file/DE01C14360F2E7E81C336241C7D6ED6FA14DA005/2491605.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62680": {
+      "name": "Selfless Spirit",
+      "icon": "https://render.guildwars2.com/file/3F9F107D2DE406A636B1960A3D94A97BDD292115/2491621.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62796": {
+      "name": "Awakening",
+      "icon": "https://render.guildwars2.com/file/6719DBBC4AD2B29CAB33C30B62DC990E07A79A9E/2491607.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62687": {
+      "name": "Urn of Saint Viktor",
+      "icon": "https://render.guildwars2.com/file/317EB806A8487B77040BC0C673A59096F396EEE4/2491625.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62757": {
+      "name": "Energy Meld",
+      "icon": "https://render.guildwars2.com/file/CABAB825B746117F51E4F35844622D3A3862D3E4/2491610.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29386": {
+      "name": "Envoy of Exuberance",
+      "icon": "https://render.guildwars2.com/file/AD3900CE2DF8609598F81364D805220DDE47BA10/1058608.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28195": {
+      "name": "Legendary Centaur Stance",
+      "icon": "https://render.guildwars2.com/file/6CFF31B50AA00CAF3D35A02562964802B55AD292/1024105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29310": {
+      "name": "Protective Solace",
+      "icon": "https://render.guildwars2.com/file/D5B16367CFE84826CCC80E92EE785F202AE9F200/1013017.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62689": {
+      "name": "Saint's Shield",
+      "icon": "https://render.guildwars2.com/file/42D514BF15A3F84ECECBACC7E05F95CAE03EBF6D/2491539.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1816": {
+      "name": "Skill 1816",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28262": {
+      "name": "Crystal Hibernation",
+      "icon": "https://render.guildwars2.com/file/59C2A1CA66701D30FD15CBD9790E4131013B2B72/1058609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62738": {
+      "name": "Drop Urn of Saint Viktor",
+      "icon": "https://render.guildwars2.com/file/0CD2A5C3AA46D97FF19CDEB50D3841E429EACF9C/2491609.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29148": {
+      "name": "Project Tranquility",
+      "icon": "https://render.guildwars2.com/file/01BC005B3C1F590D7075523EEA27361D31D69803/1012988.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27025": {
+      "name": "Natural Harmony",
+      "icon": "https://render.guildwars2.com/file/BBF2026B38E6EC7108B44FFA6BB66F0BFF0A7E01/1013015.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27356": {
+      "name": "Energy Expulsion",
+      "icon": "https://render.guildwars2.com/file/47F60D20E87C7A6D5B9E4E5D062F01F2793A1414/1012984.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1815": {
+      "name": "Skill 1815",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29002": {
+      "name": "Rejuvenating Assault",
+      "icon": "https://render.guildwars2.com/file/5CEC75C6494329457DC36C972204952ECF80E5C3/1012995.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29145": {
+      "name": "Mender's Rebuke",
+      "icon": "https://render.guildwars2.com/file/0F7CB313454F1B2A3568E54F439D7ED36F2A7075/1012996.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29321": {
+      "name": "Renewing Wave",
+      "icon": "https://render.guildwars2.com/file/08B93F4A0EA8B764F9F6F80721F7AD3DC02565A0/1012998.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62941": {
+      "name": "Tree Song",
+      "icon": "https://render.guildwars2.com/file/1E0A36E2061E093D6F1769C11A1709E02AD10C0A/2491623.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27715": {
+      "name": "Purifying Essence",
+      "icon": "https://render.guildwars2.com/file/02DEFA14E7A5E925F22C7EB85E7B51364316DE77/1013018.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71942": {
+      "name": "Motivating Whirl",
+      "icon": "https://render.guildwars2.com/file/80E5E7E4473D321EC639B9360DCD1266AEAA68A4/3240362.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71816": {
+      "name": "Blossoming Aura",
+      "icon": "https://render.guildwars2.com/file/0B604428F84A0A3DB0402FD6CBFB6AA859F33856/3240363.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71827": {
+      "name": "Otherworldly Attraction",
+      "icon": "https://render.guildwars2.com/file/92D79821711B450380AC5CBDE532153814A0B7BD/3240364.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 29148,
+    "slot_7": 62796,
+    "slot_0": 27356,
+    "slot_8": 29310,
+    "slot_9": 27025
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Concentration & Superior Sigil of Transference",
+    "relic": "Relic of Febe",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Vindicator",
+    "profession": "Revenant",
+    "elite_spec": "Vindicator",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-vindicator-staff-scepter-shield",
+    "weapons": "Staff & Scepter / Shield",
+    "chat_code": "[&DQkMGQMmRT7cEdwRKxIGEtQR1BEGEisSyhHKEQYHBwMGEtQRKxIrEgYS1BE=]",
+    "build_template": "[&DQkMGQMmRT7cEdwRKxIGEtQR1BEGEisSyhHKEQYHBwMGEtQRKxIrEgYS1BE=]"
+  }
+}

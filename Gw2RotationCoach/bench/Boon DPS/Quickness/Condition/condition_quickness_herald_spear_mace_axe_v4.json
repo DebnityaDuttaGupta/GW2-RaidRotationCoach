@@ -2369,7 +2369,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1013010": {
       "name": "Elemental Blast",
       "icon": "https://render.guildwars2.com/file/CA0D081DBD97A356D2C1BE5A6710587EBD0E3911/1013010.png",
@@ -2564,16 +2564,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Doom & Superior Sigil of Geomancy & Superior Sigil of Torment & Superior Sigil of Earth",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Quickness Herald",
     "profession": "Revenant",
     "elite_spec": "Herald",
     "build_type": "condition",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear-mace-axe",
-    "dps_report_url": "https://dps.report/ErCv-20250216-134453_golem",
-    "overall_dps": 33948.0,
-    "weapons": "Spear / Mace & Axe",
-    "chat_code": "[&DQkOHQMWNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQEEAQQrEtQRBhLUESsSBhI=]"
+    "weapons": "Spear & Mace / Axe",
+    "chat_code": "[&DQkOHQMWNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQEEAQQrEtQRBhLUESsSBhI=]",
+    "build_template": "[&DQkOHQMWNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQEEAQQrEtQRBhLUESsSBhI=]"
   }
 }

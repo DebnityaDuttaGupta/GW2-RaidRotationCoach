@@ -1466,7 +1466,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1012926": {
       "name": "Nightfall",
       "icon": "https://render.guildwars2.com/file/586F0469807BB7CB7942F098CC24331D0FF3CA4E/1012926.png",
@@ -1625,16 +1625,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Quickness Harbinger Greatsword Spear",
+    "name": "Power Quickness Harbinger",
     "profession": "Necromancer",
     "elite_spec": "Harbinger",
     "build_type": "power",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/power-quickness-harbinger-greatsword-spear",
-    "dps_report_url": "https://dps.report/BCeZ-20240822-094804_golem",
-    "overall_dps": 35212.0,
     "weapons": "Greatsword / Spear",
-    "chat_code": "[&DQg1KTIlQCnnGgAAgQAAANQaAADsGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQg1KTIlQCnnGgAAgQAAANQaAADsGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQg1KTIlQCnnGgAAgQAAANQaAADsGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

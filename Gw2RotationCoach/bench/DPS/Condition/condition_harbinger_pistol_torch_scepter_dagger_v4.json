@@ -1207,7 +1207,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103795": {
       "name": "Blood Is Power",
       "icon": "https://render.guildwars2.com/file/F26312E5CBFE5CA12261B66E194F21A5D205F314/103795.png",
@@ -1348,6 +1348,14 @@
     "slot_9": 103812,
     "slot_0": 2479394
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Demons & Superior Sigil of Bursting",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Harbinger",
     "profession": "Necromancer",
@@ -1355,9 +1363,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-harbinger-pistol-torch-scepter-dagger",
-    "dps_report_url": "https://dps.report/z87P-20250309-090545_golem",
-    "overall_dps": 43979.0,
-    "weapons": "Pistol & Torch / Scepter & Dagger",
-    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Pistol & Torch / Scepter",
+    "chat_code": "[&DQgnNTI1QB/nGgAAgAAAAPUAAADUGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgnNTI1QB/nGgAAgAAAAPUAAADUGgAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

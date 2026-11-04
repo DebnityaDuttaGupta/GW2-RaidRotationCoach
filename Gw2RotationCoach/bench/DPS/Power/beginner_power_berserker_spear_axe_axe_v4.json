@@ -1,0 +1,527 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        2049,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        30189,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        30435,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        72897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        72959,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        73103,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        30189,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73103,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        72992,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        24554,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        14399,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        72992,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        30435,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        73103,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        72897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        72959,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        14418,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        14398,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        14399,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        30851,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        14421,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s2049": {
+      "name": "Skill 2049",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30189": {
+      "name": "Blood Reckoning",
+      "icon": "https://render.guildwars2.com/file/3E80EA264B52D3A3B3CA2E5DA41F57BF35445AF4/1058642.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30258": {
+      "name": "Outrage",
+      "icon": "https://render.guildwars2.com/file/DE44372830465728D82500744A04041359ECA9C0/1058652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30343": {
+      "name": "Head Butt",
+      "icon": "https://render.guildwars2.com/file/046F1B0E64AC140CB7C0DE26A8D61CE13E02466A/1058637.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30435": {
+      "name": "Berserk",
+      "icon": "https://render.guildwars2.com/file/1354D8FC07F9F859DC7F0E7B61C0724FD4927C4E/1058638.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72897": {
+      "name": "Maiming Spear",
+      "icon": "https://render.guildwars2.com/file/AB9C0E53733CDA025F4B7EB813C8AEF932F4E74F/3379200.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72959": {
+      "name": "Disrupting Throw",
+      "icon": "https://render.guildwars2.com/file/6AC359F6D6C8D8F11372EE01FBB09D9CE25D767D/3379202.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73103": {
+      "name": "Wild Throw",
+      "icon": "https://render.guildwars2.com/file/0B79EB6203654C703FF9DCBEDF2A4BDAB54D35FC/3379204.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72992": {
+      "name": "Spearmarshal's Support",
+      "icon": "https://render.guildwars2.com/file/43132DEC934F072272F14B19FC03FB62111502FB/3379203.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30851": {
+      "name": "Decapitate",
+      "icon": "https://render.guildwars2.com/file/93C1E158334AF969FCDCDFC3FD2625780C73B237/1058636.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14421": {
+      "name": "Cyclone Axe",
+      "icon": "https://render.guildwars2.com/file/15ECC799800532F4CEAE170E6D7D03FBA225B7C9/102767.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s24554": {
+      "name": "Skill 24554",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14418": {
+      "name": "Dual Strike",
+      "icon": "https://render.guildwars2.com/file/20185D064F3665CD7170457DDAC1FBEA0F232974/103000.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14398": {
+      "name": "Throw Axe",
+      "icon": "https://render.guildwars2.com/file/46C6E91E394242FDD3C762DD672CE01D19C05B67/103247.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14399": {
+      "name": "Whirling Axe",
+      "icon": "https://render.guildwars2.com/file/7BD3B56E245B01B50F775627C20965C9410DE842/103866.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 30189,
+    "slot_7": 30258,
+    "slot_0": 30343
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Hydromancy & Superior Sigil of Air",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Berserker",
+    "profession": "Warrior",
+    "elite_spec": "Berserker",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/beginner-power-berserker-spear-axe-axe",
+    "weapons": "Spear & Axe / Axe",
+    "chat_code": "[&DQIEHzMaEhXyEvIS1xLXEqkAqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQIEHzMaEhXyEvIS1xLXEqkAqQCvAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

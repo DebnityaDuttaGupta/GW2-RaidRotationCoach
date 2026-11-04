@@ -1116,7 +1116,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s3256393": {
       "name": "Cunning Salvo",
       "icon": "https://render.guildwars2.com/file/74E8A2686C3BBBC6E572C42A7824EC070C98F25E/3256393.png",
@@ -1209,16 +1209,23 @@
     "slot_9": 1058635,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Eagle",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Daredevil Staff",
+    "name": "Power Daredevil",
     "profession": "Thief",
     "elite_spec": "Daredevil",
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/power-daredevil-staff",
-    "dps_report_url": "https://www.dps.report/7Qij-20250624-165156_golem",
-    "overall_dps": 42714.0,
     "weapons": "Staff",
-    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQUcPSMbBzsMAQAAKRMAADMBAACwEgAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbBzsMAQAAKRMAADMBAACwEgAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

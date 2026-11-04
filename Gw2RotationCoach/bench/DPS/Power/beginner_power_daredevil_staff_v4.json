@@ -1,0 +1,91 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        29911,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        30868,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        30369,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        30693,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s29911": {
+      "name": "Weakening Whirl",
+      "icon": "https://render.guildwars2.com/file/EDBECD6ACE170F25312C15C3056006FA1170F654/1058625.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30868": {
+      "name": "Fist Flurry",
+      "icon": "https://render.guildwars2.com/file/3B267195CECDF50705092272D0190CA9A391B507/1058631.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30369": {
+      "name": "Impairing Daggers",
+      "icon": "https://render.guildwars2.com/file/265D095168000FA9A20BC11E43A3BB63B90C349B/1058635.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30693": {
+      "name": "Palm Strike",
+      "icon": "https://render.guildwars2.com/file/96580AB413D9791D53D45093063F54CD9F56C513/1058634.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 30868,
+    "slot_8": 30369,
+    "slot_9": 30693
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Eagle",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Daredevil",
+    "profession": "Thief",
+    "elite_spec": "Daredevil",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/beginner-power-daredevil-staff",
+    "weapons": "Staff",
+    "chat_code": "[&DQUcPSMbBzsMAQAAKRMAADMBAACwEgAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbBzsMAQAAKRMAADMBAACwEgAADgEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

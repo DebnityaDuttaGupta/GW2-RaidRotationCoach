@@ -1,0 +1,239 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        72954,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        72938,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        42836,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        28494,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40485": {
+      "name": "Icerazor's Ire",
+      "icon": "https://render.guildwars2.com/file/F151D74719642E34672C0837BB0C4071B1E3B4A7/1770605.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73059": {
+      "name": "Abyssal Raze",
+      "icon": "https://render.guildwars2.com/file/632F757C2309C12BCFE99FCCE4BB761FA59AECEE/3379187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42949": {
+      "name": "Razorclaw's Rage",
+      "icon": "https://render.guildwars2.com/file/2449F064B1D3427FF311D3B4C101009C52250A0C/1770606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28494": {
+      "name": "Legendary Demon Stance",
+      "icon": "https://render.guildwars2.com/file/1A1407F7D34E5ED41B59A25F39EBF728CC926423/961413.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28287": {
+      "name": "Embrace the Darkness",
+      "icon": "https://render.guildwars2.com/file/13B6D13EF593CF54DBB204CF6425FDAFC0D723C7/961453.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72954": {
+      "name": "Abyssal Blot",
+      "icon": "https://render.guildwars2.com/file/08C3096215DC0FCE3FCD46FB10E3639178C15C4E/3379186.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72972": {
+      "name": "Abyssal Force",
+      "icon": "https://render.guildwars2.com/file/0A9AFFBB077A5DC031C9E4A712C4573E97FED0EC/3379184.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72938": {
+      "name": "Abyssal Blitz",
+      "icon": "https://render.guildwars2.com/file/E4E54213769DC10572D31BDD4573E0B6B9A56DA6/3379185.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42836": {
+      "name": "Citadel Bombardment",
+      "icon": "https://render.guildwars2.com/file/A7C2C720C5ABE5AAB00EF0EA0318DA3B38FC981E/1770593.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 40485,
+    "slot_8": 42949,
+    "slot_0": 28287
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Doom & Superior Sigil of Earth & Superior Sigil of Geomancy",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Renegade",
+    "profession": "Revenant",
+    "elite_spec": "Renegade",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/condition-renegade-spear-only",
+    "weapons": "Spear",
+    "chat_code": "[&DQkOHQMmPyrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkOHQMmPyrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]"
+  }
+}

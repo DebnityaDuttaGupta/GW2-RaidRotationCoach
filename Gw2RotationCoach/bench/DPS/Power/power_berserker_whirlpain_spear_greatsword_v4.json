@@ -1,0 +1,135 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        30435,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        72992,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        73103,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        72897,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        72959,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s30343": {
+      "name": "Head Butt",
+      "icon": "https://render.guildwars2.com/file/046F1B0E64AC140CB7C0DE26A8D61CE13E02466A/1058637.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30435": {
+      "name": "Berserk",
+      "icon": "https://render.guildwars2.com/file/1354D8FC07F9F859DC7F0E7B61C0724FD4927C4E/1058638.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30258": {
+      "name": "Outrage",
+      "icon": "https://render.guildwars2.com/file/DE44372830465728D82500744A04041359ECA9C0/1058652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72992": {
+      "name": "Spearmarshal's Support",
+      "icon": "https://render.guildwars2.com/file/43132DEC934F072272F14B19FC03FB62111502FB/3379203.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73103": {
+      "name": "Wild Throw",
+      "icon": "https://render.guildwars2.com/file/0B79EB6203654C703FF9DCBEDF2A4BDAB54D35FC/3379204.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72897": {
+      "name": "Maiming Spear",
+      "icon": "https://render.guildwars2.com/file/AB9C0E53733CDA025F4B7EB813C8AEF932F4E74F/3379200.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72959": {
+      "name": "Disrupting Throw",
+      "icon": "https://render.guildwars2.com/file/6AC359F6D6C8D8F11372EE01FBB09D9CE25D767D/3379202.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 30343,
+    "slot_7": 30258
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Claw",
+    "food": "Plate of Coq Au Vin with Salsa",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Berserker (Whirlpain)",
+    "profession": "Warrior",
+    "elite_spec": "Berserker",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/power-berserker-whirlpain-spear-greatsword",
+    "weapons": "Spear / Greatsword",
+    "chat_code": "[&DQIEHwsVEhXyEvIS1xKoAK0ArQCpAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]",
+    "build_template": "[&DQIEHwsVEhXyEvIS1xKoAK0ArQCpAK8AwhKcAAAAAAAAAAAAAAAAAAAAAAACMgAJAQA=]"
+  }
+}

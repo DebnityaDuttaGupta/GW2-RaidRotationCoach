@@ -1,0 +1,386 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76585,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        5497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5542,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5678,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        51711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        76585,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        79323,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        5678,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        51711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        76585,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        5497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        5675,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        5678,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        51711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        77345,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        5692,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        76585,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        76711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        5542,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s77345": {
+      "name": "Ignite",
+      "icon": "https://render.guildwars2.com/file/3C20D2FF75DA624828651AD5CEB463AC90A01207/3680117.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76585": {
+      "name": "Conflagration",
+      "icon": "https://render.guildwars2.com/file/D20BEA0141B9C458045D0C77C8CF5C16151B3C5F/3680115.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5692": {
+      "name": "Dragon's Tooth",
+      "icon": "https://render.guildwars2.com/file/139899C1026E93EE0EDC44030B11E310E27D9807/103105.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5497": {
+      "name": "Flamewall",
+      "icon": "https://render.guildwars2.com/file/B84B697E69B44D5EC3A0306AA2FB3128BBF30F78/103271.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5542": {
+      "name": "Signet of Fire",
+      "icon": "https://render.guildwars2.com/file/78F000A3121FCFF9B56EA62625186F0E06D8A458/103340.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76711": {
+      "name": "Fox's Fury",
+      "icon": "https://render.guildwars2.com/file/7AE9F87947BFA633B39A0977A211465549442A65/3680121.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5675": {
+      "name": "Phoenix",
+      "icon": "https://render.guildwars2.com/file/000E1F53624D2F9B222E17D02A5A5ED40417CAB7/103039.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5678": {
+      "name": "Fire Shield",
+      "icon": "https://render.guildwars2.com/file/2AE8672D7A08BB4129B6F0F40C2BC10642D55C28/102884.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s51711": {
+      "name": "Transmute Fire",
+      "icon": "https://render.guildwars2.com/file/7AD6E1794841A50751E02F0C367E920CF5066F65/2029300.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s79323": {
+      "name": "Rejuvenate",
+      "icon": "https://render.guildwars2.com/file/949C29AC4E910EC9017F9A92489E1131F976A95A/3729562.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5542,
+    "slot_8": 76711,
+    "slot_6": 79323
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Firebrand",
+    "sigils": "Superior Sigil of Smoldering & Superior Sigil of Bursting",
+    "relic": "Relic of the Last Tyrant",
+    "food": "Fishy Rice Bowl",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Quickness Evoker",
+    "profession": "Elementalist",
+    "elite_spec": "Evoker",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/condition-quickness-evoker-specialized-elements",
+    "weapons": "Default Weapon Set",
+    "chat_code": "[&DQYfFSkfUDliHScPdx1QAY4AHAHLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgAxADYAZwAA]",
+    "build_template": "[&DQYfFSkfUDliHScPdx1QAY4AHAHLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgAxADYAZwAA]"
+  }
+}

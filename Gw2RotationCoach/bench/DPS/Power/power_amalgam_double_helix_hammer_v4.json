@@ -1,0 +1,402 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        6161,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76530,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76642,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5822,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5812,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        76642,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76993,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        30713,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        6161,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        5805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        5842,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30665,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5812,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76642,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        6161,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        30713,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        5805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        5807,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        6161,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        30088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        5805,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        5807,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        5806,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        5809,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        5813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        76530,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        5823,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        5822,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s6161": {
+      "name": "Throw Mine",
+      "icon": "https://render.guildwars2.com/file/0F0F28210568DB66F8539D684314FC55D8C1022C/103177.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5813": {
+      "name": "Big Ol' Bomb",
+      "icon": "https://render.guildwars2.com/file/9ADBE10F0E4F7D75DC0BF54EBD5B360BE1AB9D09/103400.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76530": {
+      "name": "Magnetic Bomb",
+      "icon": "https://render.guildwars2.com/file/B70B5426F0B2F4924E08198069789121426F9517/103176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76642": {
+      "name": "Evolve",
+      "icon": "https://render.guildwars2.com/file/0513CCBF102BF696E9027F6363A9705B724CC630/3680129.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5823": {
+      "name": "Fire Bomb",
+      "icon": "https://render.guildwars2.com/file/95DF02395BB2C2EFD4D7BA5BE3ECC512E875EFEE/103404.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5822": {
+      "name": "Galvanic Bomb",
+      "icon": "https://render.guildwars2.com/file/E406DB5F73E8AE312E0E04650FDAF0CCFCFC28FF/103403.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5812": {
+      "name": "Bomb Kit",
+      "icon": "https://render.guildwars2.com/file/B06C59BBB1EC416859E04E7C9859BE020C4B3E17/103399.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76993": {
+      "name": "Flux State",
+      "icon": "https://render.guildwars2.com/file/0A36EB0D061E9B63261260BE663EC6F4C04C1B1C/3680125.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30713": {
+      "name": "Thunderclap",
+      "icon": "https://render.guildwars2.com/file/21C770525B9B9BEDB7BBFF24055E1138C333FC00/1058593.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30088": {
+      "name": "Electro-whirl",
+      "icon": "https://render.guildwars2.com/file/B36C6EBE3577BAA5773857EDE33895C5C6663EEC/1058590.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5805": {
+      "name": "Grenade Kit",
+      "icon": "https://render.guildwars2.com/file/C2A603094B5709BE213D391AFD4D33293C19EA38/103396.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5842": {
+      "name": "Bomb",
+      "icon": "https://render.guildwars2.com/file/02A02091B1EBDB782719EB6AE56F01E6372C500D/103091.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30665": {
+      "name": "Rocket Charge",
+      "icon": "https://render.guildwars2.com/file/AE3AF2E525F00F645EEAA97143E322E519DA1569/1058592.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5807": {
+      "name": "Shrapnel Grenade",
+      "icon": "https://render.guildwars2.com/file/467E6BF83D152F95BC5D0B3573F4D2D71F5A4BFA/102830.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5806": {
+      "name": "Poison Grenade",
+      "icon": "https://render.guildwars2.com/file/D7236B1D9176DBEEA8C4570AE04965E902B14502/103172.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5809": {
+      "name": "Freeze Grenade",
+      "icon": "https://render.guildwars2.com/file/D95F525D4F2898CDE205CCACE09FD35FEA78B6DD/103103.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 6161,
+    "slot_8": 5812,
+    "slot_0": 76993,
+    "slot_9": 5805
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Amalgam (Double)",
+    "profession": "Engineer",
+    "elite_spec": "Amalgam",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/engineer/power-amalgam-double-helix-hammer",
+    "weapons": "Hammer",
+    "chat_code": "[&DQMGOyYvSzoqD4QAhgCVAQcBBwEmAQAAex2JAQAAAAAAAAAAAAAAAAAAAAADVQBaADYAAA==]",
+    "build_template": "[&DQMGOyYvSzoqD4QAhgCVAQcBBwEmAQAAex2JAQAAAAAAAAAAAAAAAAAAAAADVQBaADYAAA==]"
+  }
+}

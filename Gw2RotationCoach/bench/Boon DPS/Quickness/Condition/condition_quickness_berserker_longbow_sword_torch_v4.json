@@ -1,0 +1,495 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        48916,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        48917,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        29940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        30258,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        30435,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        29923,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        30189,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        29923,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        14504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        14366,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        29845,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        14497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        14364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        14365,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        14363,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        29923,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        30682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        29923,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        30189,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        29923,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        14504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        14381,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        29613,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        30074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        30343,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        14431,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        14366,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        29845,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        14497,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        29940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        30682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        14364,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        14365,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        14363,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        14504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        30074,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s48916": {
+      "name": "Skill 48916",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s48917": {
+      "name": "Skill 48917",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29940": {
+      "name": "Flames of War",
+      "icon": "https://render.guildwars2.com/file/F7A4B096DB511FBE534A636C6E62E19505A70910/1058649.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30343": {
+      "name": "Head Butt",
+      "icon": "https://render.guildwars2.com/file/046F1B0E64AC140CB7C0DE26A8D61CE13E02466A/1058637.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30258": {
+      "name": "Outrage",
+      "icon": "https://render.guildwars2.com/file/DE44372830465728D82500744A04041359ECA9C0/1058652.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30435": {
+      "name": "Berserk",
+      "icon": "https://render.guildwars2.com/file/1354D8FC07F9F859DC7F0E7B61C0724FD4927C4E/1058638.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29923": {
+      "name": "Scorched Earth",
+      "icon": "https://render.guildwars2.com/file/BE01D01CCE7503A4FE1D7F0F0A680EED3230BAAA/1058643.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30189": {
+      "name": "Blood Reckoning",
+      "icon": "https://render.guildwars2.com/file/3E80EA264B52D3A3B3CA2E5DA41F57BF35445AF4/1058642.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14504": {
+      "name": "Pin Down",
+      "icon": "https://render.guildwars2.com/file/7DE4320F3647753F9B3DD1EC4CF972ABADFF93CE/103213.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14519": {
+      "name": "Fan of Fire",
+      "icon": "https://render.guildwars2.com/file/BF057D09F65B0B11FA11767774715D4209E13869/104141.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14366": {
+      "name": "Savage Leap",
+      "icon": "https://render.guildwars2.com/file/F47AFFCAC1475EB0086C32AAB5AA1A6048F52A08/102778.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29845": {
+      "name": "Blaze Breaker",
+      "icon": "https://render.guildwars2.com/file/2697E50F35B6DE6874F80BDBE31D3CEE8029349F/1058648.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14497": {
+      "name": "Final Thrust",
+      "icon": "https://render.guildwars2.com/file/71EB0DF5243A382A100E5ACB0870994D59BC47B7/103005.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30682": {
+      "name": "Flaming Flurry",
+      "icon": "https://render.guildwars2.com/file/F7DB99C8C851FA8094FFFAE2B92F0372641CF89F/1058647.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14364": {
+      "name": "Sever Artery",
+      "icon": "https://render.guildwars2.com/file/3040B9E8344BF32EA5ADB3FB632C4F01BFD0927D/103003.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14365": {
+      "name": "Gash",
+      "icon": "https://render.guildwars2.com/file/44563D2C3BDCEB1524D2DB0F23713347CDE93D32/103004.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14363": {
+      "name": "Hamstring",
+      "icon": "https://render.guildwars2.com/file/E2DF06E072A837280306F7A7DA2FEA399ABAAEC7/104137.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14381": {
+      "name": "Arcing Arrow",
+      "icon": "https://render.guildwars2.com/file/2557F1F1BC385EC9685C7409A77902AC7BFFFBF0/104114.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29613": {
+      "name": "Sundering Leap",
+      "icon": "https://render.guildwars2.com/file/C8B8AD46430401040D732711F8EB3BFF37B6052B/1058651.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30074": {
+      "name": "Shattering Blow",
+      "icon": "https://render.guildwars2.com/file/317AAB9736A32EBBE8A54FA6519FAD7510A71672/1058650.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14431": {
+      "name": "Dual Shot",
+      "icon": "https://render.guildwars2.com/file/F51C183650406C033D965D97D4BA370762AC2F03/103082.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 30343,
+    "slot_7": 30258,
+    "slot_6": 30189,
+    "slot_8": 29613,
+    "slot_9": 30074
+  },
+  "equipment": {
+    "armor_attributes": "Grieving & Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Doom & Superior Sigil of Earth & Superior Sigil of Geomancy & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Quickness Berserker",
+    "profession": "Warrior",
+    "elite_spec": "Berserker",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/condition-quickness-berserker-longbow-sword-torch",
+    "weapons": "Longbow & Sword / Torch",
+    "chat_code": "[&DQIkJQQfEiryEgAA3BIAAKESrQDXEqgAwhKcAAAAAAAAAAAAAAAAAAAAAAADWgBmACMAAA==]",
+    "build_template": "[&DQIkJQQfEiryEgAA3BIAAKESrQDXEqgAwhKcAAAAAAAAAAAAAAAAAAAAAAADWgBmACMAAA==]"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        5494,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        0.2,
+        29634,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        0.7,
+        29943,
+        400.0,
+        1,
+        1.0
+      ],
+      [
+        1.2,
+        29944,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.8,
+        29724,
+        2500.0,
+        1,
+        1.0
+      ],
+      [
+        4.4,
+        5495,
+        100.0,
+        1,
+        1.0
+      ],
+      [
+        4.6,
+        29725,
+        2500.0,
+        1,
+        1.0
+      ],
+      [
+        7.2,
+        5494,
+        100.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s5494": {
+      "name": "Water Attunement (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5494.png"
+    },
+    "s5495": {
+      "name": "Earth Attunement (F4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5495.png"
+    },
+    "s29724": {
+      "name": "Overload Water (F2)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29724.png"
+    },
+    "s29725": {
+      "name": "Overload Earth (F4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29725.png"
+    },
+    "s29943": {
+      "name": "Tidal Surge (Warhorn 4)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29943.png"
+    },
+    "s29944": {
+      "name": "Water Globe (Warhorn 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29944.png"
+    },
+    "s5539": {
+      "name": "Cleansing Wave (Dagger 5)",
+      "icon": "https://render.guildwars2.com/file/placeholder/5539.png"
+    },
+    "s29634": {
+      "name": "Wash the Pain Away! (6)",
+      "icon": "https://render.guildwars2.com/file/placeholder/29634.png"
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 29634,
+    "slot_7": 29943,
+    "slot_8": 29944,
+    "slot_9": 5539,
+    "slot_0": 29724
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Paralyzation",
+    "relic": "Relic of Karakosa",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Tempest",
+    "profession": "Elementalist",
+    "elite_spec": "Tempest",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest-dagger-warhorn",
+    "weapons": "Dagger / Warhorn",
+    "chat_code": "[&DQYaGxEpMD/HEgAAwxIAAAAAAAAAAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQYaGxEpMD/HEgAAwxIAAAAAAAAAAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

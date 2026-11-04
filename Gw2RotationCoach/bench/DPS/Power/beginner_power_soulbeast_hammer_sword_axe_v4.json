@@ -1,0 +1,446 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        69262,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        63131,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        63335,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        12492,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        45717,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        69262,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        12633,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        63131,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        63335,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        41406,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        12639,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        69203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        12482,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        41406,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        12638,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        40729,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s40729": {
+      "name": "Worldly Impact",
+      "icon": "https://render.guildwars2.com/file/CFC8BF0C0DFEE030C12FDF0ABDD4E22F9C002924/1770572.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12633": {
+      "name": "\"Sic 'Em!\"",
+      "icon": "https://render.guildwars2.com/file/0D6B235E679346723414607E61DE052576097545/104025.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12639": {
+      "name": "Whirling Defense",
+      "icon": "https://render.guildwars2.com/file/3D24774AAFBEFF40016ED8B451A245D95A2D08E3/103147.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12638": {
+      "name": "Path of Scars",
+      "icon": "https://render.guildwars2.com/file/B5B27723701C39327D2145DEE76579FB007F9344/103903.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69203": {
+      "name": "Pounce",
+      "icon": "https://render.guildwars2.com/file/CECBFA1662D837E8A526E475A1E701679A2662BA/103125.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12482": {
+      "name": "Serpent's Strike",
+      "icon": "https://render.guildwars2.com/file/26B3CC91C193FDC30873937B2FB735E1B7C6A83A/103126.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69262": {
+      "name": "Overbearing Smash",
+      "icon": "https://render.guildwars2.com/file/452819BCB027F1273491DF1706CFF15BEEE49466/2503718.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63131": {
+      "name": "Unleashed Savage Shock Wave",
+      "icon": "https://render.guildwars2.com/file/2939557FFA0BDF9C4D0B7FD1A19AA57DE9C49FDD/2503721.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63335": {
+      "name": "Unleashed Wild Swing",
+      "icon": "https://render.guildwars2.com/file/7369B820749874C1F15A4B02AD2F18B94A6AB84C/2503717.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12492": {
+      "name": "Frost Trap",
+      "icon": "https://render.guildwars2.com/file/016A1099CAC468ADEE056A30551C33C74101E5D3/103074.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45717": {
+      "name": "One Wolf Pack",
+      "icon": "https://render.guildwars2.com/file/4E137B09B5CC545211977BFDCEC76119195AC7C9/1770558.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s41406": {
+      "name": "Maul",
+      "icon": "https://render.guildwars2.com/file/24073F5A0566ABE32DFB74204E9FA01025D85D71/104055.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 12633,
+    "slot_8": 12492,
+    "slot_0": 45717
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Beginner Power Soulbeast",
+    "profession": "Ranger",
+    "elite_spec": "Soulbeast",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/ranger/beginner-power-soulbeast-hammer-sword-axe",
+    "weapons": "Hammer & Sword / Axe",
+    "chat_code": "[&DQQeOSA/Nzp5AAAApQEAALUAAACsAQAALhYAACcAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQQeOSA/Nzp5AAAApQEAALUAAACsAQAALhYAACcAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

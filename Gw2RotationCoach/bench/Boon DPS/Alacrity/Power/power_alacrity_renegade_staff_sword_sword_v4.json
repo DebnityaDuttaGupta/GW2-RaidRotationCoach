@@ -2222,7 +2222,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1030006": {
       "name": "Shackling Wave",
       "icon": "https://render.guildwars2.com/file/C9AA7D9B9BDE6652194A5963F5C2694C3AE0CEF6/1030006.png",
@@ -2339,16 +2339,23 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Diviner's & Dragon's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Severance & Superior Sigil of Air",
+    "relic": "Relic of Shackles",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Alacrity Renegade Staff Sword Sword",
+    "name": "Power Alacrity Renegade",
     "profession": "Revenant",
     "elite_spec": "Renegade",
     "build_type": "power",
-    "benchmark_type": "alac",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/revenant/power-alacrity-renegade-staff-sword-sword",
-    "dps_report_url": "https://dps.report/3hSA-20250215-132703_golem",
-    "overall_dps": 32531.0,
-    "weapons": "Staff / Sword & Sword",
-    "chat_code": "[&DQkDJg8qPzrcEQAA1BEAACsSAAAGEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]"
+    "weapons": "Staff & Sword / Sword",
+    "chat_code": "[&DQkDJg8qPzrcEQAA1BEAAAYSAAArEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkDJg8qPzrcEQAA1BEAAAYSAAArEgAAyhEAAAUCAADUESsSBhIAAAAAAAA=]"
   }
 }

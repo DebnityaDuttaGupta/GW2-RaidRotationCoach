@@ -1,0 +1,364 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        14402,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        14403,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        71922,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77342,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        72002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        14393,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        14394,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        14403,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        14414,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        76782,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        72002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        77040,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        77342,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        14414,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        76782,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        14393,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        14394,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        76782,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        71922,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        72002,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        71860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        71889,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        72049,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        1470,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        1474,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        44947,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        14393,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        14394,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        76782,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        2433,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s14402": {
+      "name": "\"To the Limit!\"",
+      "icon": "https://render.guildwars2.com/file/999EEC803BE421BD0835D8DC1EFE70C3A0EA0903/104117.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14403": {
+      "name": "\"For Great Justice!\"",
+      "icon": "https://render.guildwars2.com/file/80B5DF730EC3E24D7B08539C9749FF722AE5ADEE/103174.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71922": {
+      "name": "Path to Victory",
+      "icon": "https://render.guildwars2.com/file/337928249A067249569AA70D78120D0E03257203/3256396.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77342": {
+      "name": "Chant of Action",
+      "icon": "https://render.guildwars2.com/file/A4D0D740CF360E0840EF76282843109C759C63A8/3680225.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72002": {
+      "name": "Valiant Leap",
+      "icon": "https://render.guildwars2.com/file/0CA82FBE1CD6160EB9C86A4CCA0F9EAD0F640AD5/3256401.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14393": {
+      "name": "Charge",
+      "icon": "https://render.guildwars2.com/file/FF0803E0B7BF09691008FE205E2290E74D97CF04/2207786.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14394": {
+      "name": "Call of Valor",
+      "icon": "https://render.guildwars2.com/file/3B55F2FCAC809095354674C0FA4F0808A3F5E09E/103233.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14414": {
+      "name": "Skull Crack",
+      "icon": "https://render.guildwars2.com/file/F4F19D3AA21DD174389D01ACD9D76433750CE9DF/103280.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76782": {
+      "name": "Chant of Recuperation",
+      "icon": "https://render.guildwars2.com/file/2D4B0C67FACAADD8612746BD6F5C6BE9A828C9A3/3680227.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77040": {
+      "name": "\"Find Their Weakness!\"",
+      "icon": "https://render.guildwars2.com/file/B85CB2974032E620667B713B5A2980039C0A59BA/3680229.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71860": {
+      "name": "Line Breaker",
+      "icon": "https://render.guildwars2.com/file/D2FDE2964747965873CAAC000DADBFCADA94EFD3/3256402.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71889": {
+      "name": "Defiant Roar",
+      "icon": "https://render.guildwars2.com/file/71F4BA42421A36093D077AC2014039F9FF3B56C4/3256405.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72049": {
+      "name": "Inspiring Whirl",
+      "icon": "https://render.guildwars2.com/file/34647709920DE5053F94039C72AFB8D61180245D/3256400.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1470": {
+      "name": "Skill 1470",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1474": {
+      "name": "Skill 1474",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44947": {
+      "name": "Skill 44947",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2433": {
+      "name": "Spit",
+      "icon": "https://render.guildwars2.com/file/06B6D9999AD5DA1DF303F307116E0CC25B0D7B05/103131.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 14402,
+    "slot_7": 14403,
+    "slot_8": 77040
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Magi's & Giver's",
+    "runes": "Superior Rune of the Water",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Water & Superior Sigil of Paralyzation & Superior Sigil of Renewal",
+    "relic": "Relic of the Flock",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Paragon",
+    "profession": "Warrior",
+    "elite_spec": "Paragon",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/warrior/heal-alacrity-paragon-staff-mace-warhorn",
+    "weapons": "Staff & Mace / Warhorn",
+    "chat_code": "[&DQILLjM3ShqmAAAAqAAAAK0BAACwAAAAcx0AAAAAAAAAAAAAAAAAAAAAAAADWQA1AGcAAA==]",
+    "build_template": "[&DQILLjM3ShqmAAAAqAAAAK0BAACwAAAAcx0AAAAAAAAAAAAAAAAAAAAAAAADWQA1AGcAAA==]"
+  }
+}

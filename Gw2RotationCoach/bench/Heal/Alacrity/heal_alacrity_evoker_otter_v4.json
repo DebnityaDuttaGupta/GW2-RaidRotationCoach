@@ -1,0 +1,257 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        76634,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77225,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5495,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        76711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5528,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        5548,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5550,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76711,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        77225,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        5550,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5680,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5528,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5685,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        51684,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        5550,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        5682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        5494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        5682,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5528,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5548,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5550,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s76634": {
+      "name": "Rejuvenate",
+      "icon": "https://render.guildwars2.com/file/0CB5DE5B0D0A4E360C1F0F24E655F478C2DAA6B8/3680112.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77225": {
+      "name": "Splash",
+      "icon": "https://render.guildwars2.com/file/2C4C57C5B721422A66D3CEAB4ACE753E4FE69355/3680119.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5495": {
+      "name": "Earth Attunement",
+      "icon": "https://render.guildwars2.com/file/4B8056D9BD080DC8E74AE6A57B2B383A2D4265C9/102870.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76711": {
+      "name": "Fox's Fury",
+      "icon": "https://render.guildwars2.com/file/7AE9F87947BFA633B39A0977A211465549442A65/3680121.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5528": {
+      "name": "Eruption",
+      "icon": "https://render.guildwars2.com/file/2F1CF7CA4E58215911CF5797F7939FEF51D9CB45/102977.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5548": {
+      "name": "Lava Font",
+      "icon": "https://render.guildwars2.com/file/CFA80DB42022C240001D249CED6235CEF70C9042/103135.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5550": {
+      "name": "Ice Spike",
+      "icon": "https://render.guildwars2.com/file/755303C9C50299D8E3F7166B6C23EA18D20B3644/103067.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5682": {
+      "name": "Windborne Speed",
+      "icon": "https://render.guildwars2.com/file/541CA5AAA1E95B93346D4FF80C7C6CCCC9909A2E/103381.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5680": {
+      "name": "Burning Retreat",
+      "icon": "https://render.guildwars2.com/file/45A8C3A3F534C7E8E371D41C693AC87A019D2E65/103204.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5685": {
+      "name": "Magnetic Aura",
+      "icon": "https://render.guildwars2.com/file/048054BEC158D010706002C22AF47952ECC5A33C/103108.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s51684": {
+      "name": "Transmute Earth",
+      "icon": "https://render.guildwars2.com/file/6707FCC7A3DF19453F57046821BF682EF3CDFE06/2029299.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5494": {
+      "name": "Air Attunement",
+      "icon": "https://render.guildwars2.com/file/4857F59020DE3B0950B9C91F3D234A1C1932984A/103048.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 76634,
+    "slot_7": 76711
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's & Giver's & Magi's",
+    "runes": "Superior Rune of the Water",
+    "sigils": "Superior Sigil of Transference & Superior Sigil of Paralyzation",
+    "relic": "Relic of Altruism",
+    "food": "Bowl of Fruit Salad with Mint Garnish",
+    "utility": "Bountiful Maintenance Oil"
+  },
+  "buildMetadata": {
+    "name": "Heal Alacrity Evoker (Otter)",
+    "profession": "Elementalist",
+    "elite_spec": "Evoker",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-evoker-otter",
+    "weapons": "Default Weapon Set",
+    "chat_code": "[&DQYROyUXUCpiHQAAdx0AAAAAAAAAAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADWQBWAC8AAA==]",
+    "build_template": "[&DQYROyUXUCpiHQAAdx0AAAAAAAAAAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAADWQBWAC8AAA==]"
+  }
+}

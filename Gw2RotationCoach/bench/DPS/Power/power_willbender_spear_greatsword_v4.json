@@ -1025,7 +1025,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s2479367": {
       "name": "Rushing Justice (Hit)",
       "icon": "https://render.guildwars2.com/file/2F3E006427F17D3EF747BF0F0B0E0A941964572F/2479367.png",
@@ -1142,6 +1142,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Mistburn",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Willbender",
     "profession": "Guardian",
@@ -1149,9 +1157,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/power-willbender-spear-greatsword",
-    "dps_report_url": "https://dps.report/U0Wz-20260116-150715_golem",
-    "overall_dps": 48658.0,
     "weapons": "Spear / Greatsword",
-    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQEqOi4VQSYmDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEqOi4VQSYmDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

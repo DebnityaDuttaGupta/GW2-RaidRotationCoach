@@ -1802,7 +1802,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1770618": {
       "name": "Steal Time",
       "icon": "https://render.guildwars2.com/file/0779426B11E048DA03E834C74828CCD070222A49/1770618.png",
@@ -1889,16 +1889,23 @@
     "slot_9": 1770636,
     "slot_0": 1770610
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Deadeye",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
-    "name": "Power Quickness Deadeye Dagger Only",
+    "name": "Power Quickness Deadeye",
     "profession": "Thief",
     "elite_spec": "Deadeye",
     "build_type": "power",
-    "benchmark_type": "quick",
+    "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-dagger-only",
-    "dps_report_url": "https://dps.report/Adnb-20250223-130211_golem",
-    "overall_dps": 38533.0,
     "weapons": "Dagger",
-    "chat_code": "[&DQUcPSMbOi/xFQwBIBcgFzMBMwGsFjQBKAA9FgAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQUcPSMbOj/xFQAAMwEAACAXAACsFgAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbOj/xFQAAMwEAACAXAACsFgAAPRYAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

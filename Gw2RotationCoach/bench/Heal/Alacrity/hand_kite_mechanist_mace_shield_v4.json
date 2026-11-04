@@ -1,0 +1,276 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        6053,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5834,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        63169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5834,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        103015,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        2276,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        63169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        103015,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        63169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        30121,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        6053,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        6126,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5998,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5937,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30800,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        5834,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        30800,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        30307,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        63169,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        30307,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        63293,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        63141,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        63365,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s6053": {
+      "name": "Magnetic Shield",
+      "icon": "https://render.guildwars2.com/file/7F176FBD29DE3904651573F5161129AA5C4FD3D0/103473.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5834": {
+      "name": "Elixir H",
+      "icon": "https://render.guildwars2.com/file/0FEB2FD10B5FE9CC4A3204A87A043AE45DD756F3/103409.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63169": {
+      "name": "Energizing Slam",
+      "icon": "https://render.guildwars2.com/file/3A0E770BC6328033C6B44F2567287AAA0649FD31/2503673.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s103015": {
+      "name": "Skill 103015",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s2276": {
+      "name": "Skill 2276",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30121": {
+      "name": "Flash Shell",
+      "icon": "https://render.guildwars2.com/file/05D3ED204C42109D13A63ABA5507A96C176EF30B/1012855.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s6126": {
+      "name": "Magnetic Inversion",
+      "icon": "https://render.guildwars2.com/file/BBD1A5F3730F423A037F42B10FFFACD2EF65C271/103483.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5998": {
+      "name": "Gear Shield",
+      "icon": "https://render.guildwars2.com/file/6A39B6A8C8AB5D4E0996074C4AD10736316D325A/103471.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5937": {
+      "name": "Super Elixir",
+      "icon": "https://render.guildwars2.com/file/ACF8D7350B7D37FFE4E73D150B7F5B73243A72B1/103441.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30800": {
+      "name": "Elite Mortar Kit",
+      "icon": "https://render.guildwars2.com/file/0EC010DE95064B13B756C11F94CB040DFACD627B/103443.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30307": {
+      "name": "Endothermic Shell",
+      "icon": "https://render.guildwars2.com/file/7A6304CAC62449F57CD560F2DFEEF33620273E0E/103477.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63293": {
+      "name": "Crisis Zone",
+      "icon": "https://render.guildwars2.com/file/157891E17AB0EC5703BC5AF19F7A0E0CA27105A1/2503675.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63141": {
+      "name": "Barrier Burst",
+      "icon": "https://render.guildwars2.com/file/BAF5BED745DABF5112014A7E2F5E29645FDBA6D3/2503685.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s63365": {
+      "name": "Explosive Knuckle",
+      "icon": "https://render.guildwars2.com/file/02DA2C9899B63DE522020824C67D05951F40CA4A/2503679.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_6": 5834,
+    "slot_0": 30800
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Leeching & Superior Sigil of Renewal",
+    "relic": "Relic of Rivers",
+    "food": "Bowl of Spiced Fruit Salad",
+    "utility": "Holographic Super Drumstick"
+  },
+  "buildMetadata": {
+    "name": "Kite Mechanist",
+    "profession": "Engineer",
+    "elite_spec": "Mechanist",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/engineer/hand-kite-mechanist-mace-shield",
+    "weapons": "Mace / Shield",
+    "chat_code": "[&DQMvOR0fRioUAQAAlQEAAAsbAACKAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMvOR0fRioUAQAAlQEAAAsbAACKAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

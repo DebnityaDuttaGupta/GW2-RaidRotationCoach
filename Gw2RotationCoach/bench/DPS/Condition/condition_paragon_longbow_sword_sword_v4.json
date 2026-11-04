@@ -1,0 +1,264 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        14522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        14381,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        14504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        14498,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        80203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        80203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        14498,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        14522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        14381,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        14431,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        14504,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        14381,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        14519,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        80203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        14498,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        80247,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        80203,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s14522": {
+      "name": "Combustive Shot",
+      "icon": "https://render.guildwars2.com/file/45CE3B6BCD1FBB5B592859C37FC7D35FDA9E482B/103212.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14381": {
+      "name": "Arcing Arrow",
+      "icon": "https://render.guildwars2.com/file/2557F1F1BC385EC9685C7409A77902AC7BFFFBF0/104114.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14504": {
+      "name": "Pin Down",
+      "icon": "https://render.guildwars2.com/file/7DE4320F3647753F9B3DD1EC4CF972ABADFF93CE/103213.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14519": {
+      "name": "Fan of Fire",
+      "icon": "https://render.guildwars2.com/file/BF057D09F65B0B11FA11767774715D4209E13869/104141.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14498": {
+      "name": "Impale",
+      "icon": "https://render.guildwars2.com/file/4876CF1E0673120898A5EEFE9D2409741E182EAE/103060.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s80247": {
+      "name": "Skill 80247",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s80203": {
+      "name": "Skill 80203",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s14431": {
+      "name": "Dual Shot",
+      "icon": "https://render.guildwars2.com/file/F51C183650406C033D965D97D4BA370762AC2F03/103082.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {},
+  "equipment": {
+    "armor_attributes": "Viper's & Grieving",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Geomancy & Superior Sigil of Smoldering & Superior Sigil of Torment & Superior Sigil of Earth",
+    "relic": "Relic of the Fractal",
+    "food": "Spherified Cilantro Oyster Soup",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Paragon",
+    "profession": "Warrior",
+    "elite_spec": "Paragon",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/warrior/condition-paragon-longbow-sword-sword",
+    "weapons": "Longbow & Sword / Sword",
+    "chat_code": "[&DQIEHyQ+SiVwAHAAPQGtAK8AqQCpAK8AnACcAAAAAAAAAAAAAAAAAAAAAAABWgAA]",
+    "build_template": "[&DQIEHyQ+SiVwAHAAPQGtAK8AqQCpAK8AnACcAAAAAAAAAAAAAAAAAAAAAAABWgAA]"
+  }
+}

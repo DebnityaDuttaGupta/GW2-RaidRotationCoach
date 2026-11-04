@@ -1,0 +1,394 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        51696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        28110,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        28253,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        26644,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        28113,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        27014,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        27162,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        27760,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        28075,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        28134,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        27107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        28472,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        27074,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29233,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        28075,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        28253,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        28379,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        26644,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        28113,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        27014,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        27162,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        29371,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        28110,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        28253,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        28253,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        27760,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        27665,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        28075,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        28253,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        51696,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        26644,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        28113,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        27014,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        27162,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        28134,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s51696": {
+      "name": "True Nature",
+      "icon": "https://render.guildwars2.com/file/B8D4BCE521B2ADED5E2F7CBC0A676C4262E9C714/1058607.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28110": {
+      "name": "Drop the Hammer",
+      "icon": "https://render.guildwars2.com/file/79B637C1950F37239C3D3ED91F0B665CAA4D1728/961474.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28253": {
+      "name": "Coalescence of Ruin",
+      "icon": "https://render.guildwars2.com/file/48731D970B1F37F42A091E3028F86E37D6E90421/961476.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s26644": {
+      "name": "Facet of Strength",
+      "icon": "https://render.guildwars2.com/file/26296CDACD6C4E4A785F305D47523029786B79B9/1013013.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28113": {
+      "name": "Burst of Strength",
+      "icon": "https://render.guildwars2.com/file/91F9252B1F3C71C934B75502B8DD070A064115D8/1013008.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27014": {
+      "name": "Facet of Elements",
+      "icon": "https://render.guildwars2.com/file/C1EC3E559DFB120A41FD3750DABD616BBA9172F9/1013012.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27162": {
+      "name": "Elemental Blast",
+      "icon": "https://render.guildwars2.com/file/CA0D081DBD97A356D2C1BE5A6710587EBD0E3911/1013010.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27760": {
+      "name": "Facet of Chaos",
+      "icon": "https://render.guildwars2.com/file/E5F7EC66C065EAB56631BA0CD1CF6F4D03B89270/1012986.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28075": {
+      "name": "Chaotic Release",
+      "icon": "https://render.guildwars2.com/file/055C20EB05B2EA1561E1CF2F297277EC6F07FA75/1012985.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28134": {
+      "name": "Legendary Assassin Stance",
+      "icon": "https://render.guildwars2.com/file/67CDD35F6BC3072E0837715A5E0A90646529BAA2/1030005.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27107": {
+      "name": "Impossible Odds",
+      "icon": "https://render.guildwars2.com/file/D5479F5A43B3A1550EC0F457AA4ED79F93EF9A22/1013014.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29233": {
+      "name": "Chilling Isolation",
+      "icon": "https://render.guildwars2.com/file/5201D39E6CC216A5A64E17F6E6ECB15708F103EE/1013003.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28472": {
+      "name": "Shackling Wave",
+      "icon": "https://render.guildwars2.com/file/C9AA7D9B9BDE6652194A5963F5C2694C3AE0CEF6/1030006.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27074": {
+      "name": "Deathstrike",
+      "icon": "https://render.guildwars2.com/file/030BA607CA9D6A0D0E29F53C201421019263F353/1876877.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28379": {
+      "name": "Facet of Darkness",
+      "icon": "https://render.guildwars2.com/file/15A4F87D0E05936FF96B60F8745ADB513C5308E3/1013011.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29371": {
+      "name": "Facet of Nature",
+      "icon": "https://render.guildwars2.com/file/590F7657AB11171A35304E5DDA6FDA5B2EC70350/1058606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s27665": {
+      "name": "Field of the Mists",
+      "icon": "https://render.guildwars2.com/file/06CBE0372AFC3AA3077DF9E57093724149EF54BA/961469.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 26644,
+    "slot_8": 28113,
+    "slot_9": 27014,
+    "slot_0": 28075
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Air & Superior Sigil of Hydromancy",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Quickness Herald",
+    "profession": "Revenant",
+    "elite_spec": "Herald",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/power-quickness-herald-hammer-sword-sword",
+    "weapons": "Hammer & Sword / Sword",
+    "chat_code": "[&DQkDNg8qNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQECAQIGEisS1BEGEisS1BE=]",
+    "build_template": "[&DQkDNg8qNBbcEdwRKxIrEtQR1BEGEgYSyhHKEQECAQIGEisS1BEGEisS1BE=]"
+  }
+}

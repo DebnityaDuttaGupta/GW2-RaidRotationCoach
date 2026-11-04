@@ -1,0 +1,333 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        29719,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        5644,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        5496,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        30662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        5646,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        51662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        29719,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        5646,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        51662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        29719,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        5691,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        5557,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        5644,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        5496,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        5646,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        5529,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        51662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        29719,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        5522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        5690,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        5559,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        30662,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        25499,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s29719": {
+      "name": "Overload Air",
+      "icon": "https://render.guildwars2.com/file/592CC2A120322000BC7234B8522BBE7BAF2F4A57/1029987.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5691": {
+      "name": "Ring of Fire",
+      "icon": "https://render.guildwars2.com/file/CD08FDC23B56EBB19C90B909C65D9EE4D9FFF8C8/103183.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5557": {
+      "name": "Fire Grab",
+      "icon": "https://render.guildwars2.com/file/ED2422E6051855A76214FA9F292525C1359F0B59/103296.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5644": {
+      "name": "Burning Speed",
+      "icon": "https://render.guildwars2.com/file/6D6650C13B0DA019E8EEA0C50E5307C567D7405E/103373.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5496": {
+      "name": "Drake's Breath",
+      "icon": "https://render.guildwars2.com/file/C87956461091440D784C4038510316AAAD7B63E8/103096.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30662": {
+      "name": "\"Feel the Burn!\"",
+      "icon": "https://render.guildwars2.com/file/2963BBB55948D8C0C96CCB96B5100D2999C7DF09/1029992.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5646": {
+      "name": "Convergence",
+      "icon": "https://render.guildwars2.com/file/A7F6522CC73138ECBF15A04D62634A2FFFBFD246/103374.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5529": {
+      "name": "Ride the Lightning",
+      "icon": "https://render.guildwars2.com/file/23066340DF3C6E4F06A1B105479809E1647FF5D6/103332.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s51662": {
+      "name": "Transmute Lightning",
+      "icon": "https://render.guildwars2.com/file/469DCE91CAE2697309EE0BE616B70FBF6D03CC67/2029298.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5737": {
+      "name": "Lightning Storm",
+      "icon": "https://render.guildwars2.com/file/D0D5D40C079304DB0FFF10051C79A5629EE60501/1424238.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5690": {
+      "name": "Earthquake",
+      "icon": "https://render.guildwars2.com/file/01F24427AF4C18476A657647C39CB2F2374BDA57/102975.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5522": {
+      "name": "Churning Earth",
+      "icon": "https://render.guildwars2.com/file/4B3D497E0F070BEE66642AF6293A77B891CEA95C/102976.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5559": {
+      "name": "Earthen Rush",
+      "icon": "https://render.guildwars2.com/file/DA71280E1C50AB7F0901A2CD2597E3ACCC1D6665/534761.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s25499": {
+      "name": "Flame Barrage",
+      "icon": "https://render.guildwars2.com/file/64A5054179704B60614F90964DE1FB3D39AEC972/867446.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 30662,
+    "slot_8": 5737,
+    "slot_0": 25499
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Scholar",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of Fireworks",
+    "food": "Plate of Coq Au Vin with Salsa",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Tempest",
+    "profession": "Elementalist",
+    "elite_spec": "Tempest",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/power-tempest-dagger-dagger",
+    "weapons": "Dagger / Dagger",
+    "chat_code": "[&DQYfHSkvMBfHEicPwxIAAL4BAADLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAADVgBnAC8AAA==]",
+    "build_template": "[&DQYfHSkvMBfHEicPwxIAAL4BAADLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAADVgBnAC8AAA==]"
+  }
+}

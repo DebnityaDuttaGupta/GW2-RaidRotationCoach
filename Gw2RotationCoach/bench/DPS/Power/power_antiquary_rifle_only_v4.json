@@ -1,0 +1,265 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        69316,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        44695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        69316,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        44695,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        69316,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        76900,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        76550,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76582,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        77277,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        76674,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        13046,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        76816,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        76725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        13050,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        77255,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77397,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        77255,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s76725": {
+      "name": "Stone Summit Cannon",
+      "icon": "https://render.guildwars2.com/file/2B551306FBED061EFF9D56E49EE1CEB57309B22C/3680219.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77397": {
+      "name": "Skritt Swipe",
+      "icon": "https://render.guildwars2.com/file/291DAF077409087C5905700A785E4EDDC9DBC47A/3680217.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77255": {
+      "name": "Skritt Scuffle",
+      "icon": "https://render.guildwars2.com/file/697095D59F91E5085007FE240105CAFF64BD0B2A/3680206.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s69316": {
+      "name": "Death's Judgment",
+      "icon": "https://render.guildwars2.com/file/C7FDA946603F56590400096DB95FF366090E740B/3098876.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44695": {
+      "name": "Three Round Burst",
+      "icon": "https://render.guildwars2.com/file/55013868E7A03E437305D7B706EB042A35172450/1770626.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76900": {
+      "name": "Summon Kryptis Turret",
+      "icon": "https://render.guildwars2.com/file/2DC92035E3A36CBCDB62C84E65BEF69BFA0BDD02/3680213.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76550": {
+      "name": "Forged Surfer Dash",
+      "icon": "https://render.guildwars2.com/file/696501BA136CA660BD22D0D0A3B19741D4A77529/3680211.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76582": {
+      "name": "Metal Legion Guitar",
+      "icon": "https://render.guildwars2.com/file/02727B1807CF0FEF31037FD9E307BABB2055AE3C/3680214.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77277": {
+      "name": "Mistburn Mortar",
+      "icon": "https://render.guildwars2.com/file/4519AE3A9032E03F2F14AAA1B5EEE10F1AF1EEAE/3680215.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76674": {
+      "name": "Holo-Dancer Decoy",
+      "icon": "https://render.guildwars2.com/file/CEE6340604724A060D7C570709C4B05DFAD56617/3680212.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13046": {
+      "name": "Assassin's Signet",
+      "icon": "https://render.guildwars2.com/file/16BAE223E268B19ABFE66040F11706B7BC00EF79/104076.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76816": {
+      "name": "Chak Shield",
+      "icon": "https://render.guildwars2.com/file/4506224EB1921800602CAD52B6B209960FE51153/3680209.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13050": {
+      "name": "Signet of Malice",
+      "icon": "https://render.guildwars2.com/file/D6640348CA7573A86818B9B4B00F0C0CC2FF5FDF/104077.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 76725,
+    "slot_0": 77255,
+    "slot_8": 13046,
+    "slot_6": 13050
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's & Assassin's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of the Thief",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Antiquary",
+    "profession": "Thief",
+    "elite_spec": "Antiquary",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/power-antiquary-rifle-only",
+    "weapons": "Rifle",
+    "chat_code": "[&DQUcPSMbTT+FAAAAWR0AADMBAABgHQAAfB0AAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcPSMbTT+FAAAAWR0AADMBAABgHQAAfB0AAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

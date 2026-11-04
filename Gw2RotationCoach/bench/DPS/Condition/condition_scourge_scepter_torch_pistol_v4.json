@@ -1452,7 +1452,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s103795": {
       "name": "Blood Is Power",
       "icon": "https://render.guildwars2.com/file/F26312E5CBFE5CA12261B66E194F21A5D205F314/103795.png",
@@ -1569,6 +1569,14 @@
     "slot_9": -1,
     "slot_0": 103312
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Potent Master Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Scourge",
     "profession": "Necromancer",
@@ -1576,9 +1584,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/necromancer/condition-scourge-scepter-torch-pistol",
-    "dps_report_url": "https://dps.report/LzVj-20231003-151324_golem",
-    "overall_dps": 39802.0,
-    "weapons": "Scepter / Torch & Pistol",
-    "chat_code": "[&DQgnNjI1PD5+FgAAgAAAAAAAAAAAAAAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Scepter & Torch / Pistol",
+    "chat_code": "[&DQgnNjI1PCp+FgAAcAEAAIAAAAB1AQAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgnNjI1PCp+FgAAcAEAAIAAAAB1AQAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

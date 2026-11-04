@@ -1,0 +1,205 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        51647,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        10532,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        51647,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        10532,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62513,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        62511,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62513,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        62511,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62513,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        10549,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        10544,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        44663,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        10589,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        10590,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s51647": {
+      "name": "Devouring Darkness",
+      "icon": "https://render.guildwars2.com/file/C6C5B119FBF201FFB46767DDEBE3B11D16FEA96A/2029306.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10532": {
+      "name": "Grasping Dead",
+      "icon": "https://render.guildwars2.com/file/CB2DB4DD6E995BB6ED4B463608753F2BBF590BF1/103521.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62513": {
+      "name": "Weeping Shots",
+      "icon": "https://render.guildwars2.com/file/A5E9C936EBF4F44D09CF08AAF52D0D7D220E2AD5/2479407.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62511": {
+      "name": "Vile Blast",
+      "icon": "https://render.guildwars2.com/file/35F00F2A4694E8FE05B2B7E2765B78C207EE28AF/2479404.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10549": {
+      "name": "Plaguelands",
+      "icon": "https://render.guildwars2.com/file/97EC4B6E302F5D79639CA519D25F9A5C2A2DDEC1/103312.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10544": {
+      "name": "Blood Is Power",
+      "icon": "https://render.guildwars2.com/file/F26312E5CBFE5CA12261B66E194F21A5D205F314/103795.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s44663": {
+      "name": "Desert Shroud",
+      "icon": "https://render.guildwars2.com/file/69DCF8665579C993C2C50AD9073009712FC344EE/1770535.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10589": {
+      "name": "Summon Shadow Fiend",
+      "icon": "https://render.guildwars2.com/file/79FD0497A0BD625E0AD19A3A93C60946CB6C46E1/103819.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s10590": {
+      "name": "Haunt",
+      "icon": "https://render.guildwars2.com/file/457C16DE0EBA0205D501FF265593EAC377806F15/103102.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 10549,
+    "slot_7": 10544,
+    "slot_8": 10589,
+    "slot_9": 10590
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Torment",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Potent Master Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Scourge",
+    "profession": "Necromancer",
+    "elite_spec": "Scourge",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/necromancer/beginner-condition-scourge-scepter-torch-pistol",
+    "weapons": "Scepter & Torch / Pistol",
+    "chat_code": "[&DQgnNjI1PCp+FgAAcAEAAIAAAAB1AQAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQgnNjI1PCp+FgAAcAEAAIAAAAB1AQAAkgAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

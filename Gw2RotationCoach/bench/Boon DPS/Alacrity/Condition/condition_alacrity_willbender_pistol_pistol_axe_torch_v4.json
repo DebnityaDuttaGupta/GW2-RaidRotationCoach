@@ -1,0 +1,209 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        71817,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        9187,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        62603,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        62668,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        71987,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        71918,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        71968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        71918,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        71987,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        40624,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        71968,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        71918,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        9088,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        62565,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        9187,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s71817": {
+      "name": "Jurisdiction",
+      "icon": "https://render.guildwars2.com/file/18E2D752067BEAC1E47A2928DFF2A1CE13B8DE3B/3256355.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9187": {
+      "name": "Purging Flames",
+      "icon": "https://render.guildwars2.com/file/646CD9EA044A959A0A0D6143B29707EADB31B2B9/103675.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62603": {
+      "name": "Flowing Resolve",
+      "icon": "https://render.guildwars2.com/file/E7DB54CE0FA25D3476405E083DBA25033C18FDA3/2479368.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62668": {
+      "name": "Rushing Justice",
+      "icon": "https://render.guildwars2.com/file/2F3E006427F17D3EF747BF0F0B0E0A941964572F/2479367.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71987": {
+      "name": "Symbol of Ignition",
+      "icon": "https://render.guildwars2.com/file/93750C95B5645112B9ED807DE3AF29A340037ED0/3256353.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71918": {
+      "name": "Hail of Justice",
+      "icon": "https://render.guildwars2.com/file/1A29DD0527137526CB1D355403DC009A57D767A6/3256354.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s71968": {
+      "name": "Peacekeeper",
+      "icon": "https://render.guildwars2.com/file/E0F376A8512ECB5938A6C7B10477F6C397FF0D00/3256352.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40624": {
+      "name": "Symbol of Vengeance",
+      "icon": "https://render.guildwars2.com/file/D7DDD899551C060AB9B2C2B0BDC71A6194E379EF/1770458.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9088": {
+      "name": "Cleansing Flame",
+      "icon": "https://render.guildwars2.com/file/FC0E030F7E67C4C62F0A6717B9F1B80012A6F1C7/103127.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62565": {
+      "name": "Whirling Light",
+      "icon": "https://render.guildwars2.com/file/5B15BDE6546101D1D3B453AC2B2DE4C12B1F7EA0/2479377.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 9187,
+    "slot_8": 62565
+  },
+  "equipment": {
+    "armor_attributes": "Ritualist's & Sinister",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Bursting & Superior Sigil of Smoldering",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Willbender",
+    "profession": "Guardian",
+    "elite_spec": "Willbender",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/guardian/condition-alacrity-willbender-pistol-pistol-axe-torch",
+    "weapons": "Pistol & Pistol / Axe",
+    "chat_code": "[&DQEQGi4nQRkmDwAATAEAANgaAAAxAQAA6RoAAAAAAAAAAAAAAAAAAAAAAAADNgAFAGYAAA==]",
+    "build_template": "[&DQEQGi4nQRkmDwAATAEAANgaAAAxAQAA6RoAAAAAAAAAAAAAAAAAAAAAAAADNgAFAGYAAA==]"
+  }
+}

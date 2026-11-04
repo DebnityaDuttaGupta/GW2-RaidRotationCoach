@@ -1,0 +1,918 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        76975,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        76739,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        29740,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        77238,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        76864,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        76961,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        76684,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        77061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        76607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        77061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        76864,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        76933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        29855,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        30860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        29705,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        30799,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        29867,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        77238,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        77238,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        76864,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        76961,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        76684,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        77061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        76607,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        77061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        76864,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        76933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        73007,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        76975,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        76739,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        73007,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        76975,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.0,
+        76739,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.0,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.0,
+        76933,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        28.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.0,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        29.5,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        30.5,
+        73007,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        31.0,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        31.5,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        32.5,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.0,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        33.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        34.0,
+        76975,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        34.5,
+        76739,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        35.0,
+        73007,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        35.5,
+        73013,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        36.0,
+        73107,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        36.5,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        37.0,
+        73012,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        37.5,
+        73116,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        38.0,
+        73068,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        38.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        38.5,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        39.0,
+        29855,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        39.5,
+        30860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        40.0,
+        29705,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        40.5,
+        30799,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        41.0,
+        29867,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        41.5,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        42.0,
+        76975,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        42.5,
+        76739,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        43.0,
+        29740,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        43.5,
+        30860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        44.0,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        44.5,
+        29705,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        45.0,
+        30799,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        45.5,
+        29867,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        46.0,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        46.5,
+        29855,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        47.0,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        47.0,
+        29740,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        47.5,
+        29855,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        48.0,
+        77238,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        48.5,
+        30163,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        49.0,
+        30860,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        49.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s76975": {
+      "name": "Splinter Weapon",
+      "icon": "https://render.guildwars2.com/file/04294CE6BE3BBB314032BD430A631BC614D1E279/3680182.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76739": {
+      "name": "Nightmare Weapon",
+      "icon": "https://render.guildwars2.com/file/B3CF370B0E35DA07C023A4BFAA791809C6A67437/3680180.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29740": {
+      "name": "Grasping Darkness",
+      "icon": "https://render.guildwars2.com/file/5B26FDF0B9ACD9B004543B9F3C01AFDEDA540F2A/1012927.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77238": {
+      "name": "Ritualist's Shroud",
+      "icon": "https://render.guildwars2.com/file/1B55FB1EE2799643B06A68E3C419D6166A9554AA/3680176.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76864": {
+      "name": "Anguish",
+      "icon": "https://render.guildwars2.com/file/9CA8D4479BEE9A28C810CCB0E234BAC7712104A0/3680170.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76961": {
+      "name": "Wanderlust",
+      "icon": "https://render.guildwars2.com/file/604BAC974ED4C76FE95E32BEE6BDB3DE594F9F6C/3680178.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76684": {
+      "name": "Preservation",
+      "icon": "https://render.guildwars2.com/file/473E92AE33757816B7205C4759F1F3065346E600/3680173.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s77061": {
+      "name": "Essence Blast",
+      "icon": "https://render.guildwars2.com/file/BC01E1289EC75D7939952FF29B199E55B6C45F0F/3680172.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76607": {
+      "name": "Summon Spirits",
+      "icon": "https://render.guildwars2.com/file/CF9C5D79940CB74DAA650476DAE9DC012202B86C/3680177.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s76933": {
+      "name": "Exit Ritualist's Shroud",
+      "icon": "https://render.guildwars2.com/file/01D45B1291F0F369900D94BCD19913074153A54F/3680175.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29855": {
+      "name": "Nightfall",
+      "icon": "https://render.guildwars2.com/file/586F0469807BB7CB7942F098CC24331D0FF3CA4E/1012926.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30163": {
+      "name": "Gravedigger",
+      "icon": "https://render.guildwars2.com/file/A818623898AEE40827F139A945EFAB385913559F/1012924.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30860": {
+      "name": "Death Spiral",
+      "icon": "https://render.guildwars2.com/file/5CE4CE5573EEF5054F016F13D3E1F850F2A1DB0C/1012925.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29705": {
+      "name": "Dusk Strike",
+      "icon": "https://render.guildwars2.com/file/586BB9520AA13949955903702C5871A25902B9B8/1012921.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s30799": {
+      "name": "Fading Twilight",
+      "icon": "https://render.guildwars2.com/file/4761E414945BD91B4B0F5D0B0C2DA4615710D6CE/1012922.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s29867": {
+      "name": "Chilling Scythe",
+      "icon": "https://render.guildwars2.com/file/95FD52BE3FDA503BF96A4AEA1F5FD7A976F6382F/1012923.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73013": {
+      "name": "Addle",
+      "icon": "https://render.guildwars2.com/file/9EC732C1EB4D50F2183C6D05250A0A6D993AA6D0/3379163.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73007": {
+      "name": "Extirpate",
+      "icon": "https://render.guildwars2.com/file/7209CFEA65160A2F0154D015B12167744AD814FC/3379166.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73107": {
+      "name": "Isolate",
+      "icon": "https://render.guildwars2.com/file/CD722D70794A9A690DDBB4DF4638CC59CA06482E/3379164.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73068": {
+      "name": "Perforate",
+      "icon": "https://render.guildwars2.com/file/A7A8BF413E59C060DA6BBE0DAE460C70DE01264A/3379162.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73012": {
+      "name": "Dark Slash",
+      "icon": "https://render.guildwars2.com/file/62FAFB94710DF84D160BA0D371B06901A0DF6D06/3379159.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73116": {
+      "name": "Distress",
+      "icon": "https://render.guildwars2.com/file/08B9D63645B11ACD3404B2F50539EDE8916CEE25/3379165.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 76975,
+    "slot_8": 76739
+  },
+  "equipment": {
+    "armor_attributes": "Assassin's & Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Accuracy",
+    "relic": "Relic of the Claw",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Ritualist",
+    "profession": "Necromancer",
+    "elite_spec": "Ritualist",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/necromancer/power-ritualist-greatsword-spear",
+    "weapons": "Greatsword / Spear",
+    "chat_code": "[&DQg1KTIlTC+HHaIAdQEAAI4dAABVHQAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQg1KTIlTC+HHaIAdQEAAI4dAABVHQAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

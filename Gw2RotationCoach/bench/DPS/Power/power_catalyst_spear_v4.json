@@ -1,0 +1,587 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        72915,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        5737,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        72998,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        73091,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        62940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        73092,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        73054,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        62965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        73080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        72988,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73137,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        73044,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        62725,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.0,
+        73054,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        7.5,
+        73080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.0,
+        72988,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        8.5,
+        73137,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.0,
+        73044,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        9.5,
+        72900,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.0,
+        73010,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        10.5,
+        73019,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.0,
+        72905,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        11.5,
+        73017,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.0,
+        72982,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        12.5,
+        62723,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.0,
+        62698,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        13.5,
+        73148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.0,
+        73061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        14.5,
+        73140,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.0,
+        73061,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        15.5,
+        62723,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.0,
+        62698,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        16.5,
+        73148,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.0,
+        73091,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        17.5,
+        72915,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.0,
+        72998,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        18.5,
+        73037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.0,
+        73091,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        19.5,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.0,
+        5492,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        20.5,
+        73092,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.0,
+        62940,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        21.5,
+        62813,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.0,
+        73080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        22.5,
+        73054,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.0,
+        62965,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        23.5,
+        72988,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.0,
+        73137,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        24.5,
+        73044,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.0,
+        73080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        25.5,
+        73054,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.0,
+        73080,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        26.5,
+        72988,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.0,
+        73137,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        27.5,
+        73044,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s72915": {
+      "name": "Etching: Derecho",
+      "icon": "https://render.guildwars2.com/file/F1B3331AB23F37964BE8D6A91F43FF066BE970AA/3379093.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5737": {
+      "name": "Lightning Storm",
+      "icon": "https://render.guildwars2.com/file/D0D5D40C079304DB0FFF10051C79A5629EE60501/1424238.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72998": {
+      "name": "Twister",
+      "icon": "https://render.guildwars2.com/file/BAD1E32FA0F93A560B60DB703D716B70C6ED0F63/3379089.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73091": {
+      "name": "Fulgor",
+      "icon": "https://render.guildwars2.com/file/ECE34CA514D057F0166EC50EF9AB19751C53BE96/3379081.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62940": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/07D9C76FEB07BB04B9D07A05D87C09A0A0AE0319/2491594.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73092": {
+      "name": "Derecho",
+      "icon": "https://render.guildwars2.com/file/94F1A894667CA4F3407C57B055F8236804264B1F/3379095.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62813": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/22CA7C0F420C7F61CEBFA323DF3AADC5EF237475/2491598.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73054": {
+      "name": "Etching: Volcano",
+      "icon": "https://render.guildwars2.com/file/037DCBFCCD3BA4C3ACC7B73DF4965D3A170F0F3E/3379099.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62965": {
+      "name": "Relentless Fire",
+      "icon": "https://render.guildwars2.com/file/31372EE16EAB80BDB213EB99D1BF4C6C3B67B6AF/2491601.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73080": {
+      "name": "Blazing Barrage",
+      "icon": "https://render.guildwars2.com/file/FA97DE180DF595E721D064D7472DC7694D6F78B1/3379083.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72988": {
+      "name": "Meteor",
+      "icon": "https://render.guildwars2.com/file/FAE0AFE5623F58965BFC327F99105ED605E6B2F5/3379091.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73137": {
+      "name": "Seethe",
+      "icon": "https://render.guildwars2.com/file/409EE1CC3F41C1FC20B71D0944063179BB94C471/3379087.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73044": {
+      "name": "Volcano",
+      "icon": "https://render.guildwars2.com/file/334EA928E56F38C176A22415DE3ECE144C5FD5BB/3379101.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62725": {
+      "name": "Elemental Celerity",
+      "icon": "https://render.guildwars2.com/file/39F9519CA1BA45F570BA157B7AD4449AF94BBF01/2491568.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72900": {
+      "name": "Etching: Haboob",
+      "icon": "https://render.guildwars2.com/file/7C7339E9EA33F7CD05806CE20066DF0EC4673767/3379096.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73010": {
+      "name": "Fissure",
+      "icon": "https://render.guildwars2.com/file/51A85B4EC564F24A10EF7D982DDA73BF1940CA01/3379090.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73019": {
+      "name": "Harden",
+      "icon": "https://render.guildwars2.com/file/08F199900A0613B465DF63D1DA4D6647A954DE0B/3379086.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72905": {
+      "name": "Earthen Spear",
+      "icon": "https://render.guildwars2.com/file/98B2192A9DB346C7E2C90F0071A880737416F32E/3379082.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73017": {
+      "name": "Haboob",
+      "icon": "https://render.guildwars2.com/file/562F2D0ED67AD8453F9CA60F27DB154F2E7543FC/3379098.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72982": {
+      "name": "Etching: J\u00f6kulhlaup",
+      "icon": "https://render.guildwars2.com/file/7B61A40CFC6F2A9DE5A5414C50E87BD9D9711E43/3379102.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62723": {
+      "name": "Deploy Jade Sphere",
+      "icon": "https://render.guildwars2.com/file/6016319AAF18417F0401800EF36C0F18E207FFD5/2491600.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s62698": {
+      "name": "Shattering Ice",
+      "icon": "https://render.guildwars2.com/file/A1C20E2CE05D80B5A9DDF47ED0780301FC2C7477/2491603.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73148": {
+      "name": "Undertow",
+      "icon": "https://render.guildwars2.com/file/01E36A1DDA2D1709E109210A71041812F65C496B/3379092.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73061": {
+      "name": "Ice Beam",
+      "icon": "https://render.guildwars2.com/file/076572AF05EF210B9CCA6422641A0AA52A6B9156/3379084.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73140": {
+      "name": "J\u00f6kulhlaup",
+      "icon": "https://render.guildwars2.com/file/48EB1A03297EE4DFA0FE2CA41F0B02B77302060B/3379104.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73037": {
+      "name": "Energize",
+      "icon": "https://render.guildwars2.com/file/0BA3490023A82B4B5FCA597C3CB965E21D3CE504/3379085.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s5492": {
+      "name": "Fire Attunement",
+      "icon": "https://render.guildwars2.com/file/1C91E9C799469ACC6EAF1ACD4B0AD8ACAB0C69A2/103035.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 5737,
+    "slot_8": 62965,
+    "slot_0": 62725,
+    "slot_9": 62698
+  },
+  "equipment": {
+    "armor_attributes": "Berserker's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of Fireworks",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
+  "buildMetadata": {
+    "name": "Power Catalyst",
+    "profession": "Elementalist",
+    "elite_spec": "Catalyst",
+    "build_type": "power",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-spear",
+    "weapons": "Spear",
+    "chat_code": "[&DQYfHSkfQyZ0AHQA+BrLAL4BHAHuGgAA9xqWAAAAAAAAAAAAAAAAAAAAAAADCQFWAC8AAA==]",
+    "build_template": "[&DQYfHSkfQyZ0AHQA+BrLAL4BHAHuGgAA9xqWAAAAAAAAAAAAAAAAAAAAAAADCQFWAC8AAA==]"
+  }
+}

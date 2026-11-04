@@ -1,0 +1,105 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        13037,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        56898,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        13028,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        13028,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        13028,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        13006,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        13006,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s13037": {
+      "name": "Spider Venom",
+      "icon": "https://render.guildwars2.com/file/39320C2D4AED963861F4540F59AEBB5E05AD2E1C/103513.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s56898": {
+      "name": "Thousand Needles",
+      "icon": "https://render.guildwars2.com/file/2E9B1FD2687F76E4CDF00ADF04B6AB07CE7CD880/2175069.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13028": {
+      "name": "Caltrops",
+      "icon": "https://render.guildwars2.com/file/A85F59D91114D0702C3AB54A0AA81EC1CAE66CF5/103073.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s13006": {
+      "name": "Death Blossom",
+      "icon": "https://render.guildwars2.com/file/61EB7B59609FF6FBD36523D6E47B04E59D90C27D/103072.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 13037,
+    "slot_8": 56898,
+    "slot_9": 13028
+  },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Agony & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Plate of Kimchi Pancakes",
+    "utility": "Toxic Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Beginner Condition Daredevil",
+    "profession": "Thief",
+    "elite_spec": "Daredevil",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/thief/beginner-condition-daredevil-dagger-only",
+    "weapons": "Dagger",
+    "chat_code": "[&DQUcGyw1BxmUEgwBDQFXAS8BMwELAVYBKAAOAQAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQUcGyw1BxmUEgwBDQFXAS8BMwELAVYBKAAOAQAAAAAAAAAAAAAAAAAAAAA=]"
+  }
+}

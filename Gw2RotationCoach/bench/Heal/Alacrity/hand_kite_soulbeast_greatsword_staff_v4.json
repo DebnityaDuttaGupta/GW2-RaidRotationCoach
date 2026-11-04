@@ -1,0 +1,189 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        12522,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        43060,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        12631,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        45789,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        978,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        31496,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        1055,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        45797,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        12495,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        12631,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        1697,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        45797,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        1090,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s12522": {
+      "name": "Counterattack",
+      "icon": "https://render.guildwars2.com/file/16D60B57A2F495EE963811A305079790AC090E1B/104000.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s43060": {
+      "name": "Defy Pain",
+      "icon": "https://render.guildwars2.com/file/2A79C7DD0AFEEFC9C1D1C9E20845CA140734CE27/103951.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12631": {
+      "name": "\"Protect Me!\"",
+      "icon": "https://render.guildwars2.com/file/41121EEEF99A6F50130E323EA107024C53A809BD/104023.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45789": {
+      "name": "Dolyak Stance",
+      "icon": "https://render.guildwars2.com/file/134103AEE929B7F0B4CE9B380A48B7A2DFB863FB/1770568.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s978": {
+      "name": "Skill 978",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s31496": {
+      "name": "Sublime Conversion",
+      "icon": "https://render.guildwars2.com/file/CB54A104F1B64FD26D24F3F55C05DDD2631619D5/1128627.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1055": {
+      "name": "Skill 1055",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45797": {
+      "name": "Unflinching Fortitude",
+      "icon": "https://render.guildwars2.com/file/0A0059CF0F036DBBE3EDAAFBC6136EA5F01E43CD/1770567.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s12495": {
+      "name": "Stone Spirit",
+      "icon": "https://render.guildwars2.com/file/65802D0CA90F904046542B78A79B48EB3745C244/103994.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1697": {
+      "name": "Skill 1697",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s1090": {
+      "name": "Skill 1090",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_7": 12631,
+    "slot_8": 45789,
+    "slot_9": 12495
+  },
+  "equipment": {
+    "armor_attributes": "Harrier's",
+    "runes": "Superior Rune of the Monk",
+    "sigils": "Superior Sigil of Renewal & Superior Sigil of Agility & Superior Sigil of Transference",
+    "relic": "Relic of the Defender",
+    "food": "Plate of Mussels Gnashblade",
+    "utility": "Holographic Super Drumstick"
+  },
+  "buildMetadata": {
+    "name": "Kite Soulbeast",
+    "profession": "Ranger",
+    "elite_spec": "Soulbeast",
+    "build_type": "power",
+    "benchmark_type": "heal",
+    "url": "https://snowcrows.com/builds/raids/ranger/hand-kite-soulbeast-greatsword-staff",
+    "weapons": "Greatsword / Staff",
+    "chat_code": "[&DQQhHhk+Nxp5AAAAuwAAAMIAAAC5AAAAlwEAABc5AAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQQhHhk+Nxp5AAAAuwAAAMIAAAC5AAAAlwEAABc5AAAAAAAAAAAAAAAAAAA=]"
+  }
+}

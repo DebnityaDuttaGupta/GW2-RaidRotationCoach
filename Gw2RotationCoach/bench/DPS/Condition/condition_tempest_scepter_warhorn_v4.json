@@ -1102,7 +1102,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1029988": {
       "name": "Overload Earth",
       "icon": "https://render.guildwars2.com/file/975A1DE89BA70721BD0E0F6D601C259066F8D468/1029988.png",
@@ -1219,16 +1219,23 @@
     "slot_9": 103340,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Viper's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Earth & Superior Sigil of Malice",
+    "relic": "Relic of the Fractal",
+    "food": "Salsa-Topped Veggie Flatbread",
+    "utility": "Master Tuning Crystal"
+  },
   "buildMetadata": {
-    "name": "Condition Tempest Scepter Warhorn",
+    "name": "Condition Tempest",
     "profession": "Elementalist",
     "elite_spec": "Tempest",
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/elementalist/condition-tempest-scepter-warhorn",
-    "dps_report_url": "https://dps.report/CdTT-20250218-221925_golem",
-    "overall_dps": 41675.0,
     "weapons": "Scepter / Warhorn",
-    "chat_code": "[&DQYfFRomMBV0AAAAcwEAAHMBAABzAQAAgwEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQYfFRomMBfHEicPvgFQAZEAHAHLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAACCQFZAAA=]",
+    "build_template": "[&DQYfFRomMBfHEicPvgFQAZEAHAHLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAACCQFZAAA=]"
   }
 }

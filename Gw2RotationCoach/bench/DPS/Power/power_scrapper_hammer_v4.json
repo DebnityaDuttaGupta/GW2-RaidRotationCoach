@@ -1886,7 +1886,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s1058593": {
       "name": "Thunderclap",
       "icon": "https://render.guildwars2.com/file/21C770525B9B9BEDB7BBFF24055E1138C333FC00/1058593.png",
@@ -2039,6 +2039,14 @@
     "slot_9": 103399,
     "slot_0": 103443
   },
+  "equipment": {
+    "armor_attributes": "Berserker's & Dragon's",
+    "runes": "Superior Rune of the Dragonhunter",
+    "sigils": "Superior Sigil of Force & Superior Sigil of Impact",
+    "relic": "Relic of Bloodstone",
+    "food": "Cilantro Lime Sous-Vide Steak",
+    "utility": "Potent Superior Sharpening Stone"
+  },
   "buildMetadata": {
     "name": "Power Scrapper",
     "profession": "Engineer",
@@ -2046,9 +2054,8 @@
     "build_type": "power",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/engineer/power-scrapper-hammer",
-    "dps_report_url": "https://dps.report/lz0h-20260117-181506_golem",
-    "overall_dps": 43186.0,
     "weapons": "Hammer",
-    "chat_code": "[&DQMGNyY5Kj90AAAAigAAAFYBAABWAQAAwAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "chat_code": "[&DQMGOyYvKz3ZEgAAhgAAACYBAAAHAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQMGOyYvKz3ZEgAAhgAAACYBAAAHAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }

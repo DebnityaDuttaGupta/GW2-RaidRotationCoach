@@ -1,0 +1,198 @@
+{
+  "rotation": [
+    [
+      [
+        0.0,
+        45773,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        0.5,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.0,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        1.5,
+        28494,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.0,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        2.5,
+        45537,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.0,
+        40485,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        3.5,
+        42949,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.0,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        4.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.0,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        9999,
+        0.0,
+        1,
+        1.0
+      ],
+      [
+        5.5,
+        73059,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.0,
+        28287,
+        500.0,
+        1,
+        1.0
+      ],
+      [
+        6.5,
+        72972,
+        500.0,
+        1,
+        1.0
+      ]
+    ]
+  ],
+  "skills": {
+    "s45773": {
+      "name": "Soulcleave's Summit",
+      "icon": "https://render.guildwars2.com/file/CFD1582E6B180CA2DE6AD205981CBBAFC7480294/1770589.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s40485": {
+      "name": "Icerazor's Ire",
+      "icon": "https://render.guildwars2.com/file/F151D74719642E34672C0837BB0C4071B1E3B4A7/1770605.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s42949": {
+      "name": "Razorclaw's Rage",
+      "icon": "https://render.guildwars2.com/file/2449F064B1D3427FF311D3B4C101009C52250A0C/1770606.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28494": {
+      "name": "Legendary Demon Stance",
+      "icon": "https://render.guildwars2.com/file/1A1407F7D34E5ED41B59A25F39EBF728CC926423/961413.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s28287": {
+      "name": "Embrace the Darkness",
+      "icon": "https://render.guildwars2.com/file/13B6D13EF593CF54DBB204CF6425FDAFC0D723C7/961453.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s45537": {
+      "name": "Orders from Above",
+      "icon": "https://render.guildwars2.com/file/C930ACAF03D97B6047DC0A0110CA1DCEE3BD715A/1770595.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s9999": {
+      "name": "Weapon Swap",
+      "icon": "",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s73059": {
+      "name": "Abyssal Raze",
+      "icon": "https://render.guildwars2.com/file/632F757C2309C12BCFE99FCCE4BB761FA59AECEE/3379187.png",
+      "traitProc": false,
+      "gearProc": false
+    },
+    "s72972": {
+      "name": "Abyssal Force",
+      "icon": "https://render.guildwars2.com/file/0A9AFFBB077A5DC031C9E4A712C4573E97FED0EC/3379184.png",
+      "traitProc": false,
+      "gearProc": false
+    }
+  },
+  "SkillKeyMapping": {
+    "slot_0": 28287,
+    "slot_7": 40485,
+    "slot_8": 42949
+  },
+  "equipment": {
+    "armor_attributes": "Ritualist's",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Torment & Superior Sigil of Geomancy & Superior Sigil of Earth & Superior Sigil of Doom",
+    "relic": "Relic of the Fractal",
+    "food": "Meaty Asparagus Skewer",
+    "utility": "Magnanimous Tuning Crystal"
+  },
+  "buildMetadata": {
+    "name": "Condition Alacrity Renegade",
+    "profession": "Revenant",
+    "elite_spec": "Renegade",
+    "build_type": "condition",
+    "benchmark_type": "dps",
+    "url": "https://snowcrows.com/builds/raids/revenant/condition-alacrity-renegade-spear-only",
+    "weapons": "Spear",
+    "chat_code": "[&DQkOHQMmPzrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]",
+    "build_template": "[&DQkOHQMmPzrcEQAAKxIAANQRAAAGEgAAyhEAAAQFAADUESsSBhIAAAAAAAA=]"
+  }
+}

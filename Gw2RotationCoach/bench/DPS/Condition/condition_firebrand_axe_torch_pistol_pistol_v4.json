@@ -1690,7 +1690,7 @@
       ]
     ]
   ],
-  "skillMap": {
+  "skills": {
     "s3256355": {
       "name": "Jurisdiction",
       "icon": "https://render.guildwars2.com/file/18E2D752067BEAC1E47A2928DFF2A1CE13B8DE3B/3256355.png",
@@ -1855,6 +1855,14 @@
     "slot_9": -1,
     "slot_0": -1
   },
+  "equipment": {
+    "armor_attributes": "Viper's & Sinister",
+    "runes": "Superior Rune of the Trapper",
+    "sigils": "Superior Sigil of Smoldering & Superior Sigil of Bursting",
+    "relic": "Relic of the Fractal",
+    "food": "Cilantro and Cured Meat Flatbread",
+    "utility": "Toxic Tuning Crystal"
+  },
   "buildMetadata": {
     "name": "Condition Firebrand",
     "profession": "Guardian",
@@ -1862,9 +1870,8 @@
     "build_type": "condition",
     "benchmark_type": "dps",
     "url": "https://snowcrows.com/builds/raids/guardian/condition-firebrand-axe-torch-pistol-pistol",
-    "dps_report_url": "https://dps.report/wW2e-20260122-182212_golem",
-    "overall_dps": 43340.0,
-    "weapons": "Axe & Torch / Pistol & Pistol",
-    "chat_code": "[&DQEqOi4lQRomDwAA3hoAAEgBAAD+AAAA6RoAAAAAAAAAAAAAAAAAAAAAAAA=]"
+    "weapons": "Axe & Torch / Pistol",
+    "chat_code": "[&DQEqPhAaPiVLFwAATAEAABUXAAAxAQAAGBYAAAAAAAAAAAAAAAAAAAAAAAA=]",
+    "build_template": "[&DQEqPhAaPiVLFwAATAEAABUXAAAxAQAAGBYAAAAAAAAAAAAAAAAAAAAAAAA=]"
   }
 }
