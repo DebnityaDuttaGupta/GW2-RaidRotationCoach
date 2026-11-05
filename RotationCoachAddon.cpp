@@ -2757,7 +2757,7 @@ static AddonDefinition_t coachAddonDefinition = {
     0x524F5443,
     NEXUS_API_VERSION,
     "Rotation Coach",
-    {0, 525, 0, 0},
+    {0, 526, 0, 0},
     "Oneleaf525",
     "Real-time rotation trainer, benchmark pacing analyzer, and mistake detector",
     AddonLoad,

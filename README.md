@@ -1,6 +1,6 @@
 # GW2 Rotation Coach
 
-**Current Version:** `v0.525`  
+**Current Version:** `v0.526`  
 **Author:** `Oneleaf525`  
 **Framework:** Raidcore Nexus
 
@@ -14,7 +14,7 @@ A real-time combat rotation trainer, benchmark pacing analyzer, and in-game acti
 * **Raidcore Nexus:** Make sure you have Raidcore Nexus installed. If not, grab the loader from [Raidcore Nexus](https://raidcore.gg/Nexus).
 
 ### Step-by-Step Installation
-1. On GitHub, click the green **`<> Code`** button and select **Download ZIP**, or download the files from Releases.
+1. Download the release package (`Gw2RotationCoach-v0.526.zip` or the files from the [Releases](https://github.com/DebnityaDuttaGupta/GW2-RaidRotationCoach/releases) page).
 2. Locate your Guild Wars 2 game directory:
    * **Steam:** `...\SteamLibrary\steamapps\common\Guild Wars 2\addons\`
    * **Default Standalone:** `C:\Program Files\Guild Wars 2\addons\`
@@ -23,10 +23,12 @@ A real-time combat rotation trainer, benchmark pacing analyzer, and in-game acti
    <Guild Wars 2>\addons\
        ├── Gw2RotationCoach.dll
        └── Gw2RotationCoach\
-           ├── bench\      (270 benchmark rotation profiles)
+           ├── bench\      (271 benchmark rotation profiles)
            ├── img\        (Skill icon textures)
            └── skills\     (Skill mapping databases)
    ```
+   > [!TIP]
+   > The addon features automatic multi-path discovery and will scan `addons/Gw2RotationCoach`, the game root, and the DLL's folder. If the assets folder is ever misplaced, the in-game Build Showcase window will display a helpful path banner with an **Open Addons Folder** button.
 4. Start Guild Wars 2.
 5. On your first launch, the **Master Control Panel** will automatically open on screen.
 
@@ -47,7 +49,7 @@ Your central dashboard for managing the addon:
   1. *Transparent Single Key:* Minimalist key badges with directional flow arrows.
   2. *Skill Icon Images:* Full high-resolution skill icons with keybind badges.
   3. *Action Bar Slot Overlay:* Action bar numbers and slot identifiers.
-* **Live Cast Channel Bar:** Real-time progress bar displaying cast channel duration and remaining animation seconds.
+* **Live Cast Channel Bar:** Real-time progress bar displaying cast channel duration and remaining animation seconds. Instant skills (0 ms) cast immediately without false channel lockouts.
 * **Mistake Feedback:** Flashes red when you press the wrong skill or interrupt a cast, logging the error in the Mistake History window.
 
 ### 3. Action Bar Slot Highlighter (Direct In-Game Overlay)
@@ -58,40 +60,41 @@ Your central dashboard for managing the addon:
 
 ### 4. Dynamic Live Ping Auto-Detection
 * Automatically detects the active game connection on TCP port `6112` and continuously measures real-time network latency.
-* Calibrates rotation pacing dynamically against your connection speed.
-* Can be toggled to a manual slider in Master Control if you prefer a fixed ping value.
+* Dynamically adapts benchmark queue window thresholds to your actual connection latency.
 
-### 5. Benchmark Pacing Metrics (85% & 95% Targets)
-* **Execution Speed Ratio:** Displays your cast speed as a percentage of top benchmark pacing.
-* **Deficit Percentages:** Tells you exactly how much slower you are relative to both the **85%** and **95%** benchmark targets (e.g., `+18.5% slower than 95% target`).
-* **On-Pace Status:** Displays green confirmation when you match or beat the benchmark speed.
+### 5. Dual-Percentage Benchmark Pacing Metrics
+* Tracks your execution speed and cast gap timing in real time.
+* Displays pacing and queue deficits directly in percentages relative to official **85%** and **95%** raid benchmark targets.
 
-### 6. Build & Gear Showcase Window
-* **270 Benchmark Builds:** Search and select builds across all 9 professions and elite specializations.
-* **Clear Weapon Disambiguation:** Differentiates offhand weapon variants (e.g., `Condition Virtuoso (Dagger & Sword / Focus)` vs. `Condition Virtuoso (Dagger & Sword / Pistol)`).
-* **Copy Build Template:** One-click button copies the in-game chat link (`[&DQcBHR...]`) to your clipboard. Paste it directly into your game Build tab.
-* **Copy Guide URL:** One-click button copies the benchmark build guide URL.
-* **Equipment Loadout:** Displays recommended stats, runes, sigils, relics, food, and utility consumables.
+### 6. Full Profession Cooldown Reset System
+* Accurate real-time cooldown tracking powered by the 2,300+ skill database.
+* Comprehensive instant-reset mechanics across all 9 professions:
+  * **Guardian:** *Renewed Focus* instantly recharges all virtues and tome chapters.
+  * **Warrior:** *Berserk* instantly resets primal bursts.
+  * **Elementalist:** *Fresh Air* instantly refreshes Air Attunement; *Weave Self* reduces attunement cooldowns.
+  * **Ranger:** Pet swaps and Soulbeast beastmode transitions.
+  * **Revenant:** Legend stance swaps resetting energy and cooldowns.
+  * **Thief:** *Deadeye's Mark* refresh on defeat.
+  * **Mesmer:** *Signet of the Ether* resets all phantasms; *Signet of Illusions* resets all shatters and bladesongs.
 
-### 7. Keybind Setup & Mouse Button Support
-* Open Master Control $\rightarrow$ **Skills & Keybinds**.
-* Click **Bind** next to any slot and press your desired key.
-* Use the quick-attach buttons (`+M3`, `+M4`, `+M5`) to instantly assign mouse buttons.
-* **Auto-Import:** Automatically detects exported keybind XML files from `Documents\Guild Wars 2\InputBinds\`.
-
----
-
-## Default Hotkeys & Shortcuts
-
-* `Alt + Shift + T`: Toggle Master Control Panel
-* `Alt + Shift + R`: Reset Rotation Sequence to the Beginning
-* `Escape`: Closes open addon windows (can be reopened via hotkey or Nexus menu)
+### 7. Build & Gear Showcase
+* Browse **271 benchmark profiles** across all 9 professions and all 27 Elite Specializations.
+* Complete weapon loadout disambiguation (e.g. *Dagger & Sword / Focus* vs. *Dagger & Sword / Pistol*).
+* One-click copying of in-game Build Template Chat Codes and Snow Crows guide links.
+* Automatic character and build detection via MumbleLink.
 
 ---
 
-## Troubleshooting
+## Automatic Updates
+GW2 Rotation Coach includes native **Raidcore Nexus Auto-Update (`UP_GitHub`)** support. When loaded in Nexus, the addon checks for new releases automatically so you can update in-game with a single click.
 
-* **Addon window does not appear:** Press `Alt + Shift + T`. If it doesn't open, verify that `Gw2RotationCoach.dll` is in `<Guild Wars 2>\addons\` and enabled in the Nexus Addon Manager (`~` or Nexus top bar icon).
-* **Skill highlights don't line up with my action bar:** Open Master Control $\rightarrow$ check `Highlight All Action Bar Slots (Diagnostic / Alignment Grid)`. Use the drag handles or the Developer Controls sliders to position the boxes over your skills, then uncheck the box.
-* **HUD displays the wrong skills:** Make sure `Auto-Detect Character & Build` is enabled in Master Control, or manually select your build from the Build & Gear Showcase.
-* **Keybind badges don't match my keys:** Open Master Control $\rightarrow$ `Skills & Keybinds` and assign your keys, or click `+M4`/`+M5` for mouse bindings.
+---
+
+## Keyboard Shortcuts
+| Hotkey | Action |
+| :--- | :--- |
+| `Alt + Shift + T` | Toggle Master Control Panel |
+| `Alt + Shift + R` | Reset Rotation Sequence to the Beginning |
+| `Alt + Shift + C` | Re-center Floating HUD Ribbon to Screen Center |
+| `` ` `` (Backtick) | Toggle Weapon Set / Weapon Swap |
+| `Escape` | Close Open Addon Windows |
