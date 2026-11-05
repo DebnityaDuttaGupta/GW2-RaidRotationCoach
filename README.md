@@ -1,20 +1,34 @@
 # GW2 Rotation Coach
 
-**Current Version:** `v0.526`  
-**Author:** `Oneleaf525`  
-**Framework:** Raidcore Nexus
+**Current Version:** `v0.527`  
+**Author:** `Oneleaf`  
+**Framework:** [Raidcore Nexus](https://raidcore.gg/Nexus)
 
 A real-time combat rotation trainer, benchmark pacing analyzer, and in-game action bar overlay for Guild Wars 2. Designed to help players learn, practice, and master raid, strike, and fractal rotations.
 
+GW2 Rotation Coach only reads local game state via standard MumbleLink and user inputs - it never writes to, modifies, or automates the game. See the [Addon Policy & Compliance](#addon-policy--compliance) section below for details on how it stays within ArenaNet's guidelines.
+
 ---
 
-## Installation Guide (For Players & Testers)
+## Highlights
+
+* **Real-Time Rotation Ribbon HUD:** Floating prompt sequence showing upcoming skills with live channel progress and mistake detection.
+* **Upgraded Action Bar Slot Highlighter:** High-visibility in-game skill slot highlight featuring dynamic breathing glow, tactical HUD reticle brackets, high-contrast keybind badges, and category-aware color coding.
+* **Build & Gear Showcase:** Instant access to 271 benchmark profiles across all 9 professions and all 27 Elite Specializations with template chat codes and Snow Crows guide links.
+* **Dual-Percentage Benchmark Pacing:** Live execution gap analysis comparing your pacing against official 85% and 95% raid benchmark targets.
+* **Profession Reset Mechanics:** Intelligent cooldown tracking across all 9 professions (Renewed Focus, Berserk, Fresh Air, Pet Swaps, Legend Stance Swaps, Signets).
+* **Fair Play & Compliance Protection:** Automatic overlay suppression in competitive game modes (PvP and WvW) and optional restriction to the Special Forces Training Area (Golem only).
+* **Automatic Updates:** Native Raidcore Nexus auto-updater (`UP_GitHub`) support.
+
+---
+
+## Installation Guide
 
 ### Prerequisites
 * **Raidcore Nexus:** Make sure you have Raidcore Nexus installed. If not, grab the loader from [Raidcore Nexus](https://raidcore.gg/Nexus).
 
 ### Step-by-Step Installation
-1. Download the release package (`Gw2RotationCoach-v0.526.zip` or the files from the [Releases](https://github.com/DebnityaDuttaGupta/GW2-RaidRotationCoach/releases) page).
+1. Download the release package (`Gw2RotationCoach-v0.527.zip` or the files from the [Releases](https://github.com/DebnityaDuttaGupta/GW2-RaidRotationCoach/releases) page).
 2. Locate your Guild Wars 2 game directory:
    * **Steam:** `...\SteamLibrary\steamapps\common\Guild Wars 2\addons\`
    * **Default Standalone:** `C:\Program Files\Guild Wars 2\addons\`
@@ -28,19 +42,20 @@ A real-time combat rotation trainer, benchmark pacing analyzer, and in-game acti
            └── skills\     (Skill mapping databases)
    ```
    > [!TIP]
-   > The addon features automatic multi-path discovery and will scan `addons/Gw2RotationCoach`, the game root, and the DLL's folder. If the assets folder is ever misplaced, the in-game Build Showcase window will display a helpful path banner with an **Open Addons Folder** button.
+   > The addon features automatic multi-path discovery and will scan `addons/Gw2RotationCoach`, the game root, and the DLL's folder. If the assets folder is ever misplaced, an in-game diagnostic banner with an **Open Addons Folder** button will guide you.
 4. Start Guild Wars 2.
 5. On your first launch, the **Master Control Panel** will automatically open on screen.
 
 ---
 
-## Core Features & How to Use Them
+## Features & How to Use Them
 
 ### 1. Master Control Panel (`Alt + Shift + T`)
 Your central dashboard for managing the addon:
 * **Display & HUD Style:** Toggle between ribbon HUD modes, adjust icon sizes, lookahead count, and opacity.
 * **Skills & Keybinds:** Configure your slot bindings.
 * **Build & Benchmark:** View your active rotation, toggle auto-detection, and check network latency.
+* **Encounter & Fair Play Restrictions:** Configure PvP/WvW suppression and golem-only mode.
 * **One-Click Display:** Click **Show All Windows** to open or hide all panels at once.
 
 ### 2. Real-Time Rotation Ribbon HUD
@@ -52,11 +67,19 @@ Your central dashboard for managing the addon:
 * **Live Cast Channel Bar:** Real-time progress bar displaying cast channel duration and remaining animation seconds. Instant skills (0 ms) cast immediately without false channel lockouts.
 * **Mistake Feedback:** Flashes red when you press the wrong skill or interrupt a cast, logging the error in the Mistake History window.
 
-### 3. Action Bar Slot Highlighter (Direct In-Game Overlay)
+### 3. Upgraded Action Bar Slot Highlighter (Direct In-Game Overlay)
 * **Direct Skill Highlights:** Draws glowing borders directly over your in-game action bars to indicate which skill to cast next.
-* **Fully Decoupled Controls:** Weapon bar (`1`–`5`), Utility bar (`6`–`0`), and Profession mechanics (`F1`–`F5`) have completely independent horizontal and vertical adjustments. Moving one bar never affects the others.
-* **UI Scale Presets:** One-click presets for **Small (36px)**, **Normal (48px)**, and **Large (54px)** UI scaling.
-* **Diagnostic Alignment Grid:** Check `Highlight All Action Bar Slots` to reveal drag handles for pixel-perfect HUD alignment.
+* **Dynamic Breathing Glow:** Smooth sine-wave animated pulse on the active skill box to catch your peripheral vision during combat.
+* **Tactical Reticle Accents:** Chamfered corner HUD brackets framing each active slot.
+* **Keybind Badges:** Compact badges pinned to the slot showing your mapped hotkey (`1`, `F1`, `8`).
+* **Category-Aware Colors:**
+  * Radiant Amber for weapon and utility skills.
+  * Cyan for profession mechanics (`F1`–`F5`).
+  * Emerald Green for healing abilities.
+  * Amethyst Purple for elite skills.
+  * Crimson Flash for mistake alerts.
+* **Fully Decoupled Controls:** Weapon bar (`1`–`5`), Utility bar (`6`–`0`), and Profession mechanics (`F1`–`F5`) have completely independent horizontal and vertical adjustments.
+* **Diagnostic Alignment Grid:** Check `Highlight All Action Bar Slots` to reveal alignment frames for pixel-perfect positioning.
 
 ### 4. Dynamic Live Ping Auto-Detection
 * Automatically detects the active game connection on TCP port `6112` and continuously measures real-time network latency.
@@ -85,12 +108,20 @@ Your central dashboard for managing the addon:
 
 ---
 
-## Automatic Updates
-GW2 Rotation Coach includes native **Raidcore Nexus Auto-Update (`UP_GitHub`)** support. When loaded in Nexus, the addon checks for new releases automatically so you can update in-game with a single click.
+## Addon Policy & Compliance
+
+GW2 Rotation Coach is designed from the ground up to operate within ArenaNet's **Third-Party Programs Policy**:
+
+* **No Automation ("1 Key = 1 Action"):** GW2 Rotation Coach is purely an informational, visual training guide. It sends zero simulated keystrokes, executes no macros, does not play the game for you, and does not automate any player action.
+* **No Unfair Competitive Advantage:** In competitive game modes (Structured PvP and World vs. World), the addon **automatically disables** combat-relevant overlays (the Rotation Ribbon and Action Bar Highlighter) to ensure fair play against other players.
+* **Optional Golem-Only Practice Mode:** For players who wish to restrict rotation guidance strictly to dummy practice, a dedicated toggle restricts overlays exclusively to the **Special Forces Training Area** (Map ID 1154).
+* **Safe Reading Only:** The addon reads player context via the official Guild Wars 2 MumbleLink interface. It does not write to, patch, or alter game client memory or game files.
+* **Disclaimer:** All third-party programs in Guild Wars 2 are used at the player's own risk. GW2 Rotation Coach is an unofficial, community-made tool and is not affiliated with or endorsed by ArenaNet.
 
 ---
 
 ## Keyboard Shortcuts
+
 | Hotkey | Action |
 | :--- | :--- |
 | `Alt + Shift + T` | Toggle Master Control Panel |
@@ -98,3 +129,21 @@ GW2 Rotation Coach includes native **Raidcore Nexus Auto-Update (`UP_GitHub`)** 
 | `Alt + Shift + C` | Re-center Floating HUD Ribbon to Screen Center |
 | `` ` `` (Backtick) | Toggle Weapon Set / Weapon Swap |
 | `Escape` | Close Open Addon Windows |
+
+---
+
+## Credits
+
+GW2 Rotation Coach is built with gratitude to the Guild Wars 2 community and these projects:
+
+* **[Raidcore Nexus](https://raidcore.gg/Nexus)** - The modern addon platform and loader hosting GW2 Rotation Coach.
+* **[Dear ImGui](https://github.com/ocornut/imgui)** by Omar Cornut - The immediate-mode graphical user interface library rendering the in-game HUD.
+* **[Snow Crows](https://snowcrows.com/)** - Benchmark data, rotation timings, and build template standards for high-end Guild Wars 2 PvE.
+* **ArenaNet** - Guild Wars 2 and all related assets are © ArenaNet, LLC and NCSOFT Corporation.
+
+---
+
+## License
+
+GW2 Rotation Coach is distributed under the [Freeware Community License](LICENSE).  
+Copyright © 2026 Oneleaf. All rights reserved.

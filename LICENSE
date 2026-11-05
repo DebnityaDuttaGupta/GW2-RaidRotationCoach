@@ -1,0 +1,55 @@
+GW2 Rotation Coach - Freeware Community License
+Copyright (c) 2026 Oneleaf. All rights reserved.
+
+GW2 Rotation Coach is distributed as a community addon for Guild Wars 2.
+This repository publishes the addon binary distributions, benchmark profiles,
+and documentation.
+
+
+Permitted Use
+-------------
+You may download and use the GW2 Rotation Coach addon free of charge, including
+while playing, streaming, recording, or creating content (such as guides and videos)
+on monetized and personal channels. Streamers and content creators are welcome to
+feature and showcase GW2 Rotation Coach. You may also quote or reuse this repository's
+documentation and screenshots when describing, reviewing, or showcasing the addon,
+with attribution.
+
+
+Distribution via Raidcore / Nexus
+---------------------------------
+The author grants Raidcore and the Nexus addon library (raidcore.gg) permission
+to list, host, and distribute the GW2 Rotation Coach addon, unmodified and free
+of charge, to end users through their platform. This permission is limited to
+distribution of the addon as released by the author; it conveys no right to sell
+or commercially bundle the addon.
+
+
+Restrictions
+------------
+Except as expressly permitted above, you may not copy, modify, redistribute,
+sell, decompile, disassemble, or reverse engineer the GW2 Rotation Coach software,
+nor bundle it into paid commercial software or services without prior written
+permission from the author.
+
+
+ArenaNet Developer Access
+-------------------------
+The author welcomes review by ArenaNet staff. Verified ArenaNet employees may
+request access to source code and implementation details in order to inspect
+compliance with the Guild Wars 2 User Agreement and Rules of Conduct. Such access
+is granted for compliance and review purposes.
+
+
+No Warranty
+-----------
+This software is provided "as is", without warranty of any kind, express or
+implied. To the maximum extent permitted by law, the author shall not be liable
+for any claim, damages, or other liability arising from the use of this software.
+
+
+Disclaimer
+----------
+GW2 Rotation Coach is an unofficial, fan-made addon. Guild Wars 2 and ArenaNet
+are trademarks of ArenaNet, LLC and NCSOFT Corporation. GW2 Rotation Coach is not
+affiliated with, endorsed by, or sponsored by ArenaNet or NCSOFT.
