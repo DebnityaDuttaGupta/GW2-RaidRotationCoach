@@ -36,6 +36,14 @@ public:
 
     bool IsInActiveGameplay();
 
+    uint32_t GetCurrentMapIdentifier();
+
+    uint32_t GetCurrentMapType();
+
+    bool IsInCompetitiveGameMode();
+
+    bool IsInSpecialForcesTrainingArea();
+
 private:
     HANDLE fileMappingHandle;
     const MumbleLinkedMemory* linkedMemoryPointer;

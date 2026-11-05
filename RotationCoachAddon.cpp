@@ -31,6 +31,8 @@ static bool globalShowAllActionBarSlotHighlights = false;
 static bool globalShowBuildInspectorWindow = false;
 static bool globalShowPacingMetricsWindow = false;
 static bool globalShowMistakeHistoryWindow = false;
+static bool globalDisableInCompetitiveModes = true;
+static bool globalShowOnlyInTrainingArea = false;
 
 static float globalWeaponBarHorizontalOffset = 6.0f;
 static float globalWeaponBarVerticalOffset = -21.0f;
@@ -784,22 +786,69 @@ static void RenderActionBarSlotHighlighter()
 
     ImDrawList* foregroundDrawList = ImGui::GetForegroundDrawList();
 
+    float currentTime = static_cast<float>(ImGui::GetTime());
+    float pulseFactor = 0.5f + (0.5f * sinf(currentTime * 6.0f));
+    uint32_t pulsedGlowAlpha = static_cast<uint32_t>(70.0f + (pulseFactor * 110.0f));
+
     for (const auto& slotBox : slotBoxes)
     {
         bool isTargetSlot = hasActiveStep && (slotBox.category == activeCategory);
 
         if (isTargetSlot)
         {
-            ImU32 outerGlowColor = redFlashActive ? IM_COL32(255, 40, 40, 85) : IM_COL32(255, 215, 0, 80);
-            ImU32 outlineColor = redFlashActive ? IM_COL32(255, 30, 30, 255) : IM_COL32(255, 215, 0, 255);
+            ImU32 outlineColor = IM_COL32(255, 215, 0, 255);
+            ImU32 outerGlowColor = IM_COL32(255, 215, 0, pulsedGlowAlpha);
 
-            ImVec2 outerGlowMin(slotBox.coordinateX - 3.0f, slotBox.coordinateY - 3.0f);
-            ImVec2 outerGlowMax(slotBox.coordinateX + slotBox.boxWidth + 3.0f, slotBox.coordinateY + slotBox.boxHeight + 3.0f);
-            foregroundDrawList->AddRect(outerGlowMin, outerGlowMax, outerGlowColor, 5.0f, 0, 2.0f);
+            if (redFlashActive)
+            {
+                outlineColor = IM_COL32(255, 40, 40, 255);
+                outerGlowColor = IM_COL32(255, 40, 40, pulsedGlowAlpha + 40);
+            }
+            else if (slotBox.category >= SkillSlotCategory::ProfessionSkillOne && slotBox.category <= SkillSlotCategory::ProfessionSkillFive)
+            {
+                outlineColor = IM_COL32(0, 230, 255, 255);
+                outerGlowColor = IM_COL32(0, 230, 255, pulsedGlowAlpha);
+            }
+            else if (slotBox.category == SkillSlotCategory::HealingSkill)
+            {
+                outlineColor = IM_COL32(50, 240, 130, 255);
+                outerGlowColor = IM_COL32(50, 240, 130, pulsedGlowAlpha);
+            }
+            else if (slotBox.category == SkillSlotCategory::EliteSkill)
+            {
+                outlineColor = IM_COL32(215, 90, 255, 255);
+                outerGlowColor = IM_COL32(215, 90, 255, pulsedGlowAlpha);
+            }
+
+            ImVec2 outerGlowMin(slotBox.coordinateX - 4.0f, slotBox.coordinateY - 4.0f);
+            ImVec2 outerGlowMax(slotBox.coordinateX + slotBox.boxWidth + 4.0f, slotBox.coordinateY + slotBox.boxHeight + 4.0f);
+            foregroundDrawList->AddRect(outerGlowMin, outerGlowMax, outerGlowColor, 6.0f, 0, 2.5f);
 
             ImVec2 boxMinCoordinate(slotBox.coordinateX - 1.5f, slotBox.coordinateY - 1.5f);
             ImVec2 boxMaxCoordinate(slotBox.coordinateX + slotBox.boxWidth + 1.5f, slotBox.coordinateY + slotBox.boxHeight + 1.5f);
             foregroundDrawList->AddRect(boxMinCoordinate, boxMaxCoordinate, outlineColor, 3.5f, 0, 2.5f);
+
+            float cornerLength = 9.0f;
+            foregroundDrawList->AddLine(ImVec2(boxMinCoordinate.x - 2.0f, boxMinCoordinate.y + cornerLength), ImVec2(boxMinCoordinate.x - 2.0f, boxMinCoordinate.y - 2.0f), outlineColor, 2.5f);
+            foregroundDrawList->AddLine(ImVec2(boxMinCoordinate.x - 2.0f, boxMinCoordinate.y - 2.0f), ImVec2(boxMinCoordinate.x + cornerLength, boxMinCoordinate.y - 2.0f), outlineColor, 2.5f);
+
+            foregroundDrawList->AddLine(ImVec2(boxMaxCoordinate.x + 2.0f - cornerLength, boxMinCoordinate.y - 2.0f), ImVec2(boxMaxCoordinate.x + 2.0f, boxMinCoordinate.y - 2.0f), outlineColor, 2.5f);
+            foregroundDrawList->AddLine(ImVec2(boxMaxCoordinate.x + 2.0f, boxMinCoordinate.y - 2.0f), ImVec2(boxMaxCoordinate.x + 2.0f, boxMinCoordinate.y + cornerLength), outlineColor, 2.5f);
+
+            foregroundDrawList->AddLine(ImVec2(boxMinCoordinate.x - 2.0f, boxMaxCoordinate.y - cornerLength), ImVec2(boxMinCoordinate.x - 2.0f, boxMaxCoordinate.y + 2.0f), outlineColor, 2.5f);
+            foregroundDrawList->AddLine(ImVec2(boxMinCoordinate.x - 2.0f, boxMaxCoordinate.y + 2.0f), ImVec2(boxMinCoordinate.x + cornerLength, boxMaxCoordinate.y + 2.0f), outlineColor, 2.5f);
+
+            foregroundDrawList->AddLine(ImVec2(boxMaxCoordinate.x + 2.0f - cornerLength, boxMaxCoordinate.y + 2.0f), ImVec2(boxMaxCoordinate.x + 2.0f, boxMaxCoordinate.y + 2.0f), outlineColor, 2.5f);
+            foregroundDrawList->AddLine(ImVec2(boxMaxCoordinate.x + 2.0f, boxMaxCoordinate.y + 2.0f), ImVec2(boxMaxCoordinate.x + 2.0f, boxMaxCoordinate.y - cornerLength), outlineColor, 2.5f);
+
+            ImVec2 badgeTextDimension = ImGui::CalcTextSize(slotBox.slotLabel.c_str());
+            float badgeWidth = badgeTextDimension.x + 8.0f;
+            float badgeHeight = badgeTextDimension.y + 2.0f;
+            ImVec2 badgeMin(boxMinCoordinate.x + 3.0f, boxMinCoordinate.y + 3.0f);
+            ImVec2 badgeMax(badgeMin.x + badgeWidth, badgeMin.y + badgeHeight);
+            foregroundDrawList->AddRectFilled(badgeMin, badgeMax, IM_COL32(10, 15, 20, 230), 2.0f);
+            foregroundDrawList->AddRect(badgeMin, badgeMax, outlineColor, 2.0f, 0, 1.0f);
+            foregroundDrawList->AddText(ImVec2(badgeMin.x + 4.0f, badgeMin.y + 1.0f), IM_COL32(255, 255, 255, 255), slotBox.slotLabel.c_str());
 
             if (globalRotationEngine.IsChannelingActive())
             {
@@ -812,14 +861,14 @@ static void RenderActionBarSlotHighlighter()
 
                 float miniBarFillWidth = (slotBox.boxWidth + 4.0f) * castProgressFraction;
                 ImVec2 miniBarFillMax(miniBarMin.x + miniBarFillWidth, miniBarMax.y);
-                foregroundDrawList->AddRectFilled(miniBarMin, miniBarFillMax, IM_COL32(0, 230, 255, 255), 2.0f);
+                foregroundDrawList->AddRectFilled(miniBarMin, miniBarFillMax, outlineColor, 2.0f);
                 foregroundDrawList->AddRect(miniBarMin, miniBarMax, IM_COL32(255, 255, 255, 180), 2.0f, 0, 1.0f);
 
                 char durationTextBuffer[32];
                 snprintf(durationTextBuffer, sizeof(durationTextBuffer), "%.1fs", remainingCastSeconds);
                 ImVec2 durationTextDimension = ImGui::CalcTextSize(durationTextBuffer);
                 ImVec2 durationTextPosition(slotBox.coordinateX + ((slotBox.boxWidth - durationTextDimension.x) * 0.5f), slotBox.coordinateY - 28.0f);
-                foregroundDrawList->AddText(durationTextPosition, IM_COL32(0, 240, 255, 255), durationTextBuffer);
+                foregroundDrawList->AddText(durationTextPosition, outlineColor, durationTextBuffer);
             }
         }
         else if (globalShowAllActionBarSlotHighlights)
@@ -1149,6 +1198,12 @@ static void RenderMasterControlPanel()
                 ImGui::Checkbox("Build & Gear Inspector Window", &globalShowBuildInspectorWindow);
                 ImGui::Checkbox("Detailed Pacing & Benchmark Window", &globalShowPacingMetricsWindow);
                 ImGui::Checkbox("Mistake History Log Window", &globalShowMistakeHistoryWindow);
+
+                ImGui::Spacing();
+                ImGui::Separator();
+                ImGui::TextColored(ImVec4(0.4f, 0.85f, 1.0f, 1.0f), "Encounter & Fair Play Restrictions:");
+                ImGui::Checkbox("Auto-Disable in PvP & WvW (Fair Play)", &globalDisableInCompetitiveModes);
+                ImGui::Checkbox("Restrict to Special Forces Training Area (Golem Only)", &globalShowOnlyInTrainingArea);
 
                 ImGui::Spacing();
                 if (ImGui::Button("Show All Windows (One-Click Display)"))
@@ -2375,12 +2430,24 @@ static void RenderCoachUserInterface()
         return;
     }
 
-    if (globalShowActionBarHighlighter || globalShowAllActionBarSlotHighlights)
+    bool allowCombatPrompts = true;
+
+    if (globalDisableInCompetitiveModes && globalRotationEngine.IsInCompetitiveGameMode())
+    {
+        allowCombatPrompts = false;
+    }
+
+    if (globalShowOnlyInTrainingArea && !globalRotationEngine.IsInSpecialForcesTrainingArea())
+    {
+        allowCombatPrompts = false;
+    }
+
+    if (allowCombatPrompts && (globalShowActionBarHighlighter || globalShowAllActionBarSlotHighlights))
     {
         RenderActionBarSlotHighlighter();
     }
 
-    if (globalShowRibbonHud)
+    if (allowCombatPrompts && globalShowRibbonHud)
     {
         RenderCompactRibbonHud();
     }
@@ -2416,6 +2483,8 @@ static void RenderCoachOptionsUserInterface()
     ImGui::Checkbox("Build & Gear Inspector Window", &globalShowBuildInspectorWindow);
     ImGui::Checkbox("Detailed Pacing & Benchmark Window", &globalShowPacingMetricsWindow);
     ImGui::Checkbox("Mistake History Log Window", &globalShowMistakeHistoryWindow);
+    ImGui::Checkbox("Auto-Disable in PvP & WvW (Fair Play)", &globalDisableInCompetitiveModes);
+    ImGui::Checkbox("Restrict to Special Forces Training Area (Golem Only)", &globalShowOnlyInTrainingArea);
 
     ImGui::Spacing();
     ImGui::Separator();
@@ -2757,8 +2826,8 @@ static AddonDefinition_t coachAddonDefinition = {
     0x524F5443,
     NEXUS_API_VERSION,
     "Rotation Coach",
-    {0, 526, 0, 0},
-    "Oneleaf525",
+    {0, 527, 0, 0},
+    "Oneleaf",
     "Real-time rotation trainer, benchmark pacing analyzer, and mistake detector",
     AddonLoad,
     AddonUnload,

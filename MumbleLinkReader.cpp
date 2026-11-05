@@ -168,3 +168,64 @@ bool MumbleLinkReader::ParseProfessionAndSpecialization(const std::wstring& json
 
     return true;
 }
+
+
+uint32_t MumbleLinkReader::GetCurrentMapIdentifier()
+{
+    if (linkedMemoryPointer == nullptr)
+    {
+        if (!Initialize())
+        {
+            return 0;
+        }
+    }
+
+    if (linkedMemoryPointer->contextLength < 32)
+    {
+        return 0;
+    }
+
+    const uint32_t* integerData = reinterpret_cast<const uint32_t*>(linkedMemoryPointer->contextData + 28);
+    return integerData[0];
+}
+
+uint32_t MumbleLinkReader::GetCurrentMapType()
+{
+    if (linkedMemoryPointer == nullptr)
+    {
+        if (!Initialize())
+        {
+            return 0;
+        }
+    }
+
+    if (linkedMemoryPointer->contextLength < 36)
+    {
+        return 0;
+    }
+
+    const uint32_t* integerData = reinterpret_cast<const uint32_t*>(linkedMemoryPointer->contextData + 28);
+    return integerData[1];
+}
+
+bool MumbleLinkReader::IsInCompetitiveGameMode()
+{
+    uint32_t currentMapType = GetCurrentMapType();
+
+    if (currentMapType == 2 || currentMapType == 6 || currentMapType == 8)
+    {
+        return true;
+    }
+
+    if ((currentMapType >= 9 && currentMapType <= 12) || currentMapType == 14 || currentMapType == 15 || currentMapType == 18)
+    {
+        return true;
+    }
+
+    return false;
+}
+
+bool MumbleLinkReader::IsInSpecialForcesTrainingArea()
+{
+    return GetCurrentMapIdentifier() == 1154;
+}

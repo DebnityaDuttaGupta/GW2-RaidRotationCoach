@@ -1269,3 +1269,24 @@ void RotationEngine::SetActiveAttunementCategory(SkillSlotCategory attunementCat
 {
     activeAttunementCategory = attunementCategory;
 }
+
+
+bool RotationEngine::IsInCompetitiveGameMode()
+{
+    return mumbleLinkReader.IsInCompetitiveGameMode();
+}
+
+bool RotationEngine::IsInSpecialForcesTrainingArea()
+{
+    return mumbleLinkReader.IsInSpecialForcesTrainingArea();
+}
+
+uint32_t RotationEngine::GetCurrentMapIdentifier()
+{
+    return mumbleLinkReader.GetCurrentMapIdentifier();
+}
+
+uint32_t RotationEngine::GetCurrentMapType()
+{
+    return mumbleLinkReader.GetCurrentMapType();
+}

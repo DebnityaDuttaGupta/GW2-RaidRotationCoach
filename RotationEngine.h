@@ -109,6 +109,14 @@ public:
 
     bool IsInActiveGameplay();
 
+    bool IsInCompetitiveGameMode();
+
+    bool IsInSpecialForcesTrainingArea();
+
+    uint32_t GetCurrentMapIdentifier();
+
+    uint32_t GetCurrentMapType();
+
     bool IsChannelingActive() const;
 
     float GetCastProgressPercentage() const;
