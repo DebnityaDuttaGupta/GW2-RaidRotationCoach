@@ -11,6 +11,7 @@
 
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "iphlpapi.lib")
+#pragma comment(lib, "shell32.lib")
 
 #include "Nexus.h"
 #include "imgui/imgui.h"
@@ -2051,6 +2052,36 @@ static void RenderBuildInspectorWindow()
 
         {
 
+            if (allProfiles.empty())
+
+            {
+
+                ImGui::Spacing();
+
+                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.4f, 1.0f), "No benchmark build files were found.");
+
+                ImGui::Spacing();
+
+                ImGui::TextWrapped("The addon assets folder is missing or not located in the expected directory.");
+
+                ImGui::Spacing();
+
+                ImGui::TextWrapped("Please extract the 'Gw2RotationCoach' assets folder into your Guild Wars 2 addons directory:");
+
+                ImGui::TextColored(ImVec4(0.8f, 0.8f, 0.8f, 1.0f), "%s", catalog.GetStandaloneAddonDirectory().c_str());
+
+                ImGui::Spacing();
+
+                if (ImGui::Button("Open Addons Folder in File Explorer", ImVec2(280, 28)))
+
+                {
+
+                    ShellExecuteA(nullptr, "open", catalog.GetStandaloneAddonDirectory().c_str(), nullptr, nullptr, SW_SHOW);
+
+                }
+
+            }
+
             for (const auto& professionEntry : professionHierarchy)
 
             {
@@ -2600,23 +2631,76 @@ static void AddonLoad(AddonAPI_t* addonApplicationInterface)
             std::string xmlPath = std::string(gameDirectory) + "\\addons\\Nexus\\GameBinds.xml";
             globalKeybindDetector.LoadFromGameBindsXmlFile(xmlPath);
 
-            const char* addonDirectory = globalNexusAddonInterface->Paths_GetAddonDirectory("Gw2RotationCoach");
-            if (addonDirectory != nullptr)
+            std::string resolvedAddonDirectory;
+            const char* nexusAddonDirectory = globalNexusAddonInterface->Paths_GetAddonDirectory("Gw2RotationCoach");
+            if (nexusAddonDirectory != nullptr)
             {
-                globalRotationEngine.GetMutableCatalogReference().SetStandaloneAddonDirectory(addonDirectory);
-                std::string standaloneBenchPath = std::string(addonDirectory) + "\\bench";
-                globalRotationEngine.LoadBenchmarks(standaloneBenchPath);
-
-                std::string configurationFilePath = std::string(addonDirectory) + "\\Gw2RotationCoach.ini";
-                DWORD fileAttributes = GetFileAttributesA(configurationFilePath.c_str());
-                if (fileAttributes == INVALID_FILE_ATTRIBUTES)
+                std::string candidateBenchPath = std::string(nexusAddonDirectory) + "\\bench";
+                DWORD benchAttributes = GetFileAttributesA(candidateBenchPath.c_str());
+                if (benchAttributes != INVALID_FILE_ATTRIBUTES && (benchAttributes & FILE_ATTRIBUTE_DIRECTORY))
                 {
-                    globalShowMasterControlPanel = true;
-                    HANDLE createdFileHandle = CreateFileA(configurationFilePath.c_str(), GENERIC_WRITE, 0, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
-                    if (createdFileHandle != INVALID_HANDLE_VALUE)
+                    resolvedAddonDirectory = nexusAddonDirectory;
+                }
+            }
+
+            if (resolvedAddonDirectory.empty() && gameDirectory != nullptr)
+            {
+                std::string fallbackAddonPath = std::string(gameDirectory) + "\\addons\\Gw2RotationCoach";
+                std::string candidateBenchPath = fallbackAddonPath + "\\bench";
+                DWORD benchAttributes = GetFileAttributesA(candidateBenchPath.c_str());
+                if (benchAttributes != INVALID_FILE_ATTRIBUTES && (benchAttributes & FILE_ATTRIBUTE_DIRECTORY))
+                {
+                    resolvedAddonDirectory = fallbackAddonPath;
+                }
+            }
+
+            if (resolvedAddonDirectory.empty())
+            {
+                char moduleFilePath[MAX_PATH] = {0};
+                HMODULE moduleHandle = GetModuleHandleA("Gw2RotationCoach.dll");
+                if (moduleHandle != nullptr && GetModuleFileNameA(moduleHandle, moduleFilePath, MAX_PATH) > 0)
+                {
+                    std::string modulePathString(moduleFilePath);
+                    size_t lastBackslash = modulePathString.find_last_of("\\/");
+                    if (lastBackslash != std::string::npos)
                     {
-                        CloseHandle(createdFileHandle);
+                        std::string moduleDirectory = modulePathString.substr(0, lastBackslash);
+                        std::string candidatePathOne = moduleDirectory + "\\Gw2RotationCoach";
+                        DWORD benchAttributes = GetFileAttributesA((candidatePathOne + "\\bench").c_str());
+                        if (benchAttributes != INVALID_FILE_ATTRIBUTES && (benchAttributes & FILE_ATTRIBUTE_DIRECTORY))
+                        {
+                            resolvedAddonDirectory = candidatePathOne;
+                        }
+                        else
+                        {
+                            DWORD directBenchAttributes = GetFileAttributesA((moduleDirectory + "\\bench").c_str());
+                            if (directBenchAttributes != INVALID_FILE_ATTRIBUTES && (directBenchAttributes & FILE_ATTRIBUTE_DIRECTORY))
+                            {
+                                resolvedAddonDirectory = moduleDirectory;
+                            }
+                        }
                     }
+                }
+            }
+
+            if (resolvedAddonDirectory.empty())
+            {
+                resolvedAddonDirectory = (nexusAddonDirectory != nullptr) ? nexusAddonDirectory : (std::string(gameDirectory) + "\\addons\\Gw2RotationCoach");
+            }
+
+            globalRotationEngine.GetMutableCatalogReference().SetStandaloneAddonDirectory(resolvedAddonDirectory);
+            std::string standaloneBenchPath = resolvedAddonDirectory + "\\bench";
+            globalRotationEngine.LoadBenchmarks(standaloneBenchPath);
+
+            std::string configurationFilePath = resolvedAddonDirectory + "\\Gw2RotationCoach.ini";
+            DWORD fileAttributes = GetFileAttributesA(configurationFilePath.c_str());
+            if (fileAttributes == INVALID_FILE_ATTRIBUTES)
+            {
+                globalShowMasterControlPanel = true;
+                HANDLE createdFileHandle = CreateFileA(configurationFilePath.c_str(), GENERIC_WRITE, 0, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
+                if (createdFileHandle != INVALID_HANDLE_VALUE)
+                {
+                    CloseHandle(createdFileHandle);
                 }
             }
         }
@@ -2679,8 +2763,8 @@ static AddonDefinition_t coachAddonDefinition = {
     AddonLoad,
     AddonUnload,
     AF_None,
-    UP_None,
-    nullptr
+    UP_GitHub,
+    "https://github.com/DebnityaDuttaGupta/GW2-RaidRotationCoach"
 };
 
 extern "C" __declspec(dllexport) AddonDefinition_t* GetAddonDef()

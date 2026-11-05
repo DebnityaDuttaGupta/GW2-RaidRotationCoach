@@ -283,7 +283,7 @@
       ],
       [
         20.638,
-        58459,
+        62530,
         601.0,
         1,
         1.0
@@ -808,7 +808,7 @@
       ],
       [
         60.074,
-        58459,
+        62530,
         880.0,
         1,
         1.0
@@ -1253,7 +1253,7 @@
     "s2479346": {
       "name": "Approaching Doom",
       "icon": "https://render.guildwars2.com/file/DDF771C8E5AA242AAEE72BAF26180C6DB4000771/2479346.png",
-      "traitProc": false,
+      "traitProc": true,
       "gearProc": false
     },
     "s2479392": {
@@ -1339,13 +1339,19 @@
       "icon": "https://render.guildwars2.com/file/1DDAE693CAB780E7000BAED0973E0E485CCE9709/2479403.png",
       "traitProc": false,
       "gearProc": false
+    },
+    "s62530": {
+      "name": "Elixir of Risk",
+      "icon": "https://render.guildwars2.com/file/0022CA7F9E786F947BB0B06B42292C5851B27DD5/2479399.png",
+      "traitProc": false,
+      "gearProc": false
     }
   },
   "SkillKeyMapping": {
     "slot_6": 2479398,
     "slot_7": 103795,
-    "slot_8": 58459,
-    "slot_9": 103812,
+    "slot_8": 103812,
+    "slot_9": 62530,
     "slot_0": 2479394
   },
   "equipment": {

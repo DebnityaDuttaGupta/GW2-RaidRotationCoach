@@ -519,6 +519,7 @@ bool RotationCatalog::LoadMasterSkillDatabase(const std::string& skillsJsonFileP
                 try
                 {
                     metadata.rechargeSeconds = static_cast<uint32_t>(std::stoul(rechargeText));
+                    metadata.cooldownSeconds = metadata.rechargeSeconds;
                 }
                 catch (...) {}
             }
@@ -1517,6 +1518,102 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
                         }
 
                     }
+
+                    if (lowerStem.find("boon_chronomancer") != std::string::npos && displayName.find("Boon") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Boon)";
+
+                    }
+
+                    else if (lowerStem.find("two_kits") != std::string::npos && displayName.find("Two Kits") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Two Kits)";
+
+                    }
+
+                    else if (lowerStem.find("one_kit") != std::string::npos && displayName.find("One Kit") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (One Kit)";
+
+                    }
+
+                    else if (lowerStem.find("no_kit") != std::string::npos && displayName.find("No Kit") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (No Kit)";
+
+                    }
+
+                    else if (lowerStem.find("dune_cloak") != std::string::npos && displayName.find("Dune Cloak") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Dune Cloak)";
+
+                    }
+
+                    else if (lowerStem.find("elemental_balance") != std::string::npos && displayName.find("Elemental Balance") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Elemental Balance)";
+
+                    }
+
+                    else if (lowerStem.find("tactics") != std::string::npos && displayName.find("Tactics") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Tactics)";
+
+                    }
+
+                    else if (lowerStem.find("whirlpain") != std::string::npos && displayName.find("Whirlpain") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Whirlpain)";
+
+                    }
+
+                    else if (lowerStem.find("ih_ether") != std::string::npos && displayName.find("Ether") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Ether Signet)";
+
+                    }
+
+                    else if (lowerStem.find("ih_oasis") != std::string::npos && displayName.find("Oasis") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (False Oasis)";
+
+                    }
+
+                    else if (lowerStem.find("steamshrieker") != std::string::npos && displayName.find("Steamshrieker") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Steamshrieker)";
+
+                    }
+
+                    else if (lowerStem.find("overcharged_cartridges") != std::string::npos && displayName.find("Overcharged Cartridges") == std::string::npos)
+
+                    {
+
+                        displayName = displayName + " (Overcharged Cartridges)";
+
+                    }
                 }
             }
         }
@@ -1612,7 +1709,17 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
         }
     }
 
-    if (primaryWeaponsString == "First Weapon Set")
+    if (lowerStem.find("dagger_mace_sword_axe") != std::string::npos)
+    {
+        primaryWeaponsString = "Dagger & Mace";
+        secondaryWeaponsString = "Sword & Axe";
+    }
+    else if (lowerStem.find("dagger_mace_sword_dagger") != std::string::npos)
+    {
+        primaryWeaponsString = "Dagger & Mace";
+        secondaryWeaponsString = "Sword & Dagger";
+    }
+    else if (primaryWeaponsString == "First Weapon Set")
     {
         if (lowerStem.find("dagger_sword_focus") != std::string::npos)
         {
@@ -1864,7 +1971,7 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
                                 {
                                     double parsedDurationValue = std::stod(durationString);
 
-                                    if (parsedDurationValue > 0.0)
+                                    if (parsedDurationValue >= 0.0)
                                     {
                                         step.expectedDurationMilliseconds = static_cast<uint32_t>(parsedDurationValue);
                                     }
@@ -1915,7 +2022,13 @@ bool RotationCatalog::ParseBenchmarkJsonFile(const std::string& filePath, const 
                                 }
                             }
 
-                            if (step.skillName.find("Relic of") != std::string::npos || step.skillName.find("Relic") != std::string::npos)
+                            if (step.skillName.find("Relic of") != std::string::npos || step.skillName.find("Relic") != std::string::npos ||
+                                step.skillName.find("Sigil") != std::string::npos || step.skillName.find("Rune") != std::string::npos ||
+                                step.skillName == "Approaching Doom" || step.skillName == "Doom Approaches" ||
+                                step.skillName == "Sunspot" || step.skillName == "Chilling Nova" ||
+                                step.skillName == "Aim-Assisted Rocket" || step.skillName == "Earthen Blast" ||
+                                step.skillName == "Deathly Haste" || step.skillName == "Unflinching Fortitude" ||
+                                step.skillIdentifier == 2479346)
                             {
                                 currentScanPos = closeBracket + 1;
                                 continue;
